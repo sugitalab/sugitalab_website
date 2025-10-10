@@ -1,0 +1,16 @@
+@import "_variable";
+@import "_functions";
+@import "_mixins";
+
+.dl-links {
+  display: flex;
+  width: 100%;
+  margin: 8px 0;
+  padding: 0;
+  dt {
+    min-width: 100px;
+  }
+  dd {
+    margin: 0;
+  }
+}

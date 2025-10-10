@@ -1,0 +1,16 @@
+@import "_variable";
+@import "_functions";
+@import "_mixins";
+
+.accordion-block {
+  .accordion-trigger {
+    width: 100%;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .accordion-body {
+    display: none;
+    width: 100%;
+    overflow: hidden;
+  }
+}

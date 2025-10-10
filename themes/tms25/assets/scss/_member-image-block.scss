@@ -1,0 +1,36 @@
+@import "_variable";
+@import "_functions";
+@import "_mixins";
+
+.member-image-block {
+  display: flex;
+  flex-wrap: wrap;
+  .text {
+    width: 100%;
+    order: 2;
+  }
+  .image {
+    width: 100%;
+    margin-top: 30px;
+    order: 1;
+    img {
+      width: 100%;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .member-image-block {
+    display: grid;
+    grid-template-columns: 352px auto;
+    gap: 0 30px;
+    .text {
+      width: 100%;
+      order: 1;
+    }
+    .image {
+      width: 100%;
+      margin-top: 40px;
+      order: 2;
+    }
+  }
+}

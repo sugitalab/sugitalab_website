@@ -1,0 +1,23 @@
+@import "_variable";
+@import "_functions";
+@import "_mixins";
+
+.photo-block {
+  width: 100%;
+  max-width: 500px;
+  margin: 30px auto 0;
+  text-align: center;
+  img {
+    max-width: 100%;
+    vertical-align: bottom;
+  }
+  p {
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  .photo-block {
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,54 @@
+{{- $page := . -}}
+<ul class="breadcrumbs-list">
+  <li><a href="{{ "/" | relLangURL }}">TOP</a></li>
+
+  {{- if eq .Section "news" }}
+    <li>{{ i18n "News" }}[{{ .Title }}]</li>
+  {{- else if eq .Section "research" }}
+    {{- $path := .RelPermalink }}
+    {{- $segments := split $path "/" }}
+    {{- $depth := sub (len $segments) 2 }}
+    {{- if ge $depth 3 }}
+      {{- if eq .Site.Language.Lang "en" }}
+        {{- if ge $depth 4 }}
+          {{ partial "breadcrumb_research.html" . }}
+        {{- end }}
+        <li>{{ .Title }}</li>
+      {{- else }}
+        {{ partial "breadcrumb_research.html" . }}
+        <li>{{ .Title }}</li>
+      {{- end }}
+    {{- else }}
+    <li>{{ i18n "Research" }}[{{ .Title }}]</li>
+    {{- end }}
+    
+  {{- else if eq .Section "publication" }}
+    <li>{{ i18n "Research-Achievements" }}[{{ .Title }}]</li>
+  {{- else if eq .Section "member" }}
+    <li>{{ i18n "Member" }}[{{ .Title }}]</li>
+  {{- else if eq .Section "recruitment" }}
+    <li>{{ i18n "Recruitment" }}[{{ .Title }}]</li>
+  {{- else if eq .Section "meeting" }}
+    {{- if in .RelPermalink "/workshop/" }}
+    <li aria-current="page">{{ i18n "Workshop" }}[{{ .Title }}]</li>
+    {{- else if in .RelPermalink "/seminar/" }}
+    <li aria-current="page">{{ i18n "Seminar" }}[{{ .Title }}]</li>
+    {{- end }}
+  {{- else if eq .Section "access" }}
+    <li>{{ i18n "Access" }}[{{ .Title }}]</li>
+  {{- else if eq .Section "link" }}
+    {{- $path := .RelPermalink }}
+    {{- $segments := split $path "/" }}
+    {{- $depth := sub (len $segments) 2 }}
+    {{- if and (ge $depth 3) (in .File "dsb") }}
+    <li><a href="{{ "/link/research/" }}">{{ i18n "Links" }}[{{ with .Site.GetPage "section" "link/research" }}{{ .Title }}{{ end }}]</a></li>
+    <li>{{ .Title }}</li>
+    {{- else }}
+    <li>{{ i18n "Links" }}[{{ .Title }}]</li>
+    {{- end }}
+  {{- else }}
+    {{ partial "breadcrumb_recursive.html" . }}
+    <li aria-current="page">{{ .Title }}</li>
+  {{- end }}
+
+</ul>

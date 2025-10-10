@@ -1,0 +1,55 @@
+@import "_variable";
+@import "_functions";
+@import "_mixins";
+
+.research {
+  figure {
+    display: block;
+    margin: 32px auto;
+    figcaption {
+      p {
+        margin: 0;
+      }
+    }
+  }
+}
+.research-image-block {
+  display: flex;
+  flex-wrap: wrap;
+  .text {
+    width: 100%;
+    order: 2;
+  }
+  .image {
+    width: 100%;
+    margin-top: 30px;
+    order: 1;
+    img {
+      width: 100%;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .research-image-block {
+    display: grid;
+    grid-template-columns: 352px auto;
+    gap: 0 30px;
+    .text {
+      width: 100%;
+      order: 1;
+    }
+    .list {
+      margin: 16px 0 0;
+      padding: 0 0 0 16px;
+      li {
+        margin-top: 16px;
+        list-style-type: none;
+      }
+    }
+    .image {
+      width: 100%;
+      margin-top: 16px;
+      order: 2;
+    }
+  }
+}

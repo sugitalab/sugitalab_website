@@ -1,0 +1,14 @@
+@import "_variable";
+@import "_functions";
+@import "_mixins";
+
+.member-list {
+  padding-left: 16px;
+  li {
+    margin-top: 16px;
+    list-style-type: none;
+  }
+  + p {
+    margin-top: 40px;
+  }
+}

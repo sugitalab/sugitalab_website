@@ -1,0 +1,36 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="{{ .Site.Params.authorName }}">
+  {{ hugo.Generator }}
+  {{- if or .Description .Site.Params.description }}
+  <meta name="description" content="{{ .Description | default .Site.Params.description }}">
+  {{- end }}
+  {{- with .Keywords }}
+  <meta name="keywords" content="{{ range $i, $e := . }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}">
+  {{- end }}
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  <link rel="icon" href="{{ "images/favicon.ico" | relURL }}" type="image/x-icon">
+
+  <meta name="theme-color" content="#ffffff">
+
+  {{- $styles := resources.Get "scss/style.scss" | toCSS | minify }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}">
+  {{- if .IsHome }}
+  {{- $topStyle := resources.Get "scss/top.scss" | toCSS | minify }}
+  <link rel="stylesheet" href="{{ $topStyle.Permalink }}">
+  {{- else }}
+  {{- $pageStyle := resources.Get "scss/pages.scss" | toCSS | minify }}
+  <link rel="stylesheet" href="{{ $pageStyle.Permalink }}">
+  {{- end }}
+  {{- if eq .Section "member" }}
+    {{- $memberPageStyle := resources.Get "scss/member.scss" | toCSS | minify }}
+    <link rel="stylesheet" href="{{ $memberPageStyle.Permalink }}">
+  {{- end }}
+
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+</head>

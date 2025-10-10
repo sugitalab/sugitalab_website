@@ -1,0 +1,37 @@
+@import "_variable";
+@import "_functions";
+@import "_mixins";
+
+
+.sec-archive {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .sec-archive {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 60px;
+    padding: 50px 0;
+    border-top: 1px solid $border-color;
+    + .sec-archive {
+      margin-top: 0;
+    }
+    h2 {
+      width: 180px;
+      margin: 0;
+    }
+    .archive-list {
+      margin: 6px 0 0;
+      li {
+        &:first-of-type {
+          margin-top: 0;
+        }
+        a {
+          padding: 0;
+          border-left: 0;
+        }
+      }
+    }
+  }
+}

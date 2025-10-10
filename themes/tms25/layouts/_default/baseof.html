@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{- if eq .Lang "ja" }}ja{{ else }}en{{ end }}">
+{{- partial "head.html" . }}
+<body>
+  {{ partial "site-header.html" . }}
+<main class="site-main {{ if .IsHome }}top{{ else }}{{ .Section }}{{ end }}">
+  {{ block "main" . }}{{- end }}
+</main>
+  {{ partial "site-footer.html" . }}
+  <div class="topagetop"><img src="{{ "images/page-up-btn.svg" | relURL }}" alt="ページ上部に戻る"></div>
+  <script src="{{ "js/menu.js" | relURL }}"></script>
+  <script src="{{ "js/topagetop.js" | relURL }}"></script>
+
+  <script src="{{ "js/anchor-link.js" | relURL }}"></script>
+
+  <script src="{{ "js/slide-animation.js" | relURL }}"></script>
+  <script src="{{ "js/accordion.js" | relURL }}"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+@import "_variable";
+@import "_functions";
+@import "_mixins";
+
+.labo-photo-block {
+  margin-top: 30px;
+  .block {
+    margin-top: 30px;
+    &:first-of-type {
+      margin-top: 0;
+    }
+    p {
+      margin: 0;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .labo-photo-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 74px;
+    .block {
+      width: 330px;
+      margin: 0;
+      p {
+        margin-top: 0;
+      }
+    }
+  }
+}

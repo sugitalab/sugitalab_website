@@ -1,0 +1,49 @@
+@import "_variable";
+@import "_functions";
+@import "_mixins";
+
+.anchor-links {
+  display: flex;
+  align-items: flex-start;
+  gap: 0 10px;
+  flex-wrap: wrap;
+  position: sticky;
+  top: $sp-header-height;
+  margin-bottom: 20px;
+  padding: 0 0 20px;
+  background-color: #fff;
+  li {
+    position: relative;
+    margin-right: 8px;
+    padding-left: 16px;
+    list-style-type: none;
+    &::before {
+      position: absolute;
+      top: calc(50% - 2px);
+      left: 0;
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      margin: 0;
+      border-bottom: 2px solid #000;
+      border-right: 2px solid #000;
+      transform: rotate(45deg) translate(0, -50%);
+      content: "";
+    }
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .anchor-links {
+    gap: 0 32px;
+    top: $pc-header-height;
+    margin-bottom: 20px;
+    padding: 0 0 30px;
+    li {
+      margin-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+[Research]
+other = '研究内容'
+
+[Meeting]
+other = '研究会/セミナー'
+
+[Workshop]
+other = '研究会'
+
+[Seminar]
+other = 'セミナー'
+
+[Colloquium]
+other = '勉強会'
+
+[Research-Achievements]
+other = '研究業績'
+
+[Publication]
+other = '出版物'
+
+[Software]
+other = 'ソフトウェア'
+
+[PressRelease]
+other = 'プレスリリース'
+
+[Awards]
+other = '受賞'
+
+[Member]
+other = 'メンバー'
+
+[Former-members]
+other = '過去のメンバー'
+
+[Photo]
+other = '過去の集合写真'
+
+[Labo-photo]
+other = '研究室写真'
+
+[Group]
+other = 'グループ'
+
+[Recruitment]
+other = '募集'
+
+[Access]
+other = 'アクセス'
+
+[Links]
+other = 'リンク集'
+
+[News]
+other = 'ニュース'
+
+['イベント&ニュース']
+other = 'イベント&ニュース'
+
+['一覧を見る']
+other = '一覧を見る'

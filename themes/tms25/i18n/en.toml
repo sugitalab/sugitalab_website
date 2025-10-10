@@ -1,0 +1,62 @@
+[Research]
+other = 'Research'
+
+[Meeting]
+other = 'Workshop/Seminar'
+
+[Workshop]
+other = 'Workshop'
+
+[Seminar]
+other = 'Seminar'
+
+[Colloquium]
+other = 'Colloquium'
+
+[Research-Achievements]
+other = 'Publication'
+
+[Publication]
+other = 'Publication'
+
+[Software]
+other = 'Software'
+
+[PressRelease]
+other = 'Press Release'
+
+[Awards]
+other = 'Awards'
+
+[Member]
+other = 'Member'
+
+[Former-members]
+other = 'Former Members'
+
+[Photo]
+other = 'Photo'
+
+[Labo-photo]
+other = 'Labo Photo'
+
+[Group]
+other = 'Group'
+
+[Recruitment]
+other = 'Recruitment'
+
+[Access]
+other = 'Access'
+
+[Links]
+other = 'Links'
+
+[News]
+other = 'News'
+
+['イベント&ニュース']
+other = 'Events & News'
+
+['一覧を見る']
+other = 'More'

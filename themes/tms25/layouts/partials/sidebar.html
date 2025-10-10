@@ -1,0 +1,185 @@
+<div class="sidebar">
+  <div class="l-inner">
+  {{- if eq .Section "research" }}
+    <h2><span>{{ i18n "Research" }}</span></h2>
+    {{- $research := .Site.GetPage "section" "research" }}
+    <ul class="archive-list">
+      {{- range sort $research.Sections "Date" "asc" }}
+      <li>
+        <a href="{{ .RelPermalink }}" {{- if eq .RelPermalink $.RelPermalink }}class="is-current"{{- end }}>{{ .Title }}</a>
+        {{- $path := .Path }}
+        {{- $re := `project(\d+)` }}
+        {{- $matches := findRESubmatch $re $path }}
+        {{- if gt (len $matches) 0 }}
+          {{- $match := index $matches 0 }}
+          {{- if gt (len $match) 1 }}
+            {{- $num := index $match 1 }}
+            {{- $projectPath := print "project" $num }}
+            {{- $projSlug := print "proj_" $num }}
+            {{- if and (in .Path $projectPath) (in $.RelPermalink $projSlug) }}
+            <ul>
+              {{- range sort (where .Site.RegularPages "Section" "research") ".Params.order" "asc" }}
+                {{- if in .File.Path $projectPath }}
+                <li>
+                  <a href="{{ .RelPermalink }}" {{- if eq .RelPermalink $.RelPermalink }}class="is-current" {{- end }}>{{ .Title }}</a>
+                </li>
+                {{- end }}
+              {{- end }}
+            </ul>
+            {{- end }}
+          {{- end }}
+        {{- end }}
+      </li>
+      {{ end }}
+    </ul>
+  {{- end }}
+
+  {{- if eq .Section "meeting" }}
+    <h2><span>{{ i18n "Workshop" }}</span></h2>
+    <ul class="archive-list">
+    {{- range where .Site.RegularPages "Section" "meeting" }}
+    {{- if in .File.Path "workshop" }}
+      <li>
+        <a href="{{ .RelPermalink }}" {{- if eq .RelPermalink $.RelPermalink }}class="is-current"{{- end }}>{{ .Title }}</a>
+      </li>
+    {{- end }}
+    {{- end }}
+    </ul>
+
+    <h2><span>{{ i18n "Seminar" }}</span></h2>
+    <ul class="archive-list">
+    {{- range where .Site.RegularPages "Section" "meeting" }}
+    {{- if in .File.Path "seminar" }}
+      <li>
+        <a href="{{ .RelPermalink }}" {{- if eq .RelPermalink $.RelPermalink }}class="is-current"{{- end }}>{{ .Title }}</a>
+      </li>
+    {{- end }}
+    {{- end }}
+    </ul>
+
+    <!--<h2><span>{{ i18n "Colloquium" }}</span></h2>←.ja.toml,entoml 「Colloquium」の箇所を任意で変更
+    <ul class="archive-list">
+      {{- range where .Site.RegularPages "Section" "meeting" }}
+      {{- if in .File.Path "XXX" }}←「勉強会」ページのURLになるディレクトリ名を指定
+      <li>
+        <a href="{{ .RelPermalink }}" {{- if eq .RelPermalink $.RelPermalink }}class="is-current" {{- end }}>{{ .Title
+          }}</a>
+      </li>
+      {{- end }}
+      {{- end }}
+    </ul>-->
+  {{- end }}
+
+  {{- if eq .Section "publication" }}
+
+    <h2><span>{{ i18n "Publication" }}</span></h2>
+
+    <ul class="archive-list">
+    {{- range where .Site.RegularPages "Section" "publication" }}
+      {{- if findRE `^20\d{2}-20\d{2}(\.ja|\.en)?$` .File.BaseFileName }}
+        <li>
+          <a href="{{ .RelPermalink }}" {{- if eq .RelPermalink $.RelPermalink }}class="is-current"{{- end }}>{{ .Title }}</a>
+        </li>
+      {{- end }}
+    {{- end }}
+    </ul>
+
+    {{- range where .Site.RegularPages "Section" "publication" }}
+      {{- if in .File.Path "software" }}
+        <h2>
+          <a href="{{ .RelPermalink }}" {{- if eq .RelPermalink $.RelPermalink }}class="is-current" {{- end }}>{{ .Title }}</a>
+        </h2>
+      {{- end }}
+    {{- end }}
+
+    {{- range where .Site.RegularPages "Section" "publication" }}
+      {{- if in .File.Path "press-release" }}
+        <h2>
+          <a href="{{ .RelPermalink }}" {{- if eq .RelPermalink $.RelPermalink }}class="is-current" {{- end }}>{{ .Title }}</a>
+        </h2>
+      {{- end }}
+    {{- end }}
+
+    {{- range where .Site.RegularPages "Section" "publication" }}
+      {{- if in .File.Path "awards" }}
+        <h2>
+          <a href="{{ .RelPermalink }}" {{- if eq .RelPermalink $.RelPermalink }}class="is-current" {{- end }}>{{ .Title }}</a>
+        </h2>
+      {{- end }}
+    {{- end }}
+
+  {{- end }}
+
+  {{- if eq .Section "member" }}
+    <h2><span>{{ i18n "Group" }}</span></h2>
+    <ul class="archive-list">
+      {{- range sort (where .Site.RegularPages "Section" "member") "Date" "asc" }}
+        {{- if or (in .File.Path "development") (in .File.Path "computational_sciences") (in .File.Path "university_tokyo") }}
+          <li>
+            <a href="{{ .RelPermalink }}" {{- if eq .RelPermalink $.RelPermalink }}class="is-current"{{- end }}>{{ .Title }}</a>
+          </li>
+        {{- end }}
+      {{- end }}
+    </ul>
+
+    {{- range sort (where .Site.RegularPages "Section" "member") "Date" "asc" }}
+      {{- if or (in .File.Path "obog") (in .File.Path "photo") (in .File.Path "labo_photo") }}
+        <h2>
+          <a href="{{ .RelPermalink }}" {{- if eq .RelPermalink $.RelPermalink }}class="is-current"{{- end }}>{{ .Title }}</a>
+        </h2>
+      {{- end }}
+    {{- end }}
+
+  {{- end }}
+
+  {{- if eq .Section "recruitment" }}
+    <h2><span>{{ i18n "Recruitment" }}</span></h2>
+    <ul class="archive-list">
+    {{- range sort (where .Site.RegularPages "Section" "recruitment") "Date" "asc" }}
+    {{- if in .File.Path "recruitment" }}
+      <li>
+        <a href="{{ .RelPermalink }}" {{- if eq .RelPermalink $.RelPermalink }}class="is-current"{{- end }}>{{ .Title }}</a>
+      </li>
+    {{- end }}
+    {{- end }}
+    </ul>
+  {{- end }}
+
+  {{- if eq .Section "access" }}
+    <h2><span>{{ i18n "Access" }}</span></h2>
+    <ul class="archive-list">
+    {{- range sort (where .Site.RegularPages "Section" "access") "Date" "asc" }}
+    {{- if in .File.Path "access" }}
+    <li>
+      <a href="{{ .RelPermalink }}" {{- if eq .RelPermalink $.RelPermalink }}class="is-current" {{- end }}>{{ .Title }}</a>
+    </li>
+    {{- end }}
+    {{- end }}
+    </ul>
+  {{- end }}
+
+  {{- if eq .Section "link" }}
+    <h2><span>{{ i18n "Links" }}</span></h2>
+    <ul class="archive-list">
+      {{- range sort (where .Site.RegularPages "Section" "link") "Date" "asc" }}
+      {{- if or (in .File "university") (in .File "project") (in .File "research") (in .File "student") }}
+      <li>
+        <a href="{{ .RelPermalink }}" {{- if eq .RelPermalink $.RelPermalink }}class="is-current" {{- end }}>{{ .Title }}</a>
+      </li>
+      {{- end }}
+      {{- end }}
+    </ul>
+  {{- end }}
+
+  {{- if eq .Section "news" }}
+    <h2><span>{{ i18n "News" }}</span></h2>
+    <ul class="archive-list">
+    {{- range sort (where (where .Site.RegularPages "Section" "news") "Lang" .Site.Language.Lang) "Data" "desc" }}
+      <li>
+        <a href="{{ .RelPermalink }}" {{- if eq .RelPermalink $.RelPermalink }}class="is-current"{{- end }}>{{ .Title }}</a>
+      </li>
+    {{- end }}
+    </ul>
+  {{- end }}
+  </div>
+</div>

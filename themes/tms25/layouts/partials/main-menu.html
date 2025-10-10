@@ -1,0 +1,28 @@
+<div class="menu-btn">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+{{ $section := .Section }}
+<div class="main-menu">
+  <ul class="">
+    {{- range .Site.Menus.main }}
+    {{- if ne .Name "News" }}
+    <li class="item">
+      <a href="{{ .URL | relLangURL }}" class="{{- if eq .Identifier $section }}is-active{{- end }}">{{ .Name }}</a>
+    </li>
+    {{- end }}
+    {{- end }}
+    {{- $currentLang := .Lang }}
+    {{- $translations := .Translations }}
+    {{- range $lang := slice "ja" "en" }}
+      {{- $label := cond (eq $lang "ja") "日本語" "English" }}
+      {{- if ne $lang $currentLang }}
+      {{- with index (where $translations "Lang" $lang) 0 }}
+      <li class="lang"><a href="{{ .Permalink }}">[{{ $label }}]</a></li>
+      {{- end }}
+      {{- end }}
+    {{- end }}
+  </ul>
+</div><!-- /.main-menu -->

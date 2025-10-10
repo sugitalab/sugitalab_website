@@ -1,0 +1,13 @@
+@import "_variable";
+@import "_functions";
+
+@mixin Content-inner-sp {
+  max-width: $content-max-width;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+@mixin Content-inner-pc {
+  padding: 0 30px;
+}
+
+

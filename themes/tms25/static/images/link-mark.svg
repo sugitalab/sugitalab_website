@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="6" height="12" viewBox="0 0 6 12">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_26" data-name="長方形 26" width="6" height="12" transform="translate(29 231.772)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="link-mark" transform="translate(-29 -231.772)" clip-path="url(#clip-path)">
+    <g id="グループ_6" data-name="グループ 6" transform="translate(17.574 213.889)">
+      <text id="TOP_研究会_セミナー_勉強会" data-name="TOP　　研究会/セミナー/勉強会" transform="translate(39.426 -0.117)" font-size="16" font-family="NotoSansJP-Regular, Noto Sans JP"><tspan x="0" y="19">TOP　　</tspan><tspan y="19">研究会/</tspan><tspan y="19">セミナー/</tspan><tspan y="19">勉強会</tspan></text>
+      <path id="パス_3" data-name="パス 3" d="M-15945-9325.766h528.751" transform="translate(15945 9340.423)" fill="none" stroke="#d8d8d8" stroke-width="1"/>
+      <g id="長方形_25" data-name="長方形 25" transform="translate(11.623 18.367) rotate(45)" fill="#fff" stroke="#000" stroke-width="1">
+        <rect width="8.274" height="8.274" stroke="none"/>
+        <rect x="0.5" y="0.5" width="7.274" height="7.274" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

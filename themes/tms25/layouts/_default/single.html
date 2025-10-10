@@ -1,0 +1,51 @@
+{{- define "main" }}
+  <header class="page-header">
+    <div class="inner">
+      {{- $title := .Section | title }}
+
+      {{- if eq .Section "member" }}
+      <h1>{{ i18n $title }}</h1>
+      {{- else if in .File.Path "research" }}
+      
+        {{- $path := .RelPermalink }}
+        {{- $segments := split $path "/" }}
+        {{- $depth := sub (len $segments) 2 }}
+        
+        {{- if ge $depth 3 }}
+        {{- with .Parent }}
+        <h1>{{ i18n "Research" }}[{{ .Title }}]</h1>
+        {{ end }}
+        {{- else }}
+        <h1>{{ i18n "Research" }}[{{ .Title }}]</h1>
+        {{- end }}
+
+
+      {{- else if in .File.Path "workshop" }}
+      <h1>{{ i18n "Workshop" }}[{{ .Title }}]</h1>
+      {{- else if in .File.Path "seminar" }}
+      <h1>{{ i18n "Seminar" }}[{{ .Title }}]</h1>
+      {{- else if in .File.Path "recruitment" }}
+      <h1>{{ i18n "Recruitment" }}</h1>
+      {{- else if in .File.Path "publication" }}
+      <h1>{{ i18n "Research-Achievements" }}[{{ .Title }}]</h1>
+      {{- else if in .File.Path "access" }}
+      <h1>{{ i18n "Access" }}</h1>
+      {{- else if in .File.Path "link" }}
+      <h1>{{ i18n "Links" }}</h1>
+      {{- else }}
+      <h1>{{ i18n $title }}[{{ .Title }}]</h1>
+      {{- end }}
+    </div>
+  </header>
+  <div class="breadcrumbs">
+    <div class="inner">
+      {{ partial "breadcrumbs.html" . }}
+    </div>
+  </div><!-- /.breadcrumbs -->
+  <div class="is-flex inner">
+    {{ partial "sidebar.html" . }}
+    <div class="cont {{ if in .File.Path "profile" }} profile{{ end }}">
+      {{ .Content }}
+    </div>
+  </div>
+{{- end }}

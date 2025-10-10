@@ -1,0 +1,19 @@
+{{- define "main" -}}
+  <header class="page-header">
+    <div class="inner">
+      {{- $title := .Section | title }}
+      <h1>{{ i18n $title }}</h1>
+    </div>
+  </header>
+  <div class="breadcrumbs">
+    <div class="inner">
+      {{ partial "breadcrumbs.html" . }}
+    </div>
+  </div><!-- /.breadcrumbs -->
+  <div class="is-flex inner">
+    {{ partial "sidebar.html" . }}
+    <div class="cont">
+      {{ .Content }}
+    </div>
+  </div>
+{{- end -}}

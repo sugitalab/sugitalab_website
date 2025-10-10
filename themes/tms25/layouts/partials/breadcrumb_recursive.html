@@ -1,0 +1,7 @@
+{{- $current := . }}
+{{- with .Parent -}}
+  {{- partial "breadcrumb_recursive.html" . -}}
+  {{- if ne .Title "" }}
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{- end }}
+{{- end -}}

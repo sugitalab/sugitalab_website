@@ -1,0 +1,15 @@
+@import "_variable";
+@import "_functions";
+@import "_mixins";
+
+.page-header {
+  background-color: $blue-gray;
+  text-align: center;
+  h1 {
+    margin: 0;
+  }
+  .inner {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+}

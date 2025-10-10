@@ -1,0 +1,15 @@
+@import "_variable";
+@import "_functions";
+@import "_mixins";
+
+.link {
+  .accordion-block {
+    .accordion-body {
+      > * {
+        &:first-child {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}

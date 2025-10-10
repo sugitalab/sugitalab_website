@@ -1,0 +1,123 @@
+baseURL = '/'
+defaultContentLanguage = 'ja'
+languageCode = 'ja'
+title = 'Sugita-Lab'
+copyright = 'Copyright © Sugita-Lab. All rights reserved.'
+theme = 'tms25'
+assetDir = 'assets'
+disableKinds = ['sitemap']
+relativeURLs = true
+disablePathToLower = true
+sectionPagesMenu = 'main'
+
+[params]
+  authorName = ''
+  description = ''
+  dateFormat = '2006.01.02'
+
+[taxonomies]
+# tag = 'tags'
+# term = 'terms'
+# category = 'categories'
+# archive = 'archives'
+
+[module]
+
+[languages]
+  [languages.ja]
+    languageName = 'Japanese'
+    description = ''
+    dateFormat = '2006.01.02'
+    leadText = ''
+    [languages.ja.menu]
+      [[languages.ja.menu.main]]
+        identifier = 'research'
+        name = '研究内容'
+        url = '/research/project1/'
+        weight = 70
+      [[languages.ja.menu.main]]
+        identifier = 'meeting'
+        name = '研究会/セミナー'
+        url = '/meeting/workshop/2022-2026/'
+        weight = 75
+      [[languages.ja.menu.main]]
+        identifier = 'publication'
+        name = '研究業績'
+        url = '/publication/2022-2026/'
+        weight = 80
+      [[languages.ja.menu.main]]
+        identifier = 'member'
+        name = 'メンバー'
+        url = '/member/development/'
+        weight = 85
+      [[languages.ja.menu.main]]
+        identifier = 'recruitment'
+        name = '募集'
+        url = '/recruitment/students/'
+        weight = 90
+      [[languages.ja.menu.main]]
+        identifier = 'access'
+        name = 'アクセス'
+        url = '/access/wako/'
+        weight = 95
+      [[languages.ja.menu.main]]
+        identifier = 'link'
+        name = 'リンク集'
+        url = '/link/university/'
+        weight = 100
+
+  [languages.en]
+        languageName = 'English'
+        description = ''
+        dateFormat = 'Jan. 2, 2006'
+        leadText = ''
+        [languages.en.menu]
+          [[languages.en.menu.main]]
+            identifier = 'research'
+            name = "Research"
+            url = "/research/project1/"
+            weight = 70
+          [[languages.en.menu.main]]
+            identifier = 'meeting'
+            name = 'Workshop/Seminar'
+            url = '/meeting/workshop/2022-2026/'
+            weight = 75
+          [[languages.en.menu.main]]
+            identifier = 'publication'
+            name = 'Publication'
+            url = '/publication/2022-2026/'
+            weight = 80
+          [[languages.en.menu.main]]
+            identifier = 'member'
+            name = 'Member'
+            url = '/member/development/'
+            weight = 85
+          [[languages.en.menu.main]]
+            identifier = 'recruitment'
+            name = 'Recruitment'
+            url = '/recruitment/students/'
+            weight = 90
+          [[languages.en.menu.main]]
+            identifier = 'access'
+            name = 'Access'
+            url = '/access/wako/'
+            weight = 95
+          [[languages.en.menu.main]]
+            identifier = 'link'
+            name = 'Link'
+            url = '/link/university/'
+            weight = 100
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      attribute = true
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true

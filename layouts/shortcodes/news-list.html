@@ -1,0 +1,30 @@
+{{- $lang := .Page.Lang }}
+{{- $paths := slice (.Get 0) (.Get 1) }}
+{{- $allArticles := slice }}
+
+{{- range $i, $p := $paths }}
+  {{- $fullPath := printf "%s.%s.md" $p $lang }}
+  {{- $pages := where site.RegularPages "File.Path" $fullPath }}
+  {{- if gt (len $pages) 0 }}
+    {{- $page := index $pages 0 }}
+    {{- $rendered := $.Page.RenderString $page.RawContent }}
+    {{- $articles := findRE `<article[\s\S]*?<\/article>` $rendered }}
+    {{- $allArticles = $allArticles | append $articles }}
+  {{- else }}
+    <p>ページが見つかりません: {{ $fullPath }}</p>
+  {{- end }}
+{{- end }}
+
+<section class="sec-news">
+  <div class="inner">
+    <h2>{{ i18n "イベント&ニュース" }}</h2>
+
+    {{- range first 5 $allArticles }}
+      {{ . | safeHTML }}
+    {{- end }}
+
+    <div class="more">
+      <a href="{{ .Get 0 | relLangURL }}/"><img src="/images/link-mark.svg" alt=""> {{ i18n "一覧を見る" }}</a>
+    </div><!-- /.more -->
+  </div><!-- /.inner -->
+</section>
