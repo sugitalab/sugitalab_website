@@ -1,0 +1,60 @@
+# .github/workflows/release-and-pages.yml
+name: Build & Deploy (tag)
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    env:
+      TAG: ${{ github.ref_name }} 
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.148.2'
+          extended: true
+
+      - name: Build
+        run: hugo --environment local
+
+      - name: Archive site
+        run: |
+          cd public
+          zip -r "../site-${TAG}.zip" .
+          echo "ZIP_PATH=site-${TAG}.zip" >> "$GITHUB_ENV"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-${{ env.TAG }}
+          path: ${{ env.ZIP_PATH }}
+          if-no-files-found: error
+          retention-days: 14
+
+  release_zip:
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    env:
+      TAG: ${{ github.ref_name }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: site-${{ env.TAG }}
+          path: .
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: site-${{ env.TAG }}.zip
+          generate_release_notes: true
+
