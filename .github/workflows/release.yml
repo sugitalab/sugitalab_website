@@ -1,4 +1,4 @@
-# .github/workflows/release-and-pages.yml
+# .github/workflows/release.yml
 name: Build & Deploy (tag)
 
 on:
@@ -16,6 +16,25 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+
+      - name: Cache Hugo Modules (Go)
+        if: ${{ hashFiles('**/go.mod', '**/go.sum') != '' }}
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/hugo
+            ~/go/pkg/mod
+          key: ${{ runner.os }}-hugo-mods-${{ hashFiles('**/go.mod', '**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-mods-
+
+      - name: Cache Hugo resources
+        uses: actions/cache@v4
+        with:
+          path: resources/_gen
+          key: ${{ runner.os }}-hugo-resources-${{ hashFiles('hugo.toml', 'config*.{toml,yaml,yml,json}', 'assets/**', 'layouts/**', 'themes/**') }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-resources-
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -57,4 +76,31 @@ jobs:
         with:
           files: site-${{ env.TAG }}.zip
           generate_release_notes: true
+
+  deploy_cf_pages:
+    needs: build
+    runs-on: ubuntu-24.04
+    if: ${{ vars.USE_CLOUDFLARE_PAGES == 'TRUE' }}
+    env:
+      TAG: ${{ github.ref_name }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download site artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: site-${{ env.TAG }}
+          path: .
+      - name: Unzip
+        run: |
+          unzip -o site-${{ env.TAG }}.zip -d public
+      - name: Deploy to Cloudflare Pages (production)
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          command: >
+            pages deploy ./public
+            --project-name "${{ secrets.CLOUDFLARE_PAGES_PROJECT }}"
+            --branch "main"
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
