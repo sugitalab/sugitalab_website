@@ -3,11 +3,7 @@ title: 'Past group photo'
 date: 2025-09-02T15:56:58+09:00
 draft: false
 description: ''
-keywords: ''
-pageName: ''
-pageType: ''
-categories: ['']
-scriptfiles: ['']
+keywords: []
 ---
 
 ## Past group photo

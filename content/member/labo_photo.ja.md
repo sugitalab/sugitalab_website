@@ -3,11 +3,7 @@ title: '研究室写真'
 date: 2025-08-30T15:56:58+09:00
 draft: false
 description: ''
-keywords: ''
-pageName: ''
-pageType: ''
-categories: ['']
-scriptfiles: ['']
+keywords: []
 ---
 
 ## 研究室写真

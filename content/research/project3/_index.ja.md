@@ -4,11 +4,7 @@ date: 2025-08-26T10:45:16+09:00
 order: 1
 draft: false
 description: ''
-keywords: ''
-pageName: ''
-pageType: 'pages'
-categories: ['']
-scriptfiles: ['']
+keywords: []
 ---
 
 ## 情報科学と生命科学の融合

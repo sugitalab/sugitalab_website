@@ -3,11 +3,7 @@ title: '杉田 有治'
 date: 2025-09-01T17:28:39+09:00
 draft: false
 description: ''
-keywords: ''
-pageName: ''
-pageType: ''
-categories: ['']
-scriptfiles: ['']
+keywords: []
 ---
 
 ## 杉田 有治

@@ -3,11 +3,7 @@ title: 'プレスリリース'
 date: 2025-09-03T14:35:50+09:00
 draft: false
 description: ''
-keywords: ''
-pageName: ''
-pageType: ''
-categories: ['']
-scriptfiles: ['']
+keywords: []
 ---
 
 <ul class="anchor-links">

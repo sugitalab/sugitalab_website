@@ -3,11 +3,7 @@ title: 'Department of Physics, Faculty of Science, University of Tokyo'
 date: 2025-08-26T10:45:14+09:00
 draft: false
 description: ''
-keywords: ''
-pageName: ''
-pageType: ''
-categories: ['']
-scriptfiles: ['']
+keywords: []
 ---
 
 ## Department of Physics, Faculty of Science, The University of Tokyo
