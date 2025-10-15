@@ -1,5 +1,5 @@
 ---
-title: '動的構造生物学リンク集'
+title: 'Dynamic Structural Biology Links'
 date: 2025-10-06T16:29:11+09:00
 draft: false
 description: ''
@@ -10,11 +10,11 @@ categories: ['']
 scriptfiles: ['']
 ---
 
-## 動的構造生物学リンク集
+## Dynamic Structural Biology Links
 
-本リンク集は、各サブ課題で用いる手法（クライオ電顕、核磁気共鳴分光法、分子動力学計算など）において、よく利用されているソフトウェア、データベース、ウェブツール、解説記事などをまとめており、異分野の研究者が各分野の手法に関する情報を効率よく収集し、分野融合、交流、知識の共有を促すことを目的としています。
+Here, we introduce useful tools such as software and database, which are commonly used in our research fields. We would like to encourage ourselves to collect information smoothly or collaborate between different research fields by sharing the knowledge through this page.
 
-### クライオ電顕(Cryo-EM)
+### Cryo-electron microscopy (cryo-EM)
 
 <div class="accordion-block is-indent">
   <h4 class="accordion-trigger">Software</h4>
@@ -33,7 +33,7 @@ scriptfiles: ['']
   </div>
 </div><!-- /.accordion-block -->
 
-### 核磁気共鳴分光法 (NMR)
+### Nuclear magnetic resonance spectroscopy (NMR)
 
 <div class="accordion-block is-indent">
   <h4 class="accordion-trigger">Data processing</h4>
@@ -49,7 +49,6 @@ scriptfiles: ['']
     <p><a href="https://www.cgcsf.edu/home/sparky/" target="_blank" rel="noopener noreferrer">Sparky</a></p>
     <p><a href="https://www.ccpn.ac.uk/v2-software/software/analysis" target="_blank" rel="noopener noreferrer">CcpNmr analysis</a></p>
     <p><a href="http://cara.nmr.ch/doku.php" target="_blank" rel="noopener noreferrer">CARA</a></p>
-    <p>NMRView</p>
   </div>
 </div><!-- /.accordion-block -->
 
@@ -102,10 +101,10 @@ scriptfiles: ['']
   </div>
 </div><!-- /.accordion-block -->
 
-### X線結晶構造解析 (X-ray crystallography)
+### X-ray crystallography
 
 <div class="accordion-block is-indent">
-  <h4 class="accordion-trigger">大型放射光施設</h4>
+  <h4 class="accordion-trigger">Synchrotron radiation facilities</h4>
   <div class="accordion-body is-indent">
     <p><a href="http://www.esrf.eu/" target="_blank" rel="noopener noreferrer">ESRF</a></p>
     <p><a href="https://als.lbl.gov/" target="_blank" rel="noopener noreferrer">ALS</a></p>
@@ -149,13 +148,10 @@ scriptfiles: ['']
   </div>
 </div><!-- /.accordion-block -->
 
-### X線小角散乱 (Small angle X-ray scattering)
-
-<div class="is-indent">
-  <p><a href="http://scripts.iucr.org/cgi-bin/paper?S1600576717007786" target="_blank" rel="noopener noreferrer">Review article:</a></p>
-</div>
+### Small angle X-ray scattering (SAXS)
 
 <div class="accordion-block is-indent">
+  <h4><a href="http://scripts.iucr.org/cgi-bin/paper?S1600576717007786" target="_blank" rel="noopener noreferrer">Review article:</a></h4>
   <h4 class="accordion-trigger">Software</h4>
   <div class="accordion-body is-indent">
     <p><a href="https://www.embl-hamburg.de/biosaxs/crysol.html" target="_blank" rel="noopener noreferrer">CRYSOL</a></p>
@@ -165,7 +161,7 @@ scriptfiles: ['']
   </div>
 </div><!-- /.accordion-block -->
 
-### 分子動力学計算(MD)
+### Molecular dynamics (MD)
 
 <div class="accordion-block is-indent">
   <h4 class="accordion-trigger">MD software</h4>
@@ -176,7 +172,12 @@ scriptfiles: ['']
     <p><a href="http://www.gromacs.org" target="_blank" rel="noopener noreferrer">GROMACS</a></p>
     <p><a href="http://www.ks.uiuc.edu/Research/namd/" target="_blank" rel="noopener noreferrer">NAMD</a></p>
     <p><a href="https://tinkertools.org/" target="_blank" rel="noopener noreferrer">TINKER</a></p>
-    <p>DESMOND</p>
+  </div>
+</div><!-- /.accordion-block -->
+
+<div class="accordion-block is-indent">
+  <h4 class="accordion-trigger">DESMOND</h4>
+  <div class="accordion-body is-indent">
     <p><a href="http://www.gromos.net/" target="_blank" rel="noopener noreferrer">GROMOS</a></p>
   </div>
 </div><!-- /.accordion-block -->
@@ -258,7 +259,7 @@ scriptfiles: ['']
   </div>
 </div><!-- /.accordion-block -->
 
-### バイオインフォマティクス
+### Bioinformatics
 
 <div class="accordion-block is-indent">
   <h4 class="accordion-trigger">Software</h4>
