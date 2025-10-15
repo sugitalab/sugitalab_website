@@ -4,11 +4,7 @@ date: 2025-10-07T12:04:37+09:00
 order: 7
 draft: false
 description: ''
-keywords: ''
-pageName: ''
-pageType: ''
-categories: ['']
-scriptfiles: ['']
+keywords: []
 ---
 
 ## Atomic-Level Elucidation of the Rotary Driving Mechanism of a Biomolecular Motor

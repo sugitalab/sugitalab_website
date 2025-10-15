@@ -3,11 +3,7 @@ title: '学生向け情報'
 date: 2025-10-06T16:44:09+09:00
 draft: false
 description: ''
-keywords: ''
-pageName: ''
-pageType: ''
-categories: ['']
-scriptfiles: ['']
+keywords: []
 ---
 
 ## 学生向け情報

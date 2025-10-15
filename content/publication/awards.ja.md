@@ -3,11 +3,7 @@ title: '受賞'
 date: 2025-09-05T10:57:01+09:00
 draft: false
 description: ''
-keywords: ''
-pageName: ''
-pageType: ''
-categories: ['']
-scriptfiles: ['']
+keywords: []
 ---
 
 <ul class="anchor-links">

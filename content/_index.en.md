@@ -3,11 +3,7 @@ title: ''
 date: 2025-08-26T10:45:14+09:00
 draft: false
 description: ''
-keywords: ''
-pageName: ''
-pageType: 'pages'
-categories: ['']
-scriptfiles: ['']
+keywords: []
 ---
 
 <section class="sec-lead">

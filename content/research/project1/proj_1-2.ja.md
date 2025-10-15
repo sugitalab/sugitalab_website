@@ -4,11 +4,7 @@ date: 2025-08-26T10:46:14+09:00
 order: 2
 draft: false
 description: ''
-keywords: ''
-pageName: ''
-pageType: 'pages'
-categories: ['']
-scriptfiles: ['']
+keywords: []
 ---
 
 ## 温度・圧力の正確な計算方法

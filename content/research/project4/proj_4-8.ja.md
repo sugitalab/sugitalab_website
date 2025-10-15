@@ -4,11 +4,7 @@ date: 2025-10-07T12:04:37+09:00
 order: 8
 draft: false
 description: ''
-keywords: ''
-pageName: ''
-pageType: ''
-categories: ['']
-scriptfiles: ['']
+keywords: []
 ---
 
 ## 酵素・阻害剤結合の初期会合体を予測

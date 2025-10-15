@@ -4,11 +4,7 @@ date: 2025-08-26T10:45:17+09:00
 order: 1
 draft: false
 description: ''
-keywords: ''
-pageName: ''
-pageType: 'pages'
-categories: ['']
-scriptfiles: ['']
+keywords: []
 ---
 
 ## 【EN】生体高分子のダイナミクスと機能

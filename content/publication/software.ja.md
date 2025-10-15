@@ -3,11 +3,7 @@ title: 'ソフトウェア'
 date: 2025-09-02T10:06:46+09:00
 draft: false
 description: ''
-keywords: ''
-pageName: ''
-pageType: ''
-categories: ['']
-scriptfiles: ['']
+keywords: []
 ---
 
 ### GENESIS
