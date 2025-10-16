@@ -13,9 +13,9 @@ keywords: []
   <div class="text">
     <ul class="list">
       <li><a href="proj_2-1/">計算科学による分子動力学の高速化</a></li>
-      <li><a href="proj_2-2/">超並列分子動力学ソフトウェアGENESIS</a></li>
-      <li><a href="proj_2-3/">不均一空間分割による粗視化分子動力学の並列化</a></li>
-      <li><a href="proj_2-4/">GPUを用いた分子動力学の高速化</a></li>
+      <li><a href="proj_2-2/">超並列分子動力学ソフトウェアGENESIS （未作成）</a></li>
+      <li><a href="proj_2-3/">不均一空間分割による粗視化分子動力学の並列化 （未作成）</a></li>
+      <li><a href="proj_2-4/">Accelerating Molecular Dynamics Simulations Using GPUs</a></li>
     </ul>
   </div>
   <div class="image">

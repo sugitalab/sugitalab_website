@@ -12,10 +12,10 @@ keywords: []
 <div class="research-image-block">
   <div class="text">
     <ul class="list">
-      <li><a href="proj_3-1/">一分子計測のデータ同化</a></li>
-      <li><a href="proj_3-2/">UMAPによる構造空間の次元削減</a></li>
-      <li><a href="proj_3-3/">ML/MMの開発</a></li>
-      <li><a href="proj_3-4/">拡散モデルを用いたBackmapping法の開発</a></li>
+      <li><a href="proj_3-1/">一分子計測のデータ同化 （未作成）</a></li>
+      <li><a href="proj_3-2/">UMAPによる構造空間の次元削減 （未作成）</a></li>
+      <li><a href="proj_3-3/">ML/MMの開発 （未作成）</a></li>
+      <li><a href="proj_3-4/">Development of a backmapping method using diffusion models</a></li>
     </ul>
   </div>
   <div class="image">
