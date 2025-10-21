@@ -44,7 +44,7 @@
     <li><a href="{{ "/link/research/" }}">{{ i18n "Links" }}[{{ with .Site.GetPage "section" "link/research" }}{{ .Title }}{{ end }}]</a></li>
     <li>{{ .Title }}</li>
     {{- else }}
-    <li>{{ i18n "Links" }}[{{ .Title }}]</li>
+    <li>{{ i18n "Link" }}[{{ .Title }}]</li>
     {{- end }}
   {{- else }}
     {{ partial "breadcrumb_recursive.html" . }}
