@@ -18,10 +18,10 @@ keywords: []
   <tbody>
     <tr>
         <td>2022</td>
-        <td>Ph.D. Ph.D. (Science) Materials Engineering Science, Graduate School of Engineering Science, Osaka University</td>
+        <td>Ph.D. (Science) Materials Engineering Science, Graduate School of Engineering Science, Osaka University</td>
       </tr><tr>
         <td>2019</td>
-        <td>M.A. Materials Engineering Science, Graduate School of Engineering Science, Osaka University</td>
+        <td>M.S. Materials Engineering Science, Graduate School of Engineering Science, Osaka University</td>
       </tr><tr>
         <td>2017</td>
         <td>B.S. Department of Chemical Science and Engineering, School of Engineering Science, Osaka University</td>
