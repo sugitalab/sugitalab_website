@@ -11,9 +11,9 @@ keywords: []
 ### 大学・研究所
 
 <div class="is-indent">
-  <p>理化学研究所・開拓研究所</p>
-  <p>理化学研究所・計算科学研究センター</p>
-  <p>東京大学・理学部・物理学教室</p>
+  <p><a href="https://www.riken.jp/research/labs/pri/" target="_blank" rel="noopener noreferrer">理化学研究所・開拓研究所</a></p>
+  <p><a href="https://www.r-ccs.riken.jp" target="_blank" rel="noopener noreferrer">理化学研究所・計算科学研究センター</a></p>
+  <p><a href="https://www.phys.s.u-tokyo.ac.jp" target="_blank" rel="noopener noreferrer">東京大学・理学部・物理学教室</a></p>
 </div>
 
 ### 関連学会
@@ -22,7 +22,7 @@ keywords: []
   <p><a href="http://www.biophys.jp/" target="_blank" rel="noopener noreferrer">日本生物物理学会</a></p>
   <p><a href="http://www.pssj.jp/" target="_blank" rel="noopener noreferrer">日本蛋白質科学会</a></p>
   <p><a href="http://www.jps.or.jp/" target="_blank" rel="noopener noreferrer">日本物理学会</a></p>
-  <p><a href="http://www.mol-sim.jp/" target="_blank" rel="noopener noreferrer">日本化学会</a></p>
+  <p><a href="https://www.chemistry.or.jp" target="_blank" rel="noopener noreferrer">日本化学会</a></p>
   <p><a href="http://www.mol-sim.jp/" target="_blank" rel="noopener noreferrer">分子シミュレーション学会</a></p>
   <p><a href="http://www.acs.org/" target="_blank" rel="noopener noreferrer">アメリカ化学会</a></p>
   <p><a href="http://www.biophysics.org/" target="_blank" rel="noopener noreferrer">アメリカ生物物理学会</a></p>
