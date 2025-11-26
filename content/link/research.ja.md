@@ -11,7 +11,7 @@ keywords: []
 ### 予算申請等
 
 <div class="is-indent">
-  <p><a href="https://www.jsps.go.jp/" target="_blank" rel="noopener noreferrer">日本学術振興会：https</a></p>
+  <p><a href="https://www.jsps.go.jp/" target="_blank" rel="noopener noreferrer">日本学術振興会</a></p>
   <p><a href="https://www.jst.go.jp/" target="_blank" rel="noopener noreferrer">JST</a></p>
   <p><a href="https://www.amed.go.jp/" target="_blank" rel="noopener noreferrer">AMED</a></p>
 </div>

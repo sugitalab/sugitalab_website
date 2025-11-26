@@ -7,6 +7,7 @@ keywords: []
 ---
 
 <ul class="anchor-links">
+  <li><a href="#2025">2025</a></li>
   <li><a href="#2024">2024</a></li>
   <li><a href="#2022">2022</a></li>
   <li><a href="#2018">2018</a></li>
@@ -19,9 +20,15 @@ keywords: []
 ## 2025{#2025}
 
 <article class="article-block accordion-block">
-  <h3>第25回日本蛋白質科学会年会 若手奨励賞</h3>
+  <h3>The 63rd BPSJ Annual Meeting, Young Scientist Award</h3>
+  <p>&#8220;Cryptochrome signal transduction mechanism revealed by time-resolved crystallography across broad timescales&#8221;<br>
+  Dr. Yuhei Hosokawa（RIKEN PRI）</p>
+</article>
+
+<article class="article-block accordion-block">
+  <h3>The 25th PSSJ Annual Meeting, Young Scientist Award</h3>
   <p>&#8220;High-Performance Coarse-Grained MD: Development and Applications for Protein Dynamics and Function in Biomolecular Condensates&#8221;<br>
-  Cheng Tan 研究員（RIKEN R-CCS）</p>
+  Dr. Cheng Tan（RIKEN R-CCS）</p>
 </article>
 
 ## 2024{#2024}

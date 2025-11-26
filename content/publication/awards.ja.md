@@ -7,6 +7,7 @@ keywords: []
 ---
 
 <ul class="anchor-links">
+  <li><a href="#2025">2025</a></li>
   <li><a href="#2024">2024</a></li>
   <li><a href="#2022">2022</a></li>
   <li><a href="#2018">2018</a></li>
@@ -17,6 +18,12 @@ keywords: []
 </ul>
 
 ## 2025{#2025}
+
+<article class="article-block accordion-block">
+  <h3>第63回日本生物物理学会年会 若手奨励賞</h3>
+  <p>&#8220;Cryptochrome signal transduction mechanism revealed by time-resolved crystallography across broad timescales&#8221;<br>
+  細川 雄平（RIKEN PRI）</p>
+</article>
 
 <article class="article-block accordion-block">
   <h3>第25回日本蛋白質科学会年会 若手奨励賞</h3>

@@ -63,6 +63,8 @@ keywords: []
 
 <strong>Peer-reviewed Articles</strong>
 
+1. Manuel Maestre-Reyna†, Yuhei Hosokawa†, Po-Hsun Wang†, et al. († indicates co-first authors), “Capturing structural intermediates in an animal-like cryptochrome photoreceptor by time-resolved crystallography” <em>Sci. Adv.</em> <strong>2025</strong>, 11, eadu7247. <a href="https://www.science.org/doi/10.1126/sciadv.adu7247" target="_blank">DOI</a>
+
 1. Yuhei Hosokawa and Manuel Maestre-Reyna, “Light-driven DNA repair at atomic and picosecond resolution revealed via time-resolved serial femtosecond crystallography” <em>Clin. Transl. Med.</em> <strong>2024</strong>, 14, e1566. <a href="https://doi.org/10.1002/ctm2.1566" target="_blank">DOI</a>
 
 1. Maestre-Reyna, M. et al. (incl. Yuhei Hosokawa), “Visualizing the DNA repair process by a photolyase at atomic resolution” <em>Science</em> <strong>2023</strong>, 382, eadd7795. <a href="https://doi.org/10.1126/science.add7795" target="_blank">DOI</a>

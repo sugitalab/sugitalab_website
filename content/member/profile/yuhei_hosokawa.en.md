@@ -52,11 +52,13 @@ keywords: []
   </tbody>
 </table>
 
-### Professional affilations
+### Professional affiliations
 
 a. The Biophysical Society of Japan
 
 ### Publicatons
+
+1. Manuel Maestre-Reyna†, Yuhei Hosokawa†, Po-Hsun Wang†, et al. († indicates co-first authors), “Capturing structural intermediates in an animal-like cryptochrome photoreceptor by time-resolved crystallography” <em>Sci. Adv.</em> <strong>2025</strong>, 11, eadu7247. <a href="https://www.science.org/doi/10.1126/sciadv.adu7247" target="_blank">DOI</a>
 
 1. Yuhei Hosokawa and Manuel Maestre-Reyna, “Light-driven DNA repair at atomic and picosecond resolution revealed via time-resolved serial femtosecond crystallography” <em>Clin. Transl. Med.</em> <strong>2024</strong>, 14, e1566. <a href="https://doi.org/10.1002/ctm2.1566" target="_blank">DOI</a>
 

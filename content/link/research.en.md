@@ -1,30 +1,30 @@
 ---
-title: '研究関連情報'
+title: 'Research-Related Information'
 date: 2025-10-06T16:07:09+09:00
 draft: false
 description: ''
 keywords: []
 ---
 
-## 研究関連情報
+## Research-Related Information
 
-### 予算申請等
+### Funding Applications, etc.
 
 <div class="is-indent">
-  <p><a href="https://www.jsps.go.jp/" target="_blank" rel="noopener noreferrer">日本学術振興会：https</a></p>
-  <p><a href="https://www.jst.go.jp/" target="_blank" rel="noopener noreferrer">JST</a></p>
-  <p><a href="https://www.amed.go.jp/" target="_blank" rel="noopener noreferrer">AMED</a></p>
+  <p><a href="https://www.jsps.go.jp/english/" target="_blank" rel="noopener noreferrer">Japan Society for the Promotion of Science (JSPS)</a></p>
+  <p><a href="https://www.jst.go.jp/EN/" target="_blank" rel="noopener noreferrer">JST</a></p>
+  <p><a href="https://www.amed.go.jp/en/index.html" target="_blank" rel="noopener noreferrer">AMED</a></p>
 </div>
 
-### 計算機資源
+### Computational Resources
 
 <div class="is-indent">
-  <p><a href="https://www.hpci-office.jp/" target="_blank" rel="noopener noreferrer">HPCI ポータル</a></p>
-  <p><a href="https://i.riken.jp/supercom/" target="_blank" rel="noopener noreferrer">HOKUSAI</a></p>
+  <p><a href="https://www.hpci-office.jp/en/" target="_blank" rel="noopener noreferrer">HPCI Portal</a></p>
+  <p><a href="https://i.riken.jp/en/supercom/" target="_blank" rel="noopener noreferrer">HOKUSAI</a></p>
 </div>
 
-### 動的構造生物学
+### Dynamic Structural Biology
 
 <div class="is-indent">
-  <p><a href="dsb/">動的構造生物学リンク集</a></p>
+  <p><a href="dsb/">Dynamic Structural Biology Links</a></p>
 </div>
