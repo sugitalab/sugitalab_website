@@ -14,11 +14,11 @@ keywords: []
     <ul class="member-list">
       <li><a href="../profile/yuji_sugita/">Yuji Sugita (Team Principal)</a></li>
       <li><a href="../profile/jaewoon_jung/">Jaewoon Jung (Research Scientist)</a></li>
-      <li>Chigusa Kobayashi (Senior Technical Scientist)</li>
-      <li>Cheng Tan (Research Scientist)</li>
-      <li>Shingo Ito (Research Scientist)</li>
-      <li>Diego Ugarte La Torre (Postdoctoral Researcher)</li>
-      <li>Yangyang Zhang (Postdoctoral Researcher)</li>
+      <li><a href="../profile/chigusa_kobayashi/">Chigusa Kobayashi (Senior Technical Scientist)</a></li>
+      <li><a href="../profile/cheng_tan/">Cheng Tan (Research Scientist)</a></li>
+      <li><a href="../profile/shingo_ito/">Shingo Ito (Research Scientist)</a></li>
+      <li><a href="../profile/diego_ugarte_la_torre/">Diego Ugarte La Torre (Postdoctoral Researcher)</a></li>
+      <li><a href="../profile/yangyang_zhang/">Yangyang Zhang (Postdoctoral Researcher)</a></li>
     </ul>
   </div>
   <div class="image">

@@ -14,11 +14,11 @@ keywords: []
     <ul class="member-list">
       <li><a href="../profile/yuji_sugita/">杉田 有治（チームプリンシパル）</a></li>
       <li><a href="../profile/jaewoon_jung/">Jaewoon Jung（研究員）</a></li>
-      <li>小林 千草（上級技師）</li>
-      <li>heng Tan（研究員）</li>
-      <li>伊東 真吾（研究員）</li>
-      <li>Diego Ugarte La Torre（特別研究員）</li>
-      <li>Yangyang Zhang（特別研究員）</li>
+      <li><a href="../profile/chigusa_kobayashi/">小林 千草（上級技師）</a></li>
+      <li><a href="../profile/cheng_tan/">Cheng Tan（研究員）</a></li>
+      <li><a href="../profile/shingo_ito/">伊東 真吾（研究員）</a></li>
+      <li><a href="../profile/diego_ugarte_la_torre/">Diego Ugarte La Torre（特別研究員）</a></li>
+      <li><a href="../profile/yangyang_zhang/">Yangyang Zhang（特別研究員）</a></li>
       <li>加納 裕美（アシスタント）</li>
     </ul>
   </div>
