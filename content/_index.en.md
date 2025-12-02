@@ -30,7 +30,7 @@ keywords: []
 <section class="sec-summary">
   <div class="inner">
     <h2>Laboratory Overview</h2>
-    <p>Our research group operates across three locations: <strong>the RIKEN Pioneering Research Institute</strong> (RIKEN PRI, Wako Campus), <strong>the RIKEN Center for Computational Science</strong> (RIKEN R-CCS, Kobe Campus), and <strong>the Department of Physics, Graduate School of Science at the University of Tokyo</strong> (Hongo Campus). At RIKEN PRI, we study the dynamic properties of biological and material systems from the perspective of theoretical molecular science. At RIKEN R-CCS, our main focus is the advancement of GENESIS through state-of-the-art computational science technologies.<br>
+    <p>Our Research group operates across three locations: <strong>the RIKEN Pioneering Research Institute</strong> (RIKEN PRI, Wako Campus), <strong>the RIKEN Center for Computational Science</strong> (RIKEN R-CCS, Kobe Campus), and <strong>the Department of Physics, Graduate School of Science at the University of Tokyo</strong> (Hongo Campus). At RIKEN PRI, we study the dynamic properties of biological and material systems from the perspective of theoretical molecular science. At RIKEN R-CCS, our main focus is the advancement of GENESIS through state-of-the-art computational science technologies.<br>
        The laboratory launched at the University of Tokyo in 2025 aims to explore new theoretical frameworks in biophysics together with undergraduate and graduate students. By leveraging the strengths of each site and working collaboratively, we strive to tackle challenges that have been difficult to address using conventional approaches.</p>
   </div>
 </section>

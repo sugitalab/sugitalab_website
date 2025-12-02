@@ -43,7 +43,7 @@ We welcome applications from undergraduate and graduate students interested in c
 ### R-CCS Internship Programs
 
 1. International HPC Computational Science Internship Program: This program is intended for doctoral students enrolled at overseas institutions. The internship period is up to three months, and the research is conducted at the RIKEN Kobe Campus (RIKEN Center for Computational Science).
-1. HPC Computational Science Internship Program: This program is open to students from Japanese institutions, including technical college students, undergraduate students, and graduate students. Internships of two weeks to one month are offered between July and March of the following year, with the possibility of extending the period—up to a maximum of two additional months—upon prior consultation. Research activities take place at the RIKEN Kobe Campus (RIKEN Center for Computational Science).
+2. HPC Computational Science Internship Program: This program is open to students from Japanese institutions, including technical college students, undergraduate students, and graduate students. Internships of two weeks to one month are offered between July and March of the following year, with the possibility of extending the period—up to a maximum of two additional months—upon prior consultation. Research activities take place at the RIKEN Kobe Campus (RIKEN Center for Computational Science).
 
 <p class="is-indent">For further details regarding the internship programs, please refer to the webpage below.</p>
 
