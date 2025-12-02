@@ -19,7 +19,7 @@ keywords: []
 <p class="is-indent">自由な発想で主体的に研究できる場を理研において提供する制度です。SPDRは、自らの研究提案に基づく研究を自主的に遂行できるように支援を受けることができます。3年契約の任期制研究員で、毎年2月～4月上旬に募集がありますので、応募者は研究室主宰者まで早めにご連絡下さい。各分野における理研内外の研究者により構成される委員会にて、書面および面接選考が行われます。詳細は理研SPDRのHPをご覧ください。</p>
 
 <p class="is-indent">
-  <a href="https://www.riken.jp/careers/programs/jra/" target="_blank" rel="noopener noreferrer">https://www.riken.jp/careers/programs/jra/</a>
+  <a href="https://www.riken.jp/careers/programs/spdr/" target="_blank" rel="noopener noreferrer">https://www.riken.jp/careers/programs/spdr/</a>
 </p>
 
 ### 日本学術振興会特別研究員制度（理研雇用）
@@ -27,7 +27,7 @@ keywords: []
 <p class="is-indent">SPDRと同じように理研を受入機関とする学振特別研究員（PD・RPD）は、自らの研究提案に基づく研究を自主的に遂行できるように支援します。理研の雇用になるため、待遇や受入手続き等については、理研の学振特別研究員制度のHPをご覧ください。応募者は研究室主宰者に早めにコンタクトをとり、例年3月中に承諾を得てください。申出文書を作成し、応募者の受入について研究センター長あるいは研究所長の了承を得る必要があります。その後、日本学術振興会「研究者養成事業電子申請システム」のIDとパスワードを取得し、申請書を提出することができます。</p>
 
 <p class="is-indent">
-  <a href="https://www.riken.jp/careers/programs/ipa/index.html" target="_blank" rel="noopener noreferrer">https://www.riken.jp/careers/programs/ipa/index.html</a>
+  <a href="https://www.jsps.go.jp/j-pd/" target="_blank" rel="noopener noreferrer">https://www.jsps.go.jp/j-pd/</a>
 </p>
 
 ### 日本学術振興会外国人特別研究員制度
@@ -35,5 +35,5 @@ keywords: []
 <p class="is-indent">博士号取得前後の諸外国の優秀な若手研究者に対し、受入研究者の指導のもとに共同して研究に従事する機会を提供します。採用期間は2年間以内で、日本と国交がある国の国籍を有し、博士の学位を有し、採用年度当初（4月1日）時点で博士の学位取得後6年未満であることが条件です。例年2回応募の機会（例年4月末と8月末）がありますが、理研内の締め切りは1ヶ月前（例年3月末と7月末）になるため注意が必要です。応募者は理研内の締め切りの前に、研究室主宰者に早めにコンタクトをとってください。</p>
 
 <p class="is-indent">
-  <a href="https://www.riken.jp/careers/programs/rsr/index.html" target="_blank" rel="noopener noreferrer">https://www.riken.jp/careers/programs/rsr/index.html</a>
+  <a href="https://www.jsps.go.jp/j-fellow/" target="_blank" rel="noopener noreferrer">https://www.jsps.go.jp/j-fellow/</a>
 </p>

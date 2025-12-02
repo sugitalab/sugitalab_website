@@ -1,51 +1,52 @@
 ---
-title: '学生・大学院生の受け入れ'
+title: 'Acceptance of Undergraduate and Graduate Students'
 date: 2025-09-01T16:55:29+09:00
 draft: false
 description: ''
 keywords: []
 ---
 
-## 学生・大学院生の受け入れ
+## Acceptance of Undergraduate and Graduate Students
 
-理論・計算科学を用いた研究活動を行う学生・大学院生を募集しています。希望者は、このホームページ等の情報を利用して研究内容をよく理解した上で、研究室主宰者（杉田有治）までメールでご相談ください。（sugita_at_riken.jp: “_at_”を”@”に換えてください）
+We welcome applications from undergraduate and graduate students interested in conducting research in theoretical and computational science. Prospective students are encouraged to review the information on this website to gain a clear understanding of our research activities. After doing so, please contact the laboratory head, Dr. Yuji Sugita, by email for further discussion.
+(sugita_at_riken.jp — please replace “at” with “@”)
 
 
-### 東京大学大学院理学系研究科物理学専攻の大学院生
+### Graduate Students in the Department of Physics, Graduate School of Science, The University of Tokyo
 
-<p class="is-indent">東京大学大学院理学系研究科物理学専攻の修士課程または博士課程の大学院生として研究グループに参加することができます。主な研究場所は東京大学本郷キャンパスになりますが、理化学研究所の研修生やJRAを兼務することで「富岳」などの理化学研究所の最先端計算機等を利用した研究も可能です。大学院入試は毎年8月頃に行われます。説明会が例年5月に理学系研究科物理専攻で行われますし、生物物理（A7コース）の学生向けシンポジウムも例年5月に行われますので、ぜひ参加してください。</p>
+<p class="is-indent">Students enrolled in the Master’s or Doctoral programs in the Department of Physics, Graduate School of Science, The University of Tokyo may join our research group. The primary research location is the Hongo Campus of the University of Tokyo; however, by concurrently serving as a RIKEN Trainee or participating in the JRA program, students can also conduct research using RIKEN’s state-of-the-art computational facilities, including the supercomputer Fugaku. The entrance examination for the graduate program is held around August each year. An information session is typically organized by the Department of Physics in May, and a symposium for students in the Biophysics (A7) course also takes place in May. We encourage interested students to attend these events.</p>
 
-### 理化学研究所大学院生リサーチアソシエイト（JRA）
+### RIKEN Junior Research Associate (JRA)
 
-<p class="is-indent">JRAは大学院博士（後期）課程在籍者を非常勤として雇用され、理化学研究所の研究者の指導のもとで研究を行うことができます。主な研究場所は理化学研究所和光キャンパス（開拓研究所杉田理論分子科学研究室）または理化学研究所神戸キャンパス（計算科学研究センター粒子系生物物理研究チーム）になります。9月中旬から10月中旬にかけて公募があります。詳細は以下のHPをご参照ください。</p>
+<p class="is-indent">The JRA program employs doctoral (Ph.D.) students on a part-time basis, allowing them to conduct research under the supervision of RIKEN researchers. The primary research locations are the RIKEN Wako Campus (Theoretical Molecular Science Laboratory, Pioneering Research Institute) and the RIKEN Kobe Campus (Computational Biophysics Research Team, RIKEN Center for Computational Science). Applications are typically accepted from mid-September to mid-October. For further details, please refer to the webpage below.</p>
 
 <p class="is-indent">
-  <a href="https://www.riken.jp/careers/programs/jra/" target="_blank" rel="noopener noreferrer">https://www.riken.jp/careers/programs/jra/</a>
+  <a href="https://www.riken.jp/en/careers/programs/jra/" target="_blank" rel="noopener noreferrer">https://www.riken.jp/en/careers/programs/jra/</a>
 </p>
 
-### 理化学研究所国際プログラム・アソシエイト（IPA）
+### RIKEN International Program Associate (IPA)
 
-<p class="is-indent">国際プログラム・アソシエイト(IPA)制度とは、理研が国内あるいは海外の大学院・研究機関との協定に基づいて、外国籍を有する大学院博士課程の留学生を受け入れ、理研の研究者と連携大学院・機関の研究者が共同で学位取得のための研究指導を行う制度です。主な研究場所は理化学研究所和光キャンパス（開拓研究所杉田理論分子科学研究室）または理化学研究所神戸キャンパス（計算科学研究センター粒子系生物物理研究チーム）になります。年2回（4月と9月）に公募があります。詳細は以下のHPをご参照ください。</p>
+<p class="is-indent">The International Program Associate (IPA) is a scheme through which RIKEN accepts international doctoral students based on agreements with universities and research institutions in Japan and overseas. Under this program, doctoral candidates of non-Japanese nationality conduct research at RIKEN while receiving joint supervision from both RIKEN researchers and faculty members at their home institutions toward the completion of their degree. The primary research locations are the RIKEN Wako Campus (Theoretical Molecular Science Laboratory, Pioneering Research Institute) and the RIKEN Kobe Campus (Computational Biophysics Research Team, RIKEN Center for Computational Science). Applications are accepted twice a year, in April and September. For further information, please refer to the webpage below.</p>
 
 <p class="is-indent">
-  <a href="https://www.riken.jp/careers/programs/ipa/index.html" target="_blank" rel="noopener noreferrer">https://www.riken.jp/careers/programs/ipa/index.html</a>
+  <a href="https://www.riken.jp/en/careers/programs/ipa/" target="_blank" rel="noopener noreferrer">https://www.riken.jp/en/careers/programs/ipa/</a>
 </p>
 
-### 理化学研究所スチューデント・リサーチャー（RSR）
+### RIKEN Student Researcher (RSR)
 
-<p class="is-indent">大学院博士前期（修士）課程・博士（後期）課程在籍者をパートタイマーとして受け入れ、理化学研究所の研究者の指導のもとで研究を行います。主な研究場所は理化学研究所和光キャンパス（開拓研究所杉田理論分子科学研究室）または理化学研究所神戸キャンパス（計算科学研究センター粒子系生物物理研究チーム）になります。年数回募集があります。詳細は以下のHPをご参照ください。</p>
+<p class="is-indent">The RSR program accepts Master’s and Doctoral students as part-time research staff, allowing them to conduct research under the supervision of RIKEN researchers. The primary research locations are the RIKEN Wako Campus (Theoretical Molecular Science Laboratory, Pioneering Research Institute) and the RIKEN Kobe Campus (Computational Biophysics Research Team, RIKEN Center for Computational Science). Recruitment takes place several times throughout the year. For further details, please refer to the webpage below.</p>
 
 <p class="is-indent">
-  <a href="https://www.riken.jp/careers/programs/rsr/index.html" target="_blank" rel="noopener noreferrer">https://www.riken.jp/careers/programs/rsr/index.html</a>
+  <a href="https://www.riken.jp/en/careers/programs/rsr/" target="_blank" rel="noopener noreferrer">https://www.riken.jp/en/careers/programs/rsr/</a>
 </p>
 
-### 理化学研究所計算科学研究センター・インターンシッププログラム
+### R-CCS Internship Programs
 
-1. International HPC Computational Science Internship Program: 海外機関在籍の博士課程の大学院生が対象です。期間は3ヶ月以内で、研究場所は理化学研究所神戸キャンパス（計算科学研究センター）になります。
-1. 計算科学インターンシッププログラム：国内の高専生・大学生・大学院生が対象です。7月から翌年3月までの間で2週間から1ヶ月の実習を行います。事前に相談の上で、さらに最大2ヶ月まで延長が可能です。研究場所は理化学研究所神戸キャンパス（計算科学研究センター）になります。
+1. International HPC Computational Science Internship Program: This program is intended for doctoral students enrolled at overseas institutions. The internship period is up to three months, and the research is conducted at the RIKEN Kobe Campus (RIKEN Center for Computational Science).
+1. HPC Computational Science Internship Program: This program is open to students from Japanese institutions, including technical college students, undergraduate students, and graduate students. Internships of two weeks to one month are offered between July and March of the following year, with the possibility of extending the period—up to a maximum of two additional months—upon prior consultation. Research activities take place at the RIKEN Kobe Campus (RIKEN Center for Computational Science).
 
-<p class="is-indent">インターンシッププログラムの詳細は以下のHPをご参照ください。</p>
+<p class="is-indent">For further details regarding the internship programs, please refer to the webpage below.</p>
 
 <p class="is-indent">
-  <a href="https://www.riken.jp/careers/programs/rsr/index.html" target="_blank" rel="noopener noreferrer">https://www.riken.jp/careers/programs/rsr/index.html</a>
+  <a href="https://www.r-ccs.riken.jp/en/about/careers/internship/" target="_blank" rel="noopener noreferrer">https://www.r-ccs.riken.jp/en/about/careers/internship/</a>
 </p>

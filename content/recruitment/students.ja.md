@@ -47,5 +47,5 @@ keywords: []
 <p class="is-indent">インターンシッププログラムの詳細は以下のHPをご参照ください。</p>
 
 <p class="is-indent">
-  <a href="https://www.riken.jp/careers/programs/rsr/index.html" target="_blank" rel="noopener noreferrer">https://www.riken.jp/careers/programs/rsr/index.html</a>
+  <a href="https://www.r-ccs.riken.jp/about/careers/internship/" target="_blank" rel="noopener noreferrer">https://www.r-ccs.riken.jp/about/careers/internship/</a>
 </p>
