@@ -1,5 +1,5 @@
   ---
-title: '【EN】これからの研究課題'
+title: 'Future Research Directions'
 date: 2025-08-26T10:45:19+09:00
 order: 1
 draft: false
@@ -7,15 +7,15 @@ description: ''
 keywords: []
 ---
 
-## 【EN】これからの研究課題
+## Future Research Directions
 
 <div class="research-image-block">
   <div class="text">
     <ul class="list">
-      <li><a href="proj_6-1/">分子動力学と情報科学の融合 （未作成）</a></li>
-      <li><a href="proj_6-2/">量子化学・量子計算 （未作成）</a></li>
-      <li><a href="proj_6-3/">RNA （未作成）</a></li>
-      <li><a href="proj_6-4/">シグナル伝達 （未作成）</a></li>
+      <li><a href="proj_6-1/">Integrating Molecular Dynamics with Information Science</a></li>
+      <li><a href="proj_6-2/">Quantum Chemistry and Quantum Computation</a></li>
+      <li><a href="proj_6-3/">RNA</a></li>
+      <li><a href="proj_6-4/">Signal Transduction</a></li>
     </ul>
   </div>
   <div class="image">

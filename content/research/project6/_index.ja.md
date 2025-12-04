@@ -12,10 +12,10 @@ keywords: []
 <div class="research-image-block">
   <div class="text">
     <ul class="list">
-      <li><a href="proj_6-1/">分子動力学と情報科学の融合 （未作成）</a></li>
-      <li><a href="proj_6-2/">量子化学・量子計算 （未作成）</a></li>
-      <li><a href="proj_6-3/">RNA （未作成）</a></li>
-      <li><a href="proj_6-4/">シグナル伝達 （未作成）</a></li>
+      <li><a href="proj_6-1/">分子動力学と情報科学の融合</a></li>
+      <li><a href="proj_6-2/">量子化学・量子計算</a></li>
+      <li><a href="proj_6-3/">RNA</a></li>
+      <li><a href="proj_6-4/">シグナル伝達</a></li>
     </ul>
   </div>
   <div class="image">

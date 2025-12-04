@@ -1,5 +1,5 @@
 ---
-title: '【EN】分子動力学の高速化'
+title: 'Accelerating Molecular Dynamics Simulations'
 date: 2025-08-26T10:45:15+09:00
 order: 1
 draft: false
@@ -7,14 +7,14 @@ description: ''
 keywords: []
 ---
 
-## 【EN】分子動力学の高速化
+## Accelerating Molecular Dynamics Simulations
 
 <div class="research-image-block">
   <div class="text">
     <ul class="list">
-      <li><a href="proj_2-1/">計算科学による分子動力学の高速化</a></li>
-      <li><a href="proj_2-2/">超並列分子動力学ソフトウェアGENESIS （未作成）</a></li>
-      <li><a href="proj_2-3/">不均一空間分割による粗視化分子動力学の並列化 （未作成）</a></li>
+      <li><a href="proj_2-1/">Accelerating Molecular Dynamics through Computational Science</a></li>
+      <li><a href="proj_2-2/">GENESIS: A Massively Parallel Molecular Dynamics Software</a></li>
+      <li><a href="proj_2-3/">Parallelization of Coarse-Grained Molecular Dynamics via Heterogeneous Domain Decomposition</a></li>
       <li><a href="proj_2-4/">Accelerating Molecular Dynamics Simulations Using GPUs</a></li>
     </ul>
   </div>

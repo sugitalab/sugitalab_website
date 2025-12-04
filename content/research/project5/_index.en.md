@@ -1,5 +1,5 @@
 ---
-title: '【EN】細胞内環境における分子間相互作用と機能'
+title: 'Intermolecular Interactions and Functions in Cellular Environments'
 date: 2025-08-26T10:45:18+09:00
 order: 1
 draft: false
@@ -7,15 +7,15 @@ description: ''
 keywords: []
 ---
 
-## 【EN】細胞内環境における分子間相互作用と機能
+## Intermolecular Interactions and Functions in Cellular Environments
 
 <div class="research-image-block">
   <div class="text">
     <ul class="list">
-      <li><a href="proj_5-1/">分子混雑環境によるタンパク質の水和・安定性・ダイナミクスの変化 （未作成）</a></li>
-      <li><a href="proj_5-2/">バクテリア細胞質 （未作成）</a></li>
-      <li><a href="proj_5-3/">混雑環境におけるタンパク質の基質認識 （未作成）</a></li>
-      <li><a href="proj_5-4/">タンパク質の凝縮を制御する分子機構 （未作成）</a></li>
+      <li><a href="proj_5-1/">Hydration, Stability, and Dynamics of Proteins in Molecularly Crowded Environments</a></li>
+      <li><a href="proj_5-2/">Bacterial Cytoplasm</a></li>
+      <li><a href="proj_5-3/">Substrate Recognition of Proteins in Crowded Environments</a></li>
+      <li><a href="proj_5-4/">Molecular Mechanisms Regulating Protein Condensation</a></li>
     </ul>
   </div>
   <div class="image">

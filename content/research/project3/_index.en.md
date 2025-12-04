@@ -1,5 +1,5 @@
 ---
-title: '【EN】情報科学と生命科学の融合'
+title: 'Integrating Informatics and Life Science'
 date: 2025-08-26T10:45:16+09:00
 order: 1
 draft: false
@@ -7,15 +7,15 @@ description: ''
 keywords: []
 ---
 
-## 【EN】情報科学と生命科学の融合
+## Integrating Informatics and Life Science
 
 <div class="research-image-block">
   <div class="text">
     <ul class="list">
-      <li><a href="proj_3-1/">一分子計測のデータ同化 （未作成）</a></li>
-      <li><a href="proj_3-2/">UMAPによる構造空間の次元削減 （未作成）</a></li>
-      <li><a href="proj_3-3/">ML/MMの開発 （未作成）</a></li>
-      <li><a href="proj_3-4/">Development of a backmapping method using diffusion models</a></li>
+      <li><a href="proj_3-1/">Data Assimilation of Single-Molecule Measurements</a></li>
+      <li><a href="proj_3-2/">Dimensionality Reduction of Structural Space Using UMAP</a></li>
+      <li><a href="proj_3-3/">Development of ML/MM Hybrid Methods</a></li>
+      <li><a href="proj_3-4/">Development of a Backmapping Method using Diffusion Models</a></li>
     </ul>
   </div>
   <div class="image">
