@@ -22,7 +22,7 @@ grained (CG) models. The core idea is to lower the model's resolution: instead o
 we group them into larger, simplified particles. By sacrificing some of the fine-grained detail, we gain a
 massive boost in computational speed, allowing us to simulate larger systems for much longer times.
 Developing a good CG model is all about finding the "sweet spot" between accuracy and efficiency. Here,
-we develop and integrate advanced CG models into the GENESIS software package, providing powerful
+we develop and integrate advanced CG models into the [GENESIS](https://mdgenesis.org/) software package, providing powerful
 tools to study these fascinating, large-scale biological phenomena.
 
 ### Methods and Results
@@ -44,7 +44,7 @@ We also provide a user-friendly tool, GENESIS-cg-tool, to facilitate the prepara
 for production MD runs. A primary focus of our development is the computational efficiency of these CG
 models. Notably, we have developed a new MD engine, CGDYN, which is specifically designed toovercome the load imbalance problem arising from non-uniform particle distributions in heterogeneous
 systems. These developments have enabled simulations on a massive scale on supercomputers such as
-Fugaku, allowing us to investigate the dynamics of systems containing an order of 10⁴ proteins or thousands
+Fugaku, allowing us to investigate the dynamics of systems containing an order of 10<sup>4</sup> proteins or thousands
 of nucleosome-sized chromatin fragments.
 Using our developed CG models and tools, our research focuses on the formation and regulation of
 biomolecular condensates, systems that span spatial scales from hundreds of nanometers to micrometers
@@ -78,4 +78,4 @@ predictive power.
   <li>Diego Ugarte, Shoji Takada, Yuji Sugita. Extension of the iSoLF implicit-solvent coarse-grained model for multicomponent lipid bilayers. J. Chem. Phys. 159, 075101, (2023).<br><a href="https://doi.org/10.1063/5.0160417" target="_blank" rel="noopener noreferrer">https://doi.org/10.1063/5.0160417</a></li>
 </ul>
 
-{{< figure src="/images/research/proj_1-4.jpg" alt="" caption="Figure 1. Available residue-level CG models in GENESIS.">}}
+{{< figure src="/images/research/proj_1-4.jpg" alt="" caption="Figure 1. Available residue-level CG models in [GENESIS](https://mdgenesis.org/).">}}
