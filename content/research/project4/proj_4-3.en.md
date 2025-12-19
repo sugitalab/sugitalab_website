@@ -1,5 +1,5 @@
 ---
-title: '膜タンパク質の構造ダイナミクスと機能'
+title: 'Membrane Protein Dynamics and Function'
 date: 2025-10-07T12:04:37+09:00
 order: 3
 draft: false
@@ -7,22 +7,22 @@ description: ''
 keywords: []
 ---
 
-## 膜タンパク質の構造ダイナミクスと機能
+## Structure, Dynamics, and Function of Membrane Proteins
 
-生体膜に存在する膜タンパク質は、物質輸送や情報伝達など多彩な生命活動を担う分子機械です。これらの機能は、静的な立体構造だけでは説明できず、ダイナミックな構造変化と密接に結びついています。
+Membrane proteins embedded in biological membranes serve as molecular machines that are crucial for various biological processes, such as material transport and signal transduction. These roles cannot be explained by static structures alone but are intimately connected to dynamic conformational changes.
+In our laboratory, we employ computational methods—including molecular dynamics (MD) simulations—to study how membrane proteins change structure to carry out their functions. Below, we present representative membrane proteins we have examined so far. (For calcium pumps, see the dedicated page.)
 
-私たちの研究室では、分子動力学（MD）シミュレーションをはじめとする計算科学の手法を使い、膜タンパク質がどのように構造変化を通じて機能を発現するのかを明らかにすることを目指しています。以下に、これまでに扱ってきた代表的な膜タンパク質の例を紹介します カルシウムポンプについてはこちらをご参照ください）。
+### Sec translocon <sup>1</sup>
 
-### Sec トランスロコン <sup>1</sup>
-分泌タンパク質の膜通過と膜タンパク質の挿入を仲介する普遍的なチャネルです 。 全原子MDにより、Thermus hermophilus SecYE の準開状態と Methanococcus jannaschii ecYEβ の閉状態を解析しました。その結果、SecA との相互作用が準開状態を安定化させ、さらにラテラルゲートに介在する脂質がシグナルペプチドの初期侵入を促すことが示されました。これらの成果は、タンパク質輸送の開始機構の理解に貢献します。
+The Sec translocon is a universal channel that facilitates both the membrane translocation of secretory proteins and the insertion of membrane proteins. Using all-atom molecular dynamics simulations, we examined the pre-open state of *Thermus thermophilus* SecYE and the closed state of *Methanococcus jannaschii* SecYEβ. Our findings show that interactions with SecA stabilize the pre-open state, and that lipids at the lateral gate aid the initial insertion of signal peptides. These results enhance our understanding of the molecular mechanisms involved in starting protein translocation.
 
-### multidrug and toxic compound extrusion(MATE)輸送体 <sup>2</sup>
+### Multidrug and toxic compound extrusion(MATE) transporter <sup>2</sup>
 
-病原菌やがん細胞は薬剤を細胞外へ排出することで多剤耐性を獲得します。MATE 輸送体はその代表的なファミリーの一つであり、Pyrococcus furiosus 由来 MATE の構造と働きを MD シミュレーションと量子化学計算(QM/MM)で解析しました。プロトンの受け渡しが局所的な水素結合ネットワークや水和状態を変化させ、「Straight 型」から 「Bent 型」への構造切り替えを駆動する可能性が見えてきました。この知見は、多剤耐性メカニズムの理解や創薬への応用に役立ちます。
+Pathogenic bacteria and cancer cells develop multidrug resistance by pumping drugs out of the cell. MATE transporters are key members of the family responsible for this process. We examined the structure and function of a MATE transporter from *Pyrococcus furiosus* using molecular dynamics (MD) simulations and quantum chemical (QM/MM) calculations. Our findings indicate that proton transfer modifies local hydrogen-bond networks and hydration states, leading to a conformational change from a “straight” to a “bent” form. These discoveries enhance our understanding of multidrug resistance mechanisms and could support future drug development.
 
-### ヘム輸送体 ABC（トランスポーター）<sup>3</sup>
+### ABC-type heme transporter <sup>3</sup>
 
-病原性細菌は宿主から鉄を奪うために 「ヘム輸送体」と呼ばれる分子機械を利用します。Burkholderia cenocepacia のヘム輸送体 BhuUV-T を対象とした 全原子 MD を用いた反応経路計算により、ATP の結合と分解に伴って膜の両側のゲートが開閉する様子や、中間体構造の存在を明らかにしました。さらに、ATP 分解に必要な 「シグネチャーモチーフ」と呼ばれる部位の微小な動きが輸送体全体の動作と連動していることが分かりました。これらの成果は、エネルギー変換と物質輸送の分子メカニズム解明に貢献し、新たな抗菌戦略にもつながると期待されます。
+Pathogenic bacteria use molecular machines called heme transporters to extract iron from their hosts. Through all-atom molecular dynamics simulations combined with reaction-pathway analysis, we examined the heme transporter BhuUV-T from Burkholderia cenocepacia. Our findings reveal how ATP binding and hydrolysis cause the gates on both sides of the membrane to open and close, as well as identify intermediate conformational states. We also demonstrated that subtle movements of the so-called “signature motif,” which is critical for ATP hydrolysis, are closely linked to the overall dynamics of the transporter. These results deepen our understanding of the molecular mechanisms behind energy transduction and substrate transport and could help in developing new antibacterial treatments.
 
 ## References:
 

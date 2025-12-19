@@ -1,5 +1,5 @@
 ---
-title: 'タンパク質の凝縮を制御する分子機構'
+title: 'Molecular Mechanisms Regulating Protein Condensation'
 date: 2025-10-07T12:04:37+09:00
 order: 1
 draft: false
@@ -7,32 +7,30 @@ description: ''
 keywords: []
 ---
 
-## タンパク質と核酸の機能・構造・ダイナミクス
+## Functions, Structures, and Dynamics of Proteins and Nucleic Acids
 
-「液液相分離」は、希薄相と濃厚相の二つに液体状態を分離する一般的な物理現象です。近年、細胞内でのタンパク質やRNAなどの生体分子による液液相分離が、さまざまな生命現象において重要な役割を果たすことが明らかになってきました。また、アルツハイマー病やパーキンソン病、筋萎縮性側索硬化症（ALS）などの神経変性疾患の発症要因の一つは特定のタンパク質の凝縮だと考えられていますが、このようなタンパク質の凝縮は液液相分離の濃厚相で生じやすいことが明らかになっています。
+“Liquid–liquid phase separation” (LLPS) is a common physical phenomenon where a liquid divides into two phases: a dilute phase and a dense phase. Recently, it has become clear that LLPS driven by biomolecules such as proteins and RNA inside cells plays crucial roles in many biological processes. It has also been suggested that one factor contributing to neurodegenerative diseases like Alzheimer’s disease, Parkinson’s disease, and amyotrophic lateral sclerosis (ALS) is the condensation of specific proteins. This protein condensation is known to occur mainly in the dense phase formed by LLPS.
 
-多くの細胞は、タンパク質の凝集や液液相分離を抑制・制御するための機能を持っています。中でも2020年にタンパク質の相分離や凝集を抑制する効果があるタンパク質として、「Heroタンパク質」というタンパク質群が発見されました。しかし、Heroタンパク質が凝縮を制御するメカニズムの詳細は明らかになっていませんでした。そこで我々は、分子動力学ソフトウェアGENESISを用いて、Heroタンパク質の一つであるHero11が神経性疾患ALSに関連するTDP-43というタンパク質の凝縮を抑制するメカニズムの解明を試みました。
+Many cells have mechanisms to suppress or regulate protein aggregation and liquid–liquid phase separation. In 2020, a group of proteins called “Hero proteins” was identified as proteins that inhibit protein phase separation and aggregation. However, the detailed molecular mechanisms by which Hero proteins control condensation remained unclear. In this study, we used the molecular dynamics software GENESIS to examine how Hero11, one of the Hero proteins, suppresses the condensation of TDP-43, a protein linked to the neurodegenerative disease ALS.
 
-分子動力学シミュレーションを行うには、タンパク質の立体構造を初期構造として入力する必要がありますが、Hero11のフレキシブルな立体構造は実験的に明らかになっていませんでした。そこで、AlphaFoldを用いて予測した立体構造を初期モデルとして、全原子モデルを用いた分子動力学シミュレーションを行いました。その結果、Hero11は固有の安定な立体構造を持たないものの、完全なランダムコイル状態でもないことが分かりました。そこで、AlphaFold2の予測から得られたαヘリックス構造を含む構造モデルとαヘリックス構造を持たない構造モデルを基に、2つの異なる粗視化分子モデルを構築しました。この粗視化分子モデルでは、一つのアミノ酸残基を1粒子で近似することで、全原子モデルと比較して粒子数を減らし、遥かに短い計算時間でHero11のダイナミクスや機能を解析できます。TDP-43の立体構造については先行研究が存在するため、一部分をαヘリックス構造と仮定して粗視化分子モデルを作成しました。Hero11とTDP-43をそれぞれ100分子含む粗視化分子モデルについて異なる温度で多数回のシミュレーションを行い、Hero11とTDP-43それぞれの単独系および混合系での凝縮のメカニズムを詳しく解析しました。
+To perform molecular dynamics simulations, the three-dimensional structure of a protein must be provided as an initial model. However, the flexible structure of Hero11 has not been experimentally determined. Therefore, we used structures predicted by AlphaFold as initial models and conducted all-atom molecular dynamics simulations. The results indicated that although Hero11 does not have a single stable tertiary structure, it is also not a completely random coil. Based on these findings, we built two different coarse-grained molecular models: one based on structures containing α-helical elements predicted by AlphaFold2, and another based on structures lacking α-helical elements. In these coarse-grained models, each amino acid residue is approximated by a single particle, significantly reducing the number of particles compared to all-atom models and allowing much faster analysis of the dynamics and functions of Hero11. For TDP-43, previous studies have provided structural data, and a coarse-grained model was created assuming partial α-helical structures. Using these coarse-grained models with 100 molecules each of Hero11 and TDP-43, we ran multiple simulations at different temperatures and analyzed the details of the condensation mechanisms in systems containing TDP-43 alone, Hero11 alone, and their mixtures.
 
-TDP-43だけを100分子含む系をシミュレーションしたところ、室温に近い温度（295K、約22℃）で凝縮しました（図1上）。この結果は、実験によって明らかになっていた結果とよく一致しました。一方、Hero11だけを100分子含む系は同じ温度では凝縮しませんでした。興味深いことに、Hero11に含まれるプラス電荷を持つアミノ酸（リジン、アルギニン）を全て、電荷を持たず最も単純な構造のグリシンに置換した変異体（KR-less変異体）は、295Kで凝縮しました。これらの結果は、Hero11に含まれる電荷を持つアミノ酸の役割を強く示唆しています。次に、TDP-43とHero11をそれぞれ100分子ずつ含む混合系のシミュレーションを行いました。その結果、Hero11を加えることでTDP-43の凝縮が抑制されることと（図1中）、KR-less変異体にはTDP-43の凝縮を抑制する効果が少ないこと（図1下）が分かりました。
+Simulations of a system with 100 molecules of TDP-43 alone showed condensation near room temperature (295 K, about 22 °C) (Fig. 1, top). This aligns well with experimental findings. In contrast, a system with 100 molecules of Hero11 alone did not undergo condensation at the same temperature. Interestingly, a mutant of Hero11 where all positively charged amino acids (lysine and arginine) were replaced by glycine—the simplest uncharged amino acid (the KR-less mutant)—did undergo condensation at 295 K. These findings strongly indicate an important role of charged amino acids in Hero11. We then simulated mixed systems with 100 molecules each of TDP-43 and Hero11. The results showed that adding Hero11 suppresses TDP-43 condensation (Fig. 1, middle), while the KR-less mutant shows a much weaker suppression effect (Fig. 1, bottom).
 
-TDP-43の凝縮の抑制・制御に関するHero11の機能をより詳しく理解するために、シミュレーション上の液液相分離で生じた濃厚相と希薄相に含まれるTDP-43とHero11を調べました。その結果、TDP-43単独系と比べると、TDP-43とHero11の混合系では濃厚相における粒子濃度が低下し、その結果としてTDP-43の拡散運動が加速していました。これらは、Hero11に含まれるプラス電荷を帯びたアミノ酸によるHero11同士の静電的相互作用による斥力の影響によって生じたと考えられます。一方、希薄相においては、Hero11とTDP-43の間に引力が働いており、希薄相にTDP-43が安定に存在できるようになりました（図2）。
-さらに、Hero11に含まれる二次構造（αヘリックス構造の有無）が凝縮の抑制にどのように関係しているのか調べました。αヘリックスを持たないと仮定した場合に、Hero11はTDP-43の凝縮体の表面により多く存在していました（図3）。TDP-43による小さな凝縮体の表面にHero11が存在することで、凝縮体同士に静電的な斥力が生じて、さらに大きな凝縮体へと成長することを防いでいる可能性が示唆されます。実験から得られたHero11の凝縮抑制効果を示すデータと照らし合わせると、Hero11はαヘリックス構造を持たない可能性が考えられますが、さらなる実験と計算による解析が必要です。
+To better understand how Hero11 suppresses and regulates TDP-43 condensation, we examined the distributions of TDP-43 and Hero11 in the dense and dilute phases formed by LLPS in the simulations. Compared to the TDP-43-only system, the mixed system of TDP-43 and Hero11 showed a lower particle density in the dense phase, leading to faster diffusion of TDP-43. These effects are likely caused by electrostatic repulsion from interactions among the positively charged amino acids in Hero11. In contrast, attractive interactions between Hero11 and TDP-43 were observed in the dilute phase, helping to stabilize TDP-43 in that phase (Fig. 2).
 
-本研究では、Heroタンパク質による他のタンパク質の凝縮抑制には、Heroタンパク質同士の静電的な斥力が巧みに使われていることを示しました。Heroタンパク質だけでなく、他のタンパク質やRNAもタンパク質の凝縮を抑制・制御していることが知られています。これらの多くもプラスまたはマイナスの電荷に偏っているため、この研究で示された静電的な斥力効果は一般的な分子機構である可能性が高いです。
+We further examined how the presence or absence of secondary structures (α-helices) in Hero11 influences its ability to inhibit condensation. When Hero11 was presumed to lack α-helical structures, it was observed to localize more frequently on the surface of TDP-43 condensates (Fig. 3). The presence of Hero11 on the surface of small TDP-43 condensates may create electrostatic repulsion between condensates, preventing their further growth into larger assemblies. Comparing these findings with experimental data showing Hero11's suppression of condensation suggests that Hero11 may lack α-helical structures, although additional experimental and computational analyses are needed to confirm this.
 
-{{< figure src="/images/research/proj_5-4-1.jpg" alt="" caption="図1: TDP-43とHero11の粗視化分子モデルによるシミュレーションの結果" >}}
+In this study, we demonstrated that electrostatic repulsion between Hero proteins is a key mechanism for preventing protein condensation. Besides Hero proteins, other proteins and RNA molecules are also known to inhibit or regulate protein condensation. Many of these molecules tend to carry positive or negative charges, suggesting that the electrostatic repulsion mechanism identified here may be a common molecular principle.
 
-<p>295K（約 22℃）における TDP-43 の凝縮（上）、TDP-43 と Hero11 の混合系における凝縮の抑制（中）、TDP-43 と電荷を持つアミノ酸を全てグリシンに置換した KR-less 変異体の混合系における凝縮形成（下）。TDP-43 を緑と青で、Hero11 を赤で示した。</p>
+{{< figure src="/images/research/proj_5-4-1.jpg" alt="" caption="Figure 1: Results of coarse-grained molecular simulations of TDP-43 and Hero11" >}}
+<p>Condensation of TDP-43 at 295 K (approximately 22 °C) (top), suppression of condensation in a mixed system of TDP-43 and Hero11 (middle), and condensation formation in a mixed system of TDP-43 and the KR-less mutant where all charged amino acids were replaced by glycine (bottom). TDP-43 is shown in green and blue, and Hero11 is shown in red.</p>
 
-{{< figure src="/images/research/proj_5-4-2.jpg" alt="" caption="図2: Hero11とTDP-43の間の分子間相互作用と液-液相分離の模式図" >}}
+{{< figure src="/images/research/proj_5-4-2.jpg" alt="" caption="Figure 2: Schematic illustration of intermolecular interactions between Hero11 and TDP-43 and liquid–liquid phase separation" >}}
+<p>Electrostatic repulsion between Hero11 molecules decreases particle density in the dense phase, while attractive interactions between Hero11 and TDP-43 stabilize their connections in the dilute phase.</p>
 
-<p>Hero11 間の静電的な斥力が濃厚相における粒子密度を低下させている一方で、Hero11 と TDP-43 の間に働く引力が希薄相における TDP-43 と Hero11 の相互作用を安定化させる。</p>
-
-{{< figure src="/images/research/proj_5-4-3.jpg" alt="" caption="図3: α-ヘリックスの有無によるTDP-43による凝縮体（液滴）におけるHero11の配置の違い" >}}
-
-<p>左がα-ヘリックスを持つ Hero11 の場合、右がα-ヘリックスを持たない Hero11 の場合の 260K（約 13℃）における Hero11 と TDP-43 の配置の模式図。赤の実線と破線は凝縮体上の Hero11の数を示す。赤線の形状が示すように、Hero11 がα-ヘリックスを持たない場合に、Hero11 がTDP-43 による凝縮体の表面でより多く観測される。</p>
+{{< figure src="/images/research/proj_5-4-3.jpg" alt="" caption="Figure 3: Differences in the distribution of Hero11 in TDP-43 condensates depending on the presence or absence of α-helical structure" >}}
+<p>Schematic illustrations show the distributions of Hero11 and TDP-43 at 260 K (around 13 °C). The left image depicts Hero11 with an α-helical structure, while the right shows it without. Solid and dashed red lines represent the number of Hero11 molecules on the surface of condensates. The shape of the red lines indicates that Hero11 without an α-helical structure is more frequently observed on the surface of TDP-43 condensates.</p>
 
 ### References:
 

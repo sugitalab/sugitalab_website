@@ -1,5 +1,5 @@
 ---
-title: '酵素・阻害剤結合の初期会合体を予測'
+title: 'Prediction of Initial Enzyme–Inhibitor Encounter Complexes'
 date: 2025-10-07T12:04:37+09:00
 order: 8
 draft: false
@@ -7,35 +7,34 @@ description: ''
 keywords: []
 ---
 
-## 酵素・阻害剤結合の初期会合体を予測
+## Prediction of Initial Enzyme–Inhibitor Encounter Complexes
 
-細胞機能の多くは、酵素（タンパク質）が基質分子と結合（分子認識）することで制御されています。例えば、細胞の外部から内部への信号伝達は、伝達経路に含まれるタンパク質がイオンや分子と結合し活性化することで行われます。タンパク質が基質分子を認識する機構を知ることができれば、細胞機能の理解が進み、効率の良い薬剤分子の設計が可能になります。
+Many cellular functions are controlled through molecular recognition, where enzymes (proteins) bind to substrate molecules. For instance, signal transduction from outside the cell to inside is accomplished when proteins in signaling pathways bind ions or small molecules and become active. A thorough understanding of how proteins recognize substrate molecules is therefore crucial for explaining cellular functions and for the rational design of effective drugs.
 
-構造解析技術の進歩に伴い、基質分子と結合したタンパク質の高解像度 X 線結晶構造や核磁気共鳴（NMR）構造、クライオ電子顕微鏡構造が豊富に得られるようになり、基質分子の認識と微細な結合様式との関係が明らかになってきました。しかし、これら従来の構造解析技術では、結合過程を直接観測するのは難しく、基質分子がどのような経路・状態を経てタンパク質に結合するのかは依然よく分かっていません。最近の薬剤分子設計は、標的タンパク質との結合親和性だけではなく、結合経路に関わるキネティクス（結合部位の滞在時間など）に基づいて行われていることから、結合過程の原子レベルでの理解が急務となっています。
+With advances in structural biology, high-resolution X-ray crystal structures, nuclear magnetic resonance (NMR) structures, and cryo-electron microscopy (cryo-EM) structures of proteins bound to substrate molecules have become more accessible. These structures have uncovered close links between substrate recognition and detailed binding modes. However, conventional structural methods only offer static snapshots and generally cannot directly observe the binding process itself. Consequently, how substrate molecules approach proteins, which pathways they follow, and what intermediate states they adopt during binding remain poorly understood. In modern drug design, not only binding affinity but also kinetic factors—such as residence time at the binding site—are increasingly important, making an atomic-level understanding of binding processes a urgent challenge.
 
-MD 計算は、生体分子の動きを原子レベルで調べる有効な手段として、タンパク質、核酸や脂質といった生体分子の機能解析に広く用いられています。しかし、タンパク質と基質分子の結合は、ミリ秒かそれより長い時間スケールで起こるのに対して、現在 MD で計算可能な追跡時間スケールはマイクロ秒程度であるため、通常の MD 計算で結合過程を調べるのは困難です。
+Molecular dynamics (MD) simulations are a powerful tool for exploring biomolecular motions at atomic detail and have been widely used to study proteins, nucleic acids, and lipids. However, protein–substrate binding typically occurs on timescales of milliseconds or longer, while conventional MD simulations are usually limited to microseconds. This significant gap makes it difficult to directly examine binding processes using standard MD methods.
 
-MD 専用スーパーコンピュータを用いると、数十マイクロ秒にわたる時間変化をシミュレーションでき、早い速度で起こる基質分子の結合であれば数回サンプリングすることが可能になっています。一方で、膨大な数の短い追跡時間の計算を行い、そのデータから長時間の分子運動を推定する手法や、基質分子の結合や脱離を促すバイアスポテンシャルを課す手法などが開発されています。
+By using MD-dedicated supercomputers, simulations spanning tens of microseconds can be conducted, enabling several binding events to be sampled for relatively fast-binding substrates. Meanwhile, alternative strategies have been developed, including methods that estimate long-timescale dynamics from numerous short trajectories, as well as approaches that apply biasing potentials to speed up binding and unbinding events.
 
-私たちは、タンパク質リン酸化酵素の一つである Src キナーゼと ATP 競合性阻害剤の結合に注目し、スーパーコンピュータ「京」と高効率の構造探索アルゴリズムであるレプリカ交換 MD法を用いて、阻害剤分子の結合・脱離を、より直接的に多数回サンプリングすることを考えました。レプリカ交換 MD 法の一種である REST 法では、異なる「溶質分子」の温度を持つ複数のレプリカを用意して、計算の途中でその温度を交換することにより、高温で広い構造空間を探索しつつ低温での安定構造を効率的に探索します。GENESIS に導入されている gREST 法では、REST法の「溶質分子」の定義を拡張して、「阻害剤分子とタンパク質結合部位の残基」の温度を変化させることができます。
+In this work, we examined how ATP-competitive inhibitors bind to Src kinase, a protein tyrosine kinase. Using the “K” supercomputer along with replica-exchange molecular dynamics (REMD), an effective conformational sampling technique, we aimed to directly observe inhibitor binding and unbinding events multiple times. In one form of REMD, called REST (Replica Exchange with Solute Tempering), multiple replicas with different effective temperatures assigned to selected solute molecules are simulated. This approach allows broad exploration of conformational space at high temperatures and efficient sampling of stable structures at low temperatures. In the gREST method used in GENESIS, the solute definition includes both the inhibitor molecule and residues in the protein binding site, enabling selective temperature scaling of these regions.
 
-私たちは、この gREST 法とタンパク質－阻害剤分子の距離をパラメータとする REUS 法を組み合わせた「二次元レプリカ交換 MD 法（gREST/REUS 法）」を確立しました。そして、タンパク質リン酸化酵素の一つである Src キナーゼと ATP 競合性阻害剤の結合に注目した解析を行いました。今回開発した方法により、基質結合部位の構造ゆらぎが効果的に取り込まれた結果、結合と脱離に伴う活性化エネルギーを乗り越え、合計 43 マイクロ秒の追跡時間の計算で 100 回程度の結合・脱離イベントをサンプリングすることに成功しました。結合と脱離を同時に多数回サンプリングしたのは、本研究が初めてです。これにより、結晶構造を水の位置も含めて高い精度で再現したほか、結晶構造では見えない準安定結合状態、およびそれらに至る複数経路と中間状態を、統計に基づいた高い信頼性で予測しました（図 1）。
+We further combined gREST with Replica Exchange Umbrella Sampling (REUS), using the protein–inhibitor distance as a reaction coordinate, to establish a two-dimensional replica-exchange MD approach (gREST/REUS). Applying this method to the Src kinase–inhibitor system, we achieved efficient sampling of both binding and unbinding processes. By effectively incorporating structural fluctuations of the binding site, the system was able to overcome activation barriers associated with binding and dissociation. As a result, we successfully sampled approximately 100 binding and unbinding events within a total simulation time of 43 microseconds. To our knowledge, this is the first study to simultaneously sample binding and unbinding processes multiple times in a statistically robust manner. The simulations accurately reproduced the crystal binding structure, including the positions of water molecules, and revealed metastable binding states and multiple binding pathways that are not observable in crystal structures (Fig. 1).
 
-計算データを解析した結果、阻害剤分子は結晶構造に見られる結合ポーズ（A ポーズ）以外に、配向の異なる三つのポーズ（B ポーズ、C ポーズ、D ポーズ）で結合できることを見いだしました。計算で得られた自由エネルギー地形から、各結合ポーズは高いエネルギー障壁で隔たれるのに対して、各々の会合体はエネルギー的に行き来が可能であることが分かりました（図 2 上段）。このことから、各ポーズに至る経路は独立しており、それらは結合初期の会合状態でのみ交わるといえます。これは、結合初期に形成される会合体の形と相互作用によって異なる経路が選択されることを意味しています（図 2 下段）。会合体の構造を調べた結果、キナーゼの機能調節部位として知られるグリシンリッチループが、初期の阻害剤分子の捕捉とその後の経路選択を担っていることが分かりました。
+Analysis of the simulation data showed that, besides the crystal binding pose (pose A), the inhibitor can bind in three other orientations (poses B, C, and D). Free-energy landscapes from the simulations indicate that these binding poses are separated by high energy barriers, but the relevant encounter complexes are energetically connected and can interconvert (Fig. 2, top). This suggests that the pathways to each binding pose are mostly independent and only meet at early encounter stages. In other words, different binding pathways are chosen based on the structure and interactions of the encounter complex formed at the start of binding (Fig. 2, bottom). Structural analysis of these encounter complexes also revealed that the glycine-rich loop—an important regulatory element of kinase function—plays a key role in capturing the inhibitor and influencing the pathway selection.
 
-これらの結果は、実験では見えない準安定結合ポーズや会合体の相互作用を調整することで、阻害剤分子の結合を制御できることを示しています。さらに本成果は、結合構造に基づいた従来の薬剤分子設計に対して、結合経路に基づいた新たな設計の可能性を示しています。今後、ブラウン動力学法などと組み合わせれば、結合経路の詳細とともにキネティクスのパラメータである結合速度定数と解離速度定数の高精度予測も可能になります。また、ATP 競合性阻害剤の選択性向上は副作用の軽減に必須であり、本成果が理論・実験相補的な精密設計の新たな糸口にもなると期待できます。本研究で確立した gREST/REUS 法は GENESIS に導入・公開されており、アカデミアのみならず産業界でも利用可能です。
+These findings show that inhibitor binding can be influenced by targeting metastable binding poses and interactions within encounter complexes that are not visible to experimental structural methods. Additionally, our results emphasize the potential of pathway-based drug design as a complement to traditional methods that rely only on bound-state structures. By further combining this approach with techniques like Brownian dynamics, it should be possible to accurately predict kinetic parameters, including association and dissociation rate constants. Enhancing the selectivity of ATP-competitive inhibitors is vital for reducing side effects, and we believe our approach will open new opportunities for precise, theory-guided drug development in close collaboration with experiments. The gREST/REUS method created in this study has been implemented in GENESIS and is available for both academic and industry use.
 
-{{< figure src="/images/research/proj_4-8-1.jpg" alt="" caption="図1: 二次元レプリカ交換MD法およびSrcキナーゼと阻害剤の結合構造 " >}}
+{{< figure src="/images/research/proj_4-8-1.jpg" alt="" caption="Figure 1: 2D Replica-Exchange MD and Src Kinase–Inhibitor Binding" >}}
 
-<p>a： 二次元レプリカ交換MD法（gREST/REUS法）のスキーム。「溶質」部分の温度（gREST）と阻害剤－Srcキナーゼ距離（REUS）のパラメータを交互に交換する。</p>
+<p>a) Diagram of the two-dimensional replica-exchange MD (gREST/REUS) method, where replicas alternately swap the solute temperature (gREST) and the inhibitor–Src kinase distance (REUS).</p>
 <p>
-b： 上段は左から、結晶構造（黄色の棒表示）、今回予測された結合構造（最安定結合ポーズ）、およびその水和構造を示す。最安定結合ポーズでは、予測した水分布（水色）が結晶構造の水の位置（赤い球）と良く一致した。下段は、左からポーズAの前駆体と準安定状態の結合ポーズ（B、C、D）を示す。</p>
+b) Top row: crystal structure (yellow sticks), predicted most stable binding pose, and its hydration structure. The predicted water distribution (light blue) closely matches crystallographic water positions (red spheres). Bottom row: precursor of pose A and metastable binding poses (B–D).</p>
 
-{{< figure src="/images/research/proj_4-8-2.jpg" alt="" caption="図2: Srcキナーゼと阻害剤分子の複数の結合経路" >}}
+{{< figure src="/images/research/proj_4-8-2.jpg" alt="" caption="Figure 2: Multiple Binding Pathways of Src Kinase and an Inhibitor" >}}
 
-<p>a： 右側は、左側に示す阻害剤－Srcキナーゼ距離と阻害剤分子の配向を表す二つの二面角（βとγ）について求めた結合の自由エネルギー地形。クラスタリング解析で求めた代表構造（下段）の位置を地形に記号として示す。ポーズA～Dの各結合状態（○、▽、□、△）は、高いエネルギー障壁（赤で示される不安定な領域）で隔たれており、互いに行き来しにくい。これに対して、各々の会合体（●、▼、■、▲）の間には目立ったエネルギー障壁が見られず、エネルギー的に行き来しやすいことが分かる。</p>
-<p>
-b： 異なるポーズに至る経路と代表構造。右上部は、会合体におけるグリシンリッチループと阻害剤分子との相互作用。</p>
+<p>a) Right: Binding free-energy landscapes as functions of the inhibitor–Src kinase distance and two dihedral angles (β, γ) describing inhibitor orientation. Symbols indicate representative structures from clustering analysis (bottom). Binding poses A–D are separated by high energy barriers (red regions), while the corresponding encounter complexes are energetically connected and easily interconvertible. </p>
+<p>b) Binding pathways to each pose and representative structure. Upper right: interactions between the glycine-rich loop and the inhibitor in the encounter complex. </p>
 
 ### References:
 
