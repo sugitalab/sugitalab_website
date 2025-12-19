@@ -1,5 +1,5 @@
 ---
-title: 'クライオ電験構造の精密化'
+title: 'Refinement of Cryo-EM Structures'
 date: 2025-10-07T12:04:37+09:00
 order: 7
 draft: false
@@ -7,32 +7,35 @@ description: ''
 keywords: []
 ---
 
-## クライオ電験構造の精密化
+## Refinement of Cryo-EM Structures
 
-近年、クライオ電子顕微鏡を用いた単粒子解析法によるタンパク質の立体構造解析が盛んに行われています。これは、対象とするタンパク質を含む溶液を極低温（-180℃以下）にまで冷却し、透過型電子顕微鏡を用いて撮影されたタンパク質の投影像から立体像を再構築する方法です。タンパク質の結晶化を必要としないため、これまで X 線結晶構造解析で解くことが難しかったリボソームなどの巨大生体分子やタンパク質複合体の立体像を、原子分解能に近い分解能で決定できます。
+In recent years, three-dimensional structure determination of proteins by single-particle analysis using cryo-electron microscopy (cryo-EM) has become increasingly widespread. In this approach, a solution containing the target protein is rapidly frozen to cryogenic temperatures (below −180℃), and projection images of the protein are recorded using a transmission electron microscope. A three-dimensional structure is then reconstructed from these projection images.
+Because this method does not require protein crystallization, it enables the determination of structures of large biomolecules and protein complexes—such as ribosomes—that have been difficult to solve by X-ray crystallography, achieving resolutions close to atomic resolution.
 
-単粒子解析法により得られたタンパク質複合体の立体像から、分子構造をモデリングするためには、X 線結晶構造解析や核磁気共鳴分光法（NMR 法）などで決定されたタンパク質の分子構造を、電子顕微鏡像にドッキングまたはフィッティングする方法が有効です。このとき、分子動力学シミュレーションによる方法がよく用いられます。これは、分子内の原子間相互作用を理論計算し、電子顕微鏡像に一致するようにバイアスをかけながら分子構造を変形させ、最適な構造を探索する方法です（フレキシブル・フィッティング法）（図 1）。タンパク質の構造変化を考慮するため、タンパク質を剛体として扱うドッキング法に比べて、より自然な分子構造が得られます。しかし、フレキシブル・フィッティング法を巨大生体分子複合体へ適用しようとすると、原子間相互作用の計算や電子顕微鏡像との一致度の見積もりに膨大な時間がかかることが問題となるため、高速な計算アルゴリズムの開発が求められていました。
+To model the molecular structures of protein complexes from three-dimensional density maps obtained by single-particle analysis, it is effective to dock or fit protein structures determined by X-ray crystallography or nuclear magnetic resonance (NMR) spectroscopy into the cryo-EM density maps.
+In this context, molecular dynamics (MD)–based approaches are widely used. These methods theoretically evaluate interatomic interactions and deform the molecular structure while applying biasing forces to achieve agreement with the cryo-EM density, thereby searching for an optimal structure—a procedure known as flexible fitting (Fig. 1). By explicitly accounting for conformational changes of proteins, flexible fitting yields more realistic molecular structures than rigid-body docking methods, in which proteins are treated as rigid objects. However, when applied to large biomolecular complexes, flexible fitting becomes computationally demanding, as both the evaluation of interatomic interactions and the estimation of the agreement with cryo-EM density maps require substantial computational cost. Consequently, the development of highly efficient computational algorithms has been strongly demanded.
 
-コンピュータを用いて高速に計算するためには、複数の CPU と GPU を利用した並列計算が有効です。これらのハードウェアに対して適切に演算を割り当て、バランス良く動作させることにより、コンピュータの性能を最大限に引き出した計算が可能になります。そこで我々は、フレキシブル・フィッティング法に対する効率の良い並列計算アルゴリズムとして、2 種類の手法、「kd-tree 型空間分割法」と「局所空間共有分割法」を考案しました。
+To achieve high-speed computations using computers, parallel computing employing multiple CPUs and GPUs is highly effective. By appropriately assigning computational tasks to these hardware resources and balancing their workloads, it is possible to fully exploit the performance of modern computing systems. Accordingly, we have developed two efficient parallel algorithms for the flexible fitting method: the kd-tree–based spatial decomposition method and the local shared-space decomposition method.
 
-kd-tree 型空間分割法では、電子顕微鏡像と分子構造の一致度を計算する際、kd-tree 法に基づいてタンパク質分子を均等に分割し、各 CPU が局所的な一致度を計算することで、CPU 間での均等な負荷分散を実現します（図 2(a)）。
+In the kd-tree-based spatial decomposition method, the protein molecule is evenly partitioned based on a kd-tree algorithm when evaluating the agreement between the electron microscopy density and the molecular structure. Each CPU computes the local agreement independently, thereby achieving balanced workload distribution across CPUs (Fig. 2(a)).
 
-局所空間共有分割法は、空間を均等に分割した後、負荷率の高い CPU と低い CPU がペアを組み、共同して局所一致度を計算することで、均等な負荷分散を実現します（図 2(b)）。一致度の計算は、分散メモリ型と共有メモリ型を組み合わせたハイブリッド並列計算法を用いて CPU 上で行い、原子間相互作用の計算は GPU を用いて加速させます。考案した並列計算アルゴリズムを、分子動力学計算プログラム「GENESIS」に組み込み、種々の生体分子系に対する計算速度を測定したところ、kd-tree 型空間分割法と局所空間共有分割法はともに、巨大生体分子系に対して効率の良い性能を示しました。また、全原子モデルだけでなく、粗視化モデルなどの近似モデルを用いた系や、小さなタンパク質に対しても高速計算を実現しました（図 3）。
+In the local shared-space decomposition method, the simulation space is first evenly partitioned, after which CPUs with high and low workloads are paired to cooperatively compute the local agreement, thereby achieving balanced load distribution (Fig. 2(b)). The evaluation of the agreement is performed on CPUs using a hybrid parallelization scheme that combines distributed-memory and shared-memory parallel computing, while the calculation of interatomic interactions is accelerated using GPUs. The proposed parallel algorithms were implemented in the molecular dynamics simulation program [GENESIS](https://mdgenesis.org/), and their computational performance was evaluated for various biomolecular systems. Both the kd-tree–based spatial decomposition method and the local shared-space decomposition method demonstrated high efficiency for large biomolecular systems. In addition, high-performance computation was achieved not only for all-atom models but also for systems using approximate models such as coarse-grained representations, as well as for smaller proteins (Fig. 3).
 
-細胞内に存在するタンパク質の多くは、酵素反応などの機能を発揮するとき、他のタンパク質や核酸、脂質分子などと過渡的複合体を形成します。近年、このようなタンパク質複合体の立体構造を、クライオ電子顕微鏡を用いて決定しようとする機運がますます高まっています。複合体の詳細な立体構造を明らかにするためには、クライオ電子顕微鏡だけでなく、X 線結晶構造解析、NMR 法などの複数の実験データを組み合わせた「統合的立体構造モデリング」が必要不可欠となります。今後、ベイス推定のような情報科学で用いられる技法なども駆使し、統合構造モデリングのアルゴリズムをさらに改良することで、構造生物学のさらなる発展が期待できます。
+Many proteins present in cells form transient complexes with other proteins, nucleic acids, or lipid molecules when they exert their functions, such as enzymatic reactions. In recent years, there has been growing momentum toward determining the three-dimensional structures of such protein complexes using cryo-electron microscopy (cryo-EM). To elucidate detailed structures of these complexes, it is essential to employ integrative structural modeling, which combines cryo-EM data with multiple experimental datasets, including X-ray crystallography and NMR spectroscopy. In the future, further improvements in integrative structural modeling algorithms—by incorporating techniques from information science, such as Bayesian inference—are expected to contribute significantly to the continued advancement of structural biology.
 
-{{< figure src="/images/research/proj_1-7-1.jpg" alt="" caption="図1: フレキシブル・フィッティング法の概略" >}}
+{{< figure
+src="/images/research/proj_1-7-1.jpg" alt=""
+caption="Figure 1. Schematic overview of the flexible fitting method.<br>Protein structures determined by X-ray crystallography or nuclear magnetic resonance (NMR) spectroscopy are fitted into a cryo-electron microscopy density map.During this process, a biasing potential is added to the energy function (molecular force field) used in molecular dynamics simulations to drive the protein structure toward the density map, and atomic motions are propagated according to Newton’s equation of motion, F = ma."
+>}}
 
-<p>クライオ電子顕微鏡像に、X 線結晶構造解析や核磁気共鳴分光法（NMR 法）などで決定されたタンパク質の分子構造をフィッティングする。このとき、分子動力学計算に用いるエネルギー関数（分子力場）に、タンパク質構造が電子顕微鏡像に向かうようなバイアスポテンシャルを加え、ニュートンの運動方程式 F=ma に従って原子を動かす。</p>
+{{< figure
+src="/images/research/proj_1-7-2.jpg"
+alt=""
+caption="Figure 2. Schematic illustration of the developed parallel algorithms.<br>(a) Parallel computation using the kd-tree–based spatial decomposition method with eight CPUs. The molecular structure is evenly partitioned by recursively splitting at the molecular midpoint, and each subdivided region is assigned to a CPU (R0–R7) for computation.<br>(b) Parallel computation using the local shared-space decomposition method with eight CPUs. After evenly partitioning the space, CPUs responsible for regions containing many atoms are paired with those handling regions containing fewer atoms (black double arrows), and each pair cooperatively evaluates the agreement with the cryo-EM density. In the lower panel, the sharing of computational regions between R3 and R5 is schematically illustrated."
+>}}
 
-{{< figure src="/images/research/proj_1-7-2.jpg" alt="" caption="図2: 開発した並列計算アルゴリズムの模式図" >}}
-
-<p>(a) 8 個の CPU を用いて kd-tree 型空間分割法により並列計算する場合。分子の中点における分割を繰り返すことで分子構造を均等に分割し、分割後の各領域を R0～R7 の CPU がそれぞれ計算する。</p> 
-<p>(b) 8 個の CPU を用いて局所空間共有分割法により並列計算する場合。空間を均等に分割し、原子を多く含む空間を担当する CPU と、少ない原子を含む空間を担当する CPU とでペアを組み（黒の両矢印）、それぞれの担当空間を協力しあって電顕像一致度を計算する。下図では、R3 とR5 間での計算領域の分担を模式的に示している。</p>
-
-{{< figure src="/images/research/proj_1-7-2.jpg" alt="" caption="図3: 開発した並列計算法のクラスター計算機における計算速度測定結果" >}}
-
-<p>(a)粗視化モデル、(b)全原子モデルを用い、小規模（Ca2+-ATPase）、中規模（AMPA 受容体）、大規模（リボソーム）な生体分子系に対して計算速度の測定を行った。kd-tree 型空間分割法と局所空間共有分割法ともに、CPU の増加に伴い計算効率が向上した。また局所空間共有分割法では、GPU の利用により計算速度が向上した。</p>
+{{< figure src="/images/research/proj_1-7-2.jpg" alt="" 
+caption="Figure 3. Benchmark results of the developed parallel algorithms on a cluster computing system.<br>(a) Coarse-grained models and (b) all-atom models were used to evaluate computational performance for small-scale (Ca<sup>2+</sup>-ATPase), medium-scale (AMPA receptor), and large-scale (ribosome) biomolecular systems. For both the kd-tree–based spatial decomposition method and the local shared-space decomposition method, computational efficiency increased with the number of CPUs. In addition, the local shared-space decomposition method exhibited further performance improvement through the use of GPUs." >}}
 
 ### References:
 
