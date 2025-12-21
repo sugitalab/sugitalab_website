@@ -54,8 +54,8 @@ a. Analyzing proton transfer in proteins using constant-pH MD and QM/MM simulati
 
 ### Publications
 
+1. Determinants of hydrogen bond distances in proteins, Masaki Tsujimura, Hiroshi Ishikita, and Keisuke Saito, <em>Phys. Chem. Chem. Phys.</em> <strong>27</strong>, 9794–9805 (2025).
 1. Stretching vibrational frequencies and pKa differences in H-bond networks of protein environments, Masaki Tsujimura, Keisuke Saito, and Hiroshi Ishikita, <em>Biophys. J.</em> <strong>122</strong>, 4336–4347 (2023).
-
 1. Mechanism of absorption wavelength shift depending on the protonation state of the acrylate group in chlorophyll c, Masaki Tsujimura, Minaka Sugano, Hiroshi Ishikita, and Keisuke Saito, <em>J. Phys. Chem. B</em> <strong>127</strong>, 505–513 (2023).
 1. Proton transfer and conformational changes along the hydrogen bond network in heliorhodopsin, Masaki Tsujimura, Yoshihiro Chiba, Keisuke Saito, and Hiroshi Ishikita, <em>Commun. Biol.</em> <strong>5</strong>, 1336 (2022).
 1. Absorption wavelength along chromophore low-barrier hydrogen bonds, Masaki Tsujimura, Hiroyuki Tamura, Keisuke Saito, and Hiroshi Ishikita, <em>iScience</em> <strong>25</strong>, 104247 (2022).
