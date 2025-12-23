@@ -23,22 +23,6 @@ keywords: []
   </dl>
 </div>
 
-### VTMC
-
-<div class="is-indent">
-  <p>VTMC is a program that analyzes area per lipid in protein-membrane systems by the Voronoi tessellation Monte Carlo integration algorithm.</p>
-  <dl class="dl-links">
-    <dt>Article URL :</dt>
-    <dd>
-      <div><a href="https://doi.org/10.1002/jcc.21973" target="_blank" rel="noopener noreferrer">https://doi.org/10.1002/jcc.21973</a></div>
-    </dd>
-  </dl>
-  <dl class="dl-links">
-    <dt>Downloading Page :</dt>
-    <dd><a href="https://xxxxxxx.org" target="_blank" rel="noopener noreferrer">https://xxxxxxxx.org</a></dd>
-  </dl>
-</div>
-
 ### SINDO
 
 <div class="is-indent">
