@@ -39,6 +39,18 @@
     font-size: _rem(14px);
     text-align: center;
     float: left;
+    &.place-kobe {
+      background-color: $color-kobe;
+    }
+    &.place-wako {
+      background-color: $color-wako;
+    }
+    &.place-online {
+      background-color: $color-online;
+    }
+    &.place-other {
+      background-color: $color-other;
+    }
     a, span {
       color: #fff;
       text-decoration: none;

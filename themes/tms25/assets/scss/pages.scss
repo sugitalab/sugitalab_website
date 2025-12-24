@@ -3,8 +3,7 @@
 @import "_mixins";
 
 .page-header {
-  background-color: #009b9e;
-  //background-color: #196aab;
+  background: linear-gradient(90deg, $color-wako 0%, $color-tokyo 100%);
   text-align: center;
   h1 {
     margin: 0;
@@ -14,5 +13,20 @@
   .inner {
     padding-top: 18px;
     padding-bottom: 18px;
+  }
+}
+
+.publication,
+.meeting {
+  h2 {
+    color: $color-wako;
+  }
+  .anchor-links {
+    a {
+      color: $color-wako;
+    }
+    li::before {
+      border-color: $color-wako;
+    }
   }
 }

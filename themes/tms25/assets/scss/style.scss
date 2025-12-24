@@ -21,7 +21,7 @@ a {
   overflow-wrap: break-word;
   white-space: normal;
   &:hover {
-    color: #009b9e;
+    color: $color-wako;
     text-decoration: none;
   }
   &[target="_blank"]::after {
