@@ -1,5 +1,5 @@
 ---
-title: 'Acceptance of Postdoctoral Researchers and Research Fellows'
+title: 'Researchers'
 date: 2025-09-02T16:55:29+09:00
 draft: false
 description: ''

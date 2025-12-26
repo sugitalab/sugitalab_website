@@ -1,5 +1,5 @@
 ---
-title: 'Theoretical Molecular Science Laboratory, RIKEN Pioneering Research Institute'
+title: 'RIKEN PRI'
 date: 2025-08-24T10:45:14+09:00
 draft: false
 description: ''

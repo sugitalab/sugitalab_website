@@ -1,5 +1,5 @@
 ---
-title: 'Research projects'
+title: 'Projects'
 date: 2025-10-06T16:05:42+09:00
 draft: false
 description: ''

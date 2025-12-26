@@ -1,5 +1,5 @@
 ---
-title: '理化学研究所・開拓研究所・杉田理論分子科学研究室'
+title: '理研PRI'
 date: 2025-08-24T10:45:14+09:00
 draft: false
 description: ''

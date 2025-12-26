@@ -1,12 +1,12 @@
 ---
-title: 'Department of Physics, Faculty of Science, University of Tokyo'
+title: 'Faculty of Science, UTokyo'
 date: 2025-08-30T15:56:58+09:00
 draft: false
 description: ''
 keywords: []
 ---
 
-## Department of Physics, Faculty of Science, University of Tokyo
+## Department of Physics, Faculty of Science & Graduate School of Science, The University of Tokyo
 
 ### Members
 

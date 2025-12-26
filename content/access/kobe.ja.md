@@ -1,5 +1,5 @@
 ---
-title: '理化学研究所・計算科学研究センター・粒子系生物物理研究チーム'
+title: '理研R-CCS'
 date: 2025-08-25T10:45:14+09:00
 draft: false
 description: ''

@@ -1,5 +1,5 @@
 ---
-title: '学生・大学院生の受け入れ'
+title: '学生・大学院生'
 date: 2025-09-01T16:55:29+09:00
 draft: false
 description: ''

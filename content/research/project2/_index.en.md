@@ -1,5 +1,5 @@
 ---
-title: 'Accelerating Molecular Dynamics Simulations'
+title: 'Accelerating Simulations'
 date: 2025-08-26T10:45:15+09:00
 order: 1
 draft: false

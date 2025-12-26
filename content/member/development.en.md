@@ -1,12 +1,12 @@
 ---
-title: 'Theoretical Molecular Science Laboratory, RIKEN Pioneering Research Institute'
+title: 'RIKEN PRI'
 date: 2025-08-28T15:56:58+09:00
 draft: false
 description: ''
 keywords: []
 ---
 
-## Theoretical Molecular Science Laboratory, RIKEN Pioneering Research Institute
+## Theoretical Molecular Science Laboratory, RIKEN Pioneering Research Institute (PRI)
 
 <div class="member-image-block">
   <div class="text">
@@ -34,33 +34,19 @@ keywords: []
 ### Visiting Senior Scientists
 
 <ul class="member-list">
-  <li><a target="_blank" href="https://researchmap.jp/read0015341/research_experience">Yuko Okamoto（Guest Professor, Nagoya University）</a></li>
+  <li><a target="_blank" href="https://researchmap.jp/read0015341/research_experience?lang=en">Yuko Okamoto（International Affairs Global Engagement Center, Nagoya University）</a></li>
 </ul>
 
 ### Visiting Scientists
 
 <ul class="member-list">
-  <li><a target="_blank" href="http://www.cat.hokudai.ac.jp/hasegawa/HOME.html">Junya Hasegawa (Professor, Institute for Catalysis, Hokkaido University)
-  </a></li>
-  <li>Daisuke Matsuoka (Research Organization for Information Science and Technology (RIST))
-  </li>
-  <li><a target="_blank" href="http://www.phys.chuo-u.ac.jp/j/muneyuki/">Eiro Muneyuki (Professor,
-   Department of Science and Engineering, Physics, Chuo University)
-  </a></li>
-  <li><a target="_blank" href="http://theory.biophys.kyoto-u.ac.jp">Shoji Takada (Professor,
-  Department of Biophysics, Division of Biology, Graduate School of Kyoto University)
-  </a></li>
-  <li><a target="_blank" href="http://yayoi.kansai.qst.go.jp/rgbf/jp/index.shtml">Hidetoshi Kono
-  (Group Leader, National Institutes for Quantum and Radiological Science and Technology)
-  </a></li>
-  <li><a target="_blank" href="https://www.airc.aist.go.jp/ibrt/">Kentaro Tomii (Team Leader, National Institute of Advanced Industrial Science and Technology)
-  </a></li>
-  <li><a target="_blank" href="https://quantphys.org/wp/qinfp/members/">Wataru Mizukami (Professor
-  Graduate School of Engineering Science, Osaka University)
-  </a></li>
-  <li><a target="_blank" href="http://www.med.nagasaki-u.ac.jp/mmi/index.html">Hiroki Otaki (Assistant Professor, Department of Molecular Microbiology and Immunology, Graduate School of Biomedical Sciences, Nagasaki University)
-  </a></li>
-  <li><a target="_blank" href="https://www.acoffice.jp/mithp/KgApp?courc=21030">
-  Isseki Yu (Associate Professor, Department of Life Science and Information, Maebashi Institute of Technology)
-  </a></li>
+  <li><a target="_blank" href="https://www.cat.hokudai.ac.jp/hasegawa/HOME.html">Jun-ya Hasegawa（Institute for Catalysis, Hokkaido University）</a></li>
+  <li><a target="_blank" href="https://c-research.chuo-u.ac.jp/html/100003244_en.html">Eiro Muneyuki（Faculty of Science and Engineering, Chuo University）</a></li>
+  <li><a target="_blank" href="https://theory.biophys.kyoto-u.ac.jp/index-en">Shoji Takada（Graduate School of Science, Kyoto University）</a></li>
+  <li><a target="_blank" href="https://www.airc.aist.go.jp/en/">Kentaro Tomii（Artificial Intelligence Research Center, AIST）</a></li>
+  <li><a target="_blank" href="https://qiqb.osaka-u.ac.jp/en/home">Wataru Mizukami（Center for Quantum Information and Quantum Biology, The University of Osaka）</a></li>
+  <li><a target="_blank" href="https://gyoseki.acoffice.jp/mithp/KgApp/k03/resid/S000070">Isseki Yuu（Division of Informatics, Bioengineering and Bioscience, Maebashi Institute of Technology）</a></li>
+  <li><a target="_blank" href="https://www.chem.tsukuba.ac.jp/ymlab/index-e.html">Kiyoshi Yagi（Institute of Pure and Applied Science, Tsukuba University）</a></li>
+  <li><a target="_blank" href="https://www.protein.osaka-u.ac.jp/en/">Mao Oide（Institute for Protein Research, The University of Osaka）</a></li>
+  <li><a target="_blank" href="http://bionano.cent.uw.edu.pl">Joanna Trylska（Centre of New Technologies, University of Warsaw）</a></li>
 </ul>

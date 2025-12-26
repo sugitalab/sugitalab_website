@@ -1,5 +1,5 @@
 ---
-title: 'Dynamics and Functions of Biomolecules'
+title: 'Biomolecules'
 date: 2025-08-26T10:45:17+09:00
 order: 1
 draft: false

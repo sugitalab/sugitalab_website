@@ -1,12 +1,12 @@
 ---
-title: '理化学研究所・開拓研究所・杉田理論分子科学研究室'
+title: '理研PRI'
 date: 2025-08-28T15:56:58+09:00
 draft: false
 description: ''
 keywords: []
 ---
 
-## 理化学研究所・開拓研究所・杉田理論分子科学研究室
+## 理化学研究所 開拓研究所 (PRI) 杉田理論分子科学研究室
 
 <div class="member-image-block">
   <div class="text">
@@ -34,20 +34,20 @@ keywords: []
 ### 客員主幹研究員
 
 <ul class="member-list">
-  <li><a target="_blank" href="https://researchmap.jp/read0015341/research_experience">岡本 祐幸（招へい教員・名古屋大学 情報連携推進本部）</a></li>
+  <li><a target="_blank" href="https://researchmap.jp/read0015341/research_experience">岡本 祐幸（名古屋大学 グローバル・マルチキャンパス推進機構）</a></li>
 </ul>
 
 
 ### 客員研究員
 
 <ul class="member-list">
-  <li><a target="_blank" href="http://www.cat.hokudai.ac.jp/hasegawa/HOME.html">長谷川 淳也（教授・北海道大学　触媒科学研究所）</a></li>
-  <li>松岳 大輔（高度情報科学技術研究機構）</li>
-  <li><a target="_blank" href="http://www.phys.chuo-u.ac.jp/j/muneyuki/">宗行 英朗（教授・中央大学理工学部物理学科）</a></li>
-  <li><a target="_blank" href="http://theory.biophys.kyoto-u.ac.jp">高田 彰二（教授・京都大学理学研究科生物科学専攻）</a></li>
-  <li><a target="_blank" href="http://yayoi.kansai.qst.go.jp/rgbf/jp/index.shtml">河野 秀俊（グループリーダー・量子科学技術研究開発機構）</a></li>
-  <li><a target="_blank" href="https://www.airc.aist.go.jp/ibrt/">富井 健太郎（研究チーム長・産業総合研究所人工知能研究センター）</a></li>
-  <li><a target="_blank" href="https://quantphys.org/wp/qinfp/members/">水上 渉（教授・大阪大学基礎工学研究科）</a></li>
-  <li><a target="_blank" href="http://www.med.nagasaki-u.ac.jp/mmi/index.html">大滝 大樹（助教・長崎大学大学院医歯薬学総合研究科　新興感染症病態制御学専攻）</a></li>
-  <li><a target="_blank" href="https://www.acoffice.jp/mithp/KgApp?courc=21030">優 乙石（准教授・前橋工科大学工学部生命情報学科）</a></li>
+  <li><a target="_blank" href="https://www.cat.hokudai.ac.jp/hasegawa/HOME.html">長谷川 淳也（北海道大学 触媒研究所）</a></li>
+  <li><a target="_blank" href="https://c-research.chuo-u.ac.jp/html/100003244_ja.html">宗行 英朗（中央大学 理工学部）</a></li>
+  <li><a target="_blank" href="https://theory.biophys.kyoto-u.ac.jp">高田 彰二（京都大学 理学研究科）</a></li>
+  <li><a target="_blank" href="https://www.airc.aist.go.jp/ibrt/">富井 健太郎（産業技術総合研究所 人工知能研究センター）</a></li>
+  <li><a target="_blank" href="https://qiqb.osaka-u.ac.jp">水上 渉（大阪大学 量子情報・量子生命研究センター）</a></li>
+  <li><a target="_blank" href="https://gyoseki.acoffice.jp/mithp/KgApp/k03/resid/S000070">優 乙石（前橋工科大学 情報・生命工学群）</a></li>
+  <li><a target="_blank" href="https://www.chem.tsukuba.ac.jp/ymlab/index.html">八木 清（筑波大学 数理物質系化学域）</a></li>
+  <li><a target="_blank" href="https://www.protein.osaka-u.ac.jp">大出 真央（大阪大学 蛋白質研究所）</a></li>
+  <li><a target="_blank" href="http://bionano.cent.uw.edu.pl">Joanna Trylska（ワルシャワ大学 Centre of New Technologies）</a></li>
 </ul>

@@ -1,5 +1,5 @@
 ---
-title: 'Intermolecular Interactions and Functions in Cellular Environments'
+title: 'Cellular Environments'
 date: 2025-08-26T10:45:18+09:00
 order: 1
 draft: false

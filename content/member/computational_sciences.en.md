@@ -1,12 +1,12 @@
 ---
-title: 'Computational Biophysics Research Team, RIKEN Center for Computational Science'
+title: 'RIKEN R-CCS'
 date: 2025-08-29T15:56:58+09:00
 draft: false
 description: ''
 keywords: []
 ---
 
-## Computational Biophysics Research Team, RIKEN Center for Computational Science
+## Computational Biophysics Research Team, RIKEN Center for Computational Science (R-CCS)
 
 <div class="member-image-block">
   <div class="text">

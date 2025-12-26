@@ -1,5 +1,5 @@
 ---
-title: 'Acceptance of Undergraduate and Graduate Students'
+title: 'Students'
 date: 2025-09-01T16:55:29+09:00
 draft: false
 description: ''

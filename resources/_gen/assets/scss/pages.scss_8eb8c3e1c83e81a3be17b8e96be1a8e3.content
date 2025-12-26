@@ -1,1 +1,1 @@
-.page-header{background-color:#edebf5;text-align:center}.page-header h1{margin:0}.page-header .inner{padding-top:18px;padding-bottom:18px}
+.page-header{background:linear-gradient(90deg,#009b9e 0%,#196aab 100%);text-align:center}.page-header h1{margin:0;color:#fff;font-weight:700}.page-header .inner{padding-top:18px;padding-bottom:18px}.publication h2,.meeting h2{color:#009b9e}.publication .anchor-links a,.meeting .anchor-links a{color:#009b9e}.publication .anchor-links li::before,.meeting .anchor-links li::before{border-color:#009b9e}

@@ -1,5 +1,5 @@
 ---
-title: '分子動力学の高速化'
+title: '分子動力学計算の高速化'
 date: 2025-08-26T10:45:15+09:00
 order: 1
 draft: false
@@ -7,7 +7,7 @@ description: ''
 keywords: []
 ---
 
-## 分子動力学の高速化
+## 分子動力学計算の高速化
 
 <div class="research-image-block">
   <div class="text">
