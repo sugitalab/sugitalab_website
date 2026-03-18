@@ -36,11 +36,6 @@ sectionPagesMenu = 'main'
         url = '/research/project1/'
         weight = 70
       [[languages.ja.menu.main]]
-        identifier = 'education'
-        name = '教育'
-        url = '/education/'
-        weight = 72
-      [[languages.ja.menu.main]]
         identifier = 'meeting'
         name = '研究会/セミナー'
         url = '/meeting/workshop/2022-2026/'
@@ -55,6 +50,11 @@ sectionPagesMenu = 'main'
         name = 'メンバー'
         url = '/member/development/'
         weight = 85
+      [[languages.ja.menu.main]]
+        identifier = 'education'
+        name = '教育活動'
+        url = '/education/'
+        weight = 87
       [[languages.ja.menu.main]]
         identifier = 'recruitment'
         name = '募集'
@@ -83,11 +83,6 @@ sectionPagesMenu = 'main'
             url = "/research/project1/"
             weight = 70
           [[languages.en.menu.main]]
-            identifier = 'education'
-            name = "Education"
-            url = "/education/"
-            weight = 72
-          [[languages.en.menu.main]]
             identifier = 'meeting'
             name = 'Workshop/Seminar'
             url = '/meeting/workshop/2022-2026/'
@@ -102,6 +97,11 @@ sectionPagesMenu = 'main'
             name = 'Member'
             url = '/member/development/'
             weight = 85
+          [[languages.en.menu.main]]
+            identifier = 'education'
+            name = "Education"
+            url = "/education/"
+            weight = 87
           [[languages.en.menu.main]]
             identifier = 'recruitment'
             name = 'Recruitment'
