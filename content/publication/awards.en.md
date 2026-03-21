@@ -7,6 +7,7 @@ keywords: []
 ---
 
 <ul class="anchor-links">
+  <li><a href="#2026">2026</a></li>
   <li><a href="#2025">2025</a></li>
   <li><a href="#2024">2024</a></li>
   <li><a href="#2022">2022</a></li>
@@ -16,6 +17,18 @@ keywords: []
   <li><a href="#2014">2014</a></li>
   <li><a href="#2013">2013</a></li>
 </ul>
+
+## 2026{#2026}
+
+<article class="article-block accordion-block">
+  <h3>FY2025 RIKEN EIHO Award (RIKEN Significant Achievement Award)</h3>
+  <p>Dr. Yuji Sugita (Chief Scientist), Dr. Jaewoon Jung (Senior Scientist), Dr. Ai Niitsu (Team Leader), and Dr. Mikiko Sodeoka (Center Director)</p>
+</article>
+
+<article class="article-block accordion-block">
+  <h3>FY2025 RIKEN OBU Award (RIKEN Research Incentive Award)</h3>
+  <p>Mr. Masahiro Motohashi (Junior Research Associate)</p>
+</article>
 
 ## 2025{#2025}
 

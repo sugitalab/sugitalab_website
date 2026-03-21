@@ -7,6 +7,7 @@ keywords: []
 ---
 
 <ul class="anchor-links">
+  <li><a href="#2026">2026</a></li>
   <li><a href="#2025">2025</a></li>
   <li><a href="#2024">2024</a></li>
   <li><a href="#2022">2022</a></li>
@@ -16,6 +17,18 @@ keywords: []
   <li><a href="#2014">2014</a></li>
   <li><a href="#2013">2013</a></li>
 </ul>
+
+## 2026{#2026}
+
+<article class="article-block accordion-block">
+  <h3>2025年度「理研栄峰賞」</h3>
+  <p>杉田 有治（主任研究員）、Jaewoon Jung（専任技師）、新津 藍（チームディレクター）、袖岡 幹子（センター長）</p>
+</article>
+
+<article class="article-block accordion-block">
+  <h3>2025年度「理研桜舞賞」</h3>
+  <p>本橋 昌大（大学院リサーチアソシエイト）</p>
+</article>
 
 ## 2025{#2025}
 
