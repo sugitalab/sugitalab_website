@@ -1,6 +1,7 @@
 {{- define "main" -}}
   <header class="page-header">
-    <div class="inner">
+    {{ partial "page-banner.html" . }}
+    <div class="inner header-content">
       {{- $title := .Section | title }}
       <h1>{{ i18n $title }}</h1>
     </div>
