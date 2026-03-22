@@ -17,7 +17,7 @@ keywords: []
       <li><a href="../profile/chigusa_kobayashi/">Chigusa Kobayashi (Senior Technical Scientist)</a></li>
       <li><a href="../profile/cheng_tan/">Cheng Tan (Research Scientist)</a></li>
       <li><a href="../profile/shingo_ito/">Shingo Ito (Research Scientist)</a></li>
-      <li><a href="../profile/diego_ugarte_la_torre/">Diego Ugarte La Torre (Postdoctoral Researcher)</a></li>
+      <!-- <li><a href="../profile/diego_ugarte_la_torre/">Diego Ugarte La Torre (Postdoctoral Researcher)</a></li> -->
       <li><a href="../profile/yangyang_zhang/">Yangyang Zhang (Postdoctoral Researcher)</a></li>
     </ul>
   </div>

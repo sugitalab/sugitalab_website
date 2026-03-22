@@ -19,7 +19,7 @@ keywords: []
       <li><a href="../profile/masaki_tsujimura/">辻村 真樹（基礎科学特別研究員）</a></li>
       <li><a href="../profile/sintaro_kubo/">久保 進太郎（基礎科学特別研究員）</a></li>
       <li><a href="../profile/yuhei_hosokawa/">細川 雄平（日本学術振興会特別研究員）</a></li>
-      <li><a href="../profile/haeri_im/">Haeri Im（特別研究員）</a></li>
+      <!-- <li><a href="../profile/haeri_im/">Haeri Im（特別研究員）</a></li> -->
       <li><a href="../profile/azuki_mizutani/">水谷 淳生（特別研究員）</a></li>
       <li><a href="../profile/tarun-maity/">Tarun Maity（特別研究員）</a></li>
       <li>本橋 昌大（大学院リサーチアソシエイト）</li>

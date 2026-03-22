@@ -11,6 +11,7 @@ keywords: []
 ### Theoretical Molecular Science Laboratory, RIKEN Pioneering Research Institute
 
 <ul class="member-list">
+  <li>Haeri Im (Postdoctoral researcher) Sep. 2021 – Oct. 2025<br>Graduate School of Pharmaceutical Sciences, School of Pharmacy, Kumamoto University</li>
   <li>Taiki Wakabayashi (Junior Research Associate) Apr. 2022 – Mar. 2025<br>
   Eisai Co., Ltd.
   </li>

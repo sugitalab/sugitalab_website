@@ -11,6 +11,7 @@ keywords: []
 ### 理化学研究所開拓研究所杉田理論分子科学研究室
 
 <ul class="member-list">
+  <li>Haeri Im（特別研究員）2021年9月 – 2025年10月<br>熊本大学大学院薬学教育部</li>
   <li>若林 大貴（大学院生リサーチ・アソシエイト）2022年4月 – 2025年3月<br>エーザイ株式会社</li>
   <li><a href="https://newv.szbl.ac.cn/en/" target="_blank" rel="noopener noreferrer">Yaokun Lei（特別研究員）2021年7月 – 2024年11月</a><br>Shenzhen Bay Laboratory</li>
   <li><a href="https://grad.pas.tsukuba.ac.jp/" target="_blank" rel="noopener noreferrer">八木 清（専任研究員）2012年12月 – 2024年7月</a><br>筑波大学 計算情報化学研究室</li>

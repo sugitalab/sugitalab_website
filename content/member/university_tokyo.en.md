@@ -12,5 +12,5 @@ keywords: []
 
 <ul class="member-list">
   <li><a href="../profile/yuji_sugita/">Yuji Sugita (Professor)</a></li>
+  <li><a href="../profile/diego_ugarte_la_torre/">Diego Ugarte La Torre (Assistant Professor)</a></li>
 </ul>
-
