@@ -1,5 +1,5 @@
 ---
-title: '計算科学による分子動力学の高速化'
+title: 'Acceleration of molecular dynamics by computational science'
 date: 2025-10-07T12:04:37+09:00
 order: 1
 draft: false
@@ -7,7 +7,7 @@ description: ''
 keywords: []
 ---
 
-## 計算科学による分子動力学の高速化
+## Acceleration of molecular dynamics by computational science
 
 ### Lookup Table Approach in GENESIS
 
