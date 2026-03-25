@@ -1,5 +1,5 @@
 ---
-title: '計算科学による分子動力学の高速化'
+title: 'Acceleration and parallelization of MD simulations'
 date: 2025-10-07T12:04:37+09:00
 order: 1
 draft: false
@@ -7,7 +7,7 @@ description: ''
 keywords: []
 ---
 
-## 計算科学による分子動力学の高速化
+## Acceleration and parallelization of MD simulations
 
 ### Lookup Table Approach in GENESIS
 

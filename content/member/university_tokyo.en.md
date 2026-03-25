@@ -1,16 +1,22 @@
 ---
-title: 'Faculty of Science, UTokyo'
+title: 'Department of Physics, Faculty of Science, University of Tokyo'
 date: 2025-08-30T15:56:58+09:00
 draft: false
 description: ''
 keywords: []
 ---
 
-## Department of Physics, Faculty of Science & Graduate School of Science, The University of Tokyo
+## Department of Physics, Faculty of Science, University of Tokyo
 
-### Members
-
-<ul class="member-list">
-  <li><a href="../profile/yuji_sugita/">Yuji Sugita (Professor)</a></li>
-  <li><a href="../profile/diego_ugarte_la_torre/">Diego Ugarte La Torre (Assistant Professor)</a></li>
-</ul>
+<div class="member-image-block">
+  <div class="text">
+    <h3>Members</h3>
+    <ul class="member-list">
+      <li><a href="../profile/yuji_sugita/">Yuji Sugita (Professor)</a></li>
+      <li><a href="../profile/diego_ugarte/">Diego Ugarte La Torre (Assistant Professor)</a></li>
+    </ul>
+  </div>
+  <div class="image">
+    <img src="/images/member/utokyo.jpg" alt="" />
+  </div>
+</div>
