@@ -1,5 +1,5 @@
 ---
-title: '一分子計測のデータ同化'
+title: 'Data Assimilation of Single-Molecule Measurements'
 date: 2025-10-07T12:04:37+09:00
 order: 1
 draft: false
@@ -7,34 +7,38 @@ description: ''
 keywords: []
 ---
 
-## 一分子計測のデータ同化
+## Data Assimilation of Single-Molecule MeasurementsDData Assimilation of Single-Molecule Measurements
 
-タンパク質などの生体分子は、細胞内で常に決まった構造にとどまっているわけではなく、ダイナミックに揺らいだり大きく構造変化したりすることが近年の研究により、分かっています。そして、それらの構造ダイナミクスが酵素反応や物質輸送、シグナル伝達などに深く関わっていることが明らかになってきました。例えば、トランスポーターと呼ばれるタンパク質は、分子の形を変えて押し出す動きをすることで、薬剤などの小分子を輸送する機能を発揮します。そこで、これらの分子機能を理解するために、生体分子の構造ダイナミクスを高解像度で観測する手法の開発が求められています。
+Biomolecules such as proteins do not stay in a single fixed structure inside cells. Instead, they fluctuate dynamically and sometimes undergo large structural changes. Recent studies have shown that these structural dynamics are closely related to important biological functions such as enzymatic reactions, molecular transport, and signal transduction. For example, proteins called transporters change their shape to move and transport small molecules such as drugs. Therefore, it is important to develop methods that can observe the structural dynamics of biomolecules with high resolution in order to understand their functions.
 
-分子動力学シミュレーションは、分子機能を理解するための強力な手法の一つであり、生体分子おける原子レベルの解像度情報を得ることができます。しかし、分子動力学シミュレーションで用いるモデルのパラメータは完全に正しいとは限らず、現象によってはパラメータの不正確さがダイナミクスに現れることがあります。一方、近年の実験計測では、生体分子を単分子粒度で観測する技術である 1 分子計測という技術が開発されています。例えば 1 分子 FRET 計測という手法では、分子にラベルした二つの蛍光色素間（ドナーとアクセプター）間の距離の揺らぎを時系列データとして観測できます。これは、構造ダイナミクスを「直接」観測できるという利点がありますが、距離の時系列情報のみから分子構造を解釈しなければならないという制限があります。
+Molecular dynamics (MD) simulation is a powerful method for studying molecular functions, as it provides atomic-level resolution. However, the parameters used in MD models are not always perfectly accurate, and this can affect the simulated dynamics. On the other hand, experimental techniques for observing biomolecules at the single-molecule level have recently advanced. One example is single-molecule FRET, which measures the distance fluctuations between two fluorescent dyes (donor and acceptor) attached to a molecule as time-series data. This method allows direct observation of structural dynamics, but it has a limitation: molecular structures must be inferred only from distance information.
 
-以上のことから、解像度の粗い計測データと原子モデルのシミュレーションを相補的に統合させて、計測データを解釈する研究が世界規模で活発に行われています。しかしこれまで、ミリ秒（1,000 分の 1 秒）単位の 1 分子 FRET 計測と、マイクロ秒（100 万分の 1 秒）単位の分子動力学シミュレーションでは、時間スケールのギャップが大きいという問題があり、両者を統合することが困難でした。
+For this reason, there has been growing interest worldwide in combining low-resolution experimental data with atomic-level simulations in a complementary way. However, there has been a major challenge: a large gap in timescales. Single-molecule FRET measurements typically observe dynamics on the millisecond timescale, while MD simulations usually cover microseconds. This difference has made it difficult to integrate the two approaches.
 
-我々は生体分子の構造ダイナミクスを記述するために用いられている統計モデルの「マルコフ状態モデル」を導入することで、分子動力学シミュレーションと 1 分子 FRET 計測の時間スケールのギャップを埋めました。マルコフ状態モデルでは、生体分子が代表的な構造間を、サイコロを投げるように確率的に遷移すると仮定することで、構造ダイナミクスを簡単化します。簡単化することで、短時間のシミュレーションから各遷移確率を求めることにより、長時間のシミュレーションを行わなくても、長い時間の構造ダイナミクスを調べることができます。
+To address this problem, we introduced a statistical model called the Markov State Model (MSM), which is widely used to describe biomolecular structural dynamics. In MSM, biomolecules are assumed to transition probabilistically between representative structures, similar to rolling a dice. This simplification allows us to estimate transition probabilities from short MD simulations and then predict long-timescale dynamics without running very long simulations.
 
-本研究では、分子動力学シミュレーションと 1 分子 FRET 計測データを相補的に統合したモデリングを実現するために、以下の半教師あり学習に基づいた「データ同化」スキームを提案しました（図 1）。（A）まず、分子動力学シミュレーションデータからマルコフ状態モデルを構築（教師あり学習）する。 （B）構築したマルコフ状態モデルを隠れマルコフモデルと見なして、教師なし学習アルゴリズムを使って遷移確率を 1 分子 FRET 計測データに合うように補正する。これにより、構造はシミュレーションから与え、ダイナミクスは計測データを優先するモデリングが実現しました。
+In this study, we proposed a data assimilation scheme based on semi-supervised learning to integrate MD simulation data and single-molecule FRET data (Fig. 1).
+(A) First, an MSM is constructed from MD simulation data (supervised learning). The multivariate time-series data from simulations are clustered to define representative structures (states), and transition probabilities between states are estimated.
+(B) Next, the MSM is treated as a Hidden Markov Model (HMM), and its transition probabilities are refined using single-molecule FRET data with an unsupervised learning algorithm.
+With this approach, structural information is taken from simulations, while dynamic information is guided by experimental data.
 
-次に本手法を、小タンパク質（アミノ酸残基 100 以下のタンパク質）である Formin-binding protein WW domain の折り畳みの構造変化ダイナミクスへ応用した結果、小タンパク質が折り畳まれる際の中間構造・パスウェイを特定しました（図 2）。さらに、特定した中間構造の妥当性を評価するために、変異実験の結果と比べました。これは、タンパク質を構成するアミノ酸残基を人工的に変異させて、折り畳み速度がどれくらい変化するか観測し、そこから中間構造における重要なアミノ酸残基を推定する実験です。その結果、変異実験の計測データと提案した手法で捉えた中間構造が整合的であることが分かりました。
 
-本研究で開発した手法は汎用的なものであり、種々のタイプの計測データへ展開することで、複数の計測データを統合して生体分子の構造ダイナミクスをモデリングするプラットホームになると期待できます。また、本手法を応用することで、生体分子機能の基礎的分子メカニズムの解明に寄与すると期待できます。
+We then applied this method to the folding dynamics of a small protein (less than 100 amino acid residues), the Formin-binding protein WW domain. As a result, we identified intermediate structures and folding pathways during the folding process (Fig. 2).
+To validate the identified intermediate structures, we compared them with mutation experiments. In these experiments, specific amino acid residues are artificially mutated, and changes in folding speed are measured. From this, important residues in intermediate states can be identified. The results showed that the intermediate structures obtained by our method are consistent with the experimental data.
 
-{{< figure src="/images/research/proj_3-1-1.jpg" alt="" caption="図1: データ同化スキーム" >}}
-<p>A. ステップ１：教師あり学習。分子動力学シミュレーションデータからの初期マルコフ状態モデルの構築。シミュレーションで得られた多変量の時系列データをクラスタリングし、代表構造（状態）を定義する。その後状態間の遷移をカウントし遷移確率を推定する。</p>
-<p>B. ステップ２：教師なし学習。1 分子 FRET 計測データを用いた機械学習によるパラメータの補正。初期マルコフ状態モデルを、計測データに対する隠れマルコフモデルと見なし、教師なし学習を適用する。</>
+The method developed in this study is general and can be applied to various types of experimental data. By integrating multiple datasets, it is expected to become a platform for modeling biomolecular structural dynamics. Furthermore, this approach is expected to contribute to a deeper understanding of the molecular mechanisms underlying biomolecular functions.
 
-{{< figure src="/images/research/proj_3-1-1.jpg" alt="" caption="図2: 計測データを同化して得られた小タンパク質の折り畳み経路" >}}
+{{< figure src="/images/research/proj_3-1-1.jpg" alt="" caption="Fig. 1: Data assimilation scheme" >}}
 
-<p>広がったアンフォールド状態からコンパクトになると同時に、中間体であるヘアピン 1（左上、右上）が形成されることが分かった。また、この中間体（遷移状態）が変異実験の結果と整合的であることが分かった。</p>
+<p>A. Step 1: Supervised learning. Construction of an initial Markov State Model from MD simulation data. Multivariate time-series data are clustered to define representative structures (states), and transition probabilities are estimated.</p> <p>B. Step 2: Unsupervised learning. Parameter refinement using single-molecule FRET data. The initial MSM is treated as a Hidden Markov Model, and unsupervised learning is applied.</p>
 
-### 原論文情報：
+{{< figure src="/images/research/proj_3-1-1.jpg" alt="" caption="Fig. 2: Folding pathways of a small protein obtained by data assimilation" >}}
+
+<p>During folding, the protein becomes more compact from an extended unfolded state, while forming intermediate structures such as hairpin 1 (top left and top right). These intermediate (transition) states are consistent with mutation experiment results.</p>
+
+### Original Article：
 
 Yasuhiro Matsunaga, and Yuji Sugita, "Linking time-series of single-molecule experiments with molecular dynamics simulations by machine learning", eLife, 10.7554/eLife.32668
-
 
 
 

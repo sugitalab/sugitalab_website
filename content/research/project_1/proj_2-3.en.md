@@ -1,5 +1,5 @@
 ---
-title: '不均一空間分割による粗視化分子動力学の並列化'
+title: 'Heterogeneous decomposition CGMD simulations'
 date: 2025-10-07T12:04:37+09:00
 order: 3
 draft: false
@@ -7,27 +7,30 @@ description: ''
 keywords: []
 ---
 
-## 不均一空間分割による粗視化分子動力学の並列化
+## Parallelization of Coarse-Grained Molecular Dynamics Using Non-Uniform Spatial Decomposition
 
-粗視化（CG）分子モデルを用いた MD シミュレーションは、複数の原子を単一の粒子として表現することで自由度を減少させ、演算量を減らします。 残基程度の粒度を持つ CG モデルでは、アミノ酸に含まれる複数の原子を一つの粒子として表現し、大規模な生体分子系の長時間シミュレーションを行うために用いられてきました。このようなシミュレーションでは、水分子やイオンなどの溶媒を粒子として含まずに物理モデルとして溶媒効果を考慮した陰溶媒モデルがよく用いられます。このモデルでは、タンパク質などの分子を多く含む空間には多数の粒子が、そうでない空間には少数の粒子が分布します。このような不均一な粒子分布を持つ系に関する陰溶媒モデルを用いた粗視化 MD シミュレーションを、並列計算を用いて効率的に行うことは困難でした。
+Molecular dynamics (MD) simulations using coarse-grained (CG) models reduce computational cost by representing multiple atoms as a single particle, thereby reducing the degrees of freedom. In CG models with residue-level resolution, several atoms in an amino acid are treated as one particle. These models have been widely used for long-timescale simulations of large biomolecular systems.
+In such simulations, implicit solvent models are often used. In these models, solvent molecules such as water and ions are not explicitly included as particles, but their effects are incorporated into the physical model. As a result, regions containing many biomolecules, such as proteins, have a high particle density, while other regions have a low density. It has been difficult to efficiently perform parallel MD simulations for such systems with highly non-uniform particle distributions.
 
-本研究では、不均一な粒子分布を持つ生体系の MD シミュレーションを効率よく行うために新たな動的な負荷分散を用いた領域分割手法を開発しました。そして、分子動力学ソフトウェアGENESIS に CGDYN というプログラムとして実装しました。新しい領域分割手法では、ターゲットとなるタンパク質などの分子を含む空間を分割する際に、分割したドメイン内の粒子数がほぼ同数になるように 2 分割することを繰り返します（図 1a）。またシミュレーションを実行している間に、タンパク質などの分子構造が大きく変化したり、複数の分子の相対配置が変わったりすることで、空間の密度分布が急速に変化することがあり得ます。その場合、CGDYN では自動的に不均一な領域分割を実行し、計算速度が低下することを避けることができます（図 1b）。
+In this study, we developed a new domain decomposition method with dynamic load balancing to efficiently simulate biomolecular systems with non-uniform particle distributions. This method has been implemented as the CGDYN program in the molecular dynamics software GENESIS. In the new domain decomposition method, the simulation space is recursively divided into two regions so that each domain contains approximately the same number of particles (Fig. 1a).
+During the simulation, molecular structures such as proteins may change significantly, and the relative positions of multiple molecules may also vary. As a result, the spatial density distribution can change rapidly. In such cases, CGDYN automatically adjusts the domain decomposition to maintain load balance and avoid performance degradation (Fig. 1b).
 
-私たちは、「富岳」および理研 Hokusai-BigWaterfall の二つのスーパーコンピュータを用いて、新しい動的領域分割手法を実装した CGDYN と、従来の均等なサイズのドメインに分割するSPDYN-like および領域分割を使わない ATDYN の二つのアルゴリズムの性能を比較しました。その結果、CGDYN は他の二つよりも計算速度に優れ、特に ATDYN と比べ 3～30 倍高い性能を示しました（図 2）。また、CGDYN では高密度および低密度システム間でほぼ同一の計算性能を与え、この負荷分散手法が粒子密度によらず有効であることを示しています。CGDYN を使用した MD シミュレーションは、SPDYN-like と比較して最大で 7.5 倍高速化されました（図 2）。さらに、「富岳」上で他の MD ソフトと性能を比較することで、CGDYN がより高い計算速度を持つことも実証しました。
+We evaluated the performance of CGDYN with the new dynamic domain decomposition method using two supercomputers, Fugaku and RIKEN Hokusai-BigWaterfall. We compared CGDYN with two other approaches: SPDYN-like, which uses uniform domain decomposition, and ATDYN, which does not use domain decomposition. The results show that CGDYN achieves higher performance than the other two methods, with 3 to 30 times better performance than ATDYN (Fig. 2). In addition, CGDYN provides nearly the same performance for both high-density and low-density systems, demonstrating that the load balancing method is effective regardless of particle density. Compared to SPDYN-like, CGDYN achieved up to 7.5 times faster simulations (Fig. 2). Furthermore, comparisons with other MD software on Fugaku also confirmed the high performance of CGDYN.
 
-CGDYN を用いた応用例として、さまざまなタンパク質凝縮体（ドロップレット）の融合過程の計算を行いました。16,647 個の天然変性タンパク質から成る超大規模システムを構築し、50 個以上の小さなドロップレットが 0.1μm の直径を持つ単一の大きなドロップレットに融合する過程を観察しました（図 3）。その結果、ドロップレット数の減少は、小さなドロップレットが大きなものに融合するだけでないことが分かりました。つまり、一部の小さなドロップレットは溶解し、そのタンパク質が希薄相に拡散した後、大きなドロップレットに吸収されることが明らかになりました（図 3）。このプロセスは、表面張力と分子運動エネルギーの競合から生じるオストヴァルト成長を連想させます。ドロップレットのオストヴァルト成長は光学顕微鏡を通じて直接観察することが可能ですが、私たちの知る限り、残基レベルの粗視化モデルを用いた MD シミュレーションでこのような現象の観測に成功したのはこの研究が初めてです。
+As an application of CGDYN, we simulated the fusion process of protein condensates (droplets). We constructed a very large system consisting of 16,647 intrinsically disordered proteins and observed the process in which more than 50 small droplets merge into a single large droplet with a diameter of 0.1 μm (Fig. 3).
+The results show that the decrease in the number of droplets is not caused only by direct fusion. Some small droplets dissolve, and their proteins diffuse into the dilute phase before being absorbed into larger droplets (Fig. 3). This process is similar to Ostwald ripening, which arises from the competition between surface tension and molecular kinetic energy. Although Ostwald ripening of droplets can be directly observed using optical microscopy, to our knowledge, this study is the first to observe such behavior using MD simulations with a residue-level coarse-grained model.
 
-本研究で開発された手法とソフトウェアは、生体分子の凝縮体のより深い理解を提供するとともに、大規模な分子動力学シミュレーションシステムの長時間ダイナミクスを通じてメゾスコピック（ミクロとマクロの中間領域的）な生物学的現象を理解するための重要な計算基盤となることが期待されます。
+The methods and software developed in this study are expected to provide deeper insight into biomolecular condensates. They will also serve as an important computational platform for understanding mesoscale biological phenomena through long-timescale simulations of large molecular systems.
 
-{{< figure src="/images/research/proj_2-3-1.jpg" alt="" caption="図1. GENESIS CGDYN の負荷分散アルゴリズム" >}}
-(a) 領域分割の概念図。分子を含む空間をドメインに分ける際に、ドメイン内の粒子数がほぼ同数になるように 2 分割することを自動的に繰り返す。  
-(b) 動的負荷分散の概念図。t=0 では、ボックスの中に大きな粒子密度の不均一性があるため、濃度の高い空間により多くのドメインを含むように分割されている。t=9×106 ステップ後には密度がより均一になっているので、その密度に合うようにより均一なドメイン分割になる。
+{{< figure src="/images/research/proj_2-3-1.jpg" alt="" caption="Fig. 1. Load balancing algorithm in GENESIS CGDYN" >}}
+(a) Conceptual illustration of domain decomposition. The simulation space is recursively divided so that each domain contains approximately the same number of particles.
+(b) Conceptual illustration of dynamic load balancing. At t = 0, the system has highly non-uniform particle density, so more domains are assigned to high-density regions. After t = 9×10⁶ steps, the density becomes more uniform, and the domain decomposition is adjusted accordingly.
 
-{{< figure src="/images/research/proj_2-3-2.jpg" alt="" caption="図2. GENESIS CGDYNのベンチマーク計算で示された計算速度の向上" >}}
-新たに開発したCGDYNと、均等なサイズのセルへ分割するSPDYN-likeおよび領域分割を使わないATDYNの二つのアルゴリズムの性能の比較。ノード数を変えることでどのように計算量（ステップ数）が増えるかを示した。
+{{< figure src="/images/research/proj_2-3-2.jpg" alt="" caption="Fig. 2. Performance improvement demonstrated by benchmark calculations of GENESIS CGDYN" >}}
+Comparison of CGDYN with SPDYN-like (uniform domain decomposition) and ATDYN (no domain decomposition). The scaling of computational performance with increasing number of nodes is shown.
 
-{{< figure src="/images/research/proj_2-3-3.jpg" alt="" caption="図3. 超大規模タンパク質ドロップレットの融合過程の計算" >}}
-時間（t）の経過に伴い、一部の小さなドロップレットは溶解し、そのタンパク質が希薄相に拡散した後、大きなドロップレットに吸収される。
+{{< figure src="/images/research/proj_2-3-3.jpg" alt="" caption="Fig. 3. Simulation of fusion processes in very large protein droplets" >}}
+As time (t) progresses, some small droplets dissolve, and their proteins diffuse into the dilute phase before being absorbed into larger droplets.
 
 ## References:
 

@@ -18,7 +18,7 @@ keywords: []
   <div class="text">
     <ul class="list">
       <li><a href="proj_2-2/">分⼦動⼒学ソフトウェアGENESISの開発</a></li>
-      <li><a href="proj_2-1/">分⼦動⼒学の⾼速化と並列化(English)</a></li>
+      <li><a href="proj_2-1/">分⼦動⼒学の⾼速化と並列化</a></li>
       <li><a href="proj_2-4/">GPUを用いた分子動力学の高速化</a></li>
       <li><a href="proj_1-2/">温度・圧力の正確な計算方法</a></li>
       <li><a href="proj_1-6/">分子力場の改良</a></li>

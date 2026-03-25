@@ -9,19 +9,18 @@ keywords: []
 
 ## 計算科学による分子動力学の高速化
 
-### Lookup Table Approach in GENESIS
+### GENESISにおけるルックアップテーブル手法
 
-In molecular dynamics (MD) simulations, the most computationally expensive part involves energy and force evaluation in nonbonded interactions, such as electrostatic and van der Waals. These depend on the distance between every pair of particles.
+分子動力学（MD）シミュレーションにおいて、最も計算コストが高い部分は、静電相互作用やファンデルワールス相互作用などの非結合相互作用におけるエネルギーおよび力の計算である。これらは、すべての粒子対間の距離に依存する。
 
-A conventional method to speed up these calculations is to use a lookup table. Instead of calculating the interaction energy and force from scratch for every pair of particles at every single time step, we can pre-calculate these values for a range of distances and store them in a table. During the simulation, we just "look up" the value that corresponds to a given distance. This is
-much faster than performing complex mathematical operations like square roots and exponential functions.
+これらの計算を高速化する従来の方法の一つが、ルックアップテーブルの利用である。すなわち、各タイムステップごとにすべての粒子対について相互作用エネルギーや力を一から計算するのではなく、あらかじめ距離の範囲に対する値を計算してテーブルとして保存しておく。シミュレーション中は、その距離に対応する値を「参照（lookup）」するだけでよい。この方法は、平方根や指数関数といった複雑な数学演算を毎回実行するよりもはるかに高速である。
 
-However, the problem with a simple lookup table is that it can still be inefficient. To be accurate, the table needs a huge number of data points, especially for short distances where forces change very rapidly. This requires a lot of memory and can be slow to access.
+しかし、単純なルックアップテーブルには問題もある。高い精度を得るためには、多数のデータ点を持つテーブルが必要となり、特に短距離領域では力が急激に変化するため、より細かい分解能が求められる。その結果、大量のメモリを必要とし、アクセスも遅くなる可能性がある。
 
-In GENESIS, insread of creating a table based on distance squared (r2), we create a table based on the inverse distance squared (1/r2). With the new table, the energy and force can be evaluated as the linear function of 1/r2, and we can use few data points for the medium and long-range pairwise distances (Fig. 1).
+GENESISでは、距離の二乗（r2）に基づくテーブルではなく、距離の二乗の逆数（1/r2）に基づくテーブルを構築する。この新しいテーブルでは、エネルギーと力を1/r2の線形関数として評価できるため、中距離および長距離の粒子対に対しては少ないデータ点で十分となる（Fig. 1）。
 
-By making the table more efficient and defining energy and force as a linear function of 1/r2, we could create a lookup table that is both compact and highly accurate, especially for the short-range interactions that are the most critical for correct simulation results. This method leads to faster nonbonded calculations, which in turn accelerates the entire molecular dynamics simulation
-without sacrificing accuracy.
+このようにテーブルの効率を高め、エネルギーと力を1/r2の線形関数として定義することで、コンパクトかつ高精度なルックアップテーブルを実現できる。
+特に、シミュレーションの正確性において重要な短距離相互作用に対して高い精度を維持できる。この手法により非結合相互作用の計算が高速化され、結果として分子動力学シミュレーション全体を精度を損なうことなく加速することが可能となる。
 
 {{< figure src="/images/research/proj_2-1-1.jpg" alt="" caption="Fig. 4Performance on K, Trinity, LUMI, and Fugaku." >}}
 
@@ -29,31 +28,35 @@ without sacrificing accuracy.
 
 Jaewoon Jung, Takaharu Mori, and Yuji Sugita, “Efficient lookup table using a linear function of inverse distance squared”, J. Comput. Chem. 34, 2412-2420 (2013)
 
-### Parallelization in GENESIS
+### GENESISにおける並列化
 
-GENESIS employs a sophisticated, multi-layered approach to parallelization, combining different techniques to achieve remarkable performance and scale to systems with hundreds of millions of atoms on over a hundred thousand processor cores. The core philosophy is a hybrid parallelization scheme that leverages both MPI (Message Passing Interface) and OpenMP (Open Multi-Processing) for multithreading within a single node. This combination efficiently utilizes the hierarchical architecture of modern supercomputers, where many cores are grouped on a single node.
+GENEddSISは、高度で多層的な並列化手法を採用しており、複数の技術を組み合わせることで卓越した性能を実現し、10万コアを超える計算資源上で数億原子規模の系までスケールすることができる。その中核となる思想は、MPI（Message Passing Interface）とOpenMP（Open Multi-Processing）を組み合わせたハイブリッド並列化であり、単一ノード内でのマルチスレッド処理を効率的に実現する。この手法により、多数のコアが単一ノードに集約された現代のスーパーコンピュータの階層構造を有効に活用できる。
 
-### Core Algorithms for MD Parallelization
+### MD並列化のためのコアアルゴリズム
 
-The computational bottleneck in MD simulations is primarily the calculation of forces between particles. These forces can be divided into two categories: short-range and long-range interactions. GENESIS uses distinct parallelization strategies for each.
+MDシミュレーションにおける計算ボトルネックは主に粒子間の力の計算である。これらの力は、大きく短距離相互作用と長距離相互作用の2種類に分けられる。GENESISでは、それぞれに対して異なる並列化戦略を採用している。
 
-### 1. Short-Range Nonbonded Interactions: The Midpoint Cell Method
+### 1. 短距離非結合相互作用：ミッドポイントセル法
 
-Nonbonded interactions, such as Lennard-Jones forces, are typically calculated within a certain cutoff distance. GENESIS addresses this by using a spatial decomposition approach. In this method, the simulation space is divided into subdomains, and each processor is assigned a specific subdomain. The key innovation is the midpoint cell method, which works by having a processor compute the interaction for a pair of particles if the midpoint cell of the two cells of each particles lies within its assigned domain. This is combined with the hybrid MPI/OpenMP scheme, where each MPI process handles a subdomain and uses multiple OpenMP threads to parallelize the calculations within that subdomain ( 図 2 in 超 並 列 分 子 動 力 学 計 算 ソ フ ト ウ ェ ア GENESIS.docx). This strategy is highly efficient and minimizes inter-processor communication. To optimize the performance of the short-range non-bonded interactions, GENESIS uses different non-bonded interaction algorithms according to hardware architecture.
+Lennard-Jones力などの非結合相互作用は、通常、あるカットオフ距離内で計算される。GENESISではこれに対して空間分割法を用いる。シミュレーション空間を複数のサブドメインに分割し、それぞれを各プロセッサに割り当てる。
+その中核となるのがミッドポイントセル法である。この手法では、2つの粒子が属するセルの中点セルが、あるプロセッサの担当領域内にある場合、そのプロセッサがその粒子対の相互作用を計算する。この方法は、MPI/OpenMPハイブリッド並列化と組み合わせて用いられ、各MPIプロセスがサブドメインを担当し、その内部の計算を複数のOpenMPスレッドで並列化する（図 2 in 超 並 列 分 子 動 力 学 計 算 ソ フ ト ウ ェ ア GENESIS.docx）。この戦略は非常に効率的であり、プロセッサ間通信を最小限に抑えることができる。また、短距離非結合相互作用の性能最適化のために、ハードウェアアーキテクチャに応じて異なるアルゴリズムが用いられる。
 
-Long-range electrostatic forces are more complex and require a different approach, often handled by the Particle-Mesh Ewald (PME) method. PME relies on a 3D Fast Fourier Transform (FFT), which can also be a computational bottleneck for large systems. GENESIS uses a volumetric decomposition scheme that divides the 3D FFT grid into smaller sub-grids, keeping the same domain decomposition between real- and reciprocal-space. The algorithm is optimized to minimize the data communication by avoidng global communication when we convert real-space charge into charge values on grids, making the calculation of long-range forces highly scalable (Fig. 3).
+長距離の静電相互作用はより複雑であり、通常はParticle-Mesh Ewald（PME）法によって扱われる。PMEは3次元高速フーリエ変換（3D FFT）に依存しており、大規模系ではこれも計算ボトルネックとなる可能性がある。
+GENESISでは、3D FFTグリッドを小さなサブグリッドに分割する体積分割法を採用し、実空間と逆空間で同一のドメイン分割を維持する。このアルゴリズムは、実空間の電荷をグリッド上の電荷値へ変換する際にグローバル通信を回避することで、データ通信量を最小化するよう最適化されている。その結果、長距離相互作用の計算は高いスケーラビリティを実現している（Fig. 3）。
 
 {{< figure src="/images/research/proj_2-1-2.jpg" alt="" caption="Fig. 3. (a) Same domain decomposition between real and reciprocal space in GENESIS. We do not need communication to make charge on grids. (b) different domain decoposition between real and reciprocal space in other MD, which requires additional communications." >}}
-Based on the developments, GENESIS has a very good parallelization for large system on various supercomputers, including K, Trinity, Tsubame, Fugaku, LUMI, and so on (Fig. 4).
+
+これらの開発により、GENESISはK、Trinity、Tsubame、Fugaku、LUMIなどの様々なスーパーコンピュータ上で大規模系に対して非常に高い並列性能を実現している（Fig. 4）。
 
 {{< figure src="/images/research/proj_2-1-3.jpg" alt="" caption="Fig. 4Performance on K, Trinity, LUMI, and Fugaku." >}}
 
-### Specialized Parallelization for Coarse-Grained Simulations
+### 粗視化シミュレーションに特化した並列化
 
-While all-atom simulations provide high-resolution details, coarse-grained (CG) simulations are used to study even larger biological systems by representing amino acid as single "bead". GENESIS CGDYN addresses the unique parallelization challenges of these simulations.
+全原子シミュレーションは高い分解能を提供する一方で、より大規模な生体分子系を扱うためには、アミノ酸を単一の「ビーズ」として表現する粗視化（CG）シミュレーションが用いられる。GENESIS CGDYNは、このようなシミュレーション特有の並列化課題に対応している。
 
-In many CG simulations, the system is heterogeneous, meaning some regions are denser than others. In a standard spatial decomposition, the processors assigned to the dense regions will be overloaded with more work, while those in sparse regions will be idle. This leads to poor performance due to load imbalance. CGDYN solves this with a dynamic load balancing algorithm. It monitors the computational load on each processor and redistributes the subdomains to ensure that the work is evenly divided. This dynamic adjustment is essential for efficiently simulating complex, heterogeneous systems and prevents the entire simulation from being bottlenecked by a
-few overloaded processors (Figure in the press release).
+多くのCGシミュレーションでは、系は不均一であり、領域によって粒子密度が異なる。この場合、通常の空間分割では高密度領域を担当するプロセッサに負荷が集中し、低密度領域のプロセッサは遊休状態となる。その結果、負荷不均衡によって性能が低下する。
+
+CGDYNでは、これを動的負荷分散アルゴリズムによって解決する。各プロセッサの計算負荷を監視し、サブドメインの割り当てを再調整することで、負荷が均等になるようにする。この動的調整は、不均一で複雑な系を効率的にシミュレーションする上で不可欠であり、一部のプロセッサの過負荷によって全体がボトルネックとなることを防ぐ（Figure in the press release）。
 
 ### References:
 

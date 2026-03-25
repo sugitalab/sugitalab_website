@@ -1,5 +1,5 @@
 ---
-title: 'Acceleration and parallelization of MD simulations'
+title: 'Acceleration of molecular dynamics by computational science'
 date: 2025-10-07T12:04:37+09:00
 order: 1
 draft: false
@@ -7,7 +7,7 @@ description: ''
 keywords: []
 ---
 
-## Acceleration and parallelization of MD simulations
+## Acceleration of molecular dynamics by computational science
 
 ### Lookup Table Approach in GENESIS
 
