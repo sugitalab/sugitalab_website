@@ -1,5 +1,5 @@
 ---
-title: '超並列分子動力学ソフトウェアGENESIS'
+title: 'Ultra-Parallel Molecular Dynamics Software GENESISS'
 date: 2025-10-07T12:04:37+09:00
 order: 2
 draft: false
@@ -7,26 +7,28 @@ description: ''
 keywords: []
 ---
 
-## 超並列分子動力学ソフトウェアGENESIS
+## Ultra-Parallel Molecular Dynamics Software GENESIS
 
-これまでに世界中でさまざまな分子動力学計算ソフトウェアが開発されてきましたが、多数の演算装置(CPU)を用いて、従来の計算アルゴリズムを大規模な分子集団系に対して適用しようとすると、CPU 間の通信時間が増大するため限界がありました。実際、タンパク質 1 分子などの計算は可能でしたが、細胞質のように多数のタンパク質や核酸（DNA や RNA）などが混在するような生体分子システムを、水やイオンなどの溶媒も含めて、高速に計算することは困難でした。  
-特に、スーパーコンピュータ「京」のように非常に多くの CPU を備えたコンピュータの性能を最大限に利用するためには、新しい計算アルゴリズムを導入した分子動力学シミュレーションソフトウェアの開発が必要でした。
+Many molecular dynamics (MD) simulation software packages have been developed around the world. However, when using a large number of CPUs to apply conventional algorithms to large molecular systems, communication time between CPUs becomes a major limitation. In practice, simulations of a single protein were possible, but it was difficult to efficiently simulate complex biomolecular systems such as the cytoplasm, where many proteins and nucleic acids (DNA and RNA) coexist, together with solvent molecules like water and ions.
 
-分子集団系に関する相互作用エネルギーは、クーロンの法則などの物理法則に基づくポテンシャルエネルギー関数（分子力場）を用いて計算できます。 図 1 に示すように、分子集団系中には、 結合性相互作用と非結合性相互作用が働いていると考えます。分子動力学法では各原子に対してこれらの相互作用によって生じる力（F）を計算して、ニュートンの運動方程式 F = ma を解くことで分子の動きをコンピュータ内で仮想的に再現できます。この手法を用いることで、比較的小さな分子集団系におけるマイクロ秒より速い分子運動を原子レベルの解像度で観察できます。
+In particular, to fully utilize supercomputers with a very large number of CPUs, such as the K computer, it was necessary to develop new MD simulation software with advanced computational algorithms.
 
-私たちが開発した「GENESIS（GENeralized Ensemble SImulation System）」は、タンパク質や核酸、生体膜、糖鎖などの生体分子だけでなく、その集合体の分子動力学シミュレーションを行います。分子動力学シミュレーションで計算に最も時間がかかるのは、分子力場に含まれる非結合性相互作用の計算です。この計算を効率的に行うために、これまで、さまざまな試みが行われてきました。その中には、分子動力学専用コンピュータを開発して、長時間の分子動力学計算を実行するというアプローチも含まれます。分子動力学専用コンピュータを用いることでミリ秒に至る長時間の分子運動の解析が可能になりましたが、計算できる粒子数には制限がありました。  
+The interaction energy in molecular systems can be calculated using potential energy functions (force fields) based on physical laws such as Coulomb’s law. As shown in Fig. 1, molecular systems include both bonded and nonbonded interactions. In molecular dynamics, the forces (F) acting on each atom are calculated from these interactions, and the motion of molecules is simulated by solving Newton’s equation of motion, F = ma. Using this method, we can observe molecular motions faster than microseconds in relatively small systems with atomic-level resolution.
 
-一方で、GENESIS の開発目的は非常に多くの粒子を含む分子集団系の分子動力学計算を、「京」などの汎用スーパーコンピュータを用いて効率的に行うことでした。「京」「富岳」など、近年開発されたスーパーコンピュータの特徴は、数万もの CPU が高速なネットワークによって接続されていることです。スーパーコンピュータを有効に活用するためには、全体の計算をそれぞれの CPU に分散させて処理し、CPU 間のデータ通信を最少にします。この計算を行うためには、並列計算ができるプログラムを用いる必要があります。「京」のような非常に多くの CPU を用いた並列計算を行う際には、MPI と OpenMP という 2 つの異なるプロトコルを組み合わせたハイブリッド並列を用いることが有効です。GENESIS の開発ではあらかじめハイブリッド並列が考慮されています。
+The software we developed, GENESIS (GENeralized Ensemble SImulation System), performs MD simulations not only for biomolecules such as proteins, nucleic acids, membranes, and glycans, but also for their large assemblies. In MD simulations, the most time-consuming part is the calculation of nonbonded interactions in the force field. Many approaches have been proposed to make this calculation more efficient. One approach is to develop special-purpose computers dedicated to MD simulations, which enable long-timescale simulations up to milliseconds. However, such systems often have limitations in the number of particles that can be simulated.
 
-GENESIS は、2 つの分子動力学プログラム（ATDYN と SPDYN）と解析ツールで構成されています。ATDYN は粒子間相互作用の全ペアの計算を並列化するアルゴリズム（原子分割法）を用いており、SPDYN は空間全体を小さなドメイン（領域）およびセルに分割し、ドメインとその周囲のセルに含まれる粒子間相互作用ペアの計算を並列化するアルゴリズム（空間分割法）を用いています。ATDYN は小さなペプチドを対象としたシミュレーションや粗視化分子モデルを用いた計算、あるいは新しい計算アルゴリズムの開発やテストに用いることができます。一方、SPDYN で用いた空間分割法（図 2）では、データ通信が主に隣接するドメイン間でのみ発生するためデータ通信量を大幅に削減でき、原子分割法と比べて大きな系に対して高速に計算できます。
+In contrast, the goal of GENESIS is to efficiently simulate very large molecular systems using general-purpose supercomputers such as the K computer and Fugaku. These modern supercomputers consist of tens of thousands of CPUs connected by high-speed networks. To use them efficiently, computations must be distributed across CPUs while minimizing communication between them. This requires parallel computing programs. For massively parallel systems like the K computer, a hybrid parallelization approach that combines MPI and OpenMP is effective. GENESIS is designed with this hybrid parallelization from the beginning.
 
-そのため、SPDYN は膜タンパク質や細胞環境などの計算を全原子モデルで計算することを想定しています。また、新規アルゴリズムとして、①Inverse Lookup Table 法、②Midpoint cell 法、③Volumetric decomposition FFT 法などを導入しています。これらの新規アルゴリズムを同時に用いることで、バクテリアの細胞質分子混雑環境を模倣した約 1,170 万個の原子を含む分子集団系に対して 1 日あたり 17.5 ns、約 1 億 370 万個の原子を含む分子集団系に対しては 1 日あたり6.5 ns という性能を、「京」を用いて達成しました（図 3）。
 
-GENESIS のもう 1 つの特徴は、レプリカ交換分子動力学法（REMD 法）などの効率の良いアルゴリズムを導入していることです。REMD 法では、対象とする分子集団系のコピー（レプリカ）を複数用意し、それぞれ異なる温度を含む分子動力学シミュレーションを並列に実行し、ある頻度でパラメータを交換することで異なる条件のシミュレーションを混合させます（図 4）。このパラメータ交換により、例えば、低温から高温に至るさまざまな温度でのタンパク質の立体構造を、一度に予測することができます。また、低温では初期構造に近い状態に留まることがよくありますが、高温のシミュレーションを混合させることで初期構造とは異なる立体構造を探索できます。GENESIS に導入している REMD 法は温度だけでなく圧力や表面張力、拘束力などの多様な条件を交換できます。こうした効率の良いアルゴリズムは世界中の研究者によって開発されていますが、GENESIS は新規アルゴリズム開発を行うためのプラットフォームとしても用いることが可能です。
+GENESIS consists of two MD programs (ATDYN and SPDYN) and analysis tools. ATDYN uses an algorithm that parallelizes all pairwise particle interactions (atom decomposition). SPDYN uses a spatial decomposition method, where the simulation space is divided into small domains and cells, and interactions between particles in each domain and its neighboring cells are calculated in parallel. ATDYN is suitable for simulations of small peptides, coarse-grained models, and for developing or testing new algorithms. In contrast, the spatial decomposition method used in SPDYN (Fig. 2) significantly reduces communication because data exchange occurs mainly between neighboring domains. This allows much faster computation for large systems compared to atom decomposition.
 
-生体分子系の分子動力学シミュレーションは、分子動力学専用コンピュータや大規模な汎用スーパーコンピュータなどの機能向上によって、生命科学における重要性を増しています。さらに大規模な生体分子集合体に関して、より長い時間の分子運動を計算することが可能になれば、さまざまな実験データと直接比較することが可能になり、細胞内外で働くタンパク質などの生体分子の機能を原子レベルの解像度で詳しく理解し、制御できるようになるかもしれません。それは生命科学としての重要性だけでなく、創薬応用を考えた場合に直接役立つツールの 1 つとして利用できます。GENESIS が分子動力学シミュレーションを行うためのソフトウェアとして、開発グループのみならず、大学や研究機関、企業などで幅広く利用されることで、生命科学の基礎研究や創薬応用の現場で役立つと期待できます。
+Therefore, SPDYN is designed for large-scale all-atom simulations such as membrane proteins and cellular environments. It also introduces several new algorithms, including (1) the Inverse Lookup Table method, (2) the Midpoint cell method, and (3) the Volumetric decomposition FFT method. By combining these algorithms, we achieved performance of 17.5 ns/day for a system with about 11.7 million atoms, and 6.5 ns/day for a system with about 103.7 million atoms on the K computer (Fig. 3).
 
-{{< figure src="/images/research/proj_2-2.jpg" alt="" caption="図 1. 分子集団系の原子間相互作用：分子動力学計算では、原子を「電荷を持った質点」として近似し、それらがバネでつながっている分子モデルを扱う。原子同士の相互作用を結合性相互作用（伸縮振動、変角振動、二面角変化に伴う相互作用）と非結合性相互作用（ファンデルワールス相互作用とクーロン相互作用）に分けて計算する" >}}
+Another important feature of GENESIS is the implementation of efficient sampling algorithms such as Replica Exchange Molecular Dynamics (REMD). In REMD, multiple copies (replicas) of the system are simulated in parallel under different conditions, such as temperature, and parameters are exchanged at certain intervals (Fig. 4). This allows efficient sampling of different states. For example, protein structures at a wide range of temperatures can be explored in a single simulation. At low temperatures, simulations often remain near the initial structure, but by mixing high-temperature simulations, it becomes possible to explore different conformations. In GENESIS, REMD can exchange not only temperature but also other parameters such as pressure, surface tension, and restraint forces. While many efficient algorithms have been developed by researchers worldwide, GENESIS can also serve as a platform for developing new algorithms.
+
+Molecular dynamics simulations of biomolecular systems are becoming increasingly important in life sciences, supported by advances in both dedicated MD computers and large-scale supercomputers. If it becomes possible to simulate larger systems over longer timescales, simulation results can be directly compared with experimental data. This will help us understand and control the functions of biomolecules, such as proteins, at atomic resolution in cellular environments. This is important not only for basic life science but also for practical applications such as drug discovery. GENESIS is expected to be widely used not only by its developers but also by universities, research institutes, and industry, contributing to both fundamental research and drug discovery.
+
+{{< figure src="/images/research/proj_2-2.jpg" alt="" caption="Fig. 1. Interactions in molecular systems: In molecular dynamics simulations, atoms are treated as charged particles connected by springs. Interactions are divided into bonded interactions (bond stretching, angle bending, and dihedral torsions) and nonbonded interactions (van der Waals and Coulomb interactions)." >}}
 
 ### References:
 
