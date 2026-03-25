@@ -6,7 +6,7 @@ description: ''
 keywords: []
 ---
 
-## Diego Ugarte La Torre
+## ウガルテ　ラ　トレ　ディエゴ
 
 <div class="photo">
   <img src="/images/member/profile/diego_ugarte.jpg" alt="Diego Ugarte La Torre">
@@ -17,15 +17,17 @@ keywords: []
 <table class="profile-table is-left">
   <tbody>
     <tr>
-        <td>2021</td>
-        <td>Ph.D. (Biophysics) Kyoto Univeristy, Japan</td>
-      </tr><tr>
-        <td>2015</td>
-        <td>M.Sc. (Physics) Pontifical Catholic University of Peru, Peru</td>
-      </tr><tr>
-        <td>2005</td>
-        <td>B.Sc. (Chemistry) Peruvian University Cayetano Heredia, Peru</td>
-      </tr>
+      <td>2005</td>
+      <td>ペルー・カジェタノ・エレディア大学理学・哲学部化学専攻　卒業</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>ペルー・カトリカ大学大学院物理学専攻　修士課程修了（修士（理学））</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>京都大学大学院理学研究科生物科学専攻　博士課程修了（博士（理学））</td>
+    </tr>
   </tbody>
 </table>
 
@@ -34,24 +36,24 @@ keywords: []
 <table  class="profile-table">
   <tbody>
     <tr>
-      <td>2026 – 現在</td>
-      <td>東京大学 助教</td>
-    </tr>
-    <tr>
-      <td>2026 – 現在</td>
-      <td>理化学研究所 計算科学研究センター 客員研究員</td>
-    </tr>
-    <tr>
-      <td>2021 – 2026</td>
-      <td>理化学研究所 計算科学研究センター 特別研究員</td>
+      <td>2020 – 2021</td>
+      <td>京都大学　教務補佐員</td>
     </tr>
     <tr>
       <td>2021 – 2021</td>
-      <td>理化学研究所 計算科学研究センター リサーチ・アソシエイト</td>
+      <td>理化学研究所　計算科学研究センター　リサーチ・アソシエイト</td>
     </tr>
     <tr>
-      <td>2020 – 2021</td>
-      <td>京都大学 教務補佐員</td>
+      <td>2021 – 2026</td>
+      <td>理化学研究所　計算科学研究センター　特別研究員</td>
+    </tr>
+    <tr>
+      <td>2026 – 現在</td>
+      <td>理化学研究所　計算科学研究センター　客員研究員</td>
+    </tr>
+    <tr>
+      <td>2026 – 現在</td>
+      <td>東京大学　助教</td>
     </tr>
   </tbody>
 </table>

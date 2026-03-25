@@ -17,15 +17,17 @@ keywords: []
 <table class="profile-table is-left">
   <tbody>
     <tr>
-        <td>2021</td>
-        <td>Ph.D. (Biophysics) Kyoto Univeristy, Japan</td>
-      </tr><tr>
-        <td>2015</td>
-        <td>M.Sc. (Physics) Pontifical Catholic University of Peru, Peru</td>
-      </tr><tr>
-        <td>2005</td>
-        <td>B.Sc. (Chemistry) Peruvian University Cayetano Heredia, Peru</td>
-      </tr>
+      <td>2005</td>
+      <td>B.Sc. (Chemistry) Peruvian University Cayetano Heredia, Peru</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>M.Sc. (Physics) Pontifical Catholic University of Peru, Peru</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>Ph.D. (Biophysics) Kyoto Univeristy, Japan</td>
+    </tr>
   </tbody>
 </table>
 

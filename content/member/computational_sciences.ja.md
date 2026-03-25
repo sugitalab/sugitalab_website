@@ -17,7 +17,7 @@ keywords: []
       <li><a href="../profile/chigusa_kobayashi/">小林 千草（上級技師）</a></li>
       <li><a href="../profile/cheng_tan/">Cheng Tan（研究員）</a></li>
       <li><a href="../profile/shingo_ito/">伊東 真吾（研究員）</a></li>
-      <li><a href="../profile/diego_ugarte_la_torre/">Diego Ugarte La Torre（特別研究員）</a></li>
+      <li><a href="../profile/diego_ugarte/">ウガルテ　ラ　トレ　ディエゴ（客員研究員）</a></li>
       <li><a href="../profile/yangyang_zhang/">Yangyang Zhang（特別研究員）</a></li>
       <li>加納 裕美（アシスタント）</li>
     </ul>
