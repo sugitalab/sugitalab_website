@@ -11,6 +11,8 @@ keywords: []
 ### Theoretical Molecular Science Laboratory, RIKEN Pioneering Research Institute
 
 <ul class="member-list">
+  <li>Masahiro Motohashi (Student Trainee / Chuo University, Junior Research Associate) May. 2020 – Mar. 2026<br>
+  Eisai Co., Ltd.</li>
   <li>Haeri Im (Postdoctoral researcher) Sep. 2021 – Oct. 2025<br>Graduate School of Pharmaceutical Sciences, School of Pharmacy, Kumamoto University</li>
   <li>Taiki Wakabayashi (Junior Research Associate) Apr. 2022 – Mar. 2025<br>
   Eisai Co., Ltd.
@@ -122,6 +124,12 @@ keywords: []
 ### Computational Biophysics Research Team, RIKEN Center for Computational Science
 
 <ul class="member-list">
+  <li><a href="https://prime.osaka-u.ac.jp/ja/member/shinobu-ai/#anchor" target="_blank" rel="noopener noreferrer">Yangyang Zhang (Postdoctoral researcher) Dec. 2023 - Mar. 2026</a> <br>
+  WPI Premium Research Institute for Human Metaverse Medicine (WPI-PRiMe), Osaka University
+  </li>
+  <li><a href="../profile/diego_ugarte/">Diego Ugarte La Torre (Research Associate; Postdoctoral researcher) Jul. 2021 - Jan. 2026</a> <br>
+  Department of Physics, Faculty of Science, University of Tokyo
+  </li>
   <li>Koichi Tamura (Special Postdoctoral Researcher) Apr. 2016 – Apr. 2021<br>
   digzyme inc. 
   </li>

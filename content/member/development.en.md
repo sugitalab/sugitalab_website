@@ -22,7 +22,7 @@ keywords: []
       <!-- <li><a href="../profile/haeri_im/">Haeri Im (Postdoctoral Researcher)</a></li> -->
       <li><a href="../profile/azuki_mizutani/">Azuki Mizutani (Postdoctoral Researcher)</a></li>
       <li><a href="../profile/tarun-maity/">Tarun Maity (Postdoctoral Researcher)</a></li>
-      <li>Masahiro Motohashi (Junior Research Associate)</li>
+      <!-- <li>Masahiro Motohashi (Junior Research Associate)</li> -->
       <li>Machiko Ishigaki (Assistant)</li>
     </ul>
   </div>
