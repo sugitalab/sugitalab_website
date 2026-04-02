@@ -27,7 +27,7 @@ keywords: []
 ## References:
 
 <ol>
-  <li>Mori, T.; Ishitani, R.; Tsukazaki, T.; Nureki, O.; Sugita, Y. Molecular Mechanisms Underlying the Early Stage of Protein Translocation through the Sec Translocon. Biochemistry 2010, 49 (5), 945-950. DOI: 10.1021/bi901594w.</li>
+  <li>Mori, T.; Ishitani, R.; Tsukazaki, T.; Nureki, O.; Sugita, Y. Molecular Mechanisms Underlying the Early Stage of Protein Translocation through the Sec Translocon. Biochemistry 2010, 49 (5), 945-950. DOI: <a href="https://doi.org/10.1021/bi901594w" target="_blank">https://doi.org/10.1021/bi901594w</a>.</li>
   <li>Nishima, W.; Mizukami, W.; Tanaka, Y.; Ishitani, R.; Nureki, O.; Sugita, Y. Mechanisms for Two-Step Proton Transfer Reactions in the Outward-Facing Form of MATE Transporter. Biophysical Journal 2016, 110 (6), 1346-1354. DOI: <a href="https://doi.org/10.1016/j.bpj.2016.01.027" target="_blank">https://doi.org/10.1016/j.bpj.2016.01.027.</a></li>
-  <li>Tamura, K.; Sugimoto, H.; Shiro, Y.; Sugita, Y. Chemo-Mechanical Coupling in the Transport Cycle of a Heme ABC Transporter. The Journal of Physical Chemistry B 2019, 123 (34), 7270-7281. DOI: 10.1021/acs.jpcb.9b04356.</li>
+  <li>Tamura, K.; Sugimoto, H.; Shiro, Y.; Sugita, Y. Chemo-Mechanical Coupling in the Transport Cycle of a Heme ABC Transporter. The Journal of Physical Chemistry B 2019, 123 (34), 7270-7281. DOI: <a href="https://doi.org/10.1021/acs.jpcb.9b04356" target="_blank">https://doi.org/10.1021/acs.jpcb.9b04356</a>.</li>
 <ol>
