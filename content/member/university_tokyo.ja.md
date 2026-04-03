@@ -1,5 +1,5 @@
 ---
-title: '東京大学・理学部・物理学教室'
+title: '東大理学部'
 date: 2025-08-30T15:56:58+09:00
 draft: false
 description: ''

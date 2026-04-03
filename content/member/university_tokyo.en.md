@@ -1,5 +1,5 @@
 ---
-title: 'Department of Physics, Faculty of Science, University of Tokyo'
+title: 'U. Tokyo'
 date: 2025-08-30T15:56:58+09:00
 draft: false
 description: ''
