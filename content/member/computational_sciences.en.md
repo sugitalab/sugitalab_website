@@ -1,5 +1,5 @@
 ---
-title: 'R-CCS'
+title: 'RIKEN R-CCS'
 date: 2025-08-29T15:56:58+09:00
 draft: false
 description: ''

@@ -1,5 +1,5 @@
 ---
-title: '理研PRI'
+title: '理研 PRI'
 date: 2025-08-28T15:56:58+09:00
 draft: false
 description: ''

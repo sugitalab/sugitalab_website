@@ -13,7 +13,7 @@ keywords: []
 <div class="is-indent">
   <p><a href="http://pixy.polym.kyoto-u.ac.jp/ku_numata/index.html" target="_blank" rel="noopener noreferrer">データ創出・活用型マテリアル研究開発プロジェクト事業（バイオ・高分子ビッグデータ駆動による完全循環型バイオアダプティブ材料の創出）</a></p>
   <p><a href="https://structure.m.u-tokyo.ac.jp/xscalebio/" target="_blank" rel="noopener noreferrer">学術変革研究（A）「クロススケール新生物学」</a></p>
-  <p><a href="/projects/bie/en/">萌芽的研究課題「細胞内環境の生物学」</a></p>
+  <p><a href="/projects/bie/en/" target="_blank" rel="noopener noreferrer">萌芽的研究課題「細胞内環境の生物学」</a></p>
 </div>
 
 ### Finished projects (in Japanese)
