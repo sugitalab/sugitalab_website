@@ -22,7 +22,7 @@ keywords: []
 
 <article class="article-block accordion-block">
   <h3>2025年度「理研栄峰賞」</h3>
-  <p>杉田 有治（主任研究員）、Jaewoon Jung（専任技師）、新津 藍（チームディレクター）、袖岡 幹子（センター長）</p>
+  <p>新津 藍（チームディレクター）、杉田 有治（主任研究員）、袖岡 幹子（センター長）、Jaewoon Jung（専任技師）</p>
 </article>
 
 <article class="article-block accordion-block">

@@ -22,7 +22,7 @@ keywords: []
 
 <article class="article-block accordion-block">
   <h3>FY2025 RIKEN EIHO Award (RIKEN Significant Achievement Award)</h3>
-  <p>Dr. Yuji Sugita (Chief Scientist), Dr. Jaewoon Jung (Senior Scientist), Dr. Ai Niitsu (Team Leader), and Dr. Mikiko Sodeoka (Center Director)</p>
+  <p>Dr. Ai Niitsu (Team Leader), Dr. Yuji Sugita (Chief Scientist), Dr. Mikiko Sodeoka (Center Director), and Dr. Jaewoon Jung (Senior Scientist)</p>
 </article>
 
 <article class="article-block accordion-block">

@@ -31,6 +31,6 @@ By integrating simulations with experimental techniques such as **NMR spectrosco
     </ul>
   </div>
   <div class="image">
-    <img src="/images/research/project_3.png" alt="" />
+    <img src="/images/research/proj_4-7-3-en.jpg" alt="" />
   </div>
 </div><!-- /.research-image-block -->
