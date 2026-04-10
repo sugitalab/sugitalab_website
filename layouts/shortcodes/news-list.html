@@ -8,6 +8,18 @@
   {{- if gt (len $pages) 0 }}
     {{- $page := index $pages 0 }}
     {{- $rendered := $.Page.RenderString $page.RawContent }}
+    
+    {{/* 为 label 添加分类类名 */}}
+    {{- $rendered = $rendered | replaceRE `<label>(<a[^>]*>(Member|Members|メンバー|人事)</a>)</label>` `<label class="cat-member">$1</label>` }}
+    {{- $rendered = $rendered | replaceRE `<label>(<a[^>]*>(Award|受賞|受賞)</a>)</label>` `<label class="cat-award">$1</label>` }}
+    {{- $rendered = $rendered | replaceRE `<label>(<a[^>]*>(Publication|Press Release|論文|プレスリリース)</a>)</label>` `<label class="cat-publication">$1</label>` }}
+    {{- $rendered = $rendered | replaceRE `<label>(<a[^>]*>(Announce|Announcement|案内)</a>)</label>` `<label class="cat-announce">$1</label>` }}
+    {{- $rendered = $rendered | replaceRE `<label>(<a[^>]*>(Recruitment|Position|募集|採用)</a>)</label>` `<label class="cat-recruitment">$1</label>` }}
+    {{- $rendered = $rendered | replaceRE `<label>(<a[^>]*>(Seminar|セミナー)</a>)</label>` `<label class="cat-seminar">$1</label>` }}
+    {{- $rendered = $rendered | replaceRE `<label>(<a[^>]*>(Workshop|研究会)</a>)</label>` `<label class="cat-workshop">$1</label>` }}
+    {{- $rendered = $rendered | replaceRE `<label>(<a[^>]*>(Software|ソフトウェア)</a>)</label>` `<label class="cat-software">$1</label>` }}
+    {{- $rendered = $rendered | replaceRE `<label><span>(Recruitment)</span></label>` `<label class="cat-recruitment"><span>$1</span></label>` }}
+
     {{- $articles := findRE `<article[\s\S]*?<\/article>` $rendered }}
     {{- $allArticles = $allArticles | append $articles }}
   {{- else }}

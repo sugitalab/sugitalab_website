@@ -11,9 +11,19 @@
     justify-content: center;
     width: 132px;
     padding: 0 8px;
-    background-color: $color-wako;
+    background-color: $color-wako; // Default background
     font-size: _rem(14px);
     text-align: center;
+
+    &.cat-member { background-color: #808080; }      // Gray
+    &.cat-award { background-color: #f39c12; }       // Orange
+    &.cat-publication { background-color: #009b9e; } // Cyan (Original Wako color)
+    &.cat-announce { background-color: #4169E1; }    // RoyalBlue
+    &.cat-recruitment { background-color: #228B22; } // ForestGreen
+    &.cat-seminar { background-color: #A0522D; }     // Sienna
+    &.cat-workshop { background-color: #008080; }    // Teal
+    &.cat-software { background-color: #000080; }    // Navy
+
     a, span {
       color: #fff;
       text-decoration: none;
