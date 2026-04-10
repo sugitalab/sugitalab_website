@@ -11,6 +11,7 @@ keywords: []
 ### Ongoing projects (in Japanese)
 
 <div class="is-indent">
+  <p><a href="https://biosciencedbc.jp/en/funding/project/202603.html" target="_blank" rel="noopener noreferrer">Development of a Data and Model Platform to Support the Sharing and Reuse of MD Data</a></p>
   <p><a href="http://pixy.polym.kyoto-u.ac.jp/ku_numata/index.html" target="_blank" rel="noopener noreferrer">データ創出・活用型マテリアル研究開発プロジェクト事業（バイオ・高分子ビッグデータ駆動による完全循環型バイオアダプティブ材料の創出）</a></p>
 </div>
 

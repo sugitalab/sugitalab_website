@@ -11,6 +11,7 @@ keywords: []
 ### 進行中のプロジェクト
 
 <div class="is-indent">
+  <p><a href="https://biosciencedbc.jp/funding/project/202603.html" target="_blank" rel="noopener noreferrer">MDデータの共有と再利用を支えるデータ・モデル基盤の構築</a></p>
   <p><a href="http://pixy.polym.kyoto-u.ac.jp/ku_numata/index.html" target="_blank" rel="noopener noreferrer">データ創出・活用型マテリアル研究開発プロジェクト事業（バイオ・高分子ビッグデータ駆動による完全循環型バイオアダプティブ材料の創出）</a></p>
 </div>
 
