@@ -22,7 +22,7 @@ keywords: []
     </ul>
   </div>
   <div class="image">
-    <img src="/images/member/computational_sciences.jpg" alt="" />
+    <img src="/images/member/computational_sciences.png" alt="" />
   </div>
 </div><!-- /.member-image-block -->
 
