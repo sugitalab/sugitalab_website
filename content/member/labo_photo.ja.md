@@ -62,11 +62,19 @@ keywords: []
 
 <div class="labo-photo-block">
   <div class="block">
-    <img src="/images/member/photo/labo3-01.jpg" alt="">
-    <p>10/1以降に写真</p>
+    <img src="/images/member/photo/labo3-03.jpeg" alt="<">
+    <p>学生ワーキングスペース</p>
   </div>
   <div class="block">
-    <img src="/images/member/photo/labo3-01.jpg" alt="<">
-    <p>10/1以降に写真</p>
+    <img src="/images/member/photo/labo3-02.jpeg" alt="<">
+    <p>スタッフワーキングスペース</p>
+  </div>
+  <div class="block">
+    <img src="/images/member/photo/labo3-01.jpeg" alt="">
+    <p>ミーティングスペース</p>
+  </div>
+  <div class="block">
+    <img src="/images/member/photo/labo3-04.jpeg" alt="<">
+    <p>教授室ミーティングスペース</p>
   </div>
 </div>
