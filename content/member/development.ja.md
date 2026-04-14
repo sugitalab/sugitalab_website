@@ -22,6 +22,7 @@ keywords: []
       <!-- <li><a href="../profile/haeri_im/">Haeri Im（特別研究員）</a></li> -->
       <li><a href="../profile/azuki_mizutani/">水谷 淳生（特別研究員）</a></li>
       <li><a href="../profile/tarun-maity/">Tarun Maity（特別研究員）</a></li>
+      <li><a href="../profile/ryu_sakuma/">佐久間 竜（大学院リサーチアソシエイト）</a></li>
       <!-- <li>本橋 昌大（大学院リサーチアソシエイト）</li> -->
       <li>石垣 真知子（アシスタント）</li>
     </ul>
