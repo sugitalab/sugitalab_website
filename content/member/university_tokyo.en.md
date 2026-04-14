@@ -1,12 +1,12 @@
 ---
-title: 'Faculty of Science, UTokyo'
+title: 'Graduate School of Science, UTokyo'
 date: 2025-08-30T15:56:58+09:00
 draft: false
 description: ''
 keywords: []
 ---
 
-## Department of Physics, Faculty of Science, University of Tokyo
+## Department of Physics, Graduate School of Science, The University of Tokyo
 
 <div class="member-image-block">
   <div class="text">

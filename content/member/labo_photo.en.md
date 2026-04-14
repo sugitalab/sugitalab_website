@@ -59,7 +59,7 @@ keywords: []
   </div>
 </div>
 
-### Department of Physics, Faculty of Science, University of Tokyo
+### Department of Physics, Graduate School of Science, The University of Tokyo
 
 <div class="labo-photo-block">
   <div class="block">

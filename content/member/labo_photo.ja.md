@@ -58,7 +58,7 @@ keywords: []
   </div>
 </div>
 
-### 東京大学理学部物理学教室
+### 東京大学 大学院理学研究科 物理学専攻
 
 <div class="labo-photo-block">
   <div class="block">

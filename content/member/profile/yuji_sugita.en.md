@@ -55,7 +55,19 @@ keywords: []
       </tr>
       <tr>
         <td>2018</td>
-        <td>Team Leader (Concurrently), RIKEN Center for Computational Sciences</td>
+        <td>Team Leader (Concurrently), RIKEN Center for Computational Sciences (~March, 2025)</td>
+    </tr>
+    <tr>
+        <td>2025</td>
+        <td>Team Principal (Concurrently), RIKEN Center for Computational Sciences</td>
+    </tr>
+    <tr>
+        <td>2024</td>
+        <td>Unit Leader (Concurrently), Life and Medical Science Application Interface Platform Development Unit, AI for Science Platform Division, RIKEN Center for Computational Sciences (~March, 2025)</td>
+    </tr>
+    <tr>
+        <td>2024</td>
+        <td>Deputy Director (Concurrently), RIKEN Center for Computational Sciences</td>
     </tr>
     <tr>
         <td>2011</td>
@@ -63,7 +75,7 @@ keywords: []
     </tr>
     <tr>
         <td>2018</td>
-        <td>Team Leader (Concurrently), RIKEN Center for Biosystems Dynamics Research</td>
+        <td>Team Leader (Concurrently), RIKEN Center for Biosystems Dynamics Research (~March, 2024)</td>
     </tr>
     <tr>
         <td>2012</td>
@@ -71,26 +83,19 @@ keywords: []
     </tr>
     <tr>
         <td>2018</td>
-        <td>Chief Scientist, Theoretical Molecular Science Laboratory, RIKEN Cluster for Pioneering Research</td>
+        <td>Chief Scientist, Theoretical Molecular Science Laboratory, RIKEN Cluster for Pioneering Research (~March, 2024)</td>
+    </tr>
+    <tr>
+        <td>2024</td>
+        <td>Chief Scientist, Theoretical Molecular Science Laboratory, RIKEN Pioneering Research Institute</td>
+    </tr>
+    <tr>
+        <td>2025</td>
+        <td>Professor, Department of Physics, Graduate School of Science, The University of Tokyo</td>
     </tr>
   </tbody>
 </table>
 
-### Teaching experiences
-
-<table class="profile-table">
-  <tbody>
-    <tr>
-      <td>Visiting Professor, Department of Chemistry, Faculty of Science, Rikkyo University</td>
-    </tr>
-    <tr>
-      <td>Part-time instructor, Department of Physics, Faculty of Science, Gakushuin University</td>
-    </tr>
-    <tr>
-      <td>Visiting Professor, Graduate School of Frontier Biosciences, Osaka University</td>
-    </tr>
-  </tbody>
-</table>
 
 ### Professional affilations
 
