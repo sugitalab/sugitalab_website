@@ -1,40 +1,26 @@
 # .github/workflows/release.yml
-name: Build & Deploy (tag)
+name: Build & Deploy to GitHub Pages
 
 on:
   push:
+    branches:
+      - main  # 或者是您的主分支名
     tags:
       - 'v*'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build:
     runs-on: ubuntu-24.04
-    env:
-      TAG: ${{ github.ref_name }} 
     steps:
       - uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
-
-      - name: Cache Hugo Modules (Go)
-        if: ${{ hashFiles('**/go.mod', '**/go.sum') != '' }}
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.cache/hugo
-            ~/go/pkg/mod
-          key: ${{ runner.os }}-hugo-mods-${{ hashFiles('**/go.mod', '**/go.sum') }}
-          restore-keys: |
-            ${{ runner.os }}-hugo-mods-
-
-      - name: Cache Hugo resources
-        uses: actions/cache@v4
-        with:
-          path: resources/_gen
-          key: ${{ runner.os }}-hugo-resources-${{ hashFiles('hugo.toml', 'config*.{toml,yaml,yml,json}', 'assets/**', 'layouts/**', 'themes/**') }}
-          restore-keys: |
-            ${{ runner.os }}-hugo-resources-
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -43,64 +29,41 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --environment local
-
-      - name: Archive site
-        run: |
-          cd public
-          zip -r "../site-${TAG}.zip" .
-          echo "ZIP_PATH=site-${TAG}.zip" >> "$GITHUB_ENV"
+        run: hugo --minify
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: site-${{ env.TAG }}
-          path: ${{ env.ZIP_PATH }}
-          if-no-files-found: error
-          retention-days: 14
+          path: ./public
 
-  release_zip:
+  deploy:
     needs: build
     runs-on: ubuntu-24.04
-    permissions:
-      contents: write
-    env:
-      TAG: ${{ github.ref_name }}
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/download-artifact@v4
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  release_zip:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: build
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Download Artifact
+        uses: actions/download-artifact@v4
         with:
-          name: site-${{ env.TAG }}
+          name: github-pages
           path: .
+      - name: Create ZIP
+        run: |
+          mkdir site-archive
+          tar -xvf artifact.tar -C site-archive
+          cd site-archive && zip -r "../site-${{ github.ref_name }}.zip" .
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: site-${{ env.TAG }}.zip
+          files: site-${{ github.ref_name }}.zip
           generate_release_notes: true
-
-  deploy_cf_pages:
-    needs: build
-    runs-on: ubuntu-24.04
-    if: ${{ vars.USE_CLOUDFLARE_PAGES == 'TRUE' }}
-    env:
-      TAG: ${{ github.ref_name }}
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Download site artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: site-${{ env.TAG }}
-          path: .
-      - name: Unzip
-        run: |
-          unzip -o site-${{ env.TAG }}.zip -d public
-      - name: Deploy to Cloudflare Pages (production)
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          command: >
-            pages deploy ./public
-            --project-name "${{ secrets.CLOUDFLARE_PAGES_PROJECT }}"
-            --branch "main"
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-
