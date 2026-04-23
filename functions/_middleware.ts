@@ -2,7 +2,6 @@
 export const onRequest: PagesFunction = async ({ request, env, next }) => {
   const header = request.headers.get("Authorization");
   const need = "Basic " + btoa(`${env.BASIC_AUTH_USER}:${env.BASIC_AUTH_PASS}`);
-  console.log({header, need})
 
   if (header === need) {
     return next();
