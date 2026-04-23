@@ -1,5 +1,5 @@
 ---
-title: 'Acceptance of Undergraduate and Graduate Students'
+title: 'Students'
 date: 2025-09-01T16:55:29+09:00
 draft: false
 description: ''
@@ -9,7 +9,7 @@ keywords: []
 ## Acceptance of Undergraduate and Graduate Students
 
 We welcome applications from undergraduate and graduate students interested in conducting research in theoretical and computational science. Prospective students are encouraged to review the information on this website to gain a clear understanding of our research activities. After doing so, please contact the laboratory head, Dr. Yuji Sugita, by email for further discussion.
-(sugita_at_riken.jp — please replace “at” with “@”)
+(sugita_at_riken.jp — please replace “\_at\_” with “@”)
 
 
 ### Graduate Students in the Department of Physics, Graduate School of Science, The University of Tokyo

@@ -1,12 +1,12 @@
 ---
-title: 'Department of Physics, Faculty of Science, University of Tokyo'
+title: 'Graduate School of Science, UTokyo'
 date: 2025-08-30T15:56:58+09:00
 draft: false
 description: ''
 keywords: []
 ---
 
-## Department of Physics, Faculty of Science, University of Tokyo
+## Department of Physics, Graduate School of Science, The University of Tokyo
 
 <div class="member-image-block">
   <div class="text">
@@ -14,10 +14,10 @@ keywords: []
     <ul class="member-list">
       <li><a href="../profile/yuji_sugita/">Yuji Sugita (Professor)</a></li>
       <li><a href="../profile/diego_ugarte/">Diego Ugarte La Torre (Assistant Professor)</a></li>
+      <li><a href="../profile/tsubouchi_hideto/">Hideto Tsubouchi (Master Student)</a></li>
     </ul>
   </div>
   <div class="image">
     <img src="/images/member/utokyo.jpg" alt="" />
   </div>
 </div>
-

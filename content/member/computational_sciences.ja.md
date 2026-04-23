@@ -1,12 +1,12 @@
 ---
-title: '理化学研究所・計算科学研究センター・粒子系生物物理研究チーム'
+title: '理研 R-CCS'
 date: 2025-08-29T15:56:58+09:00
 draft: false
 description: ''
 keywords: []
 ---
 
-## 理化学研究所・計算科学研究センター・粒子系生物物理研究チーム
+## 理化学研究所 計算科学研究センター（R-CCS）粒子系生物物理研究チーム
 
 <div class="member-image-block">
   <div class="text">
@@ -17,12 +17,12 @@ keywords: []
       <li><a href="../profile/chigusa_kobayashi/">小林 千草（上級技師）</a></li>
       <li><a href="../profile/cheng_tan/">Cheng Tan（研究員）</a></li>
       <li><a href="../profile/shingo_ito/">伊東 真吾（研究員）</a></li>
-      <li><a href="../profile/yangyang_zhang/">Yangyang Zhang（特別研究員）</a></li>
+      <!-- <li><a href="../profile/yangyang_zhang/">Yangyang Zhang（特別研究員）</a></li> -->
       <li>加納 裕美（アシスタント）</li>
     </ul>
   </div>
   <div class="image">
-    <img src="/images/member/computational_sciences.jpg" alt="" />
+    <img src="/images/member/computational_sciences.png" alt="" />
   </div>
 </div><!-- /.member-image-block -->
 

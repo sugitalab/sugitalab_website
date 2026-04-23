@@ -5,7 +5,7 @@
 .article-block {
   display: flex;
   flex-wrap: wrap;
-  margin: 30px 0;
+  margin: 15px 0;
   > * {
     &:first-child {
       margin-top: 0 !important;
@@ -14,12 +14,14 @@
   h3 {
     width: 100%;
     margin-top: 12px;
-    font-size: _rem(20px);
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    font-weight: normal;
     line-height: 1.4;
   }
   .date {
     width: 100%;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
   }
   .organizer, .author {
     width: 100%;
@@ -37,6 +39,18 @@
     font-size: _rem(14px);
     text-align: center;
     float: left;
+    &.place-kobe {
+      background-color: $color-kobe;
+    }
+    &.place-wako {
+      background-color: $color-wako;
+    }
+    &.place-online {
+      background-color: $color-online;
+    }
+    &.place-other {
+      background-color: $color-other;
+    }
     a, span {
       color: #fff;
       text-decoration: none;
@@ -46,6 +60,6 @@
 
 @media (min-width: 768px) {
   .article-block {
-    margin: 40px 0 40px 20px;
+    margin: 20px 0 20px 20px;
   }
 }

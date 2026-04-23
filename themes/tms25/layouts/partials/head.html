@@ -33,4 +33,25 @@
   {{- end }}
 
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const labelMap = {
+        'Member': 'cat-member', 'Members': 'cat-member', 'メンバー': 'cat-member', '人事': 'cat-member',
+        'Award': 'cat-award', '受賞': 'cat-award',
+        'Publication': 'cat-publication', 'Press Release': 'cat-publication', '論文': 'cat-publication', 'プレスリリース': 'cat-publication',
+        'Announce': 'cat-announce', 'Announcement': 'cat-announce', '案内': 'cat-announce',
+        'Recruitment': 'cat-recruitment', 'Position': 'cat-recruitment', '募集': 'cat-recruitment', '採用': 'cat-recruitment',
+        'Seminar': 'cat-seminar', 'セミナー': 'cat-seminar',
+        'Workshop': 'cat-workshop', '研究会': 'cat-workshop',
+        'Software': 'cat-software', 'ソフトウェア': 'cat-software'
+      };
+      document.querySelectorAll('.news-article label').forEach(label => {
+        const text = label.textContent.trim();
+        if (labelMap[text]) {
+          label.classList.add(labelMap[text]);
+        }
+      });
+    });
+  </script>
 </head>

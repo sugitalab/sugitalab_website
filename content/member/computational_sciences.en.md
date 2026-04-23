@@ -1,5 +1,5 @@
 ---
-title: 'Computational Biophysics Research Team, RIKEN Center for Computational Science'
+title: 'RIKEN R-CCS'
 date: 2025-08-29T15:56:58+09:00
 draft: false
 description: ''
@@ -17,11 +17,11 @@ keywords: []
       <li><a href="../profile/chigusa_kobayashi/">Chigusa Kobayashi (Senior Technical Scientist)</a></li>
       <li><a href="../profile/cheng_tan/">Cheng Tan (Research Scientist)</a></li>
       <li><a href="../profile/shingo_ito/">Shingo Ito (Research Scientist)</a></li>
-      <li><a href="../profile/yangyang_zhang/">Yangyang Zhang (Postdoctoral Researcher)</a></li>
+      <!-- <li><a href="../profile/yangyang_zhang/">Yangyang Zhang (Postdoctoral Researcher)</a></li> -->
     </ul>
   </div>
   <div class="image">
-    <img src="/images/member/computational_sciences.jpg" alt="" />
+    <img src="/images/member/computational_sciences.png" alt="" />
   </div>
 </div><!-- /.member-image-block -->
 

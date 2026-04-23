@@ -33,7 +33,7 @@ sectionPagesMenu = 'main'
       [[languages.ja.menu.main]]
         identifier = 'research'
         name = '研究内容'
-        url = '/research/project1/'
+        url = '/research/'
         weight = 70
       [[languages.ja.menu.main]]
         identifier = 'meeting'
@@ -50,6 +50,11 @@ sectionPagesMenu = 'main'
         name = 'メンバー'
         url = '/member/development/'
         weight = 85
+      [[languages.ja.menu.main]]
+        identifier = 'education'
+        name = '教育活動'
+        url = '/education/'
+        weight = 87
       [[languages.ja.menu.main]]
         identifier = 'recruitment'
         name = '募集'
@@ -75,7 +80,7 @@ sectionPagesMenu = 'main'
           [[languages.en.menu.main]]
             identifier = 'research'
             name = "Research"
-            url = "/research/project1/"
+            url = "/research/"
             weight = 70
           [[languages.en.menu.main]]
             identifier = 'meeting'
@@ -92,6 +97,11 @@ sectionPagesMenu = 'main'
             name = 'Member'
             url = '/member/development/'
             weight = 85
+          [[languages.en.menu.main]]
+            identifier = 'education'
+            name = "Education"
+            url = "/education/"
+            weight = 87
           [[languages.en.menu.main]]
             identifier = 'recruitment'
             name = 'Recruitment'

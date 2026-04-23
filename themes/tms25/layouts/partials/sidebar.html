@@ -1,8 +1,12 @@
 <div class="sidebar">
   <div class="l-inner">
   {{- if eq .Section "research" }}
-    <h2><span>{{ i18n "Research" }}</span></h2>
     {{- $research := .Site.GetPage "section" "research" }}
+    <h2>
+      <a href="{{ $research.RelPermalink }}" {{- if eq $.RelPermalink $research.RelPermalink }}class="is-current"{{- end }}>
+        {{ i18n "Research" }}
+      </a>
+    </h2>
     <ul class="archive-list">
       {{- range sort $research.Sections "Date" "asc" }}
       <li>

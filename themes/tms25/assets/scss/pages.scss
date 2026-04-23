@@ -3,13 +3,62 @@
 @import "_mixins";
 
 .page-header {
-  background-color: $blue-gray;
+  position: relative;
   text-align: center;
-  h1 {
-    margin: 0;
+  overflow: hidden;
+  height: 120px; // 根据需要调整高度
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .page-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    svg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   }
+
+  .header-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(1.5px); // 毛玻璃核心：背景模糊
+    background: rgba(0, 0, 0, 0.35); // 增加一点微弱的底色使模糊感更真实
+    
+    h1 {
+      margin: 0;
+      color: #fff;
+      font-weight: bold;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+      letter-spacing: 0.05em;
+    }
+  }
+
   .inner {
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.publication,
+.meeting {
+  .anchor-links {
+    a {
+      color: $color-wako;
+    }
+    li::before {
+      border-color: $color-wako;
+    }
   }
 }

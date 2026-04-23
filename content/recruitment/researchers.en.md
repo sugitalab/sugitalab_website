@@ -1,5 +1,5 @@
 ---
-title: 'Acceptance of Postdoctoral Researchers and Research Fellows'
+title: 'Researchers'
 date: 2025-09-02T16:55:29+09:00
 draft: false
 description: ''
@@ -9,7 +9,7 @@ keywords: []
 ## Acceptance of Postdoctoral Researchers and Research Fellows
 
 We welcome applications from postdoctoral researchers and research fellows interested in conducting research in theoretical and computational science. Prospective applicants are encouraged to review the information on this website and publications from our laboratory to gain a solid understanding of our research activities. After doing so, please contact the laboratory head, Dr. Yuji Sugita, by email to discuss potential opportunities.
-(sugita_at_riken.jp — please replace “at” with “@”)
+(sugita_at_riken.jp — please replace “\_at\_” with “@”)
 
 ### Postdoctoral Researchers and Research Fellows Engaged in Research Projects
 

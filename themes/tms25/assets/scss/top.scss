@@ -39,6 +39,9 @@
   .img {
     text-align: center;
   }
+  .text {
+    line-height: 1.5;
+  }
 }
 
 .sec-news {
@@ -106,14 +109,17 @@
   .sec-message {
     .image-block {
       display: flex;
+      align-items: flex-start;
+      gap: 0 40px;
     }
     .img {
-      width: 244px;
-      margin-left: 20px;
+      width: 320px;
+      margin-left: 0;
       order: 2;
+      flex-shrink: 0;
     }
     .text {
-      width: 100%;
+      flex: 1;
       margin-top: 0;
       order: 1;
     }

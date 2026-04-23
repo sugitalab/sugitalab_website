@@ -11,6 +11,8 @@ keywords: []
 ### 理化学研究所開拓研究所杉田理論分子科学研究室
 
 <ul class="member-list">
+  <li>本橋 昌大（研修生 中央大学; 大学院生リサーチ・アソシエイト）2020年5月 – 2026年3月<br>エーザイ株式会社</li>
+  <li>Haeri Im（特別研究員）2021年9月 – 2025年10月<br>熊本大学大学院薬学教育部</li>
   <li>若林 大貴（大学院生リサーチ・アソシエイト）2022年4月 – 2025年3月<br>エーザイ株式会社</li>
   <li><a href="https://newv.szbl.ac.cn/en/" target="_blank" rel="noopener noreferrer">Yaokun Lei（特別研究員）2021年7月 – 2024年11月</a><br>Shenzhen Bay Laboratory</li>
   <li><a href="https://grad.pas.tsukuba.ac.jp/" target="_blank" rel="noopener noreferrer">八木 清（専任研究員）2012年12月 – 2024年7月</a><br>筑波大学 計算情報化学研究室</li>
@@ -59,6 +61,8 @@ keywords: []
 ### 理化学研究所計算科学研究センター粒子系生物物理研究チーム
 
 <ul class="member-list">
+  <li><a href="https://prime.osaka-u.ac.jp/ja/member/shinobu-ai/#anchor" target="_blank" rel="noopener noreferrer">Yangyang Zhang（特別研究員）2023年12月 – 2026年3月</a><br>大阪大学ヒューマン・メタバース疾患研究拠点</li>
+  <li><a href="../profile/diego_ugarte/">Diego Ugarte La Torre (特別研究員) 2011年7月 – 2026年1月</a> <br>東京大学・理学部・物理学教室</li>
   <li>田村 康一（基礎科学特別研究員）2016年4月 – 2021年4月<br>(株)digzyme</li>
   <li>宮下 治（上級研究員）2012年1月 – 2019年10月<br>理化学研究所計算科学研究センター</li>
   <li>松永 康佑（研究員）2008年4月 – 2019年3月<br>埼玉大学大学院理工学研究科</li>

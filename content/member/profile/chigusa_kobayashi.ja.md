@@ -88,6 +88,10 @@ keywords: []
 
 ### 出版物
 
+1. <u>Chigusa Kobayashi</u>, Kazuto Ando, Tsuyoshi Yamaura, Hikaru Inoue, Hitoshi Murai, 
+   "Performance analysis of Arm-based processors across multiple compilers for HPC workloads."
+  <em>Proceedings of the Supercomputing Asia and International Conference on High Performance Computing in Asia Pacific Region</em> <strong>2026</strong>, 236-246. <a href="https://doi.org/10.1145/3773656.3773671" target="_blank">DOI</a>
+
 1. Shingo Ito, <u>Chigusa Kobayashi</u>, Kiyoshi Yagi, Yuji Sugita,
    "Toward understanding whole enzymatic reaction cycles using multi-scale molecular simulations"
    <em>Current Opinion in Structural Biology</em> <strong>2025</strong>, 95, 103153.

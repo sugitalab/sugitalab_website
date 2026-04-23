@@ -9,7 +9,7 @@ keywords: []
 ## Yangyang Zhang
 
 <div class="photo">
-  <img src="/images/member/profile/yangyang_zhang.jpg" alt="Yangyang Zhang">
+  <img src="/images/member/profile/YangyangZHANG.jpg" alt="Yangyang Zhang">
 </div>
 
 ### Educations{.is-left}

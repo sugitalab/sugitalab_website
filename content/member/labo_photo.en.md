@@ -59,15 +59,23 @@ keywords: []
   </div>
 </div>
 
-### Department of Physics, Faculty of Science, University of Tokyo
+### Department of Physics, Graduate School of Science, The University of Tokyo
 
 <div class="labo-photo-block">
   <div class="block">
-    <img src="/images/member/photo/labo3-01.jpg" alt="">
-    <p>10/1以降に写真</p>
+    <img src="/images/member/photo/labo3-03.jpeg" alt="<">
+    <p>Desk space for student</p>
   </div>
   <div class="block">
-    <img src="/images/member/photo/labo3-01.jpg" alt="<">
-    <p>10/1以降に写真</p>
+    <img src="/images/member/photo/labo3-02.jpeg" alt="<">
+    <p>Desk space for staff</p>
+  </div>
+  <div class="block">
+    <img src="/images/member/photo/labo3-01.jpeg" alt="">
+    <p>Discourse space</p>
+  </div>
+  <div class="block">
+    <img src="/images/member/photo/labo3-04.jpeg" alt="<">
+    <p>Discourse space in professor's room</p>
   </div>
 </div>
