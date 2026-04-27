@@ -40,7 +40,7 @@
     {{- $path := .RelPermalink }}
     {{- $segments := split $path "/" }}
     {{- $depth := sub (len $segments) 2 }}
-    {{- if and (ge $depth 3) (in .File "dsb") }}
+    {{- if and (ge $depth 3) .File (in .File "dsb") }}
     <li><a href="{{ "/link/research/" }}">{{ i18n "Links" }} [{{ with .Site.GetPage "section" "link/research" }}{{ .Title }}{{ end }}]</a></li>
     <li>{{ .Title }}</li>
     {{- else }}
