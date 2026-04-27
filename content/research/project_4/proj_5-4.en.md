@@ -23,13 +23,13 @@ We further examined how the presence or absence of secondary structures (α-heli
 
 In this study, we demonstrated that electrostatic repulsion between Hero proteins is a key mechanism for preventing protein condensation. Besides Hero proteins, other proteins and RNA molecules are also known to inhibit or regulate protein condensation. Many of these molecules tend to carry positive or negative charges, suggesting that the electrostatic repulsion mechanism identified here may be a common molecular principle.
 
-{{< figure src="/images/research/proj_5-4-1.jpg" alt="" caption="Figure 1: Results of coarse-grained molecular simulations of TDP-43 and Hero11" >}}
+{{< figure src="/images/research/proj_5-4-1_en.png" alt="" caption="Figure 1: Results of coarse-grained molecular simulations of TDP-43 and Hero11" >}}
 <p>Condensation of TDP-43 at 295 K (approximately 22 °C) (top), suppression of condensation in a mixed system of TDP-43 and Hero11 (middle), and condensation formation in a mixed system of TDP-43 and the KR-less mutant where all charged amino acids were replaced by glycine (bottom). TDP-43 is shown in green and blue, and Hero11 is shown in red.</p>
 
-{{< figure src="/images/research/proj_5-4-2.jpg" alt="" caption="Figure 2: Schematic illustration of intermolecular interactions between Hero11 and TDP-43 and liquid–liquid phase separation" >}}
+{{< figure src="/images/research/proj_5-4-2_en.png" alt="" caption="Figure 2: Schematic illustration of intermolecular interactions between Hero11 and TDP-43 and liquid–liquid phase separation" >}}
 <p>Electrostatic repulsion between Hero11 molecules decreases particle density in the dense phase, while attractive interactions between Hero11 and TDP-43 stabilize their connections in the dilute phase.</p>
 
-{{< figure src="/images/research/proj_5-4-3.jpg" alt="" caption="Figure 3: Differences in the distribution of Hero11 in TDP-43 condensates depending on the presence or absence of α-helical structure" >}}
+{{< figure src="/images/research/proj_5-4-3_en.png" alt="" caption="Figure 3: Differences in the distribution of Hero11 in TDP-43 condensates depending on the presence or absence of α-helical structure" >}}
 <p>Schematic illustrations show the distributions of Hero11 and TDP-43 at 260 K (around 13 °C). The left image depicts Hero11 with an α-helical structure, while the right shows it without. Solid and dashed red lines represent the number of Hero11 molecules on the surface of condensates. The shape of the red lines indicates that Hero11 without an α-helical structure is more frequently observed on the surface of TDP-43 condensates.</p>
 
 ### References:
