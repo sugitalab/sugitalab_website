@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://sugitalab.github.io/sugitalab_website/'
 defaultContentLanguage = 'ja'
 languageCode = 'ja'
 title = 'Sugita-Lab'
