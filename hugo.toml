@@ -6,7 +6,8 @@ copyright = 'Copyright © Sugita-Lab. All rights reserved.'
 theme = 'tms25'
 assetDir = 'assets'
 disableKinds = ['sitemap']
-relativeURLs = true
+relativeURLs = false
+canonifyURLs = true
 disablePathToLower = true
 sectionPagesMenu = 'main'
 
