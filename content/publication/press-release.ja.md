@@ -20,7 +20,7 @@ keywords: []
 ## 2025{#2025}
 
 <article class="article-block accordion-block">
-  <h3>生体分子モーターの回転駆動機構を原始レベルで解明</h3>
+  <h3>生体分子モーターの回転駆動機構を原子レベルで解明</h3>
   <div>
     <a href="https://www.riken.jp/press/2025/20250820_1/index.html" target="_blank" rel="noopener noreferrer">理化学研究所 プレスリリース（2025年8月20日）</a>
   </div>

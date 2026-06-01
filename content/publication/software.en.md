@@ -9,7 +9,7 @@ keywords: []
 ### GENESIS
 
 <div class="is-indent">
-  <p>GENESIS (GENeralized-Ensemble SImulation System) is a molecular dynamics and modeling software for bimolecular systems such as proteins, lipids, glycans, and their complexes.</p>
+  <p>GENESIS (GENeralized-Ensemble SImulation System) is a molecular dynamics and modeling software for biomolecular systems such as proteins, lipids, glycans, and their complexes.</p>
   <dl class="dl-links">
     <dt>Article URL :</dt>
     <dd>

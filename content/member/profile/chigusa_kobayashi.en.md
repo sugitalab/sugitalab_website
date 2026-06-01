@@ -235,7 +235,7 @@ The chemical society of Japan, The biophysical society of Japan, Molecular Simul
     <a href="https://doi.org/10.1529/biophysj.105.078071" target="_blank">DOI</a>
 
 1. José N. Onuchic, <u>Chigusa Kobayashi</u>, Osamu Miyashita, Patricia Jennings, Kim K. Baldridge,
-    "Exploring bimolecular machines: energy landscape control of biological reactions"
+    "Exploring biomolecular machines: energy landscape control of biological reactions"
     <em>Philosophical Transactions of the Royal Society B</em> <strong>2006</strong>, 361, 1439–1443.
     <a href="https://doi.org/10.1098/rstb.2006.1876" target="_blank">DOI</a>
 

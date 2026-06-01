@@ -62,7 +62,7 @@ keywords: []
 
 <ul class="member-list">
   <li><a href="https://prime.osaka-u.ac.jp/ja/member/shinobu-ai/#anchor" target="_blank" rel="noopener noreferrer">Yangyang Zhang（特別研究員）2023年12月 – 2026年3月</a><br>大阪大学ヒューマン・メタバース疾患研究拠点</li>
-  <li><a href="../profile/diego_ugarte/">Diego Ugarte La Torre (特別研究員) 2011年7月 – 2026年1月</a> <br>東京大学・理学部・物理学教室</li>
+  <li><a href="../profile/diego_ugarte/">Diego Ugarte La Torre (特別研究員) 2021年7月 – 2026年1月</a> <br>東京大学・理学部・物理学教室</li>
   <li>田村 康一（基礎科学特別研究員）2016年4月 – 2021年4月<br>(株)digzyme</li>
   <li>宮下 治（上級研究員）2012年1月 – 2019年10月<br>理化学研究所計算科学研究センター</li>
   <li>松永 康佑（研究員）2008年4月 – 2019年3月<br>埼玉大学大学院理工学研究科</li>
@@ -74,7 +74,7 @@ keywords: []
 
 <ul class="member-list">
   <li><a href="https://sites.google.com/view/infosci-u-hyogo/home" target="_blank" rel="noopener noreferrer">尾嶋 拓（研究員）2016年4月 – 2023年3月</a><br>兵庫県立大学大学院理学研究科</li>
-  <li>松原 大貴（研究員）22020年9月 – 2023年3月</li>
+  <li>松原 大貴（研究員）2020年9月 – 2023年3月</li>
   <li><a href="https://prime.osaka-u.ac.jp/ja/member/shinobu-ai/#anchor" target="_blank" rel="noopener noreferrer">信夫 愛（研究員）2020年7月 – 2023年1月</a><br>大阪大学ヒューマン・メタバース疾患研究拠点</li>
   <li><a href="https://www.pharm.kumamoto-u.ac.jp/" target="_blank" rel="noopener noreferrer">鄭 誠虎（上級研究員）2021年6月 – 2022年6月</a><br>熊本大学大学院薬学教育部</li>
   <li><a href="https://www.nibiohn.go.jp/activities/In-silico-design.html" target="_blank" rel="noopener noreferrer">李 秀栄（上級研究員）2016年4月 – 2020年5月</a><br>医薬基盤・健康・栄養研究所創薬デザイン研究センター</li>
