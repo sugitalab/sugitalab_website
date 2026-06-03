@@ -12,7 +12,7 @@ keywords: []
   <img src="/images/member/profile/PhotoWebsite_ElisaRIOUAL-scaled.jpg" alt="Elisa Rioual">
 </div>
 
-### Educations{.is-left}
+### Education{.is-left}
 
 <table class="profile-table is-left">
   <tbody>

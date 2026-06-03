@@ -12,7 +12,7 @@ keywords: []
   <img src="/images/member/profile/Mizutani-scaled.jpeg" alt="Azuki Mizutani">
 </div>
 
-### Educations{.is-left}
+### Education{.is-left}
 
 <table class="profile-table is-left">
   <tbody>

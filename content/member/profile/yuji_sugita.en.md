@@ -12,7 +12,7 @@ keywords: []
   <img src="/images/member/profile/yuji_sugita.jpg" alt="Yuji Sugita">
 </div>
 
-### Educations{.is-left}
+### Education{.is-left}
 
 <table class="profile-table is-left">
   <tbody>
@@ -97,7 +97,7 @@ keywords: []
 </table>
 
 
-### Professional affilations
+### Professional affiliations
 
 The Physical Society of Japan, The Biophysical Society of Japan, The Molecular Simulation Society of Japan, Protein Science Society of Japan, BioSuperComputing Research Community, Biophysical Society(US), American Chemical Society(US)
 
@@ -118,7 +118,7 @@ The Physical Society of Japan, The Biophysical Society of Japan, The Molecular S
   </tbody>
 </table>
 
-### Publicatons (Recent publications are found <a href="/en/publication/2022-2026/" target="_blank" rel="noopener noreferrer">here</a>)
+### Publications (Recent publications are found <a href="/en/publication/2022-2026/" target="_blank" rel="noopener noreferrer">here</a>)
 
 <strong>Peer review articles (Before joining RIKEN)</strong>
 
@@ -139,7 +139,7 @@ The Physical Society of Japan, The Biophysical Society of Japan, The Molecular S
 1. Ayori Mitsutake, <strong>Yuji Sugita</strong> and Yuko Okamoto: &#8220;Replica-exchange multicanonical and multicanonical replica-exchange Monte Carlo simulations of peptides. II. Application to a more complex system&#8221;, <em>J. Chem. Phys.</em> <strong>118</strong> (2003) 6676-6688.
 1. Ayori Mitsutake, <strong>Yuji Sugita</strong> and Yuko Okamoto: &#8220;Replica-exchange multicanonical and multicanonical replica-exchange Monte Carlo simulations of peptides. I. Formulation and benchmark test&#8221;, <em>J. Chem. Phys.</em> <strong>118</strong> (2003) 6664-6675.
 1. Jun Funahashi, <strong>Yuji Sugita</strong>, Akio Kitao and Katsuhide Yutani: &#8220;How can free energy component analysis explain the difference in protein stability caused by amino acid substitutions? Effect of three hydrophobic mutations at the 56th residue on the stability of human lysozyme&#8221;, <em>Protein Eng.</em> <strong>16</strong> (2003) 665-671.
-1. Michio Asahi, <strong>Yuji Sugita</strong>, Kazimierz Kurzydlowski, Stella De Leon, Michihiko Tada, Chikashi Toyoshima and David H. MacLennan: &#8220;Sarcolipin regulates sarco(endo)plasmic reticulurn Ca2+-ATPase (SERCA) by binding to transmembrane helices alone or in association with phospholamban&#8221;, <em>Proc. Nat. Acad. Sci. USA</em> <strong>100</strong> (2003) 5040-5045.
+1. Michio Asahi, <strong>Yuji Sugita</strong>, Kazimierz Kurzydlowski, Stella De Leon, Michihiko Tada, Chikashi Toyoshima and David H. MacLennan: &#8220;Sarcolipin regulates sarco(endo)plasmic reticulum Ca2+-ATPase (SERCA) by binding to transmembrane helices alone or in association with phospholamban&#8221;, <em>Proc. Nat. Acad. Sci. USA</em> <strong>100</strong> (2003) 5040-5045.
 1. Chikashi Toyoshima, Michihiko Asahi, <strong>Yuji Sugita</strong>, Reena Khanna, Takao Tsuda and David H. MacLennan: &#8220;Modeling of the inhibitory interaction of phospholamban with the Ca2+-ATPase&#8221;, <em>Proc. Nat. Acad. Sci. USA</em> <strong>100</strong> (2003) 467-472.
 1. Takeshi Nagasima, <strong>Yuji Sugita</strong>, Ayori Mitsutake and Yuko Okamoto: &#8220;Generalized-ensemble simulations of spin systems and protein systems&#8221;, <em>Comp. Phys. Comm.</em> <strong>146</strong> (2002) 69-76.
 1. Yasuyuki Ishikawa, <strong>Yuji Sugita</strong>, Takeshi Nishikawa and Yuko Okamoto: &#8220;Ab initio replica-exchange Monte Carlo method for cluster studies&#8221;, <em>Chem. Phys. Lett.</em> <strong>333</strong> (2001) 199-206.

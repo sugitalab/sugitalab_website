@@ -12,7 +12,7 @@ keywords: []
   <img src="/images/member/profile/YagiTomo-scaled-e1729143861911.jpeg" alt="Tomoaki Yagi">
 </div>
 
-### Educations{.is-left}
+### Education{.is-left}
 
 <table class="profile-table is-left">
 <tbody>
@@ -50,7 +50,7 @@ keywords: []
 </tbody>
 </table>
 
-### Professional affilations
+### Professional affiliations
 
 Chemical Society of Japan, Japan Society for Molecular Science, Theoretical Chemistry Society
 
@@ -60,7 +60,7 @@ a. Bayesian modeling of smFRET data and biological imaging data
 
 b. Density functional theory for phase equilibrium and phase transition
 
-### Publicatons
+### Publications
 
 1. Self-consistent construction of grand potential functional with hierarchical integral equations and its application to solvation thermodynamics,
 Tomoaki Yagi and Hirofumi Sato,

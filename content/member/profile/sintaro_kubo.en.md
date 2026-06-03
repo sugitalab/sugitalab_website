@@ -12,7 +12,7 @@ keywords: []
   <img src="/images/member/profile/Shintaro_Kubo_Image.jpg" alt="Shintaroh Kubo">
 </div>
 
-### Educations{.is-left}
+### Education{.is-left}
 
 <table class="profile-table is-left">
   <tbody>

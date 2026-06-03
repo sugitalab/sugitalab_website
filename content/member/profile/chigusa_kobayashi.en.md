@@ -12,7 +12,7 @@ keywords: []
   <img src="/images/member/profile/kobayashi_chigusa.jpg" alt="Chigusa Kobayashi">
 </div>
 
-### Educations{.is-left}
+### Education{.is-left}
 
 <table class="profile-table is-left">
   <tbody>
@@ -83,7 +83,7 @@ The chemical society of Japan, The biophysical society of Japan, Molecular Simul
   <li>Development of molecular dymamics program</li>
 </ul>
 
-### Publicatons
+### Publications
 
 1. <u>Chigusa Kobayashi</u>, Kazuto Ando, Tsuyoshi Yamaura, Hikaru Inoue, Hitoshi Murai, 
    "Performance analysis of Arm-based processors across multiple compilers for HPC workloads."

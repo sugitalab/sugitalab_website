@@ -17,7 +17,7 @@ keywords: []
 
 <section class="sec-message">
   <div class="inner">
-    <h2>Message from the Principal Investigator(PI)</h2>
+    <h2>Message from the Principal Investigator (PI)</h2>
     <div class="image-block">
       <div class="img">
         <img src="/images/top/banner/sugita-photo.jpg" alt="Lead Researcher: Yuji Sugita (Theoretical Molecular Science Laboratory)" />

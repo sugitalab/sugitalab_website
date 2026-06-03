@@ -12,7 +12,7 @@ keywords: []
   <img src="/images/member/profile/diego_ugarte.jpg" alt="Diego Ugarte La Torre">
 </div>
 
-### Educations{.is-left}
+### Education{.is-left}
 
 <table class="profile-table is-left">
   <tbody>
@@ -68,7 +68,7 @@ keywords: []
   <li>Peruvian Japanese Academic Association</li>
 </ul>
 
-### Publicatons
+### Publications
 
 1. S. Shibata, M. Y. Wang, T. Imasaki, H. Shigematsu, D. Ugarte La Torre, Y. Wei, C. Jobichen, H. Hagio, J. Sivaraman, Y. Sugita, S. A. Endow, R. Nitta, "Structural analysis of a motor with increased mechanical output reveals new transitions in kinesin microtubule motility" <em>Scientific Reports</em> <strong>2026</strong>, 16. DOI: <a href="https://doi.org/10.1038/s41598-025-28573-7" target="_blank">10.1038/s41598-025-28573-7</a>
 

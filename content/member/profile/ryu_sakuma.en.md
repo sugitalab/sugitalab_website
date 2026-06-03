@@ -12,7 +12,7 @@ keywords: []
   <img src="/images/member/profile/Ryu_Sakuma.png" alt="Ryu Sakuma">
 </div>
 
-### Educations{.is-left}
+### Education{.is-left}
 
 <table class="profile-table is-left">
   <tbody>
@@ -45,6 +45,6 @@ a. Japan Society for Molecular Science
 
 a. Analyzing structure and dynamics of RNA using molecular dynamics simulation
 
-### Publicatons
+### Publications
 
 1. Ryu Sakuma, Keisuke Hirata, James M. Lisy, Masaaki Fujii, Shun-ichi Ishiuchi, “Unbuckling the 18-Crown-6 Ether Belt Around Metal Ions: Forging the Connection to the Condensed Phase,” <em>Journal of the American Chemical Society</em> <strong>2025</strong>, 147, 45-50. <a href="https://doi.org/10.1021/jacs.4c12036" target="_blank">DOI</a>

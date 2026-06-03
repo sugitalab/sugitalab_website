@@ -18,11 +18,11 @@ Similarly, GENESIS accurately evaluates pressure based on the virial theorem, wh
 
 This refined methodology for calculating temperature and pressure allows GENESIS to maintain similar structural and dynamical properties for simulations with time steps ranging from 2 fs to 5 fs, providing reliable results even with larger, more computationally efficient time steps (Fig. 1). This is a significant improvement over conventional methods where increasing the time step leads to a loss of accuracy.
 
-{{< figure src="/images/research/proj_1-2.jpg" alt="Area per lipid distribution" caption="Fig. 1. Aread per lipid distribution with temperature evaluation using conventional (left) and GENESIS (right)." >}}
+{{< figure src="/images/research/proj_1-2.jpg" alt="Area per lipid distribution" caption="Fig. 1. Area per lipid distribution with temperature evaluation using conventional (left) and GENESIS (right)." >}}
 
 ### References:
 
 1. Jaewoon Jung, Chigusa Kobayashi, and Yuji Sugita, J. Chem. Phys. 148, 164109 (2018)
-1.  Jaewoon Jung, Chigusa Kobayashi, and Yuji Sugita, J. Chem. Theory. Comput. 15, 84-94 2019)
+1.  Jaewoon Jung, Chigusa Kobayashi, and Yuji Sugita, J. Chem. Theory. Comput. 15, 84-94 (2019)
 1. Jaewoon Jung and Yuji Sugita, J. Chem. Phys. 153, 234115 (2020)
 1. Jaewoon Jung, Kento Kasahara, Chigusa Kobayashi, Hiraku Oshima, Takaharu Mori, and Yuji Sugita,  J. Chem. Theory. Comput. 17, 5312-5321 (2021)

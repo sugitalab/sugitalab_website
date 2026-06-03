@@ -12,7 +12,7 @@ keywords: []
   <img src="/images/member/profile/ito_shingo.jpg" alt="Shingo Ito">
 </div>
 
-### Educations{.is-left}
+### Education{.is-left}
 
 <table class="profile-table is-left">
   <tbody>
@@ -63,7 +63,7 @@ Biophysical Society of Japan, Protein Science Society of Japan, The Molecular Si
   <li>Development of molecular dynamics simulation packages</li>
 </ul>
 
-### Publicatons
+### Publications
 
 1. <u>S. Ito</u>, C. Kobayashi, K. Yagi, and Y. Sugita, "Toward understanding whole enzymatic reaction cycles using multi-scale molecular simulations" <em>Curr. Opin. Struct. Biol.</em> <strong>2025</strong>, 95, 103153. <a href="https://doi.org/10.1016/j.sbi.2025.103153" target="_blank">DOI</a>
 

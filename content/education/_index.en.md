@@ -6,7 +6,7 @@ description: ''
 keywords: []
 ---
 
-Since 2025, Yuji Sugita has started a research laboratory in the Department of Physics, Faculty of Science & Graduate School of Science, The University of Tokyo, and has taught courses on "Biophysics" and related subjects. Yuji Sugita has conducted intensive lectures at other universities and has participated in the GENESIS Users’ Group, where we discuss the application of molecular dynamics using the GENESIS software.
+Since 2025, Yuji Sugita launched a research laboratory in the Department of Physics, Faculty of Science & Graduate School of Science, The University of Tokyo, and has taught courses on "Biophysics" and related subjects. Yuji Sugita has conducted intensive lectures at other universities and has participated in the GENESIS Users’ Group, where we discuss the application of molecular dynamics using the GENESIS software.
 
 ### Undergraduate Courses
 

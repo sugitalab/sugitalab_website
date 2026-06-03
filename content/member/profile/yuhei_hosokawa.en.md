@@ -12,7 +12,7 @@ keywords: []
   <img src="/images/member/profile/hosokawa_yuhei.jpg" alt="Yuhei Hosokawa">
 </div>
 
-### Educations{.is-left}
+### Education{.is-left}
 
 <table class="profile-table is-left">
   <tbody>
@@ -56,7 +56,7 @@ keywords: []
 
 a. The Biophysical Society of Japan
 
-### Publicatons
+### Publications
 
 1. Manuel Maestre-Reyna†, Yuhei Hosokawa†, Po-Hsun Wang†, et al. († indicates co-first authors), “Capturing structural intermediates in an animal-like cryptochrome photoreceptor by time-resolved crystallography” <em>Sci. Adv.</em> <strong>2025</strong>, 11, eadu7247. <a href="https://www.science.org/doi/10.1126/sciadv.adu7247" target="_blank">DOI</a>
 

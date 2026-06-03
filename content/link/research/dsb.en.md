@@ -8,7 +8,8 @@ keywords: []
 
 ## Dynamic Structural Biology Links
 
-Here, we introduce useful tools such as software and database, which are commonly used in our research fields. We would like to encourage ourselves to collect information smoothly or collaborate between different research fields by sharing the knowledge through this page.
+Here, we introduce useful tools such as software and database, which are commonly used in our research fields. 
+We aim to facilitate information sharing and cross-disciplinary collaboration through this page.
 
 ### Cryo-electron microscopy (cryo-EM)
 

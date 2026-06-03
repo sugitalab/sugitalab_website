@@ -12,7 +12,7 @@ keywords: []
   <img src="/images/member/profile/YangyangZHANG.jpg" alt="Yangyang Zhang">
 </div>
 
-### Educations{.is-left}
+### Education{.is-left}
 
 <table class="profile-table is-left">
   <tbody>
@@ -44,7 +44,7 @@ keywords: []
 
 Multiscale modeling of biomolecule systems, Protein Functional Dynamics
 
-### Publicatons
+### Publications
 
 1. Zeyu Zhang, <u>Yangyang Zhang</u>, Weitong Ren, Weiwei Zhang, Wenfei Li, Wei Wang, 
 "Allosteric Regulation of Enzymatic Catalysis through Mechanical Force" 

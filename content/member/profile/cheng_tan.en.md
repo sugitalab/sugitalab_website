@@ -12,7 +12,7 @@ keywords: []
   <img src="/images/member/profile/cheng_tan.png" alt="Cheng Tan">
 </div>
 
-### Educations{.is-left}
+### Education{.is-left}
 
 <table class="profile-table is-left">
   <tbody>
@@ -57,7 +57,7 @@ keywords: []
 - Biophysical society (US)
 - American Chemical Society
 
-### Publicatons
+### Publications
 
 1. Soundhararajan Gopi, Giovanni B Brandani, <u>Cheng Tan</u>, Jaewoon Jung, Chenyang Gu, Azuki Mizutani, Hiroshi Ochiai, Yuji Sugita, Shoji Takada,  
 "In silico nanoscope to study the interplay of genome organization and transcription regulation."  

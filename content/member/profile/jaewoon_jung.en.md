@@ -12,7 +12,7 @@ keywords: []
   <img src="/images/member/profile/jaewoon_jung.jpg" alt="Jaewoon Jung">
 </div>
 
-### Educations{.is-left}
+### Education{.is-left}
 
 <table class="profile-table is-left">
   <tbody>
