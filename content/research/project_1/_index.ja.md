@@ -13,7 +13,7 @@ keywords: []
 
 今後もマルチスケール分⼦動⼒学法や GENESIS の開発を続けていきます。  特に、 <strong>GPU を⼗分に活⽤</strong>することで⼗倍から百倍程度の分⼦動⼒学の⾼速化を⽬指しています。  また、 **機械学習を組み合わせた分⼦動⼒学の⾰新**、 いわゆる **AI for Science** の研究開発も重視しています。
 
-### これまでに行なってきた手法開発
+### これまでに行ってきた手法開発
 <div class="research-image-block">
   <div class="text">
     <ul class="list">
@@ -28,7 +28,7 @@ keywords: []
       <li><a href="proj_1-3/">QM/MMモデルを⽤いた分⼦動⼒学</a></li>
       <li><a href="proj_1-4/">粗視化モデルを⽤いた分子動力学</a></li>
       <li><a href="proj_2-3/">粗視化分⼦動⼒学における不均⼀空間分割</a></li>
-      <li><a href="proj_1-7/">クライオ電験構造の精密化</a></li>
+      <li><a href="proj_1-7/">クライオ電顕構造の精密化</a></li>
     </ul>
   </div>
   <div class="image">

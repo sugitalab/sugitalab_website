@@ -34,7 +34,7 @@ alt=""
 caption="Figure 2. Schematic illustration of the developed parallel algorithms.<br>(a) Parallel computation using the kd-tree–based spatial decomposition method with eight CPUs. The molecular structure is evenly partitioned by recursively splitting at the molecular midpoint, and each subdivided region is assigned to a CPU (R0–R7) for computation.<br>(b) Parallel computation using the local shared-space decomposition method with eight CPUs. After evenly partitioning the space, CPUs responsible for regions containing many atoms are paired with those handling regions containing fewer atoms (black double arrows), and each pair cooperatively evaluates the agreement with the cryo-EM density. In the lower panel, the sharing of computational regions between R3 and R5 is schematically illustrated."
 >}}
 
-{{< figure src="/images/research/proj_1-7-2.jpg" alt="" 
+{{< figure src="/images/research/proj_1-7-3.jpg" alt="" 
 caption="Figure 3. Benchmark results of the developed parallel algorithms on a cluster computing system.<br>(a) Coarse-grained models and (b) all-atom models were used to evaluate computational performance for small-scale (Ca<sup>2+</sup>-ATPase), medium-scale (AMPA receptor), and large-scale (ribosome) biomolecular systems. For both the kd-tree–based spatial decomposition method and the local shared-space decomposition method, computational efficiency increased with the number of CPUs. In addition, the local shared-space decomposition method exhibited further performance improvement through the use of GPUs." >}}
 
 ### References:

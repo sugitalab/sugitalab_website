@@ -16,13 +16,13 @@ keywords: []
 
 同様に、GENESISは、ビリアルと運動エネルギーを組み合わせるビリアル定理に基づいて圧力を正確に評価します。温度評価と同様に、座標と運動量のテイラー展開をMD積分と比較するという厳密な方法を適用することで、より正確な圧力値を得ることができます。
 
-この洗練された温度と圧力の計算方法により、GENESISは、2fsから5fsの時間刻み幅を持つシミュレーションで、同様の構造的および動的特性を維持し、計算効率の高い大きな時間刻み幅でも信頼性の高い結果を提供します。これは、時間刻み幅を増やすと精度が失われる従来の方法からの大幅な改善です。
+この洗練された温度と圧力の計算方法により、GENESISは、2 fsから5 fsの時間刻み幅を持つシミュレーションで、同様の構造的および動的特性を維持し、計算効率の高い大きな時間刻み幅でも信頼性の高い結果を提供します。これは、時間刻み幅を増やすと精度が失われる従来の方法からの大幅な改善です。
 
-{{< figure src="/images/research/proj_1-2.jpg" alt="Area per lipid distribution" caption="Fig. 1. Aread per lipid distribution with temperature evaluation using conventional (left) and GENESIS (right)." >}}
+{{< figure src="/images/research/proj_1-2.jpg" alt="Area per lipid distribution" caption="Fig. 1. Area per lipid distribution with temperature evaluation using conventional (left) and GENESIS (right)." >}}
 
 ### References:
 
 1. Jaewoon Jung, Chigusa Kobayashi, and Yuji Sugita, J. Chem. Phys. 148, 164109 (2018)
-1. Jaewoon Jung, Chigusa Kobayashi, and Yuji Sugita, J. Chem. Theory. Comput. 15, 84-94 2019)
+1. Jaewoon Jung, Chigusa Kobayashi, and Yuji Sugita, J. Chem. Theory Comput. 15, 84-94 (2019)
 1. Jaewoon Jung and Yuji Sugita, J. Chem. Phys. 153, 234115 (2020)
-1. Jaewoon Jung, Kento Kasahara, Chigusa Kobayashi, Hiraku Oshima, Takaharu Mori, and Yuji Sugita,  J. Chem. Theory. Comput. 17, 5312-5321 (2021)
+1. Jaewoon Jung, Kento Kasahara, Chigusa Kobayashi, Hiraku Oshima, Takaharu Mori, and Yuji Sugita, J. Chem. Theory Comput. 17, 5312-5321 (2021)

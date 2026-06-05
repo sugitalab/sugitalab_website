@@ -46,7 +46,7 @@ CG モデルは、自由度を低く抑えた簡略化モデルである一方�
   <li>Cheng Tan, Jaewoon Jung, Chigusa Kobayashi, Diego Ugarte La Torre, Shoji Takada, and Yuji Sugita. Implementation of residue-level coarse-grained models in GENESIS for large-scale molecular dynamics simulations. PLoS Computational Biology 18, 4 (2022): e1009578.<br><a href="https://doi.org/10.1371/journal.pcbi.1009578" target="_blank" rel="noopener noreferrer">https://doi.org/10.1371/journal.pcbi.1009578</a></li>
   <li>Jaewoon Jung, Cheng Tan, and Yuji Sugita. GENESIS CGDYN: large-scale coarse-grained MD simulation with dynamic load balancing for heterogeneous biomolecular systems. Nature Communications 15, 3370 (2024).<br> 
   <a href="https://doi.org/10.1038/s41467-024-47654-1" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/s41467-024-47654-1</a></li>
-  <li>Diego Ugarte, Shoji Takada, Yuji Sugita. Extension of the iSoLF implicit-solvent coarse-grained model for multicomponent lipid bilayers. J. Chem. Phys. 159, 075101, (2023).<br><a href="https://doi.org/10.1063/5.0160417" target="_blank" rel="noopener noreferrer">https://doi.org/10.1063/5.0160417</a></li>
+  <li>Diego Ugarte, Shoji Takada, Yuji Sugita. Extension of the iSoLF implicit-solvent coarse-grained model for multicomponent lipid bilayers. J. Chem. Phys. 159, 075101 (2023).<br><a href="https://doi.org/10.1063/5.0160417" target="_blank" rel="noopener noreferrer">https://doi.org/10.1063/5.0160417</a></li>
 </ul>
 
-{{< figure src="/images/research/proj_1-4.jpg" alt="" caption="図 1. [GENESIS](https://mdgenesis.org/) で利用可能な残基レベル粗視化（CG）モデル.">}}
+{{< figure src="/images/research/proj_1-4.jpg" alt="" caption="図 1. [GENESIS](https://mdgenesis.org/) で利用可能な残基レベル粗視化（CG）モデル">}}

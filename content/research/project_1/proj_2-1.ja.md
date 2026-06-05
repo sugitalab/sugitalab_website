@@ -17,12 +17,12 @@ keywords: []
 
 しかし、単純なルックアップテーブルには問題もある。高い精度を得るためには、多数のデータ点を持つテーブルが必要となり、特に短距離領域では力が急激に変化するため、より細かい分解能が求められる。その結果、大量のメモリを必要とし、アクセスも遅くなる可能性がある。
 
-GENESISでは、距離の二乗（r2）に基づくテーブルではなく、距離の二乗の逆数（1/r2）に基づくテーブルを構築する。この新しいテーブルでは、エネルギーと力を1/r2の線形関数として評価できるため、中距離および長距離の粒子対に対しては少ないデータ点で十分となる（Fig. 1）。
+GENESISでは、距離の二乗（r<sup>2</sup>）に基づくテーブルではなく、距離の二乗の逆数（1/r<sup>2</sup>）に基づくテーブルを構築する。この新しいテーブルでは、エネルギーと力を1/r<sup>2</sup>の線形関数として評価できるため、中距離および長距離の粒子対に対しては少ないデータ点で十分となる（Fig. 1）。
 
-このようにテーブルの効率を高め、エネルギーと力を1/r2の線形関数として定義することで、コンパクトかつ高精度なルックアップテーブルを実現できる。
+このようにテーブルの効率を高め、エネルギーと力を1/r<sup>2</sup>の線形関数として定義することで、コンパクトかつ高精度なルックアップテーブルを実現できる。
 特に、シミュレーションの正確性において重要な短距離相互作用に対して高い精度を維持できる。この手法により非結合相互作用の計算が高速化され、結果として分子動力学シミュレーション全体を精度を損なうことなく加速することが可能となる。
 
-{{< figure src="/images/research/proj_2-1-1.jpg" alt="" caption="Fig. 4Performance on K, Trinity, LUMI, and Fugaku." >}}
+{{< figure src="/images/research/proj_2-1-1.jpg" alt="" caption="Fig. 1 Real-space electrostatic energy in terms of r<sup>2</sup> and 1/r<sup>2</sup>." >}}
 
 ### References
 
@@ -30,25 +30,23 @@ Jaewoon Jung, Takaharu Mori, and Yuji Sugita, “Efficient lookup table using a 
 
 ### GENESISにおける並列化
 
-GENEddSISは、高度で多層的な並列化手法を採用しており、複数の技術を組み合わせることで卓越した性能を実現し、10万コアを超える計算資源上で数億原子規模の系までスケールすることができる。その中核となる思想は、MPI（Message Passing Interface）とOpenMP（Open Multi-Processing）を組み合わせたハイブリッド並列化であり、単一ノード内でのマルチスレッド処理を効率的に実現する。この手法により、多数のコアが単一ノードに集約された現代のスーパーコンピュータの階層構造を有効に活用できる。
+GENESISは、高度で多層的な並列化手法を採用しており、複数の技術を組み合わせることで卓越した性能を実現し、10万コアを超える計算資源上で数億原子規模の系までスケールすることができる。その中核となる思想は、MPI（Message Passing Interface）とOpenMP（Open Multi-Processing）を組み合わせたハイブリッド並列化であり、単一ノード内でのマルチスレッド処理を効率的に実現する。この手法により、多数のコアが単一ノードに集約された現代のスーパーコンピュータの階層構造を有効に活用できる。
 
 ### MD並列化のためのコアアルゴリズム
 
 MDシミュレーションにおける計算ボトルネックは主に粒子間の力の計算である。これらの力は、大きく短距離相互作用と長距離相互作用の2種類に分けられる。GENESISでは、それぞれに対して異なる並列化戦略を採用している。
 
-### 1. 短距離非結合相互作用：ミッドポイントセル法
-
 Lennard-Jones力などの非結合相互作用は、通常、あるカットオフ距離内で計算される。GENESISではこれに対して空間分割法を用いる。シミュレーション空間を複数のサブドメインに分割し、それぞれを各プロセッサに割り当てる。
-その中核となるのがミッドポイントセル法である。この手法では、2つの粒子が属するセルの中点セルが、あるプロセッサの担当領域内にある場合、そのプロセッサがその粒子対の相互作用を計算する。この方法は、MPI/OpenMPハイブリッド並列化と組み合わせて用いられ、各MPIプロセスがサブドメインを担当し、その内部の計算を複数のOpenMPスレッドで並列化する（図 2 in 超 並 列 分 子 動 力 学 計 算 ソ フ ト ウ ェ ア GENESIS.docx）。この戦略は非常に効率的であり、プロセッサ間通信を最小限に抑えることができる。また、短距離非結合相互作用の性能最適化のために、ハードウェアアーキテクチャに応じて異なるアルゴリズムが用いられる。
+その中核となるのがミッドポイントセル法である。この手法では、2つの粒子が属するセルの中点セルが、あるプロセッサの担当領域内にある場合、そのプロセッサがその粒子対の相互作用を計算する。この方法は、MPI/OpenMPハイブリッド並列化と組み合わせて用いられ、各MPIプロセスがサブドメインを担当し、その内部の計算を複数のOpenMPスレッドで並列化する。この戦略は非常に効率的であり、プロセッサ間通信を最小限に抑えることができる（Fig. 2）。また、短距離非結合相互作用の性能最適化のために、ハードウェアアーキテクチャに応じて異なるアルゴリズムが用いられる。
 
 長距離の静電相互作用はより複雑であり、通常はParticle-Mesh Ewald（PME）法によって扱われる。PMEは3次元高速フーリエ変換（3D FFT）に依存しており、大規模系ではこれも計算ボトルネックとなる可能性がある。
-GENESISでは、3D FFTグリッドを小さなサブグリッドに分割する体積分割法を採用し、実空間と逆空間で同一のドメイン分割を維持する。このアルゴリズムは、実空間の電荷をグリッド上の電荷値へ変換する際にグローバル通信を回避することで、データ通信量を最小化するよう最適化されている。その結果、長距離相互作用の計算は高いスケーラビリティを実現している（Fig. 3）。
+GENESISでは、3D FFTグリッドを小さなサブグリッドに分割する体積分割法を採用し、実空間と逆空間で同一のドメイン分割を維持する。このアルゴリズムは、実空間の電荷をグリッド上の電荷値へ変換する際にグローバル通信を回避することで、データ通信量を最小化するよう最適化されている。その結果、長距離相互作用の計算は高いスケーラビリティを実現している。
 
-{{< figure src="/images/research/proj_2-1-2.jpg" alt="" caption="Fig. 3. (a) Same domain decomposition between real and reciprocal space in GENESIS. We do not need communication to make charge on grids. (b) different domain decoposition between real and reciprocal space in other MD, which requires additional communications." >}}
+{{< figure src="/images/research/proj_2-1-2.jpg" alt="" caption="Fig. 2. (a) Same domain decomposition between real and reciprocal space in GENESIS. We do not need communication to make charge on grids. (b) different domain decomposition between real and reciprocal space in other MD, which requires additional communications." >}}
 
-これらの開発により、GENESISはK、Trinity、Tsubame、Fugaku、LUMIなどの様々なスーパーコンピュータ上で大規模系に対して非常に高い並列性能を実現している（Fig. 4）。
+これらの開発により、GENESISはK、Trinity、Tsubame、Fugaku、LUMIなどの様々なスーパーコンピュータ上で大規模系に対して非常に高い並列性能を実現している（Fig. 3）。
 
-{{< figure src="/images/research/proj_2-1-3.jpg" alt="" caption="Fig. 4Performance on K, Trinity, LUMI, and Fugaku." >}}
+{{< figure src="/images/research/proj_2-1-3.jpg" alt="" caption="Fig. 3 Performance on K, Trinity, LUMI, and Fugaku." >}}
 
 ### 粗視化シミュレーションに特化した並列化
 
@@ -56,7 +54,7 @@ GENESISでは、3D FFTグリッドを小さなサブグリッドに分割する�
 
 多くのCGシミュレーションでは、系は不均一であり、領域によって粒子密度が異なる。この場合、通常の空間分割では高密度領域を担当するプロセッサに負荷が集中し、低密度領域のプロセッサは遊休状態となる。その結果、負荷不均衡によって性能が低下する。
 
-CGDYNでは、これを動的負荷分散アルゴリズムによって解決する。各プロセッサの計算負荷を監視し、サブドメインの割り当てを再調整することで、負荷が均等になるようにする。この動的調整は、不均一で複雑な系を効率的にシミュレーションする上で不可欠であり、一部のプロセッサの過負荷によって全体がボトルネックとなることを防ぐ（Figure in the press release）。
+CGDYNでは、これを動的負荷分散アルゴリズムによって解決する。各プロセッサの計算負荷を監視し、サブドメインの割り当てを再調整することで、負荷が均等になるようにする。この動的調整は、不均一で複雑な系を効率的にシミュレーションする上で不可欠であり、一部のプロセッサの過負荷によって全体がボトルネックとなることを防ぐ。
 
 ### References:
 
