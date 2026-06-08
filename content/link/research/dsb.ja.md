@@ -166,7 +166,7 @@ keywords: []
 <div class="accordion-block is-indent">
   <h4 class="accordion-trigger">MD software</h4>
   <div class="accordion-body is-indent">
-    <p><a href="http://www.aics.riken.jp/labs/cbrt/" target="_blank" rel="noopener noreferrer">GENESIS</a></p>
+    <p><a href="https://mdgenesis.org/" target="_blank" rel="noopener noreferrer">GENESIS</a></p>
     <p><a href="https://www.charmm.org/charmm/" target="_blank" rel="noopener noreferrer">CHARMM</a></p>
     <p><a href="http://ambermd.org" target="_blank" rel="noopener noreferrer">AMBER</a></p>
     <p><a href="http://www.gromacs.org" target="_blank" rel="noopener noreferrer">GROMACS</a></p>
@@ -222,7 +222,7 @@ keywords: []
 <div class="accordion-block is-indent">
   <h4 class="accordion-trigger">MD tutorials</h4>
   <div class="accordion-body is-indent">
-    <p><a href="http://www.aics.riken.jp/labs/cbrt/tutorial/" target="_blank" rel="noopener noreferrer">GENESIS</a></p>
+    <p><a href="https://mdgenesis.org/docs/tutorial_2022/" target="_blank" rel="noopener noreferrer">GENESIS</a></p>
     <p><a href="https://www.charmmtutorial.org/index.php/Outline" target="_blank" rel="noopener noreferrer">CHARMM</a></p>
     <p><a href="http://ambermd.org/tutorials/" target="_blank" rel="noopener noreferrer">AMBER</a></p>
     <p><a href="http://www.gromacs.org/Documentation/Tutorials" target="_blank" rel="noopener noreferrer">GROMACS</a></p>

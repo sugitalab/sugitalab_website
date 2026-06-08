@@ -13,7 +13,7 @@ keywords: []
 <div class="is-indent">
   <p><a href="https://www.riken.jp/research/labs/pri/" target="_blank" rel="noopener noreferrer">理化学研究所 開拓研究所</a></p>
   <p><a href="https://www.r-ccs.riken.jp" target="_blank" rel="noopener noreferrer">理化学研究所 計算科学研究センター（R-CCS）</a></p>
-  <p><a href="https://www.phys.s.u-tokyo.ac.jp" target="_blank" rel="noopener noreferrer">東京大学 大学院理学研究科 物理学専攻</a></p>
+  <p><a href="https://www.phys.s.u-tokyo.ac.jp" target="_blank" rel="noopener noreferrer">東京大学 大学院理学系研究科 物理学専攻</a></p>
 </div>
 
 ### 関連学会
