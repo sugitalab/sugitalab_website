@@ -28,7 +28,7 @@ keywords: []
     </ul>
   </div>
   <div class="image">
-    <img src="/images/member/development_highres.jpg" alt="" />
+    <img src="/images/member/development_highres.jpeg" alt="" />
   </div>
 </div><!-- /.member-image-block -->
 
