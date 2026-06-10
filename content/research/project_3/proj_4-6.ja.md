@@ -24,8 +24,8 @@ keywords: []
 
 抗体回避と中和への示唆： 受容体結合モチーフ（RBM）や抗体エピトープのアクセス性は、Sタンパク質の立体配座によって大きく異なります。新たに特定された1UO状態は、ACE2受容体結合のためにRBMを最大限に露出させる一方で、特定のクラスの抗体からはRBMを遮蔽する可能性があり、免疫回避のメカニズムを示唆しています。これらの知見は、抗体がSタンパク質の既存の柔軟な状態を認識するという「コンフォマー選択（conformer selection）」モデルを支持するものです。
 
-参考文献：
+### 参考文献
 
-Dokainish, H. M., Re, S., Mori, T., Kobayashi, C., Jung, J., Sugita, Y.: The inherent flexibility of receptor binding domains in SARS-CoV-2 spike protein. (2022) eLife 11: e75720.
+1. Dokainish, H. M., Re, S., Mori, T., Kobayashi, C., Jung, J., Sugita, Y. eLife 11, e75720 (2022). https://doi.org/10.7554/eLife.75720
 
-Mori, T., Jung, J., Kobayashi, C., Dokainish, H. M., Re. S., Sugita, Y.: Elucidation of interactions regulating conformational stability and dynamics of SARS-CoV-2 S-protein. (2021) Biophysical J. 120: 1060-1071.
+1. Mori, T., Jung, J., Kobayashi, C., Dokainish, H. M., Re. S., Sugita, Y. Biophys. J. 120, 1060-1071 (2021). https://doi.org/10.1016/j.bpj.2021.01.012

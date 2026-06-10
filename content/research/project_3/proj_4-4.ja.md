@@ -38,6 +38,4 @@ APP-C99の膜貫通ヘリックス二量体化を詳細に解析するために�
 さらに、膜中で形成される安定な二量体構造を基盤として、APP-C99とγセクレターゼとの相互作用や切断過程との関係を検討することで、Aβ生成機構をより現実的な条件下で理解することを目指します。本研究は、膜環境を含めた分子レベルの理解を通じて、アルツハイマー病研究の深化に貢献することが期待されます。
 
 ### 参考文献
-<ol>
-  <li>Ito, S.; Sugita, Y. Free-energy landscapes of transmembrane homodimers by bias-exchange adaptively biased molecular dynamics. Biophys. Chem. 2024, 307, 107190. DOI: <a href="https://doi.org/10.1016/j.bpc.2024.107190" target="_blank">https://doi.org/10.1016/j.bpc.2024.107190.</a></li>
-<ol>
+1. Ito, S. and Sugita, Y. Biophys. Chem. 307, 107190 (2024). https://doi.org/10.1016/j.bpc.2024.107190

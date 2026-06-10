@@ -22,18 +22,12 @@ TDP-43の凝縮の抑制・制御に関するHero11の機能をより詳しく�
 
 本研究では、Heroタンパク質による他のタンパク質の凝縮抑制には、Heroタンパク質同士の静電的な斥力が巧みに使われていることを示しました。Heroタンパク質だけでなく、他のタンパク質やRNAもタンパク質の凝縮を抑制・制御していることが知られています。これらの多くもプラスまたはマイナスの電荷に偏っているため、この研究で示された静電的な斥力効果は一般的な分子機構である可能性が高いです。
 
-{{< figure src="/images/research/proj_5-4-1.png" alt="" caption="図1: TDP-43とHero11の粗視化分子モデルによるシミュレーションの結果" >}}
+{{< figure src="/images/research/proj_5-4-1.png" alt="" caption="図1: TDP-43とHero11の粗視化分子モデルによるシミュレーションの結果。295K（約 22℃）における TDP-43 の凝縮（上）、TDP-43 と Hero11 の混合系における凝縮の抑制（中）、TDP-43 と電荷を持つアミノ酸を全てグリシンに置換した KR-less 変異体の混合系における凝縮形成（下）。TDP-43 を緑と青で、Hero11 を赤で示した。" >}}
 
-<p>295K（約 22℃）における TDP-43 の凝縮（上）、TDP-43 と Hero11 の混合系における凝縮の抑制（中）、TDP-43 と電荷を持つアミノ酸を全てグリシンに置換した KR-less 変異体の混合系における凝縮形成（下）。TDP-43 を緑と青で、Hero11 を赤で示した。</p>
+{{< figure src="/images/research/proj_5-4-2.png" alt="" caption="図2: Hero11とTDP-43の間の分子間相互作用と液-液相分離の模式図。Hero11 間の静電的な斥力が濃厚相における粒子密度を低下させている一方で、Hero11 と TDP-43 の間に働く引力が希薄相における TDP-43 と Hero11 の相互作用を安定化させる。" >}}
 
-{{< figure src="/images/research/proj_5-4-2.png" alt="" caption="図2: Hero11とTDP-43の間の分子間相互作用と液-液相分離の模式図" >}}
+{{< figure src="/images/research/proj_5-4-3.png" alt="" caption="図3: α-ヘリックスの有無によるTDP-43による凝縮体（液滴）におけるHero11の配置の違い。左がα-ヘリックスを持つ Hero11 の場合、右がα-ヘリックスを持たない Hero11 の場合の 260K（約 13℃）における Hero11 と TDP-43 の配置の模式図。赤の実線と破線は凝縮体上の Hero11の数を示す。赤線の形状が示すように、Hero11 がα-ヘリックスを持たない場合に、Hero11 がTDP-43 による凝縮体の表面でより多く観測される。" >}}
 
-<p>Hero11 間の静電的な斥力が濃厚相における粒子密度を低下させている一方で、Hero11 と TDP-43 の間に働く引力が希薄相における TDP-43 と Hero11 の相互作用を安定化させる。</p>
+### 参考文献
 
-{{< figure src="/images/research/proj_5-4-3.png" alt="" caption="図3: α-ヘリックスの有無によるTDP-43による凝縮体（液滴）におけるHero11の配置の違い" >}}
-
-<p>左がα-ヘリックスを持つ Hero11 の場合、右がα-ヘリックスを持たない Hero11 の場合の 260K（約 13℃）における Hero11 と TDP-43 の配置の模式図。赤の実線と破線は凝縮体上の Hero11の数を示す。赤線の形状が示すように、Hero11 がα-ヘリックスを持たない場合に、Hero11 がTDP-43 による凝縮体の表面でより多く観測される。</p>
-
-### References:
-
-<p>Cheng Tan, Ai Niitsu, Yuji Sugita, Highly Charged Proteins and Their Repulsive Interactions Antagonize Biomolecular Condensation, JACS Au 3(3), 834-848 (2023) <a href="https://doi.org/10.1021/jacsau.2c00646" target="_blank">https://doi.org/10.1021/jacsau.2c00646</a></p>
+1. Tan, C. Niitsu, A. Sugita, A. JACS Au 3, 834-848 (2023). https://doi.org/10.1021/jacsau.2c00646
