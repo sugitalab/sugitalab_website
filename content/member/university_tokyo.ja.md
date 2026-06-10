@@ -1,12 +1,12 @@
 ---
-title: '東大 理学研究科'
+title: '東大 理学系研究科'
 date: 2025-08-30T15:56:58+09:00
 draft: false
 description: ''
 keywords: []
 ---
 
-## 東京大学 大学院理学研究科 物理学専攻
+## 東京大学大学院 理学系研究科 物理学専攻
 
 <div class="member-image-block">
   <div class="text">

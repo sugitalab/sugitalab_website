@@ -11,19 +11,18 @@ keywords: []
 ### Theoretical Molecular Science Laboratory, RIKEN Pioneering Research Institute
 
 <ul class="member-list">
-  <li>Masahiro Motohashi (Student Trainee / Chuo University, Junior Research Associate) May. 2020 – Mar. 2026<br>
+  <li><a href="https://www.eisai.co.jp/index.html" target="_blank" rel="noopener noreferrer">Masahiro Motohashi (Student Trainee / Chuo University, Junior Research Associate) May. 2020 – Mar. 2026</a><br>
   Eisai Co., Ltd.</li>
-  <li>Haeri Im (Postdoctoral researcher) Sep. 2021 – Oct. 2025<br>Graduate School of Pharmaceutical Sciences, School of Pharmacy, Kumamoto University</li>
-  <li>Taiki Wakabayashi (Junior Research Associate) Apr. 2022 – Mar. 2025<br>
+  <li><a href="https://www.pharm.kumamoto-u.ac.jp/" target="_blank" rel="noopener noreferrer">Haeri Im (Postdoctoral researcher) Sep. 2021 – Oct. 2025</a><br>Graduate School of Pharmaceutical Sciences, School of Pharmacy, Kumamoto University</li>
+  <li><a href="https://www.eisai.co.jp/index.html" target="_blank" rel="noopener noreferrer">Taiki Wakabayashi (Junior Research Associate) Apr. 2022 – Mar. 2025</a><br>
   Eisai Co., Ltd.
   </li>
-  <li><a href="https://newv.szbl.ac.cn/en/" target="_blank" rel="noopener noreferrer">Yaokun Lei
-  (Postdoctoral Researcher) Jul. 2021 – Nov. 2024</a><br>Shenzhen Bay Laboratory</li>
+  <li>Yaokun Lei (Postdoctoral Researcher) Jul. 2021 – Nov. 2024<br>Shenzhen Bay Laboratory</li>
   <li><a href="https://grad.pas.tsukuba.ac.jp/" target="_blank" rel="noopener noreferrer">Kiyoshi Yagi (Senior Research Scientist) Dec. 2012 – Jul. 2024</a><br>Department of Chemistry, Institute of Pure and Applied Sciences, University of Tsukuba</li>
   <li><a href="https://www.bdr.riken.jp/ja/research/labs/niitsu-a/index.html" target="_blank" rel="noopener noreferrer">Ai Niitsu (PRESTO Researcher) Apr. 2017 – Dec. 2023</a><br>Laboratory for Dynamic Biomolecule Design, RIKEN Center for Integrated Medical Sciences</li>
-  <li><a target="_blank" href="http://wiucas.ac.cn/en/about/introduction/">Weitong Ren (Postdoctoral Researcher) Apr. 2019 – Jun. 2023</a><br>Wenzhou Institute, UCAS
+  <li>Weitong Ren (Postdoctoral Researcher) Apr. 2019 – Jun. 2023<br>Wenzhou Institute, UCAS
   </li>
-  <li><a href="https://cbp.riken.jp/member/profile/shingo-ito/" target="_blank" rel="noopener noreferrer">Shingo Ito (Postdoctoral Researcher) Dec. 2019 – Mar. 2024</a><br>Computational Biophysics Research Team, RIKEN Center for Computational Science
+  <li><a href="../profile/shingo_ito/" target="_blank" rel="noopener noreferrer">Shingo Ito (Postdoctoral Researcher) Dec. 2019 – Mar. 2024</a><br>Computational Biophysics Research Team, RIKEN Center for Computational Science
   </li>
   <li><a href="https://www.peptidream.com/" target="_blank" rel="noopener noreferrer">Kazuki Watanabe (Student Trainee / Chiba University) Jun. 2022 – Mar. 2024</a><br>PeptiDream Inc.
   </li>
@@ -39,7 +38,7 @@ keywords: []
   <li><a href="https://convallaria.pharm.hokudai.ac.jp/bunshi/index.php" target="_blank" rel="noopener noreferrer">Hisham Dokainish (Postdoctoral Researcher) Apr. 2018 – Jun. 2022</a><br>
   Research Center for Drug and Vaccine Development, <a href="https://researchmap.jp/researchers?institution_code=A045*&affiliation_search_range=affiliations" target="_blank">National Institute of Infectious Diseases</a>
   </li>
-  <li><a href="http://www.chem.yamaguchi-u.ac.jp/professor.html" target="_blank" rel="noopener noreferrer">Yosuke Sumiya (Special Postdoctoral Researcher) Sep. 2019 – Jun. 2021<a><br>Faculty of Engineering Department of Applied Chemistry, Yamaguchi University
+  <li><a href="http://www.chem.yamaguchi-u.ac.jp/professor.html" target="_blank" rel="noopener noreferrer">Yosuke Sumiya (Special Postdoctoral Researcher) Sep. 2019 – Jun. 2021</a><br>Faculty of Engineering Department of Applied Chemistry, Yamaguchi University
   </li>
   <li><a href="http://www.rist.or.jp/kobe/index.html" target="_blank" rel="noopener noreferrer">Daisuke Matsuoka (Postdoctoral Researcher) Feb. 2016 – Apr. 2020</a><br>
   Kobe Center, Research Organization for Information Science and Technology (RIST)
@@ -47,13 +46,13 @@ keywords: []
   <li><a href="https://www.bu.edu/" target="_blank">Alexander T. Hino (International Program Associate / Boston University) July. 2019 – Dec. 2019</a><br>
   Boston University
   </li>
-  <li><a href="http://cnbch.uw.edu.pl/language/en/" target="_blank" rel="noopener noreferrer">Marta Kulik (Postdoctoral Researcher) Sep. 2014 – Dec. 2014 & Jan. 2016 – Mar. 2019</a><br>
+  <li>Marta Kulik (Postdoctoral Researcher) Sep. 2014 – Dec. 2014 & Jan. 2016 – Mar. 2019<br>
   Biological and Chemical Research Centre, University of Warsaw
   </li>
   <li><a href="https://ccse.jaea.go.jp/ja/index.html" target="_blank" rel="noopener noreferrer">Bo Thomsen (Special Postdoctoral Researcher) Jun. 2014 – Jan. 2019</a><br>
   Japan Atomic Energy Agency, Center for Computational Science & e-Systems
   </li>
-  <li>Geroge Pantaloplous (International Program Associate / Boston University) Aug. 2017 – Dec. 2017, Jul. 2018 – Dec. 2018<br>NIH
+  <li>George Pantelopoulos (International Program Associate / Boston University) Aug. 2017 – Dec. 2017, Jul. 2018 – Dec. 2018<br>NIH
   </li>
   <li><a href="https://www.chugai-pharm.co.jp/index.html" target="_blank" rel="noopener noreferrer">Kenta Yamada (Postdoctoral Researcher) Apr. 2015 – Nov. 2018</a><br>Chugai Pharmaceutical Co., Ltd.,
   </li>
@@ -63,7 +62,7 @@ keywords: []
   <li><a href="http://www.ifs.tohoku.ac.jp/mht/" target="_blank" rel="noopener noreferrer">Donatas Surblys (Postdoctoral Researcher) Apr. 2016 – Mar. 2018</a><br>
   Institute of Fluid Science, Tohoku University
   </li>
-  <li><a href="http://tyre.dunlop.co.jp/" target="_blank" rel="noopener noreferrer">Takuya Yuasa (Student Trainee / Chuo University) Apr. 2016 – Mar. 2018</a></br>
+  <li>Takuya Yuasa (Student Trainee / Chuo University) Apr. 2016 – Mar. 2018</br>
   Sumitomo Rubber Industries, LTD.
   </li>
   <li><a href="https://www.kotai-bio.com/jp/" target="_blank" rel="noopener noreferrer">Po-Hung Wang (Postdoctoral Researcher) Jul. 2013 – Dec. 2017</a></br>
@@ -76,10 +75,10 @@ keywords: []
   </li>
   <li>Masako Ishikawa (Assistant) Sep. 2014 – Aug. 2016
   </li>
-  <li><a href="http://www.lanl.gov/projects/karissa/" target="_blank" rel="noopener noreferrer">Wataru Nishima (Postdoctoral Researcher) Apr. 2011 – Jul. 2016</a><br>
+  <li>Wataru Nishima (Postdoctoral Researcher) Apr. 2011 – Jul. 2016<br>
   AI Health and Drug Discovery Research Center, National Institutes of Biomedical Innovation, Health, and Nutrition
   </li>
-  <li><a href="https://archer.nibiohn.go.jp/ja/organization/insilico" target="_blank" rel="noopener noreferrer">Suyong Re (Research Scientist) Jan. 2008 – Mar. 2016</a><br>
+  <li><a href="https://researchmap.jp/suyongre" target="_blank" rel="noopener noreferrer">Suyong Re (Research Scientist) Jan. 2008 – Mar. 2016</a><br>
   AI Health and Drug Discovery Research Center, National Institutes of Biomedical Innovation, Health, and Nutrition
   </li>
   <li><a href="http://www.med.nagasaki-u.ac.jp/mmi/bmm/" target="_blank" rel="noopener noreferrer">Hiroki Otaki (Special Postdoctoral Researcher) Apr. 2012 – Jun 2015</a><br>
@@ -90,7 +89,7 @@ keywords: []
   </li>
   <li>Pai-Chi Li (Postdoctoral Researcher) Apr. 2009 – Mar. 2015
   </li>
-  <li><a href="http://aoki.cube.kyushu-u.ac.jp/index_top.html" target="_blank" rel="noopener noreferrer">Wataru Mizukami (Special Postdoctoral Researcher) Apr. 2014 – Dec. 2014</a><br>
+  <li><a href="https://qiqb.osaka-u.ac.jp" target="_blank" rel="noopener noreferrer">Wataru Mizukami (Special Postdoctoral Researcher) Apr. 2014 – Dec. 2014</a><br>
   Center for Quantum Information and Quantum Biology, Osaka University</li>
   <li>Wakayo Taira (Assistant) Apr. 2011 – Aug. 2014
   </li>
@@ -100,7 +99,7 @@ keywords: []
   <li><a href="http://www.lifesci.dundee.ac.uk/people/andrei-pisliakov" target="_blank" rel="noopener noreferrer">Andrei Pisliakov (Special Postdoctoral Researcher) Apr. 2009 – Jun. 2013</a><br>
   College of Life Sciences, University of Dundee
   </li>
-  <li><a href="http://www.riken.jp/TMS2012/cbp/ja/index.html" target="_blank" rel="noopener noreferrer">Chigusa Kobayashi (Contract Researcher) Apr. 2011 – Mar. 2013</a><br>
+  <li><a href="../profile/chigusa_kobayashi/" target="_blank" rel="noopener noreferrer">Chigusa Kobayashi (Contract Researcher) Apr. 2011 – Mar. 2013</a><br>
   Operations and Computer Technology Support Division, RIKEN Center for Computational Science
   </li>
   <li><a href="http://www.wpi-aimr.tohoku.ac.jp/hiraoka_labo/index.html" target="_blank" rel="noopener noreferrer">Fumiko Ogushi (Contract Researcher) Apr. 2008 – Mar. 2013</a><br>

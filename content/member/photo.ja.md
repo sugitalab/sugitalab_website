@@ -8,7 +8,7 @@ keywords: []
 
 ## 過去の集合写真
 
-### 理化学研究所・開拓研究所・杉田理論分子科学研究室
+### 理化学研究所 開拓研究所 杉田理論分子科学研究室
 
 <div class="photo-block">
   <img src="/images/member/photo/20241011_Wako-scaled-e1729057436985.jpg" alt="">
@@ -117,7 +117,7 @@ keywords: []
   <p>2010</p>
 </div>
 
-### 理化学研究所生命機能科学研究センター分子機能シミュレーション研究チーム
+### 理化学研究所 生命機能科学研究センター 分子機能シミュレーション研究チーム
 
 <div class="photo-block">
   <img src="/images/member/photo/bfs-2019.jpg" alt="">

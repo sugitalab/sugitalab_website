@@ -8,7 +8,7 @@ keywords: []
 
 ## 研究室写真
 
-### 理化学研究所開拓研究所杉田理論分子科学研究室
+### 理化学研究所開拓研究所 杉田理論分子科学研究室
 
 <div class="labo-photo-block">
   <div class="block">
@@ -29,7 +29,7 @@ keywords: []
   </div>
 </div>
 
-### 理化学研究所計算科学研究センター粒子系生物物理研究チーム
+### 理化学研究所計算科学研究センター 粒子系生物物理研究チーム
 
 <div class="labo-photo-block">
   <div class="block">
@@ -58,7 +58,7 @@ keywords: []
   </div>
 </div>
 
-### 東京大学 大学院理学研究科 物理学専攻
+### 東京大学大学院理学系研究科 物理学専攻
 
 <div class="labo-photo-block">
   <div class="block">

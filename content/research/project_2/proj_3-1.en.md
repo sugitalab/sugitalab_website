@@ -32,7 +32,7 @@ The method developed in this study is general and can be applied to various type
 
 <p>A. Step 1: Supervised learning. Construction of an initial Markov State Model from MD simulation data. Multivariate time-series data are clustered to define representative structures (states), and transition probabilities are estimated.</p> <p>B. Step 2: Unsupervised learning. Parameter refinement using single-molecule FRET data. The initial MSM is treated as a Hidden Markov Model, and unsupervised learning is applied.</p>
 
-{{< figure src="/images/research/proj_3-1-1.jpg" alt="" caption="Fig. 2: Folding pathways of a small protein obtained by data assimilation" >}}
+{{< figure src="/images/research/proj_3-1-2.jpg" alt="" caption="Fig. 2: Folding pathways of a small protein obtained by data assimilation" >}}
 
 <p>During folding, the protein becomes more compact from an extended unfolded state, while forming intermediate structures such as hairpin 1 (top left and top right). These intermediate (transition) states are consistent with mutation experiment results.</p>
 
