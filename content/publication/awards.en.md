@@ -11,8 +11,12 @@ keywords: []
   <li><a href="#2025">2025</a></li>
   <li><a href="#2024">2024</a></li>
   <li><a href="#2022">2022</a></li>
+  <li><a href="#2021">2021</a></li>
+  <li><a href="#2020">2020</a></li>
+  <li><a href="#2019">2019</a></li>
   <li><a href="#2018">2018</a></li>
   <li><a href="#2017">2017</a></li>
+  <li><a href="#2016">2016</a></li>
   <li><a href="#2015">2015</a></li>
   <li><a href="#2014">2014</a></li>
   <li><a href="#2013">2013</a></li>
@@ -35,13 +39,13 @@ keywords: []
 <article class="article-block accordion-block">
   <h3>The 63rd BPSJ Annual Meeting, Young Scientist Award</h3>
   <p>&#8220;Cryptochrome signal transduction mechanism revealed by time-resolved crystallography across broad timescales&#8221;<br>
-  Dr. Yuhei Hosokawa（RIKEN PRI）</p>
+  Dr. Yuhei Hosokawa (RIKEN PRI)</p>
 </article>
 
 <article class="article-block accordion-block">
   <h3>The 25th PSSJ Annual Meeting, Young Scientist Award</h3>
   <p>&#8220;High-Performance Coarse-Grained MD: Development and Applications for Protein Dynamics and Function in Biomolecular Condensates&#8221;<br>
-  Dr. Cheng Tan（RIKEN R-CCS）</p>
+  Dr. Cheng Tan (RIKEN R-CCS)</p>
 </article>
 
 ## 2024{#2024}
@@ -64,15 +68,37 @@ keywords: []
 
 <article class="article-block accordion-block">
   <h3>FY2021 RIKEN EIHO Award (RIKEN Significant Achievement Award)</h3>
-  <p>FY2021 RIKEN EIHO Award (RIKEN Significant Achievement Award)</p>
+  <p>&#8220;Development and release of GENESIS optimized for 'Fugaku', and MD simulations of SARS-CoV-2 spike protein&#8221;<br>
+  Dr. Yuji Sugita (RIKEN CPR/BDR/R-CCS), Dr. Jaewoon Jung (RIKEN CPR/R-CCS), Dr. Chigusa Kobayashi (RIKEN R-CCS), Dr. Takaharu Mori (RIKEN CPR), Dr. Kiyoshi Yagi (RIKEN CPR), Dr. Hisham Dokainish (RIKEN CPR), and Dr. Hiraku Oshima (RIKEN BDR)</p>
+</article>
+
+## 2020{#2020}
+
+<article class="article-block accordion-block">
+  <h3>The 20th PSSJ Annual Meeting, Young Scientist Award & Excellence Award</h3>
+  <p>&#8220;Developments and applications of generalized-ensemble methods for free-energy analysis of protein-ligand binding&#8221;<br>
+  Dr. Hiraku Oshima (RIKEN BDR)</p>
+</article>
+
+## 2019{#2019}
+
+<article class="article-block accordion-block">
+  <h3>The 19th PSSJ Annual Meeting, Young Scientist Award</h3>
+  <p>&#8220;Atomistic elucidation of alternating-access mechanism of ADP/ATP Carrier by molecular simulations&#8221;<br>
+  Dr. Koichi Tamura (RIKEN R-CCS)</p>
 </article>
 
 ## 2018{#2018}
 
-
 <article class="article-block accordion-block">
   <h3>The 18th PSSJ Annual Meeting, Young Scientist Award</h3>
   <p>Dr. Takaharu Mori, “Acceleration of cryo-EM flexible fitting for large biomolecular systems by high-performance molecular dynamics simulations”</p>
+</article>
+
+<article class="article-block accordion-block">
+  <h3>FY2017 HPCI Outstanding Research Result Award</h3>
+  <p>&#8220;Development of methods to elucidate reaction mechanisms involving large-scale conformational changes in membrane transport proteins&#8221;<br>
+  Dr. Chigusa Kobayashi (Iwahashi) (RIKEN R-CCS)</p>
 </article>
 
 ## 2017{#2017}
@@ -82,19 +108,31 @@ keywords: []
   <p>Dr. Ai Niitsu, “Redesign and de novo design of transmembrane alpha-helical peptide barrels”</p>
 </article>
 
-
 <article class="article-block accordion-block">
   <h3>The 17th PSSJ Annual Meeting, Young Scientist Award</h3>
   <p>Dr. Ai Niitsu, “Design and characterization of membrane-spanning alpha-helical peptide pores”</p>
 </article>
 
+## 2016{#2016}
+
+<article class="article-block accordion-block">
+  <h3>The 16th PSSJ Annual Meeting, Young Scientist Award & Excellence Award</h3>
+  <p>&#8220;Protein dynamics analysis using single-molecule FRET data and molecular dynamics simulations&#8221;<br>
+  Dr. Yasuhiro Matsunaga (RIKEN R-CCS)</p>
+</article>
+
 ## 2015{#2015}
+
+<article class="article-block accordion-block">
+  <h3>HPCI Outstanding Research Result Award</h3>
+  <p>&#8220;Quantitative analysis of biomembrane and membrane protein functions using molecular dynamics simulations&#8221;<br>
+  Dr. Suyong Re (RIKEN BDR)</p>
+</article>
 
 <article class="article-block accordion-block">
   <h3>Japan Society for Molecular Science, Young Scientists Award</h3>
   <p>Dr. Kiyoshi Yagi, “Anharmonic vibrational structure calculations from the first principles”</p>
 </article>
-
 
 <article class="article-block accordion-block">
   <h3>15th ICQC Best Poster Award</h3>
@@ -105,7 +143,7 @@ keywords: []
 
 <article class="article-block accordion-block">
   <h3>The 14th PSSJ Annual Meeting, Poster Award</h3>
-  <p>Mr. Yasuaki Komuro, “Molecular dynamics somulations of SR Ca2+-ATPase using CHARMM force-fields with updated polyphosphate parameters”</p>
+  <p>Mr. Yasuaki Komuro, “Molecular dynamics simulations of SR Ca2+-ATPase using CHARMM force-fields with updated polyphosphate parameters”</p>
 </article>
 
 ## 2013{#2013}
