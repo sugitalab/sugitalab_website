@@ -11,8 +11,8 @@ keywords: []
 ### 交通
 
 <div class="is-indent">
-  <p><a href="https://www.bdr.riken.jp/ja/about/access/index.html" target="_blank" rel="noopener noreferrer">理研Webサイト</a>をご覧下さい。<br>
-  最寄駅：ポートライナー　医療センター駅（西出口を出て右手）</p>
+  <p><a href="https://www.kobe.riken.jp/en/access/" target="_blank" rel="noopener noreferrer">理研Webサイト</a>をご覧下さい。<br>
+  最寄駅：ポートライナー　医療センター駅（東出口を出て右手）</p>
   <img src="/images/access/cbp-access-map.jpg" alt="" />
 </div>
 

@@ -11,12 +11,12 @@ keywords: []
 ### Access
 
 <div class="is-indent">
-  <p>See <a href="https://www.riken.jp/en/access/" target="_blank" rel="noopener noreferrer">RIKEN</a>website.<br>
-  Building : Main Research Building 2F, Room 203, 205, 207, 209, 206, 208, and 210.</p>
+  <p>See the <a href="https://www.riken.jp/en/access/wako-map/" target="_blank" rel="noopener noreferrer">RIKEN</a> website.<br>
+  Building: Main Research Building 2F, Rooms 203, 205, 207, 209, 206, 208, and 210.</p>
   <p><img src="/images/access/wako-access-map.png" alt="" /></p>
 </div>
 
-### Main Reseach Building 2F
+### Main Research Building 2F
 
 <div class="is-indent">
   <p><img src="/images/access/wako-floor-map.png" alt="" /></p>
@@ -33,5 +33,5 @@ keywords: []
 ### Email
 
 <div class="is-indent">
-  <p>sugita”at”riken.jp</p>
+  <p>sugita [at] riken.jp</p>
 </div>

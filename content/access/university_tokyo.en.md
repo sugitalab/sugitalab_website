@@ -11,7 +11,7 @@ keywords: []
 ### Access
 
 <div class="is-indent">
-  <p>See <a href="https://www.s.u-tokyo.ac.jp/en/access.html" target="_blank" rel="noopener noreferrer">The University of Tokyo</a>website.</p>
+  <p>See the <a href="https://www.s.u-tokyo.ac.jp/en/access.html" target="_blank" rel="noopener noreferrer">The University of Tokyo</a> website.</p>
   <p><img src="/images/access/map-todai.jpg" alt="" /></p>
 </div>
 
@@ -19,5 +19,5 @@ keywords: []
 
 <div class="is-indent">
   <p>7-3-1, Hongo, Bunkyo-ku, Tokyo, 113-0033<br>
-  Room 303 and 410, Building 1, Faculty of Science, University of Tokyo</p>
+  Rooms 303 and 410, Building 1, Faculty of Science, University of Tokyo</p>
 </div>

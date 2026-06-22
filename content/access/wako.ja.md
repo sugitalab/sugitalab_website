@@ -11,7 +11,7 @@ keywords: []
 ### 交通
 
 <div class="is-indent">
-  <p><a href="http://www.riken.jp/access/wako-map/" target="_blank" rel="noopener noreferrer">理研Webサイト</a>をご覧下さい。<br>
+  <p><a href="https://www.riken.jp/en/access/wako-map/" target="_blank" rel="noopener noreferrer">理研Webサイト</a>をご覧下さい。<br>
   建物配置：研究本館203, 205, 207, 209, 206, 208, 210号室</p>
   <img src="/images/access/wako-access-map.png" alt="" />
 </div>

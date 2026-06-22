@@ -11,8 +11,8 @@ keywords: []
 ### Access
 
 <div class="is-indent">
-  <p>See <a href="https://www.bdr.riken.jp/en/about/access/index.html" target="_blank" rel="noopener noreferrer">RIKEN</a>website.<br>
-  The nearest station is Port Liner “Iryo Center” (West exit).</p>
+  <p>See the <a href="https://www.kobe.riken.jp/en/access/" target="_blank" rel="noopener noreferrer">RIKEN</a> website.<br>
+  The nearest station is Port Liner “Iryo Center” (East exit).</p>
   <p><img src="/images/access/cbp-access-map.jpg" alt="" /></p>
 </div>
 
