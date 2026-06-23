@@ -28,9 +28,9 @@ Focusing on a key feature of the FEP method—that arbitrary states can be defin
 By using this method, the number of long-range interaction calculations can be reduced to one per time step, while maintaining the accuracy of conventional FEP calculations.
 As a result, we demonstrated that calculations in reciprocal space can be accelerated by 38%, and the overall simulation by 23%.
 
-Furthermore, GENESIS provides additional techniques to improve computational accuracy and stablity such as “hybrid topology method” and “soft-core potentials”.
+Furthermore, GENESIS provides additional techniques to improve computational accuracy and stability such as the “hybrid topology method” and “soft-core potentials”.
 By using the reversible reference system propagation algorithm (r-RESPA), the reciprocal-space calculations can be further reduced.
-By combining these approaches with “Hamiltonian replica exchange” technique, it is also possible to enhance the efficiency of structural sampling.
+By combining these approaches with the “Hamiltonian replica exchange” technique, it is also possible to enhance the efficiency of structural sampling.
 Through the integrated use of these methods, fast and stable FEP calculations can be achieved.
 
 ### Ligand Binding Analysis Using the gREST+FEP Method

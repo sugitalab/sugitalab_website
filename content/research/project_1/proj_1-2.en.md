@@ -18,7 +18,7 @@ much faster than performing complex mathematical operations like square roots an
 
 However, the problem with a simple lookup table is that it can still be inefficient. To be accurate, the table needs a huge number of data points, especially for short distances where forces change very rapidly. This requires a lot of memory and can be slow to access.
 
-In GENESIS, instead of creating a table based on distance squared (r2), we create a table based on the inverse distance squared (1/r2). With the new table, the energy and force can be evaluated as the linear function of 1/r2, and we can use few data points for the medium and long-range pairwise distances (Fig. 1).
+In GENESIS, instead of creating a table based on distance squared (r2), we create a table based on the inverse distance squared (1/r2). With the new table, the energy and force can be evaluated as a linear function of 1/r2, and we can use fewer data points for the medium and long-range pairwise distances (Fig. 1).
 
 By making the table more efficient and defining energy and force as a linear function of 1/r2, we could create a lookup table that is both compact and highly accurate, especially for the short-range interactions that are the most critical for correct simulation results. This method leads to faster nonbonded calculations, which in turn accelerates the entire molecular dynamics simulation
 without sacrificing accuracy.
@@ -58,8 +58,7 @@ few overloaded processors (Figure in the press release).
 ### References:
 
 1. Jaewoon Jung, Takaharu Mori, and Yuji Sugita, “Midpoint cell method for hybrid (MPI+OpenMP) parallelization of molecular dynamics simulations”, J. Comput. Chem. 35, 1064-1072
-1. Jaewoon Jung, Chigusa Kobayashi, Toshiyuki Imamura, and Yuji Sugita, “Parallel implementation of 3D FFT with volumetric decomposition schemes for efficient molecular dynamics simulations”, Comput. Phys. Comm. 200, 57-65 (2016)
-3. Jaewoon Jung, Wataru Nishima, Marcus Daniels, Gavin Bascom, Chigusa Kobayashi, Adetokunbo Adedoyin, Michael Wall, Anna Lappala, Dominic Phillips, William Fischer, Chang‐Shung Tung, Tamar Schlick, Yuji Sugita, and Karissa Y Sanbonmatsu “Scaling molecular dynamics beyond 100,000 processor cores for large-scale biophysical simulations”, J. Comput. Chem. 40, 1919-1930 (2019)
-1. Jaewoon Jung, Chigusa Kobayashi, Kento Kasahara, Cheng Tan, Akiyoshi Kuroda, Kazuo Minami, Shigeru Ishiduki, Tatsuo Nishiki, Hikaru Inoue, Yutaka Ishikawa, Michael Feig, Yuji Sugita, “New parallel computing algorithm of molecular dynamics for extremely huge scale
-biological systems”, J. Comput. Chem. 42, 231-241 (2021)
-1. Jaewoon Jung, Cheng Tan, and Yuji Sugita, “GENESIS CGDYN: large-scale coarse-grained MD simulation with dynamic load balancing for heterogeneous biomolecular systems”, Nat. Commun. 15, 3370 (2024)
+2. Jaewoon Jung, Chigusa Kobayashi, Toshiyuki Imamura, and Yuji Sugita, “Parallel implementation of 3D FFT with volumetric decomposition schemes for efficient molecular dynamics simulations”, Comput. Phys. Comm. 200, 57-65 (2016)
+3. Jaewoon Jung, Wataru Nishima, Marcus Daniels, Gavin Bascom, Chigusa Kobayashi, Adetokunbo Adedoyin, Michael Wall, Anna Lappala, Dominic Phillips, William Fischer, Chang‐Shung Tung, Tamar Schlick, Yuji Sugita, and Karissa Y Sanbonmatsu, “Scaling molecular dynamics beyond 100,000 processor cores for large-scale biophysical simulations”, J. Comput. Chem. 40, 1919-1930 (2019)
+4. Jaewoon Jung, Chigusa Kobayashi, Kento Kasahara, Cheng Tan, Akiyoshi Kuroda, Kazuo Minami, Shigeru Ishiduki, Tatsuo Nishiki, Hikaru Inoue, Yutaka Ishikawa, Michael Feig, Yuji Sugita, “New parallel computing algorithm of molecular dynamics for extremely huge scale biological systems”, J. Comput. Chem. 42, 231-241 (2021)
+5. Jaewoon Jung, Cheng Tan, and Yuji Sugita, “GENESIS CGDYN: large-scale coarse-grained MD simulation with dynamic load balancing for heterogeneous biomolecular systems”, Nat. Commun. 15, 3370 (2024)

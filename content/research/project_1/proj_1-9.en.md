@@ -45,7 +45,7 @@ We have implemented a suite of well-established CG models within the ATDYN and C
 GENESIS, providing coverage for a wide range of biomolecules including proteins, RNA, DNA, and lipids.
 We also provide a user-friendly tool, GENESIS-cg-tool, to facilitate the preparation of all necessary files
 for production MD runs. A primary focus of our development is the computational efficiency of these CG
-models. Notably, we have developed a new MD engine, CGDYN, which is specifically designed toovercome the load imbalance problem arising from non-uniform particle distributions in heterogeneous
+models. Notably, we have developed a new MD engine, CGDYN, which is specifically designed to overcome the load imbalance problem arising from non-uniform particle distributions in heterogeneous
 systems. These developments have enabled simulations on a massive scale on supercomputers such as
 Fugaku, allowing us to investigate the dynamics of systems containing an order of 10<sup>4</sup> proteins or thousands
 of nucleosome-sized chromatin fragments.

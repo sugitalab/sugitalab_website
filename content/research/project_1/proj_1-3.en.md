@@ -9,7 +9,7 @@ keywords: []
 
 ## Accelerating Molecular Dynamics Simulations Using GPUs
 
-Molecular dynamics (MD) simulations allow us to follow the motion of atoms and molecules in time, revealing structural dynamics and molecular interactions at an atomistic level. However, as biological systems increase in size and complexity, the computational demands quickly become prohibitive on conventional CPUs (central processing units), often requiring impractically long runtimes. To overcome these limitations and extend both the accessible system size and simulation timescale, GPUs (graphics processing units) have become indispensable.
+Molecular dynamics (MD) simulations allow us to follow the motion of atoms and molecules over time, revealing structural dynamics and molecular interactions at an atomistic level. However, as biological systems increase in size and complexity, the computational demands quickly become prohibitive on conventional CPUs (central processing units), often requiring impractically long runtimes. To overcome these limitations and extend both the accessible system size and simulation timescale, GPUs (graphics processing units) have become indispensable.
 
 While GPUs are generally slower than CPUs for individual operations, they excel in massive parallelism, executing orders of magnitude more calculations simultaneously. Problems that can be divided into thousands or millions of small, independent subproblems are ideally suited for GPU acceleration. In MD, this parallelism arises naturally in atomic interactions: each pairwise (or small group) interaction can be computed independently, making GPUs highly efficient for these tasks.
 

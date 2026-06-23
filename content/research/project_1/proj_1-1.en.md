@@ -1,5 +1,5 @@
 ---
-title: 'Ultra-Parallel Molecular Dynamics Software GENESISS'
+title: 'Ultra-Parallel Molecular Dynamics Software GENESIS'
 date: 2025-10-07T12:04:37+09:00
 order: 2
 draft: false
@@ -33,7 +33,7 @@ Molecular dynamics simulations of biomolecular systems are becoming increasingly
 ### References:
 
 <ul>
-  <li>Jung, Mori, Kobayashi, Matsunaga, Yoda, Feig, Sugita, GENESIS: a hybrid-parallel and multi-scale molecular dynamics simulator with enhanced sampling algorithms for biomolecular andcellular simulations,WIREs Computational Molecular Science 5, 310-323 (2015)<br>
+  <li>Jung, Mori, Kobayashi, Matsunaga, Yoda, Feig, Sugita, GENESIS: a hybrid-parallel and multi-scale molecular dynamics simulator with enhanced sampling algorithms for biomolecular and cellular simulations,WIREs Computational Molecular Science 5, 310-323 (2015)<br>
   <a href="https://doi.org/10.1002/wcms.1220" target="_blank" rel="noopener noreferrer">https://doi.org/10.1002/wcms.1220</a>
   </li>
 </ul>

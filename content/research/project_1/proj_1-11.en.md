@@ -25,7 +25,7 @@ Many proteins present in cells form transient complexes with other proteins, nuc
 
 {{< figure
 src="/images/research/proj_1-11-1.jpg" alt=""
-caption="Figure 1. Schematic overview of the flexible fitting method.<br>Protein structures determined by X-ray crystallography or nuclear magnetic resonance (NMR) spectroscopy are fitted into a cryo-electron microscopy density map.During this process, a biasing potential is added to the energy function (molecular force field) used in molecular dynamics simulations to drive the protein structure toward the density map, and atomic motions are propagated according to Newton’s equation of motion, F = ma."
+caption="Figure 1. Schematic overview of the flexible fitting method.<br>Protein structures determined by X-ray crystallography or nuclear magnetic resonance (NMR) spectroscopy are fitted into a cryo-electron microscopy density map. During this process, a biasing potential is added to the energy function (molecular force field) used in molecular dynamics simulations to drive the protein structure toward the density map, and atomic motions are propagated according to Newton’s equation of motion, F = ma."
 >}}
 
 {{< figure
@@ -39,4 +39,4 @@ caption="Figure 3. Benchmark results of the developed parallel algorithms on a c
 
 ### References:
 
-* Takaharu Mori, Marta Kulik, Osamu Miyashita, Jaewoon Jung, Florence Tama, Yuji Sugita, Acceleration of cryo-EM flexible fitting for large biomolecular systems by efficient space partitioning", Structure, 27, 161-174 (2019) <a href="https://www.cell.com/structure/fulltext/S0969-2126(18)30330-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0969212618303307%3Fshowall%3Dtrue" target="_blank">10.1016/j.str.2018.09.004</a>
+* Takaharu Mori, Marta Kulik, Osamu Miyashita, Jaewoon Jung, Florence Tama, Yuji Sugita, “Acceleration of cryo-EM flexible fitting for large biomolecular systems by efficient space partitioning”, Structure, 27, 161-174 (2019) <a href="https://www.cell.com/structure/fulltext/S0969-2126(18)30330-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0969212618303307%3Fshowall%3Dtrue" target="_blank">10.1016/j.str.2018.09.004</a>

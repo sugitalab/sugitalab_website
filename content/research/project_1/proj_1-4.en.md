@@ -23,6 +23,6 @@ This refined methodology for calculating temperature and pressure allows GENESIS
 ### References:
 
 1. Jaewoon Jung, Chigusa Kobayashi, and Yuji Sugita, J. Chem. Phys. 148, 164109 (2018)
-1.  Jaewoon Jung, Chigusa Kobayashi, and Yuji Sugita, J. Chem. Theory. Comput. 15, 84-94 (2019)
+1. Jaewoon Jung, Chigusa Kobayashi, and Yuji Sugita, J. Chem. Theory. Comput. 15, 84-94 (2019)
 1. Jaewoon Jung and Yuji Sugita, J. Chem. Phys. 153, 234115 (2020)
-1. Jaewoon Jung, Kento Kasahara, Chigusa Kobayashi, Hiraku Oshima, Takaharu Mori, and Yuji Sugita,  J. Chem. Theory. Comput. 17, 5312-5321 (2021)
+1. Jaewoon Jung, Kento Kasahara, Chigusa Kobayashi, Hiraku Oshima, Takaharu Mori, and Yuji Sugita, J. Chem. Theory. Comput. 17, 5312-5321 (2021)
