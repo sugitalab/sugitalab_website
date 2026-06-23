@@ -21,8 +21,8 @@ We have the following key takeaways:
 4. Discovery of Druggable Cryptic Pockets: The identified intermediate structures expose cryptic, druggable pockets at the interface between RBDs that are absent in both the stable Down and Up conformations. Virtual screening of FDA-approved drugs identified several candidates, including the anticancer drug nilotinib, that could potentially bind to these pockets, stabilize the intermediate state, and prevent the S-protein from adopting its active form.
 5. Implications for Antibody Evasion and Neutralization: The accessibility of the receptor binding motif (RBM) and antibody epitopes varies significantly across different S-protein conformations. The newly identified 1UO state maximally exposes the RBM for ACE2 receptor binding while potentially shielding it from certain classes of antibodies, suggesting a mechanism for immune evasion. These findings support a "conformer selection" model for antibody binding, where antibodies recognize pre-existing flexible states of the S-protein.
 
-References:
-
-1. Dokainish, H. M., Re, S., Mori, T., Kobayashi, C., Jung, J., Sugita, Y.: The inhderent flexibility of receptor binding domains in SARS-CoV-2 spike protein. (2022) eLife 11: e75720.
-
-1. Mori, T., Jung, J., Kobayashi, C., Dokainish, H. M., Re. Y., Sugita, Y.: Elucidation of interactions regulating conformational stability and dynamics of SARS-Cov-2 S-protein. (2021) Biophysical J. 120: 1060-1071.
+### References
+<ol>
+  <li>Dokainish, H. M.; Re, S.; Mori, T.; Kobayashi, C.; Jung, J.; Sugita, Y. The inherent flexibility of receptor binding domains in SARS-CoV-2 spike protein. eLife 2022, 11, e75720. DOI: <a href="https://doi.org/10.7554/eLife.75720" target="_blank" rel="noopener noreferrer">https://doi.org/10.7554/eLife.75720</a></li>
+  <li>Mori, T.; Jung, J.; Kobayashi, C.; Dokainish, H. M.; Re, S.; Sugita, Y. Elucidation of interactions regulating conformational stability and dynamics of SARS-CoV-2 S-protein. Biophys. J. 2021, 120 (6), 1060-1071. DOI: <a href="https://doi.org/10.1016/j.bpj.2021.01.012" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.bpj.2021.01.012</a></li>
+</ol>

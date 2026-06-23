@@ -13,7 +13,7 @@ Molecular dynamics (MD) simulations provide a powerful “**computational micros
 
 Advances in computational modeling have also made it possible to predict **protein-ligand binding** through MD simulation, as well as to investigate enzymatic reaction mechanisms using **quantum mechanical/molecular mechanical (QM/MM) methods**.
 
-By integrating simulations with experimental techniques such as **NMR spectroscopy, single-molecule measurements, cryoEM/ET, and high-speed AFM**, we aim to achieve a more comprehensive and quantitative understanding of biomolecular dynamics to uncover the fundamental principles that govern biological function. Furthermore, We want to understand molecular mechanisms underlying **non-equilibrium biomolecular dynamics** and **chemo-mechanical coupling** in molecular motors.
+By integrating simulations with experimental techniques such as **NMR spectroscopy, single-molecule measurements, cryoEM/ET, and high-speed AFM**, we aim to achieve a more comprehensive and quantitative understanding of biomolecular dynamics to uncover the fundamental principles that govern biological function. Furthermore, we want to understand the molecular mechanisms underlying **non-equilibrium biomolecular dynamics** and **chemo-mechanical coupling** in molecular motors.
 
 ### Dynamics and Functions of Biomolecules
 

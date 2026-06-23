@@ -1,5 +1,5 @@
 ---
-title: '膜貫通ヘリックスの二量体形成機構'
+title: 'Mechanism of Transmembrane Helix Dimerization'
 date: 2025-10-07T12:04:37+09:00
 order: 4
 draft: false
@@ -40,5 +40,5 @@ Moreover, by using the stable dimer conformations identified in this study as a 
 
 ### Reference
 <ol>
-  <li>Ito, S.; Sugita, Y. Free-energy landscapes of transmembrane homodimers by bias-exchange adaptively biased molecular dynamics. Biophys. Chem. 2024, 307, 107190. DOI: <a href="https://doi.org/10.1016/j.bpc.2024.107190" target="_blank">https://doi.org/10.1016/j.bpc.2024.107190.</a></li>
-<ol>
+  <li>Ito, S.; Sugita, Y. Free-energy landscapes of transmembrane homodimers by bias-exchange adaptively biased molecular dynamics. Biophys. Chem. 2024, 307, 107190. DOI: <a href="https://doi.org/10.1016/j.bpc.2024.107190" target="_blank">https://doi.org/10.1016/j.bpc.2024.107190</a>.</li>
+</ol>

@@ -20,9 +20,9 @@ Because P-type ATPases share a common architecture despite transporting differen
 
 {{< figure src="/images/research/proj_3-1-1.jpg" alt="" caption="Fig. 1: Ca<sup>2+</sup>-ATPase (SERCA)" >}}
 
-{{< figure src="/images/research/proj_3-1-2.jpg" alt="" caption="Fig2: Schematic Diagram of the Reaction Pathway Calculation of SERCA" >}}
+{{< figure src="/images/research/proj_3-1-2.jpg" alt="" caption="Fig. 2: Schematic Diagram of the Reaction Pathway Calculation of SERCA" >}}
 
-{{< figure src="/images/research/proj_3-1-3.jpg" alt="" caption="Fig3: Conformational changes of from E1P to E2P state." >}}
+{{< figure src="/images/research/proj_3-1-3.jpg" alt="" caption="Fig. 3: Conformational changes from E1P to E2P state." >}}
 
 ## References:
 

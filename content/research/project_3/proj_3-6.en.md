@@ -11,7 +11,7 @@ keywords: []
 
 Many cellular functions are controlled through molecular recognition, where enzymes (proteins) bind to substrate molecules. For instance, signal transduction from outside the cell to inside is accomplished when proteins in signaling pathways bind ions or small molecules and become active. A thorough understanding of how proteins recognize substrate molecules is therefore crucial for explaining cellular functions and for the rational design of effective drugs.
 
-With advances in structural biology, high-resolution X-ray crystal structures, nuclear magnetic resonance (NMR) structures, and cryo-electron microscopy (cryo-EM) structures of proteins bound to substrate molecules have become more accessible. These structures have uncovered close links between substrate recognition and detailed binding modes. However, conventional structural methods only offer static snapshots and generally cannot directly observe the binding process itself. Consequently, how substrate molecules approach proteins, which pathways they follow, and what intermediate states they adopt during binding remain poorly understood. In modern drug design, not only binding affinity but also kinetic factors—such as residence time at the binding site—are increasingly important, making an atomic-level understanding of binding processes a urgent challenge.
+With advances in structural biology, high-resolution X-ray crystal structures, nuclear magnetic resonance (NMR) structures, and cryo-electron microscopy (cryo-EM) structures of proteins bound to substrate molecules have become more accessible. These structures have uncovered close links between substrate recognition and detailed binding modes. However, conventional structural methods only offer static snapshots and generally cannot directly observe the binding process itself. Consequently, how substrate molecules approach proteins, which pathways they follow, and what intermediate states they adopt during binding remain poorly understood. In modern drug design, not only binding affinity but also kinetic factors—such as residence time at the binding site—are increasingly important, making an atomic-level understanding of binding processes an urgent challenge.
 
 Molecular dynamics (MD) simulations are a powerful tool for exploring biomolecular motions at atomic detail and have been widely used to study proteins, nucleic acids, and lipids. However, protein–substrate binding typically occurs on timescales of milliseconds or longer, while conventional MD simulations are usually limited to microseconds. This significant gap makes it difficult to directly examine binding processes using standard MD methods.
 
@@ -36,9 +36,7 @@ b) Top row: crystal structure (yellow sticks), predicted most stable binding pos
 <p>a) Right: Binding free-energy landscapes as functions of the inhibitor–Src kinase distance and two dihedral angles (β, γ) describing inhibitor orientation. Symbols indicate representative structures from clustering analysis (bottom). Binding poses A–D are separated by high energy barriers (red regions), while the corresponding encounter complexes are energetically connected and easily interconvertible. </p>
 <p>b) Binding pathways to each pose and representative structure. Upper right: interactions between the glycine-rich loop and the inhibitor in the encounter complex. </p>
 
-### References:
-
-<ul>
-  <li>Re, Oshima, Kasahara, Kamiya, Sugita, Encounter Complexes and Hidden Poses of Kinase-Inhibitor Binding on the Free-Energy Landscape, Proceedings of the National Academy of Sciences of the United States of America 116, 18404-18409 (2019)<br>
-  <a href="https://doi.org/10.1073/pnas.1904707116" target="_blank" rel="noopener noreferrer">https://doi.org/10.1073/pnas.1904707116</a></li>
-</ul>
+### References
+<ol>
+  <li>Re, S.; Oshima, H.; Kasahara, K.; Kamiya, M.; Sugita, Y. Encounter Complexes and Hidden Poses of Kinase-Inhibitor Binding on the Free-Energy Landscape. Proc. Natl. Acad. Sci. 2019, 116 (37), 18404-18409. DOI: <a href="https://doi.org/10.1073/pnas.1904707116" target="_blank" rel="noopener noreferrer">https://doi.org/10.1073/pnas.1904707116</a></li>
+</ol>
