@@ -26,6 +26,12 @@ keywords: []
 ## 2026{#2026}
 
 <article class="article-block accordion-block">
+  <h3>第26回日本蛋白質科学会年会 若手奨励賞</h3>
+  <p>&#8220;F1 ATPase の ATP 合成はトリサイト中間体によって制御される&#8221;<br>
+  久保 進太郎（RIKEN PRI）</p>
+</article>
+
+<article class="article-block accordion-block">
   <h3>2025年度「理研栄峰賞」</h3>
   <p>新津 藍（チームディレクター）、杉田 有治（主任研究員）、袖岡 幹子（センター長）、Jaewoon Jung（専任技師）</p>
 </article>

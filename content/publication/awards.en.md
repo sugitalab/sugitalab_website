@@ -25,6 +25,12 @@ keywords: []
 ## 2026{#2026}
 
 <article class="article-block accordion-block">
+  <h3>The 26th PSSJ Annual Meeting, Young Scientist Award</h3>
+  <p>&#8220;An essential tri-site intermediate drives ATP synthesis in F1 ATPase&#8221;<br>
+  Dr. Shintaroh Kubo (RIKEN PRI)</p>
+</article>
+
+<article class="article-block accordion-block">
   <h3>FY2025 RIKEN EIHO Award (RIKEN Significant Achievement Award)</h3>
   <p>Dr. Ai Niitsu (Team Leader), Dr. Yuji Sugita (Chief Scientist), Dr. Mikiko Sodeoka (Center Director), and Dr. Jaewoon Jung (Senior Scientist)</p>
 </article>
