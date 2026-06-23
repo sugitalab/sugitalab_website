@@ -20,13 +20,13 @@ keywords: []
 <div class="research-image-block">
   <div class="text">
     <ul class="list">
-      <!-- <li><a href="proj_5-1/">タンパク質の水和と安定性</a></li> -->
-      <!-- <li><a href="proj_5-3/">タンパク質と基質の結合</a></li> -->
-      <!-- <li><a href="proj_5-2/">バクテリア細胞質の全原⼦MD</a></li> -->
+      <!-- <li><a href="proj_4-1/">タンパク質の水和と安定性</a></li> -->
+      <!-- <li><a href="proj_4-3/">タンパク質と基質の結合</a></li> -->
+      <!-- <li><a href="proj_4-2/">バクテリア細胞質の全原⼦MD</a></li> -->
       <li>タンパク質の水和と安定性</li>
       <li>タンパク質と基質の結合</li>
       <li>バクテリア細胞質の全原⼦MD</li>
-      <li><a href="proj_5-4/">液滴の形成と制御</a></li>
+      <li><a href="proj_4-4/">液滴の形成と制御</a></li>
     </ul>
   </div>
   <div class="image">

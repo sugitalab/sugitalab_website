@@ -18,14 +18,14 @@ keywords: []
 <div class="research-image-block">
   <div class="text">
     <ul class="list">
-      <li><a href="proj_4-2/">カルシウムイオンポンプ</a></li>
-      <li><a href="proj_4-3/">膜タンパク質ダイナミクス</a></li>
-      <li><a href="proj_4-4/">膜貫通ヘリックス二量体形成</a></li>
-      <li><a href="proj_4-6/">スパイクタンパク質</a></li>
-      <li><a href="proj_4-7/">分子モーターの回転機構</a></li>
-      <li><a href="proj_4-8/">酵素・阻害剤の初期構造体</a></li>
+      <li><a href="proj_3-1/">カルシウムイオンポンプ</a></li>
+      <li><a href="proj_3-2/">膜タンパク質ダイナミクス</a></li>
+      <li><a href="proj_3-3/">膜貫通ヘリックス二量体形成</a></li>
+      <li><a href="proj_3-4/">スパイクタンパク質</a></li>
+      <li><a href="proj_3-5/">分子モーターの回転機構</a></li>
+      <li><a href="proj_3-6/">酵素・阻害剤の初期構造体</a></li>
       <li>リボスイッチ（RNA）</li>
-      <li><a href="proj_4-5/">糖鎖と糖タンパク質</a></li>
+      <li><a href="proj_3-8/">糖鎖と糖タンパク質</a></li>
     </ul>
   </div>
   <div class="image">

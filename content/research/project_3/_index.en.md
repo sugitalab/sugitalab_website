@@ -20,17 +20,17 @@ By integrating simulations with experimental techniques such as **NMR spectrosco
 <div class="research-image-block">
   <div class="text">
     <ul class="list">
-      <li><a href="proj_4-2/">Calcium Ion Pumps</a></li>
-      <li><a href="proj_4-3/">Membrane Proteins Dynamics</a></li>
-      <li><a href="proj_4-4/">Transmembrane Helix Dimerization</a></li>
-      <li><a href="proj_4-6/">Spike Proteins on SARS-CoV-2</a></li>
-      <li><a href="proj_4-7/">Rotational Mechanisms of Molecular Motors</a></li>
-      <li><a href="proj_4-8/">Protein-Ligand Binding Mechanisms</a></li>
+      <li><a href="proj_3-1/">Calcium Ion Pumps</a></li>
+      <li><a href="proj_3-2/">Membrane Proteins Dynamics</a></li>
+      <li><a href="proj_3-3/">Transmembrane Helix Dimerization</a></li>
+      <li><a href="proj_3-4/">Spike Proteins on SARS-CoV-2</a></li>
+      <li><a href="proj_3-5/">Rotational Mechanisms of Molecular Motors</a></li>
+      <li><a href="proj_3-6/">Protein-Ligand Binding Mechanisms</a></li>
       <li>Riboswitches (RNA)</li>
-      <li><a href="proj_4-5/">Glycans and Glycoproteins</a></li>
+      <li><a href="proj_3-8/">Glycans and Glycoproteins</a></li>
     </ul>
   </div>
   <div class="image">
-    <img src="/images/research/proj_4-7-3-en.jpg" alt="" />
+    <img src="/images/research/proj_3-5-3-en.jpg" alt="" />
   </div>
 </div><!-- /.research-image-block -->

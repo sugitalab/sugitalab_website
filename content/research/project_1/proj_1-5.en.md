@@ -1,59 +1,47 @@
 ---
-title: 'Free Energy Perturbation Calculations'
+title: 'Improvement of Molecular Force Fields'
 date: 2025-10-07T12:04:37+09:00
-order: 5
+order: 6
 draft: false
 description: ''
 keywords: []
 ---
 
-## Free Energy Perturbation Calculations
+## Improvement of Molecular Force Fields
 
-### Free Energy Perturbation Method
+### The Challenge: The "Sticky Protein" Problem
 
-The free energy perturbation (FEP) method is an approach used to calculate changes in free energy by treating differences such as amino acid mutations or variations in ligands bound to proteins as “perturbations.”
-In this method, the initial and final states are connected by introducing virtual intermediate states in the computer, allowing the molecular system to be transformed gradually.
-Because these intermediate states do not correspond to physically existing states, the FEP method is also referred to as an “alchemical” approach.
+Molecular Dynamics (MD) simulations are powerful tools for understanding biological machinery. However, even the most widely used force fields face a critical limitation: accuracy in non-bonded interactions.
 
-### Acceleration of Calculations Using the Modified Hamiltonian Method
+Currently, standard force fields rely on generic combination rules that often oversimplify how molecules interact. This leads to two major issues:
 
-In the "dual topology" approach, instead of transforming the entire molecule, only the coordinates and energies of the parts that change are modified during the calculation.
-This strategy enables the evaluation of free energy changes while keeping the computational cost relatively low.
-However, when Coulomb interactions are treated using the Ewald method, interactions between distant atoms are calculated in reciprocal space.
-In conventional dual topology approaches, this reciprocal-space calculation requires two energy evaluations per time step.
-In GENESIS, when CPU-GPU hybrid calculations are employed, reciprocal-space calculations are executed on the CPU, making this part a bottleneck that limits the overall computational performance.
-Therefore, to further accelerate FEP calculations, the development of a new method that reduces the reciprocal-space calculation to a single evaluation per time step has been highly desirable.
+- Overprediction of Protein-Protein Interactions: Virtual proteins tend to stick together more than they do in nature.
 
-Focusing on a key feature of the FEP method—that arbitrary states can be defined as intermediate states—we have developed a modified Hamiltonian approach in which quantities such as charges included in the Hamiltonian are scaled in a computationally convenient manner<sup>1</sup>.
-By using this method, the number of long-range interaction calculations can be reduced to one per time step, while maintaining the accuracy of conventional FEP calculations.
-As a result, we demonstrated that calculations in reciprocal space can be accelerated by 38%, and the overall simulation by 23%.
+- Collapse of Disordered Regions: Intrinsically Disordered Proteins and Regions (IDPs/IDRs), which should remain flexible and expanded, are frequently simulated as overly collapsed, globular structures.
 
-Furthermore, GENESIS provides additional techniques to improve computational accuracy and stablity such as “hybrid topology method” and “soft-core potentials”.
-By using the reversible reference system propagation algorithm (r-RESPA), the reciprocal-space calculations can be further reduced.
-By combining these approaches with “Hamiltonian replica exchange” technique, it is also possible to enhance the efficiency of structural sampling.
-Through the integrated use of these methods, fast and stable FEP calculations can be achieved.
+This limitation is particularly problematic when simulating cellular crowding. To truly understand how biology works inside a dense cell, we need models that respect the delicate balance of forces between proteins and their solvent.
 
-### Ligand Binding Analysis Using the gREST+FEP Method
+### Our Approach: Precision Tuning with NBFIX
 
-Accurate prediction of ligand binding affinity to proteins is crucial for “in silico” drug discovery, where computational approaches are used to reduce the cost and time of drug development.
-When the binding structure between a protein and a ligand is known from experimental techniques such as X-ray crystallography, the FEP method enables highly accurate calculation of binding affinities.
-However, in many cases the binding structure is not available, or even when it is known, a ligand may adopt multiple possible binding poses.
-In such situations, a computational approach that can simultaneously predict the correct binding pose and accurately evaluate the binding affinity has been strongly desired.
+To bridge the gap between simulation and experimental reality, our team is implementing NBFIX (Non-Bonded FIX) corrections strategy pioneered by Best et al. (2014).
 
-To address this challenge, we developed the gREST+FEP method, which combines the FEP method with generalized replica exchange with solute tempering (gREST)<sup>2</sup>.
-In the gREST method, multiple replicas are prepared in which the ligand molecule is assigned different temperatures, and these temperatures are exchanged during MD simulations.
-This approach exploits the large thermal fluctuations of the ligand at high temperatures to efficiently explore stable binding poses at physiological temperature.
-To prevent the high-temperature ligand from dissociating from the protein, an auxiliary potential energy term known as a “flat-bottom potential” is introduced.
-In the gREST+FEP framework, (1) plausible binding poses are first identified using the gREST method, and (2) the binding affinity of each pose is then evaluated with high accuracy using the FEP method.
-This two-step strategy enables a unified and consistent prediction of both binding poses and binding affinities.
+Instead of relying on global, generic rules, NBFIX allows us to "surgically" adjust specific pairwise interaction parameters. Our methodology focuses on recalibrating protein-water interactions. By selectively increasing the affinity between protein atoms and water molecules, we prevent proteins from adhering to one another excessively.
 
-We applied the gREST+FEP method to predict the binding affinities of 10 ligands to FK506 binding protein (FKBP).
-Notably, no prior information about the ligand binding poses was provided in these calculations. Despite this stringent condition, the binding affinities obtained with gREST+FEP showed excellent agreement with experimental values.
-The predictive accuracy significantly outperformed that of conventional docking calculations, which are widely used in drug discovery research.
+### Why This Matters
 
-These results demonstrate that the gREST+FEP method can simultaneously achieve high accuracy in both binding pose prediction and binding affinity evaluation.
-We expect that this method will be broadly applied to in silico drug discovery and contribute to a substantial reduction in the cost and time required for drug development.
+Our approach offers a robust solution without compromising the integrity of the simulation:
 
-### References
-1. Oshima, H. and Sugita, Y. J. Chem. Inf. Model 62, 2846-2856 (2022)
-2. Oshima, H., Re, S., and Sugita, Y. J. Chem. Inf. Model 60, 5382-5394 (2020)
+- Restored Balance: We correct the artificial "stickiness" of proteins, allowing IDPs to adopt realistic, expanded conformations that match Small-Angle X-ray Scattering (SAXS) data.
+
+- Targeted Correction: Unlike major force field overhauls, our method modifies only specific interaction terms.
+
+- Preserved Thermodynamics: Crucially, this method leaves the overall thermodynamics of the force field unchanged. We improve the solvation behavior while preserving the force field's proven accuracy for folded structures and other properties.
+
+### The Impact
+
+By refining these fundamental interactions, we are paving the way for the next generation of MD simulations. Our work ensures that simulations of crowded cellular environments are not just visually complex, but physically and biologically accurate.
+
+### References:
+1. Best, B., R. et al. J. Chem. Theory Comput.  10(11), 5113-5124 (2014).
+1. Nawrocki, G. et al. Journal of Physical Chemistry B.  121(49) (2017).
+1. Matsubara, D. et al. Molecules 27(17), 5726 (2022).

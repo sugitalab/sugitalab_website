@@ -1,42 +1,59 @@
 ---
-title: 'Refinement of Cryo-EM Structures'
+title: 'Free Energy Perturbation Calculations'
 date: 2025-10-07T12:04:37+09:00
-order: 7
+order: 5
 draft: false
 description: ''
 keywords: []
 ---
 
-## Refinement of Cryo-EM Structures
+## Free Energy Perturbation Calculations
 
-In recent years, three-dimensional structure determination of proteins by single-particle analysis using cryo-electron microscopy (cryo-EM) has become increasingly widespread. In this approach, a solution containing the target protein is rapidly frozen to cryogenic temperatures (below −180℃), and projection images of the protein are recorded using a transmission electron microscope. A three-dimensional structure is then reconstructed from these projection images.
-Because this method does not require protein crystallization, it enables the determination of structures of large biomolecules and protein complexes—such as ribosomes—that have been difficult to solve by X-ray crystallography, achieving resolutions close to atomic resolution.
+### Free Energy Perturbation Method
 
-To model the molecular structures of protein complexes from three-dimensional density maps obtained by single-particle analysis, it is effective to dock or fit protein structures determined by X-ray crystallography or nuclear magnetic resonance (NMR) spectroscopy into the cryo-EM density maps.
-In this context, molecular dynamics (MD)–based approaches are widely used. These methods theoretically evaluate interatomic interactions and deform the molecular structure while applying biasing forces to achieve agreement with the cryo-EM density, thereby searching for an optimal structure—a procedure known as flexible fitting (Fig. 1). By explicitly accounting for conformational changes of proteins, flexible fitting yields more realistic molecular structures than rigid-body docking methods, in which proteins are treated as rigid objects. However, when applied to large biomolecular complexes, flexible fitting becomes computationally demanding, as both the evaluation of interatomic interactions and the estimation of the agreement with cryo-EM density maps require substantial computational cost. Consequently, the development of highly efficient computational algorithms has been strongly demanded.
+The free energy perturbation (FEP) method is an approach used to calculate changes in free energy by treating differences such as amino acid mutations or variations in ligands bound to proteins as “perturbations.”
+In this method, the initial and final states are connected by introducing virtual intermediate states in the computer, allowing the molecular system to be transformed gradually.
+Because these intermediate states do not correspond to physically existing states, the FEP method is also referred to as an “alchemical” approach.
 
-To achieve high-speed computations using computers, parallel computing employing multiple CPUs and GPUs is highly effective. By appropriately assigning computational tasks to these hardware resources and balancing their workloads, it is possible to fully exploit the performance of modern computing systems. Accordingly, we have developed two efficient parallel algorithms for the flexible fitting method: the kd-tree–based spatial decomposition method and the local shared-space decomposition method.
+### Acceleration of Calculations Using the Modified Hamiltonian Method
 
-In the kd-tree-based spatial decomposition method, the protein molecule is evenly partitioned based on a kd-tree algorithm when evaluating the agreement between the electron microscopy density and the molecular structure. Each CPU computes the local agreement independently, thereby achieving balanced workload distribution across CPUs (Fig. 2(a)).
+In the "dual topology" approach, instead of transforming the entire molecule, only the coordinates and energies of the parts that change are modified during the calculation.
+This strategy enables the evaluation of free energy changes while keeping the computational cost relatively low.
+However, when Coulomb interactions are treated using the Ewald method, interactions between distant atoms are calculated in reciprocal space.
+In conventional dual topology approaches, this reciprocal-space calculation requires two energy evaluations per time step.
+In GENESIS, when CPU-GPU hybrid calculations are employed, reciprocal-space calculations are executed on the CPU, making this part a bottleneck that limits the overall computational performance.
+Therefore, to further accelerate FEP calculations, the development of a new method that reduces the reciprocal-space calculation to a single evaluation per time step has been highly desirable.
 
-In the local shared-space decomposition method, the simulation space is first evenly partitioned, after which CPUs with high and low workloads are paired to cooperatively compute the local agreement, thereby achieving balanced load distribution (Fig. 2(b)). The evaluation of the agreement is performed on CPUs using a hybrid parallelization scheme that combines distributed-memory and shared-memory parallel computing, while the calculation of interatomic interactions is accelerated using GPUs. The proposed parallel algorithms were implemented in the molecular dynamics simulation program [GENESIS](https://mdgenesis.org/), and their computational performance was evaluated for various biomolecular systems. Both the kd-tree–based spatial decomposition method and the local shared-space decomposition method demonstrated high efficiency for large biomolecular systems. In addition, high-performance computation was achieved not only for all-atom models but also for systems using approximate models such as coarse-grained representations, as well as for smaller proteins (Fig. 3).
+Focusing on a key feature of the FEP method—that arbitrary states can be defined as intermediate states—we have developed a modified Hamiltonian approach in which quantities such as charges included in the Hamiltonian are scaled in a computationally convenient manner<sup>1</sup>.
+By using this method, the number of long-range interaction calculations can be reduced to one per time step, while maintaining the accuracy of conventional FEP calculations.
+As a result, we demonstrated that calculations in reciprocal space can be accelerated by 38%, and the overall simulation by 23%.
 
-Many proteins present in cells form transient complexes with other proteins, nucleic acids, or lipid molecules when they exert their functions, such as enzymatic reactions. In recent years, there has been growing momentum toward determining the three-dimensional structures of such protein complexes using cryo-electron microscopy (cryo-EM). To elucidate detailed structures of these complexes, it is essential to employ integrative structural modeling, which combines cryo-EM data with multiple experimental datasets, including X-ray crystallography and NMR spectroscopy. In the future, further improvements in integrative structural modeling algorithms—by incorporating techniques from information science, such as Bayesian inference—are expected to contribute significantly to the continued advancement of structural biology.
+Furthermore, GENESIS provides additional techniques to improve computational accuracy and stablity such as “hybrid topology method” and “soft-core potentials”.
+By using the reversible reference system propagation algorithm (r-RESPA), the reciprocal-space calculations can be further reduced.
+By combining these approaches with “Hamiltonian replica exchange” technique, it is also possible to enhance the efficiency of structural sampling.
+Through the integrated use of these methods, fast and stable FEP calculations can be achieved.
 
-{{< figure
-src="/images/research/proj_1-7-1.jpg" alt=""
-caption="Figure 1. Schematic overview of the flexible fitting method.<br>Protein structures determined by X-ray crystallography or nuclear magnetic resonance (NMR) spectroscopy are fitted into a cryo-electron microscopy density map.During this process, a biasing potential is added to the energy function (molecular force field) used in molecular dynamics simulations to drive the protein structure toward the density map, and atomic motions are propagated according to Newton’s equation of motion, F = ma."
->}}
+### Ligand Binding Analysis Using the gREST+FEP Method
 
-{{< figure
-src="/images/research/proj_1-7-2.jpg"
-alt=""
-caption="Figure 2. Schematic illustration of the developed parallel algorithms.<br>(a) Parallel computation using the kd-tree–based spatial decomposition method with eight CPUs. The molecular structure is evenly partitioned by recursively splitting at the molecular midpoint, and each subdivided region is assigned to a CPU (R0–R7) for computation.<br>(b) Parallel computation using the local shared-space decomposition method with eight CPUs. After evenly partitioning the space, CPUs responsible for regions containing many atoms are paired with those handling regions containing fewer atoms (black double arrows), and each pair cooperatively evaluates the agreement with the cryo-EM density. In the lower panel, the sharing of computational regions between R3 and R5 is schematically illustrated."
->}}
+Accurate prediction of ligand binding affinity to proteins is crucial for “in silico” drug discovery, where computational approaches are used to reduce the cost and time of drug development.
+When the binding structure between a protein and a ligand is known from experimental techniques such as X-ray crystallography, the FEP method enables highly accurate calculation of binding affinities.
+However, in many cases the binding structure is not available, or even when it is known, a ligand may adopt multiple possible binding poses.
+In such situations, a computational approach that can simultaneously predict the correct binding pose and accurately evaluate the binding affinity has been strongly desired.
 
-{{< figure src="/images/research/proj_1-7-3.jpg" alt="" 
-caption="Figure 3. Benchmark results of the developed parallel algorithms on a cluster computing system.<br>(a) Coarse-grained models and (b) all-atom models were used to evaluate computational performance for small-scale (Ca<sup>2+</sup>-ATPase), medium-scale (AMPA receptor), and large-scale (ribosome) biomolecular systems. For both the kd-tree–based spatial decomposition method and the local shared-space decomposition method, computational efficiency increased with the number of CPUs. In addition, the local shared-space decomposition method exhibited further performance improvement through the use of GPUs." >}}
+To address this challenge, we developed the gREST+FEP method, which combines the FEP method with generalized replica exchange with solute tempering (gREST)<sup>2</sup>.
+In the gREST method, multiple replicas are prepared in which the ligand molecule is assigned different temperatures, and these temperatures are exchanged during MD simulations.
+This approach exploits the large thermal fluctuations of the ligand at high temperatures to efficiently explore stable binding poses at physiological temperature.
+To prevent the high-temperature ligand from dissociating from the protein, an auxiliary potential energy term known as a “flat-bottom potential” is introduced.
+In the gREST+FEP framework, (1) plausible binding poses are first identified using the gREST method, and (2) the binding affinity of each pose is then evaluated with high accuracy using the FEP method.
+This two-step strategy enables a unified and consistent prediction of both binding poses and binding affinities.
 
-### References:
+We applied the gREST+FEP method to predict the binding affinities of 10 ligands to FK506 binding protein (FKBP).
+Notably, no prior information about the ligand binding poses was provided in these calculations. Despite this stringent condition, the binding affinities obtained with gREST+FEP showed excellent agreement with experimental values.
+The predictive accuracy significantly outperformed that of conventional docking calculations, which are widely used in drug discovery research.
 
-* Takaharu Mori, Marta Kulik, Osamu Miyashita, Jaewoon Jung, Florence Tama, Yuji Sugita, Acceleration of cryo-EM flexible fitting for large biomolecular systems by efficient space partitioning", Structure, 27, 161-174 (2019) <a href="https://www.cell.com/structure/fulltext/S0969-2126(18)30330-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0969212618303307%3Fshowall%3Dtrue" target="_blank">10.1016/j.str.2018.09.004</a>
+These results demonstrate that the gREST+FEP method can simultaneously achieve high accuracy in both binding pose prediction and binding affinity evaluation.
+We expect that this method will be broadly applied to in silico drug discovery and contribute to a substantial reduction in the cost and time required for drug development.
+
+### References
+1. Oshima, H. and Sugita, Y. J. Chem. Inf. Model 62, 2846-2856 (2022)
+2. Oshima, H., Re, S., and Sugita, Y. J. Chem. Inf. Model 60, 5382-5394 (2020)

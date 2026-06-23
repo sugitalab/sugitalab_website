@@ -1,35 +1,27 @@
 ---
-title: 'QM/MM分子動力学法'
+title: 'GPUを用いた分子動力学の高速化'
 date: 2025-10-07T12:04:37+09:00
-order: 3
+order: 4
 draft: false
 description: ''
 keywords: []
 ---
 
-## QM/MM分子動力学法
+## GPUを用いた分子動力学の高速化
 
-QM/MM 法は、化学反応の中心となる活性部位を高精度・高コストな量子化学（QM）計算で扱い、その周囲を低精度・低コストの古典力場（MM）として扱うハイブリッド型の計算手法です（図1A）。この手法を用いることで、MM だけでは扱えない「原子間の共有結合の形成や切断を伴う化学反応」を解析できます。また、従来の QM 計算が対象とする低分子に限らず、酵素のような大規模生体分子に対しても、分光スペクトルの予測、反応経路探索、反応に沿った自由エネルギー地形の解析などを行うことが可能です。
+分子動力学（Molecular Dynamics, MD）シミュレーションは、原子や分子の時間発展を追跡することで、構造ダイナミクスや分子間相互作用を原子レベルで明らかにします。しかし、生体分子システムのサイズや複雑さが増すにつれて、CPU（Central Processing Unit）では計算負荷が急激に高まり、現実的な時間内にシミュレーションを完了することが困難になります。この制約を克服し、より大規模な系や長い時間スケールを扱うために、GPU（Graphics Processing Unit）の利用は不可欠となっています。
 
-私たちはこの QM/MM 法を分子動力学計算パッケージ [GENESIS](https://mdgenesis.org/) に実装し、外部の QM 計算プログラム（Gaussian, Q-Chem, DFTB+, TeraChem, QSimulate）と連携させることで
-QM/MM 計算を実行しています（図1B）<sup>[1](#ref1),[2](#ref2)</sup>。これにより、MM に不足する部分を QM 計算で補いながら、十分な構造サンプリングを行える QM/MM-MD 法の開発を進めています。
+GPU は、個々の演算速度では CPU より遅い場合がありますが、大規模な並列処理に優れており、桁違いに多くの計算を同時に実行できます。問題を数千から数百万の小さな独立したサブ問題に分割できる場合、GPU による並列化は非常に効果的です。MD シミュレーションでは、原子間相互作用が互いに独立に計算可能であるため、この並列性が自然に現れ、GPU による効率的な計算が可能となります。
 
-さらにプログラム開発だけでなく、実際に QM/MM-MD 法を用いて生体中のさまざまな化学反応を解析しています。たとえば、生命活動のエネルギー源となる酸素還元反応や、細胞内シグナル制御に重要なタンパク質のリン酸化・脱リン酸化反応です。酵素はこれらの反応を触媒する分子であり、その仕組みを理解することは生命現象の理解や応用に直結します。
+GENESIS 分子動力学ソフトウェアもこの戦略を実装しています <sup>1</sup>。GENESIS はハイブリッド CPU–GPU 計算を導入し、計算負荷の大きい非結合相互作用を GPU で処理し、結合相互作用や長距離の静電相互作用を CPU で処理しました。このハイブリッド方式に加え、多重タイムステップ積分や混合精度計算といった最適化を組み合わせることで、大規模な生体分子システムを効率的にシミュレーションすることが可能になりました。
 
-私たちは開発した QM/MM-MD 法をトリプトファン合成酵素（TSase）の研究にも応用しています。TSase は多剤耐性結核菌に対する新規薬剤開発の標的であると同時に、工業的なL-トリプトファン生産においても重要な酵素です。その合成機構は酵素の構造変化と多段階の化学反応が密接に組み合わさった非常に複雑なものであり（図2）、全容はいまだ解明されていません。私たちは古典的手法と QM/MM 法を組み合わせることで、この複雑な仕組みをステップごとに詳しく調べています<sup>[3](#ref3),[4](#ref4),[5](#ref5)</sup>。
+近年では、LUMI のような最新の GPU ベースのスーパーコンピュータ上で GENESIS を動作させる取り組みも進められています <sup>2</sup>。LUMI は AMD 製 CPU と GPU を組み合わせたシステムであり、GPU カーネルの移植、CPU–GPU 間通信の最適化、そして Particle Mesh Ewald（PME）法を用いた静電相互作用計算の調整によって性能が大幅に向上しました。ベンチマークでは、数万原子から 1,600 万原子を超える系に対して効率的なスケーリングを実現し、1,024 ノードで 1 日あたり 200 ナノ秒以上のシミュレーション速度が達成されました。これらの最適化により、細胞スケールの系における安定性や機能を原子分解能で解析することが可能となっています。
 
-{{< figure src="/images/research/proj_1-3-1.jpg" alt="" caption="図1.（A）QM/MM 法の概念図。（B）MD と QM プログラムを組み合わせた QM/MM-MD 法の基本的な実行手順。">}}
+これら GPU 計算の発展により、GENESIS における MD シミュレーションは、小さなタンパク質や短い時間スケールに制約されるものから、大規模で現実的な生体システムの複雑な挙動を探究できる実用的な手法へと進化しました。
 
-{{< figure src="/images/research/proj_1-3-2.jpg" alt="" caption="図2. トリプトファン合成酵素における L-トリプトファンの合成機構。<br>参考文献[5]を改変して使用しており、CC BY-NC 4.0 ライセンスの下で公開されています。">}}
+{{< figure src="/images/research/proj_1-3.jpg" alt="System of 16M atoms" caption="" >}}
 
-### 参考文献:
-<a id=ref1></a>
-1. K. Yagi, and Y. Sugita, “Anharmonic Vibrational Calculations Based on Group-Localized Coordinates: Applications to Internal Water Molecules in Bacteriorhodopsin” J. Chem. Theory Comput. 17 (2021) 5007-5020.
-<a id=ref2></a>
-1. K. Yagi, S. Ito, and Y. Sugita, “Exploring the minimum-energy pathways and free-energy profiles of enzymatic reactions with QM/MM calculations” J. Phys. Chem. B 125 (2021) 4701-4713.
-<a id=ref3></a>
-1. S. Ito, K. Yagi, and Y. Sugita, “Computational Analysis on the Allostery of Tryptophan Synthase: Relationship between α/β-Ligand Binding and Distal Domain Closure” J. Phys. Chem. B 126 (2022) 3300-3308.
-<a id=ref4></a>
-1. S. Ito, K. Yagi, and Y. Sugita, “Allosteric regulation of β-reaction stage I in tryptophan synthase upon the α-ligand binding” J. Chem. Phys. 158 (2023) 115101.
-<a id=ref5></a>
-1. S. Ito, C. Kobayashi, K. Yagi, and Y. Sugita, “Toward understanding whole enzymatic reaction cycles using multi-scale molecular simulations” Curr. Opin. Struct. Biol. 95 (2025) 103153.
+### References:
+
+1. C. Kobayashi, J. Jung, Y. Matsunaga, T. Mori, T. Ando, K. Tamura, M. Kamiya, Y. Sugita. J. Comput. Chem. 2017, 38, 2193–2206. DOI: 10.1002/jcc.24874
+1. D. Ugarte La Torre, J. Jung, Y. Sugita. In Proceedings of the International Conference on High Performance Computing in Asia-Pacific Region. 2025, 1-12. DOI: 10.1145/3712031.3712036

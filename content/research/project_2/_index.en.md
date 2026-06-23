@@ -18,11 +18,11 @@ Going forward, we will revolutionize multiscale MD by utilizing machine learning
 <div class="research-image-block">
   <div class="text">
     <ul class="list">
-      <li><a href="proj_3-1/">Data Assimilation with Single-Molecule Measurements</a></li>
-      <!-- <li><a href="proj_3-2/">Dimensionality Reduction Using UMAP</a></li> -->
+      <li><a href="proj_2-1/">Data Assimilation with Single-Molecule Measurements</a></li>
+      <!-- <li><a href="proj_2-2/">Dimensionality Reduction Using UMAP</a></li> -->
       <li>Dimensionality Reduction Using UMAP</li>
-      <li><a href="proj_3-3/">ML/MM for Enzymatic Reactions</a></li>
-      <li><a href="proj_3-4/">Backmapping Method using Diffusion Models</a></li>
+      <li><a href="proj_2-3/">ML/MM for Enzymatic Reactions</a></li>
+      <li><a href="proj_2-4/">Backmapping Method using Diffusion Models</a></li>
     </ul>
   </div>
   <div class="image">

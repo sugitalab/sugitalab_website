@@ -17,18 +17,18 @@ keywords: []
 <div class="research-image-block">
   <div class="text">
     <ul class="list">
-      <li><a href="proj_2-2/">分⼦動⼒学ソフトウェアGENESISの開発</a></li>
-      <li><a href="proj_2-1/">分⼦動⼒学の⾼速化と並列化</a></li>
-      <li><a href="proj_2-4/">GPUを用いた分子動力学の高速化</a></li>
-      <li><a href="proj_1-2/">温度・圧力の正確な計算方法</a></li>
-      <li><a href="proj_1-6/">分子力場の改良</a></li>
+      <li><a href="proj_1-1/">分⼦動⼒学ソフトウェアGENESISの開発</a></li>
+      <li><a href="proj_1-2/">分⼦動⼒学の⾼速化と並列化</a></li>
+      <li><a href="proj_1-3/">GPUを用いた分子動力学の高速化</a></li>
+      <li><a href="proj_1-4/">温度・圧力の正確な計算方法</a></li>
+      <li><a href="proj_1-5/">分子力場の改良</a></li>
       <!-- <li><a href="proj_1-1/">効率の良い分子構造探索</a></li> -->
       <li>効率の良い分子構造探索</li>
-      <li><a href="proj_1-5/">自由エネルギー摂動計算</a></li>
-      <li><a href="proj_1-3/">QM/MMモデルを⽤いた分⼦動⼒学</a></li>
-      <li><a href="proj_1-4/">粗視化モデルを⽤いた分子動力学</a></li>
-      <li><a href="proj_2-3/">粗視化分⼦動⼒学における不均⼀空間分割</a></li>
-      <li><a href="proj_1-7/">クライオ電顕構造の精密化</a></li>
+      <li><a href="proj_1-7/">自由エネルギー摂動計算</a></li>
+      <li><a href="proj_1-8/">QM/MMモデルを⽤いた分⼦動⼒学</a></li>
+      <li><a href="proj_1-9/">粗視化モデルを⽤いた分子動力学</a></li>
+      <li><a href="proj_1-10/">粗視化分⼦動⼒学における不均⼀空間分割</a></li>
+      <li><a href="proj_1-11/">クライオ電顕構造の精密化</a></li>
     </ul>
   </div>
   <div class="image">

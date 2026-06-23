@@ -19,18 +19,18 @@ We will continue to develop multiscale MD methods and GENESIS. In particular, we
 <div class="research-image-block">
   <div class="text">
     <ul class="list">
-      <li><a href="proj_2-2/">Development of the MD software GENESIS</a></li>
-      <li><a href="proj_2-1/">Acceleration and parallelization of MD simulations</a></li>
-      <li><a href="proj_2-4/">Acceleration of MD simulations using GPU</a></li>
-      <li><a href="proj_1-2/">Accurate temperature and pressure in MD</a></li>
-      <li><a href="proj_1-6/">Improvement of molecular force fields</a></li>
+      <li><a href="proj_1-1/">Development of the MD software GENESIS</a></li>
+      <li><a href="proj_1-2/">Acceleration and parallelization of MD simulations</a></li>
+      <li><a href="proj_1-3/">Acceleration of MD simulations using GPU</a></li>
+      <li><a href="proj_1-4/">Accurate temperature and pressure in MD</a></li>
+      <li><a href="proj_1-5/">Improvement of molecular force fields</a></li>
       <!-- <li><a href="proj_1-1/">Enhanced conformational sampling</a></li> -->
       <li>Enhanced conformational sampling</li>
-      <li><a href="proj_1-5/">Free energy perturbation</a></li>
-      <li><a href="proj_1-3/">QM/MM MD simulations</a></li>
-      <li><a href="proj_1-4/">Coarse-grained (CG) MD simulations</a></li>
-      <li><a href="proj_2-3/">Heterogeneous decomposition CGMD simulations</a></li>
-      <li><a href="proj_1-7/">Refinement of cryo-EM structures</a></li>
+      <li><a href="proj_1-7/">Free energy perturbation</a></li>
+      <li><a href="proj_1-8/">QM/MM MD simulations</a></li>
+      <li><a href="proj_1-9/">Coarse-grained (CG) MD simulations</a></li>
+      <li><a href="proj_1-10/">Heterogeneous decomposition CGMD simulations</a></li>
+      <li><a href="proj_1-11/">Refinement of cryo-EM structures</a></li>
     </ul>
   </div>
   <div class="image">

@@ -18,11 +18,11 @@ AlphaFoldに代表される**AI・機械学習**の⼿法は⾼い予測性能�
 <div class="research-image-block">
   <div class="text">
     <ul class="list">
-      <li><a href="proj_3-1/">一分子計測のデータ同化</a></li>
-      <!-- <li><a href="proj_3-2/">UMAPによる次元削減</a></li> -->
+      <li><a href="proj_2-1/">一分子計測のデータ同化</a></li>
+      <!-- <li><a href="proj_2-2/">UMAPによる次元削減</a></li> -->
       <li>UMAPによる次元削減</li>
-      <li><a href="proj_3-3/">ML/MM モデル</a></li>
-      <li><a href="proj_3-4/">拡散モデルを用いた Backmapping 法</a></li>
+      <li><a href="proj_2-3/">ML/MM モデル</a></li>
+      <li><a href="proj_2-4/">拡散モデルを用いた Backmapping 法</a></li>
     </ul>
   </div>
   <div class="image">
