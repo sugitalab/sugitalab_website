@@ -7,7 +7,7 @@ description: ''
 keywords: []
 ---
 
-## Data Assimilation of Single-Molecule MeasurementsDData Assimilation of Single-Molecule Measurements
+## Data Assimilation of Single-Molecule Measurements
 
 Biomolecules such as proteins do not stay in a single fixed structure inside cells. Instead, they fluctuate dynamically and sometimes undergo large structural changes. Recent studies have shown that these structural dynamics are closely related to important biological functions such as enzymatic reactions, molecular transport, and signal transduction. For example, proteins called transporters change their shape to move and transport small molecules such as drugs. Therefore, it is important to develop methods that can observe the structural dynamics of biomolecules with high resolution in order to understand their functions.
 
@@ -36,9 +36,9 @@ The method developed in this study is general and can be applied to various type
 
 <p>During folding, the protein becomes more compact from an extended unfolded state, while forming intermediate structures such as hairpin 1 (top left and top right). These intermediate (transition) states are consistent with mutation experiment results.</p>
 
-### Original Article：
+### Original Article:
 
-Yasuhiro Matsunaga, and Yuji Sugita, "Linking time-series of single-molecule experiments with molecular dynamics simulations by machine learning", eLife, 10.7554/eLife.32668
+Yasuhiro Matsunaga and Yuji Sugita, "Linking time-series of single-molecule experiments with molecular dynamics simulations by machine learning", eLife, 10.7554/eLife.32668
 
 
 
