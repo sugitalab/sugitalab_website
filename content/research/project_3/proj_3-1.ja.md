@@ -20,11 +20,17 @@ ATPase は ATP 加水分解の自由エネルギーを利用して多様な生�
 
 P-type ATPase は輸送対象が異なっても基本構造を共有しているため、本研究で明らかにした SERCA の分子機構は他の ATPase にも適用可能です。これらの知見は生命現象の理解や創薬に寄与すると期待され、今後も計算科学による先端的研究が重要となります。
 
-{{< figure src="/images/research/proj_3-1-1.jpg" alt="" caption="図 1: カルシムイオンポンプ(SERCA)" >}}
+<div style="text-align: center;">
+{{< figure src="/images/research/proj_3-1-1.jpg" width="40%" alt="" caption="図 1: カルシムイオンポンプ(SERCA)。" >}}
+</div>
 
-{{< figure src="/images/research/proj_3-1-2.jpg" alt="" caption="図 2: SERCA の反応経路計算の概念図" >}}
+<div style="text-align: center;">
+{{< figure src="/images/research/proj_3-1-2.jpg" width="65%" alt="" caption="図 2: SERCA の反応経路計算の概念図。" >}}
+</div>
 
-{{< figure src="/images/research/proj_3-1-3.jpg" alt="" caption="図３: SERCA の E1P 状態から E2P 状態への構造変化" >}}
+<div style="text-align: center;">
+{{< figure src="/images/research/proj_3-1-3.jpg" alt="" caption="図３: SERCA の E1P 状態から E2P 状態への構造変化。 図は文献[4]の図をもとに作成した（CC BY 4.0）。" >}}
+</div>
 
 ### 参考文献
 

@@ -18,11 +18,17 @@ Our simulations revealed that ADP dissociation disrupts a salt bridge between th
 
 Because P-type ATPases share a common architecture despite transporting different substrates, the molecular mechanism elucidated here for SERCA is likely applicable to other members of this family. These insights advance our understanding of fundamental biological processes while also demonstrating potential for drug discovery, underscoring the importance of continued progress in computational science.
 
-{{< figure src="/images/research/proj_3-1-1.jpg" alt="" caption="Fig. 1: Ca<sup>2+</sup>-ATPase (SERCA)" >}}
+<div style="text-align: center;">
+{{< figure src="/images/research/proj_3-1-1.jpg" width="40%" alt="" caption="Fig. 1: Ca<sup>2+</sup>-ATPase (SERCA)" >}}
+</div>
 
-{{< figure src="/images/research/proj_3-1-2.jpg" alt="" caption="Fig. 2: Schematic Diagram of the Reaction Pathway Calculation of SERCA" >}}
+<div style="text-align: center;">
+{{< figure src="/images/research/proj_3-1-2.jpg" width="65%" alt="" caption="Fig. 2: Schematic Diagram of the Reaction Pathway Calculation of SERCA" >}}
+</div>
 
-{{< figure src="/images/research/proj_3-1-3.jpg" alt="" caption="Fig. 3: Conformational changes from E1P to E2P state." >}}
+<div style="text-align: center;">
+{{< figure src="/images/research/proj_3-1-3.jpg" alt="" caption="Fig. 3: Conformational changes from E1P to E2P state. Adapted from Ref. [4] under CC BY 4.0." >}}
+</div>
 
 ## References:
 
