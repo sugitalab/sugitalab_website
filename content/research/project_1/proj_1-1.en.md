@@ -33,7 +33,19 @@ Molecular dynamics simulations of biomolecular systems are becoming increasingly
 ### References:
 
 <ul>
-  <li>Jung, Mori, Kobayashi, Matsunaga, Yoda, Feig, Sugita, GENESIS: a hybrid-parallel and multi-scale molecular dynamics simulator with enhanced sampling algorithms for biomolecular and cellular simulations,WIREs Computational Molecular Science 5, 310-323 (2015)<br>
+  <li>Jung, Mori, Kobayashi, Matsunaga, Yoda, Feig, Sugita, GENESIS: a hybrid-parallel and multi-scale molecular dynamics simulator with enhanced sampling algorithms for biomolecular and cellular simulations, WIREs Computational Molecular Science 5, 310-323 (2015)<br>
   <a href="https://doi.org/10.1002/wcms.1220" target="_blank" rel="noopener noreferrer">https://doi.org/10.1002/wcms.1220</a>
+  </li>
+  <li>Kobayashi, Jung, Matsunaga, Mori, Ando, Tamura, Kamiya, and Sugita, GENESIS 1.1: A hybrid-parallel molecular dynamics simulator with enhanced sampling algorithms on multiple computational platforms,  J. Compute. Chem. 38, 2193-2206 (2017).<br>
+  <a href="https://doi.org/10.1002/jcc.24874" target="_blank" rel="noopener noreferrer">https://doi.org/10.1002/jcc.24874</a>
+  </li>
+  <li>Jung, Yagi, Tan, Oshima, Mori, Yu, Matsunaga, Kobayashi, Ito, Ugarte La Torre, Sugita, GENESIS 2.1: High-Performance Molecular Dynamics Software for Enhanced Sampling and Free-Energy Calculations for Atomistic, Coarse-Grained, and Quantum Mechanics/Molecular Mechanics Models, J. Phys. Chem. B, 128, 25, 6028-6048 (2024).<br>
+  <a href="https://doi.org/10.1021/acs.jpcb.4c02096" target="_blank" rel="noopener noreferrer">https://doi.org/10.1021/acs.jpcb.4c02096</a>
+  </li>
+  <li>Jung, Kobayashi, Kasahara, Tan, Kuroda, Minami, Ishiduki, Nishiki, Inoue, Ishikawa, Feig, Sugita, New parallel computing algorithm of molecular dynamics for extremely huge scale biological systems, J. Comput. Chem. 42, 231-241 (2021).<br>
+  <a href="https://doi.org/10.1002/jcc.26450" target="_blank" rel="noopener noreferrer">https://doi.org/10.1002/jcc.26450</a>
+  </li>
+  <li>Jung, Tan, Sugita, GENESIS CGDYN: large-scale coarse-grained MD simulation with dynamic load balancing for heterogeneous biomolecular systems, Nat. Communs. 15, 3370, (2024). <br>
+  <a href="https://doi.org/10.1038/s41467-024-47654-1" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/s41467-024-47654-1</a>
   </li>
 </ul>
