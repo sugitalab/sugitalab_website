@@ -30,8 +30,10 @@ GENESIS のもう 1 つの特徴は、レプリカ交換分子動力学法（REM
 
 ### References:
 
-<ul>
-  <li>Jung, Mori, Kobayashi, Matsunaga, Yoda, Feig, Sugita, GENESIS: a hybrid-parallel and multi-scale molecular dynamics simulator with enhanced sampling algorithms for biomolecular and cellular simulations, WIREs Computational Molecular Science 5, 310-323 (2015)<br>
-  <a href="https://doi.org/10.1002/wcms.1220" target="_blank" rel="noopener noreferrer">https://doi.org/10.1002/wcms.1220</a>
-  </li>
-</ul>
+<ol>
+<li>Jung, J.; Mori, T.; Kobayashi, C.; Matsunaga, Y.; Yoda, T.; Feig, M.; Sugita, Y. GENESIS: a hybrid-parallel and multi-scale molecular dynamics simulator with enhanced sampling algorithms for biomolecular and cellular simulations. WIREs Comput. Mol. Sci. 2015, 5 (4), 310-323. DOI:<a href="https://doi.org/10.1002/wcms.1220" target="_blank" rel="noopener noreferrer">https://doi.org/10.1002/wcms.1220</a></li>
+<li>Kobayashi, C.; Jung, J.; Matsunaga, Y.; Mori, T.; Ando, T.; Tamura, K.; Kamiya, M.; Sugita, Y. GENESIS 1.1: A hybrid-parallel molecular dynamics simulator with enhanced sampling algorithms on multiple computational platforms. J. Comput. Chem. 2017, 38 (25), 2193-2206. DOI:<a href="https://doi.org/10.1002/jcc.24874" target="_blank" rel="noopener noreferrer">https://doi.org/10.1002/jcc.24874</a></li>
+<li>Jung, J.; Yagi, K.; Tan, C.; Oshima, H.; Mori, T.; Yu, L.; Matsunaga, Y.; Kobayashi, C.; Ito, S.; Ugarte La Torre, S.; Sugita, Y. GENESIS 2.1: High-Performance Molecular Dynamics Software for Enhanced Sampling and Free-Energy Calculations for Atomistic, Coarse-Grained, and Quantum Mechanics/Molecular Mechanics Models. J. Phys. Chem. B 2024, 128 (25), 6028-6048. DOI:<a href="https://doi.org/10.1021/acs.jpcb.4c02096" target="_blank" rel="noopener noreferrer">https://doi.org/10.1021/acs.jpcb.4c02096</a></li>
+<li>Jung, J.; Kobayashi, C.; Kasahara, K.; Tan, C.; Kuroda, A.; Minami, K.; Ishiduki, S.; Nishiki, M.; Inoue, H.; Ishikawa, Y.; Feig, M.; Sugita, Y. New parallel computing algorithm of molecular dynamics for extremely huge scale biological systems. J. Comput. Chem. 2021, 42 (4), 231-241. DOI:<a href="https://doi.org/10.1002/jcc.26450" target="_blank" rel="noopener noreferrer">https://doi.org/10.1002/jcc.26450</a></li>
+<li>Jung, J.; Tan, C.; Sugita, Y. GENESIS CGDYN: large-scale coarse-grained MD simulation with dynamic load balancing for heterogeneous biomolecular systems. Nat. Commun. 2024, 15 (1), 3370. DOI:<a href="https://doi.org/10.1038/s41467-024-47654-1" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/s41467-024-47654-1</a></li>
+</ol>
