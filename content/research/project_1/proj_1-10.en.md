@@ -22,11 +22,15 @@ During the simulation, molecular structures such as proteins may change signific
 
 We evaluated the performance of CGDYN with the new dynamic domain decomposition method using two supercomputers, Fugaku and RIKEN Hokusai-BigWaterfall. We compared CGDYN with two other approaches: SPDYN-like, which uses uniform domain decomposition, and ATDYN, which does not use domain decomposition. The results show that CGDYN achieves higher performance than the other two methods, with 3 to 30 times better performance than ATDYN (Fig. 2). In addition, CGDYN provides nearly the same performance for both high-density and low-density systems, demonstrating that the load balancing method is effective regardless of particle density. Compared to SPDYN-like, CGDYN achieved up to 7.5 times faster simulations (Fig. 2). Furthermore, comparisons with other MD software on Fugaku also confirmed the high performance of CGDYN.
 
-{{< figure src="/images/research/proj_1-10-2.jpg" alt="" caption="Fig. 2. Performance improvement demonstrated by benchmark calculations of GENESIS CGDYN. Comparison of CGDYN with SPDYN-like (uniform domain decomposition) and ATDYN (no domain decomposition). The scaling of computational performance with increasing number of nodes is shown." >}}
+<div style="text-align: center;">
+{{< figure src="/images/research/proj_1-10-2_en.png"  width="65%" alt="" caption="Fig. 2. Performance improvement demonstrated by benchmark calculations of GENESIS CGDYN. Comparison of CGDYN with SPDYN-like (uniform domain decomposition) and ATDYN (no domain decomposition). The scaling of computational performance with increasing number of nodes is shown." >}}
+</div>
 
 As an application of CGDYN, we simulated the fusion process of protein condensates (droplets). We constructed a very large system consisting of 16,647 intrinsically disordered proteins and observed the process in which more than 50 small droplets merge into a single large droplet with a diameter of 0.1 μm (Fig. 3).
 
-{{< figure src="/images/research/proj_1-10-3.jpg" alt="" caption="Fig. 3. Simulation of fusion processes in very large protein droplets. As time (t) progresses, some small droplets dissolve, and their proteins diffuse into the dilute phase before being absorbed into larger droplets." >}}
+<div style="text-align: center;">
+{{< figure src="/images/research/proj_1-10-3_en.png" width="75%" alt="" caption="Fig. 3. Simulation of fusion processes in very large protein droplets. As time (t) progresses, some small droplets dissolve, and their proteins diffuse into the dilute phase before being absorbed into larger droplets." >}}
+</div>
 
 The results show that the decrease in the number of droplets is not caused only by direct fusion. Some small droplets dissolve, and their proteins diffuse into the dilute phase before being absorbed into larger droplets (Fig. 3). This process is similar to Ostwald ripening, which arises from the competition between surface tension and molecular kinetic energy. Although Ostwald ripening of droplets can be directly observed using optical microscopy, to our knowledge, this study is the first to observe such behavior using MD simulations with a residue-level coarse-grained model.
 
