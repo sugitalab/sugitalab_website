@@ -28,13 +28,12 @@ By combining classical simulation approaches with the QM/MM method, we investiga
 {{< figure src="/images/research/proj_1-8-2.jpg" alt="" caption="Figure 2. Proposed reaction mechanism of L-tryptophan synthesis in tryptophan synthase. <br>It is adapted from the reference [5], licensed under CC-BY-NC 4.0.">}}
 
 ### References:
-<a id="ref1"></a>
-1. K. Yagi, and Y. Sugita, “Anharmonic Vibrational Calculations Based on Group-Localized Coordinates: Applications to Internal Water Molecules in Bacteriorhodopsin” J. Chem. Theory Comput. 17 (2021) 5007-5020.
-<a id="ref2"></a>
-1. K. Yagi, S. Ito, and Y. Sugita, “Exploring the minimum-energy pathways and free-energy profiles of enzymatic reactions with QM/MM calculations” J. Phys. Chem. B 125 (2021) 4701-4713.
-<a id="ref3"></a>
-1. S. Ito, K. Yagi, and Y. Sugita, “Computational Analysis on the Allostery of Tryptophan Synthase: Relationship between α/β-Ligand Binding and Distal Domain Closure” J. Phys. Chem. B 126 (2022) 3300-3308.
-<a id="ref4"></a>
-1. S. Ito, K. Yagi, and Y. Sugita, “Allosteric regulation of β-reaction stage I in tryptophan synthase upon the α-ligand binding” J. Chem. Phys. 158 (2023) 115101.
-<a id="ref5"></a>
-1. S. Ito, C. Kobayashi, K. Yagi, and Y. Sugita, “Toward understanding whole enzymatic reaction cycles using multi-scale molecular simulations”, Curr. Opin. Struct. Biol. 95 (2025) 103153.
+
+<ol>
+  <li id="ref1">Yagi, K.; Sugita, Y. Anharmonic Vibrational Calculations Based on Group-Localized Coordinates: Applications to Internal Water Molecules in Bacteriorhodopsin. <i>J. Chem. Theory Comput.</i> 2021, 17 (8), 5007–5020. DOI:<a href="https://doi.org/10.1021/acs.jctc.1c00060" target="_blank" rel="noopener noreferrer">https://doi.org/10.1021/acs.jctc.1c00060</a></li>
+  <li id="ref2">Yagi, K.; Ito, S.; Sugita, Y. Exploring the minimum-energy pathways and free-energy profiles of enzymatic reactions with QM/MM calculations. <i>J. Phys. Chem. B</i> 2021, 125 (18), 4701–4713. DOI:<a href="https://doi.org/10.1021/acs.jpcb.1c01862" target="_blank" rel="noopener noreferrer">https://doi.org/10.1021/acs.jpcb.1c01862</a></li>
+  <li id="ref3">Ito, S.; Yagi, K.; Sugita, Y. Computational Analysis on the Allostery of Tryptophan Synthase: Relationship between α/β-Ligand Binding and Distal Domain Closure. <i>J. Phys. Chem. B</i> 2022, 126 (18), 3300–3308. DOI:<a href="https://doi.org/10.1021/acs.jpcb.2c01556" target="_blank" rel="noopener noreferrer">https://doi.org/10.1021/acs.jpcb.2c01556</a></li>
+  <li id="ref4">Ito, S.; Yagi, K.; Sugita, Y. Allosteric regulation of β-reaction stage I in tryptophan synthase upon the α-ligand binding. <i>J. Chem. Phys.</i> 2023, 158 (11), 115101. DOI:<a href="https://doi.org/10.1063/5.0134117" target="_blank" rel="noopener noreferrer">https://doi.org/10.1063/5.0134117</a></li>
+  <li id="ref5">Ito, S.; Kobayashi, C.; Yagi, K.; Sugita, Y. Toward understanding whole enzymatic reaction cycles using multi-scale molecular simulations. <i>Curr. Opin. Struct. Biol.</i> 2025, 95, 103153. DOI:<a href="https://doi.org/10.1016/j.sbi.2025.103153" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.sbi.2025.103153</a></li>
+</ol>
+

@@ -54,6 +54,10 @@ The predictive accuracy significantly outperformed that of conventional docking 
 These results demonstrate that the gREST+FEP method can simultaneously achieve high accuracy in both binding pose prediction and binding affinity evaluation.
 We expect that this method will be broadly applied to in silico drug discovery and contribute to a substantial reduction in the cost and time required for drug development.
 
-### References
-1. Oshima, H. and Sugita, Y. J. Chem. Inf. Model 62, 2846-2856 (2022)
-2. Oshima, H., Re, S., and Sugita, Y. J. Chem. Inf. Model 60, 5382-5394 (2020)
+### References:
+
+<ol>
+  <li>Oshima, H.; Sugita, Y. Modified Hamiltonian in FEP Calculations for Reducing the Computational Cost of Electrostatic Interactions. <i>J. Chem. Inf. Model.</i> 2022, 62 (11), 2846–2856. DOI:<a href="https://doi.org/10.1021/acs.jcim.1c01532" target="_blank" rel="noopener noreferrer">https://doi.org/10.1021/acs.jcim.1c01532</a></li>
+  <li>Oshima, H.; Re, S.; Sugita, Y. Prediction of Protein–Ligand Binding Pose and Affinity Using the gREST+FEP Method. <i>J. Chem. Inf. Model.</i> 2020, 60 (11), 5382–5394. DOI:<a href="https://doi.org/10.1021/acs.jcim.0c00338" target="_blank" rel="noopener noreferrer">https://doi.org/10.1021/acs.jcim.0c00338</a></li>
+</ol>
+

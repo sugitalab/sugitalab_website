@@ -22,7 +22,10 @@ This refined methodology for calculating temperature and pressure allows GENESIS
 
 ### References:
 
-1. Jaewoon Jung, Chigusa Kobayashi, and Yuji Sugita, J. Chem. Phys. 148, 164109 (2018)
-1. Jaewoon Jung, Chigusa Kobayashi, and Yuji Sugita, J. Chem. Theory. Comput. 15, 84-94 (2019)
-1. Jaewoon Jung and Yuji Sugita, J. Chem. Phys. 153, 234115 (2020)
-1. Jaewoon Jung, Kento Kasahara, Chigusa Kobayashi, Hiraku Oshima, Takaharu Mori, and Yuji Sugita, J. Chem. Theory. Comput. 17, 5312-5321 (2021)
+<ol>
+  <li>Jung, J.; Kobayashi, C.; Sugita, Y. Kinetic energy definition in velocity Verlet integration for accurate pressure evaluation. <i>J. Chem. Phys.</i> 2018, 148 (16), 164109. DOI:<a href="https://doi.org/10.1063/1.5024419" target="_blank" rel="noopener noreferrer">https://doi.org/10.1063/1.5024419</a></li>
+  <li>Jung, J.; Kobayashi, C.; Sugita, Y. Optimal temperature evaluation in molecular dynamics simulations with a large time step. <i>J. Chem. Theory Comput.</i> 2019, 15 (1), 84–94. DOI:<a href="https://doi.org/10.1021/acs.jctc.8b00874" target="_blank" rel="noopener noreferrer">https://doi.org/10.1021/acs.jctc.8b00874</a></li>
+  <li>Jung, J.; Sugita, Y. Group-based evaluation of temperature and pressure for molecular dynamics simulation with a large time step. <i>J. Chem. Phys.</i> 2020, 153 (23), 234115. DOI:<a href="https://doi.org/10.1063/5.0027873" target="_blank" rel="noopener noreferrer">https://doi.org/10.1063/5.0027873</a></li>
+  <li>Jung, J.; Kasahara, K.; Kobayashi, C.; Oshima, H.; Mori, T.; Sugita, Y. Optimized hydrogen mass repartitioning scheme combined with accurate temperature/pressure evaluations for thermodynamic and kinetic properties of biological systems. <i>J. Chem. Theory Comput.</i> 2021, 17 (8), 5312–5321. DOI:<a href="https://doi.org/10.1021/acs.jctc.1c00185" target="_blank" rel="noopener noreferrer">https://doi.org/10.1021/acs.jctc.1c00185</a></li>
+</ol>
+

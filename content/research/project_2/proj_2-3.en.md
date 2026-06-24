@@ -21,7 +21,10 @@ Second, we introduced a continual learning strategy to improve the efficiency of
 
 Through these developments, we are paving the way for more predictive and accessible simulations of chemical and biological processes. These advanced ML/MM methods are expected to accelerate the discovery of new catalysts, aid in drug design, and deepen our fundamental understanding of reaction mechanisms.
 
-### References
-[1] Y.-K. Lei, K. Yagi, and Y. Sugita, *J. Chem. Phys.* **160**, 214109 (2024). (https://doi.org/10.1063/5.0205123)
+### References:
 
-[2] Y.-K. Lei, K. Yagi, and Y. Sugita, *J. Chem. Theory Comput.* **21**, 2695 (2024). (https://doi.org/10.1021/acs.jctc.4c01393)
+<ol>
+  <li>Lei, Y.-K.; Yagi, K.; Sugita, Y. Learning QM/MM potential using equivariant multiscale model. <i>J. Chem. Phys.</i> 2024, 160 (21), 214109. DOI:<a href="https://doi.org/10.1063/5.0205123" target="_blank" rel="noopener noreferrer">https://doi.org/10.1063/5.0205123</a></li>
+  <li>Lei, Y.-K.; Yagi, K.; Sugita, Y. Efficient Training of Neural Network Potentials for Chemical and Enzymatic Reactions by Continual Learning. <i>J. Chem. Theory Comput.</i> 2025, 21 (5), 2695–2708. DOI:<a href="https://doi.org/10.1021/acs.jctc.4c01393" target="_blank" rel="noopener noreferrer">https://doi.org/10.1021/acs.jctc.4c01393</a></li>
+</ol>
+

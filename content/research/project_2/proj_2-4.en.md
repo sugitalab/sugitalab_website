@@ -17,5 +17,9 @@ CGBack has demonstrated scalability from single proteins to large biomolecular c
 
 {{< figure src="/images/research/proj_2-4.jpg" alt="Overview of backmapping" caption="Figure: Schematic overview of backmapping" >}}
 
-### References
-1. Ugarte La Torre, D. and Sugita, Y. J. Chem. Inf. Model. 65, 9974-9986 (2025). https://doi.org/10.1021/acs.jcim.5c01281
+### References:
+
+<ol>
+  <li>Ugarte La Torre, D.; Sugita, Y. CGBack: Diffusion Model for Backmapping Large-Scale and Complex Coarse-Grained Molecular Systems. <i>J. Chem. Inf. Model.</i> 2025, 65 (19), 9974–9986. DOI:<a href="https://doi.org/10.1021/acs.jcim.5c01281" target="_blank" rel="noopener noreferrer">https://doi.org/10.1021/acs.jcim.5c01281</a></li>
+</ol>
+

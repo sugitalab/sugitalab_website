@@ -36,9 +36,12 @@ The method developed in this study is general and can be applied to various type
 
 <p>During folding, the protein becomes more compact from an extended unfolded state, while forming intermediate structures such as hairpin 1 (top left and top right). These intermediate (transition) states are consistent with mutation experiment results.</p>
 
-### Original Article:
+### References:
 
-Yasuhiro Matsunaga and Yuji Sugita, "Linking time-series of single-molecule experiments with molecular dynamics simulations by machine learning", eLife, 10.7554/eLife.32668
+<ol>
+  <li>Matsunaga, Y.; Sugita, Y. Linking time-series of single-molecule experiments with molecular dynamics simulations by machine learning. <i>eLife</i> 2018, 7, e32668. DOI:<a href="https://doi.org/10.7554/eLife.32668" target="_blank" rel="noopener noreferrer">https://doi.org/10.7554/eLife.32668</a></li>
+</ol>
+
 
 
 

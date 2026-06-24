@@ -39,4 +39,7 @@ caption="Figure 3. Benchmark results of the developed parallel algorithms on a c
 
 ### References:
 
-* Takaharu Mori, Marta Kulik, Osamu Miyashita, Jaewoon Jung, Florence Tama, Yuji Sugita, “Acceleration of cryo-EM flexible fitting for large biomolecular systems by efficient space partitioning”, Structure, 27, 161-174 (2019) <a href="https://www.cell.com/structure/fulltext/S0969-2126(18)30330-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0969212618303307%3Fshowall%3Dtrue" target="_blank">10.1016/j.str.2018.09.004</a>
+<ol>
+  <li>Mori, T.; Kulik, M.; Miyashita, O.; Jung, J.; Tama, F.; Sugita, Y. Acceleration of cryo-EM flexible fitting for large biomolecular systems by efficient space partitioning. <i>Structure</i> 2019, 27 (1), 161–174. DOI:<a href="https://doi.org/10.1016/j.str.2018.09.004" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.str.2018.09.004</a></li>
+</ol>
+
