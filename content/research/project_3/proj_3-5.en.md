@@ -43,5 +43,5 @@ A deeper understanding of nanoscale energy-conversion mechanisms such as those o
 
 ### References
 <ol>
-  <li>Motohashi, M.; Oide, M.; Kobayashi, C.; Jung, J.; Muneyuki, E.; Sugita, Y. Rotary driving mechanism of the 80° substep in F1-ATPase. Proc. Natl. Acad. Sci. 2025, 122 (1), e2502642122. DOI: <a href="https://doi.org/10.1073/pnas.2502642122" target="_blank" rel="noopener noreferrer">https://doi.org/10.1073/pnas.2502642122</a></li>
+  <li>Motohashi, M.; Oide, M.; Kobayashi, C.; Jung, J.; Muneyuki, E.; Sugita, Y. The distortion–push mechanism for the γ subunit rotation in F1-ATPase. Proc. Natl. Acad. Sci. 2025, 122 (1), e2502642122. DOI: <a href="https://doi.org/10.1073/pnas.2502642122" target="_blank" rel="noopener noreferrer">https://doi.org/10.1073/pnas.2502642122</a></li>
 </ol>
