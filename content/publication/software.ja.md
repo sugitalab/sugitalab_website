@@ -13,6 +13,7 @@ keywords: []
   <dl class="dl-links">
     <dt>論文リンク :</dt>
     <dd>
+      <div><a href="https://doi.org/10.1002/wcms.1220" target="_blank" rel="noopener noreferrer">https://doi.org/10.1002/wcms.1220</a></div>
       <div><a href="https://doi.org/10.1002/jcc.24874" target="_blank" rel="noopener noreferrer">https://doi.org/10.1002/jcc.24874</a></div>
       <div><a href="https://doi.org/10.1021/acs.jpcb.4c02096" target="_blank" rel="noopener noreferrer">https://doi.org/10.1021/acs.jpcb.4c02096</a></div>
     </dd>
