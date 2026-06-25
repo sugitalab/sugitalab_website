@@ -1,0 +1,9 @@
+.wp-block-table table tr td:first-child {
+	width: 220px;
+}
+
+.wp-block-table table tr td:nth-child(2) {
+	width: 240px;
+}
+
+/*# sourceMappingURL=member.css.map */

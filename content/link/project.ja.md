@@ -19,7 +19,7 @@ keywords: []
 
 <div class="is-indent">
   <p><a href="https://structure.m.u-tokyo.ac.jp/xscalebio/" target="_blank" rel="noopener noreferrer">学術変革研究（A）「クロススケール新生物学」</a></p>
-  <p>理化学研究所・萌芽的研究課題「細胞内環境の生物学」</a></p>
+  <p><a href="/projects/bie/ja/" target="_blank" rel="noopener noreferrer">理化学研究所・萌芽的研究課題「細胞内環境の生物学」</a></p>
   <p><a href="https://gli.riken.jp/index.html" target="_blank" rel="noopener noreferrer">理化学研究所・萌芽的研究課題「糖と脂質の構成原理（ことわり）を読み解く先端研究」</a></p>
   <p>基盤研究（S）「マルチスケール分子動力学シミュレーションによる細胞内分子動態の解明」</p>
   <p><a href="http://www.scls.riken.jp/" target="_blank" rel="noopener noreferrer">HPCI 戦略プログラム 分野 1「予測する生命科学・医療および創薬基盤」</a></p>
