@@ -17,7 +17,6 @@ keywords: []
       <li><a href="../profile/chigusa_kobayashi/">Chigusa Kobayashi (Senior Technical Scientist)</a></li>
       <li><a href="../profile/cheng_tan/">Cheng Tan (Research Scientist)</a></li>
       <li><a href="../profile/shingo_ito/">Shingo Ito (Research Scientist)</a></li>
-      <!-- <li><a href="../profile/yangyang_zhang/">Yangyang Zhang (Postdoctoral Researcher)</a></li> -->
     </ul>
   </div>
   <div class="image">
@@ -28,6 +27,7 @@ keywords: []
 ### Visiting Scientists
 
 <ul class="member-list">
+  <li><a href="https://prime.osaka-u.ac.jp/ja/member/zhang-yangyang/#anchor" target="_blank">Yangyang Zhang (Postdoctoral researcher, WPI Premium Research Institute for Human Metaverse Medicine (WPI-PRiMe), Osaka University)</a></li>
   <li><a href="../profile/diego_ugarte/">Diego Ugarte La Torre (Assistant Professor, The University of Tokyo)</a></li>
   <li><a href="https://www.chem.tsukuba.ac.jp/ymlab/index-e.html" target="_blank">Kiyoshi Yagi (Professor,
   Institute of Pure and Applied Sciences, University of Tsukuba)

@@ -123,7 +123,7 @@ keywords: []
 ### Computational Biophysics Research Team, RIKEN Center for Computational Science
 
 <ul class="member-list">
-  <li><a href="https://prime.osaka-u.ac.jp/ja/member/shinobu-ai/#anchor" target="_blank" rel="noopener noreferrer">Yangyang Zhang (Postdoctoral researcher) Dec. 2023 - Mar. 2026</a> <br>
+  <li><a href="https://prime.osaka-u.ac.jp/ja/member/zhang-yangyang/#anchor" target="_blank" rel="noopener noreferrer">Yangyang Zhang (Postdoctoral researcher) Dec. 2023 - Mar. 2026</a> <br>
   WPI Premium Research Institute for Human Metaverse Medicine (WPI-PRiMe), Osaka University
   </li>
   <li><a href="../profile/diego_ugarte/">Diego Ugarte La Torre (Research Associate; Postdoctoral researcher) Jul. 2021 - Jan. 2026</a> <br>
