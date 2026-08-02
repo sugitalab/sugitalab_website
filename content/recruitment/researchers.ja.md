@@ -8,7 +8,20 @@ keywords: []
 
 ## 博士研究員・研究員等の受け入れ
 
+<div style="background-color: #f8f9fa; border-left: 4px solid #0056b3; padding: 16px 20px; margin-bottom: 24px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+  <p style="margin: 0 0 8px 0; font-weight: bold; color: #0056b3; font-size: 1.05em;">
+    <span style="display: inline-block; margin-right: 6px;">📢</span> 募集状況のお知らせ
+  </p>
+  <p style="margin: 0; line-height: 1.6;">
+    現在、当研究室のプロジェクト直接雇用による<strong>博士研究員・研究員の募集枠（空席）はございません</strong>。ただし、<strong>理研基礎科学特別研究員（SPDR）</strong>や<strong>日本学術振興会（JSPS）特別研究員</strong>などの外部・競争的資金フェローシップに応募される方の受け入れのご相談は随時歓迎しております。
+  </p>
+</div>
+
 理論・計算科学を用いた研究活動を行う博士研究員・研究員等を募集しています。希望者は、このホームページや研究室から出版された論文等の情報から研究内容をよく理解した上で、研究室主宰者（杉田有治）までメールでご相談ください。（sugita_at_riken.jp: “\_at\_”を”@”に換えてください。）
+
+<div style="background-color: #fff8e6; border: 1px solid #ffe58f; border-left: 4px solid #faad14; padding: 12px 16px; margin: 16px 0; border-radius: 4px;">
+  <strong>【応募時のお願い】</strong> 一括送信（海投）メール等への対応のため、<strong>応募メールの件名（Subject）には必ず <code>[Application for Sugita-Lab Position]</code> という文字を含めてください</strong>（例: <em>[Application for Sugita-Lab Position] 博士研究員応募 - 氏名</em>）。指定の件名表記がないメールや定型文による海投メールは、自動フィルタリング等により返信いたしかねる場合がございますのでご了承ください。
+</div>
 
 ### 研究プロジェクトを行う博士研究員や研究員等
 

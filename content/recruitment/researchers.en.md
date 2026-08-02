@@ -8,8 +8,21 @@ keywords: []
 
 ## Acceptance of Postdoctoral Researchers and Research Fellows
 
+<div style="background-color: #f8f9fa; border-left: 4px solid #0056b3; padding: 16px 20px; margin-bottom: 24px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+  <p style="margin: 0 0 8px 0; font-weight: bold; color: #0056b3; font-size: 1.05em;">
+    <span style="display: inline-block; margin-right: 6px;">📢</span> Recruitment Status Notice
+  </p>
+  <p style="margin: 0; line-height: 1.6;">
+    There are currently <strong>no funded postdoctoral positions available</strong> directly within our laboratory projects. However, we welcome applications from self-funded candidates or those applying for external fellowships such as the <strong>RIKEN SPDR</strong> or <strong>JSPS Postdoctoral Fellowships</strong>.
+  </p>
+</div>
+
 We welcome applications from postdoctoral researchers and research fellows interested in conducting research in theoretical and computational science. Prospective applicants are encouraged to review the information on this website and publications from our laboratory to gain a solid understanding of our research activities. After doing so, please contact the laboratory head, Dr. Yuji Sugita, by email to discuss potential opportunities.
 (sugita_at_riken.jp — please replace “\_at\_” with “@”)
+
+<div style="background-color: #fff8e6; border: 1px solid #ffe58f; border-left: 4px solid #faad14; padding: 12px 16px; margin: 16px 0; border-radius: 4px;">
+  <strong>Important Notice for Applicants:</strong> To prevent automated spam and mass mailings, <strong>all application emails must include <code>[Application for Sugita-Lab Position]</code> in the subject line</strong> (e.g., <em>[Application for Sugita-Lab Position] Postdoc Fellowship - Your Name</em>). Inquiries without this required subject prefix or generic mass applications will be automatically filtered out and may not receive a response.
+</div>
 
 ### Postdoctoral Researchers and Research Fellows Engaged in Research Projects
 
