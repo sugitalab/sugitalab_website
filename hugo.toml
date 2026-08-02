@@ -59,7 +59,7 @@ sectionPagesMenu = 'main'
       [[languages.ja.menu.main]]
         identifier = 'recruitment'
         name = '募集'
-        url = '/recruitment/students/'
+        url = '/recruitment/researchers/'
         weight = 90
       [[languages.ja.menu.main]]
         identifier = 'access'
@@ -106,7 +106,7 @@ sectionPagesMenu = 'main'
           [[languages.en.menu.main]]
             identifier = 'recruitment'
             name = 'Recruitment'
-            url = '/recruitment/students/'
+            url = '/recruitment/researchers/'
             weight = 90
           [[languages.en.menu.main]]
             identifier = 'access'
