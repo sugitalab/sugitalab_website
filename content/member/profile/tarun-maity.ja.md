@@ -1,12 +1,12 @@
 ---
-title: 'Traun Maity'
+title: 'Tarun Maity'
 date: 2025-09-01T17:28:39+09:00
 draft: false
 description: ''
 keywords: []
 ---
 
-## Traun Maity
+## Tarun Maity
 
 <div class="photo">
   <img src="/images/member/profile/Tarun-image.jpg" alt="Traun Maity">

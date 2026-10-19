@@ -12,10 +12,6 @@ keywords: []
 
 <div class="labo-photo-block">
   <div class="block">
-    <img src="/images/member/photo/labo-01.jpg" alt="セミナー風景">
-    <p>セミナー風景</p>
-  </div>
-  <div class="block">
     <img src="/images/member/photo/labo-02.jpg" alt="主任研究員スペース">
     <p>主任研究員スペース</p>
   </div>
@@ -24,8 +20,20 @@ keywords: []
     <p>研究員スペース</p>
   </div>
   <div class="block">
+    <img src="/images/member/photo/labo-01.jpg" alt="セミナー風景">
+    <p>セミナー風景</p>
+  </div>
+  <div class="block">
+    <img src="/images/member/photo/labo-06.jpg" alt="ディスカッション風景">
+    <p>ディスカッション風景</p>
+  </div>
+  <div class="block">
     <img src="/images/member/photo/labo-04.jpg" alt="研究室風景">
     <p>研究室風景</p>
+  </div>
+  <div class="block">
+    <img src="/images/member/photo/labo-05.jpg" alt="ディスカッション風景">
+    <p>談話スペース</p>
   </div>
 </div>
 

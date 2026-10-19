@@ -17,7 +17,6 @@ keywords: []
       <li><a href="../profile/chigusa_kobayashi/">小林 千草（上級技師）</a></li>
       <li><a href="../profile/cheng_tan/">Cheng Tan（研究員）</a></li>
       <li><a href="../profile/shingo_ito/">伊東 真吾（研究員）</a></li>
-      <!-- <li><a href="../profile/yangyang_zhang/">Yangyang Zhang（特別研究員）</a></li> -->
       <li>加納 裕美（アシスタント）</li>
     </ul>
   </div>
@@ -29,6 +28,7 @@ keywords: []
 ### 客員研究員
 
 <ul class="member-list">
+  <li><a href="https://prime.osaka-u.ac.jp/ja/member/zhang-yangyang/#anchor" target="_blank">Yangyang Zhang（特別研究員・大阪大学ヒューマン・メタバース疾患研究拠点）</a></li>
   <li><a href="../profile/diego_ugarte/">ウガルテ　ラ　トレ　ディエゴ（助教・東京大学大学院理学系研究科理学部物理学専攻）</a></li>
   <li><a href="https://www.chem.tsukuba.ac.jp/ymlab/index.html" target="_blank">八木 清（教授・筑波大学数理物質系化学域）</a></li>
   <li><a href="https://researchmap.jp/songho.chong" target="_blank">鄭 誠虎（教授・熊本大学 大学院生命科学研究部附属　グローバル天然物科学研究センター）</a></li>

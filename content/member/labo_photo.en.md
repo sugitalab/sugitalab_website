@@ -12,10 +12,6 @@ keywords: []
 
 <div class="labo-photo-block">
   <div class="block">
-    <img src="/images/member/photo/labo-01.jpg" alt="Seminar space">
-    <p>Seminar space</p>
-  </div>
-  <div class="block">
     <img src="/images/member/photo/labo-02.jpg" alt="Desk space for PI">
     <p>Desk space for PI</p>
   </div>
@@ -24,8 +20,20 @@ keywords: []
     <p>Desk space for researcher</p>
   </div>
   <div class="block">
+    <img src="/images/member/photo/labo-01.jpg" alt="Seminar space">
+    <p>Seminar scene</p>
+  </div>
+  <div class="block">
+    <img src="/images/member/photo/labo-06.jpg" alt="Discussion space">
+    <p>Discussion scene</p>
+  </div>
+  <div class="block">
     <img src="/images/member/photo/labo-04.jpg" alt="Laboratory space">
     <p>Laboratory space</p>
+  </div>
+  <div class="block">
+    <img src="/images/member/photo/labo-05.jpg" alt="Discussion space">
+    <p>Discourse space</p>
   </div>
 </div>
 
@@ -50,11 +58,11 @@ keywords: []
     <p>Discussion scene</p>
   </div>
   <div class="block">
-    <img src="/images/member/photo/labo2-05.jpg" alt="Seminar scene">
+    <img src="/images/member/photo/labo2-05.jpg" alt="Discussion scape">
     <p>Discourse space</p>
   </div>
   <div class="block">
-    <img src="/images/member/photo/labo2-06.jpg" alt="Seminar scene">
+    <img src="/images/member/photo/labo2-06.jpg" alt="Discussion space">
     <p>Discourse space</p>
   </div>
 </div>

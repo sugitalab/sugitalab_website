@@ -61,7 +61,7 @@ keywords: []
 ### 理化学研究所 計算科学研究センター 粒子系生物物理研究チーム
 
 <ul class="member-list">
-  <li><a href="https://prime.osaka-u.ac.jp/ja/member/shinobu-ai/#anchor" target="_blank" rel="noopener noreferrer">Yangyang Zhang（特別研究員）2023年12月 – 2026年3月</a><br>大阪大学ヒューマン・メタバース疾患研究拠点</li>
+  <li><a href="https://prime.osaka-u.ac.jp/ja/member/zhang-yangyang/#anchor" target="_blank" rel="noopener noreferrer">Yangyang Zhang（特別研究員）2023年12月 – 2026年3月</a><br>大阪大学ヒューマン・メタバース疾患研究拠点</li>
   <li><a href="../profile/diego_ugarte/">Diego Ugarte La Torre (特別研究員) 2021年7月 – 2026年1月</a> <br>東京大学・理学部・物理学教室</li>
   <li>田村 康一（基礎科学特別研究員）2016年4月 – 2021年4月<br>(株)digzyme</li>
   <li>宮下 治（上級研究員）2012年1月 – 2019年10月<br>理化学研究所計算科学研究センター</li>
