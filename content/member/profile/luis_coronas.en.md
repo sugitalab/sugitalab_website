@@ -46,11 +46,11 @@ keywords: []
       </tr>
       <tr>
         <td>2023-2026</td>
-        <td>Postdoc Researcher, CNRS Laboratory of Theoretical Biophysics, France</td>
+        <td>Postdoc Researcher, CNRS Laboratory of Theoretical Biochemistry, France</td>
       </tr>
       <tr>
         <td>2021 (3 month)</td>
-        <td>Visiting Researcher, CNRS Laboratory of Theoretical Biophysics, France</td>
+        <td>Visiting Researcher, CNRS Laboratory of Theoretical Biochemistry, France</td>
       </tr>
       <tr>
         <td>2018-2019</td>
