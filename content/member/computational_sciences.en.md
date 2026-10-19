@@ -17,6 +17,7 @@ keywords: []
       <li><a href="../profile/chigusa_kobayashi/">Chigusa Kobayashi (Senior Technical Scientist)</a></li>
       <li><a href="../profile/cheng_tan/">Cheng Tan (Research Scientist)</a></li>
       <li><a href="../profile/shingo_ito/">Shingo Ito (Research Scientist)</a></li>
+      <li><a href="../profile/luis_coronas/">Luis Enrique Coronas (Postdoctoral Researcher)</a></li>
     </ul>
   </div>
   <div class="image">
