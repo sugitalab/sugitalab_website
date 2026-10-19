@@ -36,14 +36,14 @@ We aim to facilitate information sharing and cross-disciplinary collaboration th
   <h4 class="accordion-trigger">Data processing</h4>
   <div class="accordion-body is-indent">
     <p><a href="https://www.ibbr.umd.edu/nmrpipe/index.html" target="_blank" rel="noopener noreferrer">NMRPipe</a></p>
-    <p><a href="http://www2.ccpl.un.ac.uk/azara/" target="_blank" rel="noopener noreferrer">Azara</a></p>
+    <p>Azara</p>
   </div>
 </div><!-- /.accordion-block -->
 
 <div class="accordion-block is-indent">
   <h4 class="accordion-trigger">Spectral Analysis</h4>
   <div class="accordion-body is-indent">
-    <p><a href="https://www.cgcsf.edu/home/sparky/" target="_blank" rel="noopener noreferrer">Sparky</a></p>
+    <p>Sparky</p>
     <p><a href="https://www.ccpn.ac.uk/v2-software/software/analysis" target="_blank" rel="noopener noreferrer">CcpNmr analysis</a></p>
     <p><a href="http://cara.nmr.ch/doku.php" target="_blank" rel="noopener noreferrer">CARA</a></p>
   </div>
