@@ -42,7 +42,7 @@
     <h2><span>{{ i18n "Workshop" }}</span></h2>
     <ul class="archive-list">
     {{- range where .Site.RegularPages "Section" "meeting" }}
-    {{- if in .File.Path "workshop" }}
+    {{- if and (in .File.Path "workshop") (not .Params.hide_sidebar) }}
       <li>
         <a href="{{ .RelPermalink }}" {{- if eq .RelPermalink $.RelPermalink }}class="is-current"{{- end }}>{{ .Title }}</a>
       </li>
