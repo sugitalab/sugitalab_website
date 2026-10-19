@@ -10,19 +10,24 @@ keywords: []
 
 <div style="background-color: #f8f9fa; border-left: 4px solid #0056b3; padding: 18px 20px; margin-bottom: 24px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
   <p style="margin: 0 0 10px 0; font-weight: bold; color: #0056b3; font-size: 1.1em;">
-    <span style="display: inline-block; margin-right: 6px;">📢</span> Current Recruitment Status & Opportunities
+    <span style="display: inline-block; margin-right: 6px;">📢</span> Current Recruitment Status &amp; Opportunities
   </p>
   <p style="margin: 0 0 12px 0; line-height: 1.6;">
     There are currently <strong>no funded postdoctoral vacancies directly available</strong> within our laboratory projects. However, we actively welcome highly qualified and self-motivated candidates applying for competitive external fellowships, primarily:
   </p>
-  <ul style="margin: 0; padding-left: 20px; line-height: 1.7;">
-    <li><strong>JSPS Postdoctoral Fellowships for Research in Japan</strong> (Standard &amp; Short-term)</li>
+  <ul style="margin: 0 0 14px 0; padding-left: 20px; line-height: 1.7;">
     <li><strong>RIKEN Special Postdoctoral Researcher Program (SPDR)</strong></li>
-    <li><strong>JSPS Research Fellowship for Young Scientists (PD/RPD)</strong></li>
+    <li><strong>JSPS Postdoctoral Fellowship for Research in Japan</strong> (Standard / Long-term, 1–2 years)</li>
+    <li><strong>JSPS Postdoctoral Fellowship for Research in Japan</strong> (Short-term, 1–12 months)</li>
+    <li><strong>Lab Project Direct Hire</strong> (Currently closed)</li>
   </ul>
+  <div style="margin-top: 12px; padding-top: 12px; border-top: 1px dashed #cbd5e1; font-size: 0.95em; color: #334155; line-height: 1.5;">
+    🎓 <strong>Looking for Ph.D. Student or Graduate Funding (e.g., RIKEN JRA)?</strong><br>
+    If you are a prospective or current doctoral student seeking graduate student support (such as the RIKEN Junior Research Associate program) or university admissions, please visit our <a href="/en/recruitment/students/" style="color: #0056b3; font-weight: bold; text-decoration: underline;">Students &amp; Graduate Studies recruitment page</a>.
+  </div>
 </div>
 
-### Fellowship Openings & Timeline Tracker
+### Fellowship Openings &amp; Timeline Tracker
 
 <table class="profile-table is-left" style="width: 100%; margin-bottom: 24px;">
   <thead>
@@ -35,18 +40,6 @@ keywords: []
   </thead>
   <tbody>
     <tr>
-      <td><strong>JSPS Postdoc Fellowship</strong><br><small>(Standard, 1–2 years)</small></td>
-      <td>Overseas Ph.D. holders (within 6 years of Ph.D.)</td>
-      <td>
-        <strong>Spring Call:</strong> RIKEN deadline ~late March<br>
-        <strong>Autumn Call:</strong> RIKEN deadline ~late July
-      </td>
-      <td>
-        <span style="background-color: #e6f7ff; color: #0050b3; border: 1px solid #91d5ff; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">OPEN FOR LAB PRE-SCREENING</span><br>
-        <small style="color: #666;">Lab internal deadline is 4 weeks before RIKEN deadline (see protocol below).</small>
-      </td>
-    </tr>
-    <tr>
       <td><strong>RIKEN SPDR</strong><br><small>(3-year independent funding)</small></td>
       <td>Ph.D. holders within 5 years</td>
       <td>
@@ -56,6 +49,18 @@ keywords: []
       <td>
         <span style="background-color: #fffbe6; color: #d46b08; border: 1px solid #ffe58f; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">UPCOMING</span><br>
         <small style="color: #666;">Prospective candidates should initiate contact by December–January.</small>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>JSPS Postdoc Fellowship</strong><br><small>(Standard / Long-term, 1–2 years)</small></td>
+      <td>Overseas Ph.D. holders (within 6 years of Ph.D.)</td>
+      <td>
+        <strong>Spring Call:</strong> RIKEN deadline ~late March<br>
+        <strong>Autumn Call:</strong> RIKEN deadline ~late July
+      </td>
+      <td>
+        <span style="background-color: #e6f7ff; color: #0050b3; border: 1px solid #91d5ff; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">OPEN FOR LAB PRE-SCREENING</span><br>
+        <small style="color: #666;">Lab internal deadline is 4 weeks before RIKEN deadline (see protocol below).</small>
       </td>
     </tr>
     <tr>
@@ -101,43 +106,7 @@ keywords: []
 
 ---
 
-### Sugita Lab JSPS Postdoctoral Fellowship: Internal Pre-Screening System
-
-<div style="background-color: #f0f7ff; border: 1px solid #d0e2ff; padding: 16px 20px; margin: 20px 0; border-radius: 4px;">
-  <p style="margin: 0 0 10px 0; font-weight: bold; color: #0043ce; font-size: 1.05em;">
-    Why an Internal Pre-Screening Process is Required
-  </p>
-  <p style="margin: 0; line-height: 1.6;">
-    Under the official regulations of the Japan Society for the Promotion of Science (JSPS), <strong>each host researcher in Japan is permitted to sponsor a maximum of three candidates per recruitment cycle</strong>, and the host must assign a formal <strong>priority ranking (1st, 2nd, 3rd)</strong> among them. Furthermore, RIKEN's institutional submission deadline is roughly one month ahead of JSPS's deadline. To maintain the highest quality and fair evaluation, our laboratory conducts a competitive internal selection.
-  </p>
-</div>
-
-#### 1. How to Apply for Lab Pre-Screening
-Prospective applicants who wish to be hosted by Dr. Yuji Sugita for a JSPS Postdoctoral Fellowship must submit a **complete Pre-Screening Dossier** at least **4 weeks before RIKEN's institutional deadline** (typically by late February for the Spring call, or by late June for the Autumn call):
-
-* **Document 1: Detailed Academic Curriculum Vitae**
-  - Full educational history, Ph.D. award date (or expected defense date).
-  - Complete list of publications, clearly indicating first-author and corresponding-author contributions.
-  - Technical skillset summary (e.g., experience in molecular dynamics simulations, enhanced sampling, multiscale modeling, quantum chemistry/QM-MM, or HPC/GPU software development).
-* **Document 2: Tailored Research Statement / Concept Proposal (1–2 pages)**
-  - Brief background and the specific biological/physical question you aim to solve.
-  - Clear rationale on **why Sugita Laboratory is the ideal host**: Explain how your proposal leverages our tools, models, or research themes (e.g., GENESIS MD package, coarse-grained models, biomolecular condensates, supercomputer Fugaku, or cryo-EM dynamic refinement).
-* **Document 3: Representative Publications**
-  - Up to two representative first-author papers or preprints in PDF format.
-* **Document 4: Referees**
-  - Names, titles, and email addresses of two academic referees (including your Ph.D. advisor).
-
-#### 2. Evaluation & Sponsorship Decision
-1. **Dossier Assessment:** Dossiers are reviewed internally by lab senior researchers based on scientific merit, originality, and mutual synergy with ongoing laboratory directions.
-2. **Online Interview:** Promising candidates will be invited for a 30-minute online video discussion and scientific presentation.
-3. **Formal Sponsorship & Joint Application:** Prof. Sugita selects up to 3 candidates, determines their priority ranking, and collaborates closely with them over several weeks to draft and polish the complete official JSPS research proposal.
-
-Official JSPS Fellowship portal:  
-<a href="https://www.jsps.go.jp/english/e-fellow/" target="_blank" rel="noopener noreferrer">https://www.jsps.go.jp/english/e-fellow/</a>
-
----
-
-### RIKEN Special Postdoctoral Researcher Program (SPDR)
+### 1. RIKEN Special Postdoctoral Researcher Program (SPDR)
 
 The SPDR program provides an exceptional environment where early-career researchers can pursue creative, self-initiated research with high autonomy at RIKEN.
 
@@ -151,7 +120,49 @@ Official RIKEN SPDR portal:
 
 ---
 
-### JSPS Research Fellowship for Young Scientists (PD / RPD)
+### 2. JSPS Postdoctoral Fellowship: Internal Pre-Screening System (Standard &amp; Short-term)
+
+<div style="background-color: #f0f7ff; border: 1px solid #d0e2ff; padding: 16px 20px; margin: 20px 0; border-radius: 4px;">
+  <p style="margin: 0 0 10px 0; font-weight: bold; color: #0043ce; font-size: 1.05em;">
+    Why an Internal Pre-Screening Process is Required
+  </p>
+  <p style="margin: 0; line-height: 1.6;">
+    Under the official regulations of the Japan Society for the Promotion of Science (JSPS), <strong>each host researcher in Japan is permitted to sponsor a maximum of three candidates per recruitment cycle</strong>, and the host must assign a formal <strong>priority ranking (1st, 2nd, 3rd)</strong> among them. Furthermore, RIKEN's institutional submission deadline is roughly one month ahead of JSPS's deadline. To maintain the highest quality and fair evaluation, our laboratory conducts a competitive internal selection.
+  </p>
+</div>
+
+#### How to Apply for Lab Pre-Screening
+Prospective applicants who wish to be hosted by Dr. Yuji Sugita for a JSPS Postdoctoral Fellowship (Standard / Long-term or Short-term) must submit a **complete Pre-Screening Dossier** at least **4 weeks before RIKEN's institutional deadline** (typically by late February for the Spring call, or by late June for the Autumn call):
+
+* **Document 1: Detailed Academic Curriculum Vitae**
+  - Full educational history, Ph.D. award date (or expected defense date).
+  - Complete list of publications, clearly indicating first-author and corresponding-author contributions.
+  - Technical skillset summary (e.g., experience in molecular dynamics simulations, enhanced sampling, multiscale modeling, quantum chemistry/QM-MM, or HPC/GPU software development).
+* **Document 2: Tailored Research Statement / Concept Proposal (1–2 pages)**
+  - Brief background and the specific biological/physical question you aim to solve.
+  - Clear rationale on **why Sugita Laboratory is the ideal host**: Explain how your proposal leverages our tools, models, or research themes (e.g., GENESIS MD package, coarse-grained models, biomolecular condensates, supercomputer Fugaku, or cryo-EM dynamic refinement).
+* **Document 3: Representative Publications**
+  - Up to two representative first-author papers or preprints in PDF format.
+* **Document 4: Referees**
+  - Names, titles, and email addresses of two academic referees (including your Ph.D. advisor).
+
+#### Evaluation &amp; Sponsorship Decision
+1. **Dossier Assessment:** Dossiers are reviewed internally by lab senior researchers based on scientific merit, originality, and mutual synergy with ongoing laboratory directions.
+2. **Online Interview:** Promising candidates will be invited for a 30-minute online video discussion and scientific presentation.
+3. **Formal Sponsorship &amp; Joint Application:** Prof. Sugita selects up to 3 candidates, determines their priority ranking, and collaborates closely with them over several weeks to draft and polish the complete official JSPS research proposal.
+
+Official JSPS Fellowship portal:  
+<a href="https://www.jsps.go.jp/english/e-fellow/" target="_blank" rel="noopener noreferrer">https://www.jsps.go.jp/english/e-fellow/</a>
+
+---
+
+### 3. Lab Project Direct Hire Positions
+
+Currently, there are no open vacancies funded directly by laboratory research grants. Whenever dedicated project positions (e.g., Postdoctoral Researcher or Research Scientist) become available, official announcements will be published on the RIKEN Careers page and announced on our laboratory website.
+
+---
+
+### 4. JSPS Research Fellowship for Young Scientists (PD / RPD)
 
 Targeted primarily at researchers who hold Japanese citizenship or permanent residency (or foreign researchers who obtained their Ph.D. in Japan). Fellows are employed as RIKEN staff while conducting their proposed research.
 * **Application Period:** Typically opens around April/May each year.
