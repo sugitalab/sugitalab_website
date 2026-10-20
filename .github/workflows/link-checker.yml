@@ -50,6 +50,6 @@ jobs:
         if: steps.lychee.outputs.exit_code != 0
         uses: peter-evans/create-issue-from-file@v5
         with:
-          title: "🚨 定期链接检查报告：发现失效链接"
+          title: "🚨 Regular check report: Dangerous link found!!!"
           content-filepath: ./lychee/out.md
           labels: link-rot, automated-issue
