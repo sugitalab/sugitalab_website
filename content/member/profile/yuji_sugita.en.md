@@ -118,7 +118,7 @@ The Physical Society of Japan, The Biophysical Society of Japan, The Molecular S
   </tbody>
 </table>
 
-### Publications (Recent publications are found <a href="/en/publication/2022-2026/" target="_blank" rel="noopener noreferrer">here</a>)
+### Publications (Recent publications are found <a href="/en/publication/2022-2026/">here</a>)
 
 <strong>Peer review articles (Before joining RIKEN)</strong>
 

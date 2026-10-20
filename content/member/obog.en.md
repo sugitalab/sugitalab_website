@@ -22,7 +22,7 @@ keywords: []
   <li><a href="https://www.bdr.riken.jp/ja/research/labs/niitsu-a/index.html" target="_blank" rel="noopener noreferrer">Ai Niitsu (PRESTO Researcher) Apr. 2017 – Dec. 2023</a><br>Laboratory for Dynamic Biomolecule Design, RIKEN Center for Integrated Medical Sciences</li>
   <li>Weitong Ren (Postdoctoral Researcher) Apr. 2019 – Jun. 2023<br>Wenzhou Institute, UCAS
   </li>
-  <li><a href="../profile/shingo_ito/" target="_blank" rel="noopener noreferrer">Shingo Ito (Postdoctoral Researcher) Dec. 2019 – Mar. 2024</a><br>Computational Biophysics Research Team, RIKEN Center for Computational Science
+  <li><a href="../profile/shingo_ito/">Shingo Ito (Postdoctoral Researcher) Dec. 2019 – Mar. 2024</a><br>Computational Biophysics Research Team, RIKEN Center for Computational Science
   </li>
   <li><a href="https://www.peptidream.com/" target="_blank" rel="noopener noreferrer">Kazuki Watanabe (Student Trainee / Chiba University) Jun. 2022 – Mar. 2024</a><br>PeptiDream Inc.
   </li>
@@ -99,7 +99,7 @@ keywords: []
   <li><a href="http://www.lifesci.dundee.ac.uk/people/andrei-pisliakov" target="_blank" rel="noopener noreferrer">Andrei Pisliakov (Special Postdoctoral Researcher) Apr. 2009 – Jun. 2013</a><br>
   College of Life Sciences, University of Dundee
   </li>
-  <li><a href="../profile/chigusa_kobayashi/" target="_blank" rel="noopener noreferrer">Chigusa Kobayashi (Contract Researcher) Apr. 2011 – Mar. 2013</a><br>
+  <li><a href="../profile/chigusa_kobayashi/">Chigusa Kobayashi (Contract Researcher) Apr. 2011 – Mar. 2013</a><br>
   Operations and Computer Technology Support Division, RIKEN Center for Computational Science
   </li>
   <li><a href="http://www.wpi-aimr.tohoku.ac.jp/hiraoka_labo/index.html" target="_blank" rel="noopener noreferrer">Fumiko Ogushi (Contract Researcher) Apr. 2008 – Mar. 2013</a><br>

@@ -126,7 +126,7 @@ keywords: []
   </tbody>
 </table>
 
-### 出版物 (最近の出版物は<a href="/publication/2022-2026/" target="_blank">こちら</a>)
+### 出版物 (最近の出版物は<a href="/publication/2022-2026/">こちら</a>)
 
 <strong>Peer review articles (Before joining RIKEN)</strong>
 

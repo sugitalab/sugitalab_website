@@ -18,7 +18,7 @@ keywords: []
   <li><a href="https://grad.pas.tsukuba.ac.jp/" target="_blank" rel="noopener noreferrer">八木 清（専任研究員）2012年12月 – 2024年7月</a><br>筑波大学 計算情報化学研究室</li>
   <li><a href="https://www.bdr.riken.jp/ja/research/labs/niitsu-a/index.html" target="_blank" rel="noopener noreferrer">新津 藍（さきがけ研究員）2017年4月 – 2023年12月</a><br>理化学研究所 生命機能科学研究センター 生体分子動態デザイン研究チーム</li>
   <li>Weitong Ren（特別研究員）2019年4月 – 2023年6月<br>Wenzhou Institute, UCAS</li>
-  <li><a href="../profile/shingo_ito/" target="_blank" rel="noopener noreferrer">伊東 真吾（特別研究員）2019年12月 – 2024年3月</a><br>理化学研究所計算科学研究機構 粒子系生物物理研究チーム</li>
+  <li><a href="../profile/shingo_ito/">伊東 真吾（特別研究員）2019年12月 – 2024年3月</a><br>理化学研究所計算科学研究機構 粒子系生物物理研究チーム</li>
   <li><a href="https://www.peptidream.com/" target="_blank" rel="noopener noreferrer">渡邉 一樹（研修生 千葉大学）2022年6月 – 2024年3月</a><br>ぺプチドリーム株式会社</li>
   <li><a href="http://www.protein.osaka-u.ac.jp/cryoem/index2.html" target="_blank" rel="noopener noreferrer">大出 真央（さきがけ研究員）2020年4月 – 2024年1月</a><br>大阪大学 蛋白質研究所</li>
   <li><a href="https://www.rs.kagu.tus.ac.jp/chemist/" target="_blank" rel="noopener noreferrer">森 貴治（専任研究員）2008年4月 – 2010年12月、2013年4月 – 2023年3月</a><br>東京理科大学理学部第一部化学科</li>
@@ -48,7 +48,7 @@ keywords: []
   <li>平良 和可代（アシスタント）2011年4月 – 2014年8月</li>
   <li><a href="http://www.city.katsushika.lg.jp/" target="_blank" rel="noopener noreferrer">渡部 茂久（研修生 中央大学）2011年4月 – 2014年3月</a><br>葛飾区役所</li>
   <li><a href="http://www.lifesci.dundee.ac.uk/people/andrei-pisliakov" target="_blank" rel="noopener noreferrer">Andrei Pisliakov（基礎科学特別研究員）2009年4月 – 2013年6月</a><br>ダンディー大学 生命科学部</li>
-  <li><a href="../profile/chigusa_kobayashi/" target="_blank" rel="noopener noreferrer">小林 千草（協力研究員）2011年4月 – 2013年3月</a><br>理化学研究所計算科学研究センター 運用技術支援部</li>
+  <li><a href="../profile/chigusa_kobayashi/">小林 千草（協力研究員）2011年4月 – 2013年3月</a><br>理化学研究所計算科学研究センター 運用技術支援部</li>
   <li><a href="http://www.wpi-aimr.tohoku.ac.jp/hiraoka_labo/index.html" target="_blank" rel="noopener noreferrer">小串 典子（協力研究員）2008年4月 – 2013年3月</a><br>明治学院大学情報数理学部</li>
   <li>山地 香代（アシスタント）2011年4月 – 2012年4月</li>
   <li>臼井 麻衣（アシスタント）2007年4月 – 2011年3月</li>
