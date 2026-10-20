@@ -1,0 +1,57 @@
+# lychee.toml configuration file for Sugita Lab Website
+
+# Maximum number of redirects to follow
+max_redirects = 5
+
+# Maximum number of retries before reporting an error
+max_retries = 3
+
+# Timeout in seconds per request
+timeout = 20
+
+# Maximum number of concurrent network requests
+max_concurrency = 8
+
+# Custom User-Agent to avoid generic bot rejections
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+# Status codes accepted as valid:
+# 200: OK
+# 206: Partial Content
+# 403: Forbidden (frequent academic publisher bot-block)
+# 429: Too Many Requests (rate-limited)
+accept = [200, 206, 403, 429]
+
+# Excluded URL patterns (regular expressions)
+exclude = [
+  # Non-HTTP protocols
+  '^mailto:.*',
+  '^tel:.*',
+  '^ftp:.*',
+  '^javascript:.*',
+
+  # Local preview URLs
+  'https?://localhost.*',
+  'https?://127\.0\.0\.1.*',
+
+  # Academic publishers & portals with aggressive Cloudflare/anti-bot blocks against GitHub Actions IPs
+  'https?://(dx\.)?doi\.org/.*',
+  'https?://.*\.sciencedirect\.com/.*',
+  'https?://.*\.nature\.com/.*',
+  'https?://.*\.wiley\.com/.*',
+  'https?://pubs\.acs\.org/.*',
+  'https?://academic\.oup\.com/.*',
+  'https?://.*\.cell\.com/.*',
+  'https?://.*\.springer\.com/.*',
+  'https?://.*\.tandfonline\.com/.*',
+  'https?://.*\.researchgate\.net/.*',
+  'https?://.*\.frontiersin\.org/.*',
+  'https?://.*\.pnas\.org/.*',
+  'https?://.*\.biorxiv\.org/.*',
+  'https?://ieeexplore\.ieee\.org/.*',
+  'https?://.*\.mdpi\.com/.*',
+  'https?://.*\.rsc\.org/.*',
+  'https?://.*\.aip\.org/.*',
+  'https?://.*\.scitation\.org/.*',
+  'https?://www\.ncbi\.nlm\.nih\.gov/.*',
+]

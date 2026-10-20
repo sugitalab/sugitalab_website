@@ -1,0 +1,55 @@
+name: Scheduled Link Checker
+
+on:
+  # Run weekly on Monday at 00:00 UTC (09:00 JST)
+  schedule:
+    - cron: '0 0 * * 1'
+  # Allows manual execution anytime via the GitHub Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.148.2'
+          extended: true
+
+      - name: Build site with Hugo
+        # Compile site so rendered HTML, anchors, and internal links can be tested
+        run: hugo --minify
+
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: lychee-cache-${{ runner.os }}-${{ github.sha }}
+          restore-keys: |
+            lychee-cache-${{ runner.os }}-
+
+      - name: Run Lychee Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config lychee.toml --cache --max-cache-age 1d './public/**/*.html'
+          fail: false
+
+      - name: Create or Update Issue on Broken Links
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "🚨 定期链接检查报告：发现失效链接"
+          content-filepath: ./lychee/out.md
+          labels: link-rot, automated-issue
