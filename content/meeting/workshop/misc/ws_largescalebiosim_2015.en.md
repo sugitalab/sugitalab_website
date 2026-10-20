@@ -14,9 +14,9 @@ Apr.1 (Wed.)- 2 (Thur.), 2015, RIKEN
 
 ## Venue
 
-![](http://www.riken.jp/TMS2012/tms/misc/ws_largescalebiosim_2015/figures/200px-RIKEN_AICS.jpg)
+<!-- ![](http://www.riken.jp/TMS2012/tms/misc/ws_largescalebiosim_2015/figures/200px-RIKEN_AICS.jpg) -->
 The simposium will be hled at **RIKEN Advanced Institute for Computational Science (AICS), 6F auditorium**.  
-(Please refer to [RIKEN website](http://www.aics.riken.jp/en/map) for the location.)
+<!-- (Please refer to [RIKEN website](http://www.aics.riken.jp/en/map) for the location.) -->
 
 ## Scientific Program
 

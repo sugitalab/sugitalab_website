@@ -22,8 +22,8 @@ science research.
 
 RIKEN Wako Campus
 Suzuki Umetaro Hall
-Please refer to the [access map](http://www.riken.jp/en/access/wako-map/) for more information on the location.
-Suzuki Umetaro Hall is numbered as "S01" in the [campus map](https://www.riken.jp/en/access/wako-map/#h2Anchor3).
+Please refer to the [access map](https://www.riken.jp/en/access/wako-map/) for more information on the location.
+<!-- Suzuki Umetaro Hall is numbered as "S01" in the [campus map](https://www.riken.jp/en/access/wako-map/#h2Anchor3). -->
 
 ## Registration
 

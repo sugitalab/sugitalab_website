@@ -21,14 +21,14 @@ Proteins, nucleic acids, lipids, and carbohydrate are major components of biolog
 RIKEN Wako Campus  
 Welfare and Conference Building 2nd Floor Large Meeting Room
 
-Please refer to the [access map](http://www.riken.jp/en/access/wako-map/) for more information on the location.   
-Welfare and Conference Building is numbered as "39" in the [campus map](http://www.riken.jp/en/access/wako-map/#anchor2).
+Please refer to the [access map](https://www.riken.jp/en/access/wako-map/) for more information on the location.   
+<!-- Welfare and Conference Building is numbered as "39" in the [campus map](http://www.riken.jp/en/access/wako-map/#anchor2). -->
 
 ## Speakers
 
 - Alexander D. MacKerell, Jr. (University of Maryland, USA)- Wonpil Im (University of Kansas, USA)- Michael Feig (Michigan State University, USA)- Isseki Yu (Theoretical Molecular Science Laboratory, RIKEN)
 
-Click [here](http://www.riken.jp/TMS2012/tms/misc/ws_cmsbs_2014/program.pdf) to download the scientific program (PDF).
+<!-- Click [here](http://www.riken.jp/TMS2012/tms/misc/ws_cmsbs_2014/program.pdf) to download the scientific program (PDF). -->
 
 ## Registration
 
@@ -39,6 +39,6 @@ No registration needed.
 Yuji Sugita (Theoretical Molecualr Science Laboratory, RIKEN)  
 Takaharu Mori (Theoretical Molecualr Science Laboratory, RIKEN)
 
-## Contact
+<!-- ## Contact -->
 
-For any questions regarding the workshop, please send an email to [Takaharu Mori](http://www.riken.jp/TMS2012/tms/en/research/software/voronoi/mori.png).
+<!-- For any questions regarding the workshop, please send an email to [Takaharu Mori](http://www.riken.jp/TMS2012/tms/en/research/software/voronoi/mori.png). -->
