@@ -22,9 +22,3 @@ keywords: []
   <p><a href="https://www.hpci-office.jp/en/" target="_blank" rel="noopener noreferrer">HPCI Portal</a></p>
   <p><a href="https://i.riken.jp/en/supercom/" target="_blank" rel="noopener noreferrer">HOKUSAI</a></p>
 </div>
-
-### Dynamic Structural Biology
-
-<div class="is-indent">
-  <p><a href="dsb/">Dynamic Structural Biology Links</a></p>
-</div>
