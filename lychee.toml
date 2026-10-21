@@ -4,13 +4,13 @@
 max_redirects = 5
 
 # Maximum number of retries before reporting an error
-max_retries = 3
+max_retries = 1
 
 # Timeout in seconds per request
-timeout = 20
+timeout = 10
 
 # Maximum number of concurrent network requests
-max_concurrency = 8
+max_concurrency = 20
 
 # Custom User-Agent to avoid generic bot rejections
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
@@ -22,6 +22,11 @@ user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 # 429: Too Many Requests (rate-limited)
 accept = [200, 206, 403, 429]
 
+# Excluded local directories/paths from being scanned
+exclude_path = [
+  "public/projects/bie",
+]
+
 # Excluded URL patterns (regular expressions)
 exclude = [
   # Non-HTTP protocols
@@ -29,6 +34,10 @@ exclude = [
   '^tel:.*',
   '^ftp:.*',
   '^javascript:.*',
+
+  # Historical frozen project archives
+  '.*/projects/bie/.*',
+  'https?://sugitalab\.riken\.jp/projects/bie/.*',
 
   # Local preview URLs
   'https?://localhost.*',
