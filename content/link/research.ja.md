@@ -22,9 +22,3 @@ keywords: []
   <p><a href="https://www.hpci-office.jp/" target="_blank" rel="noopener noreferrer">HPCI ポータル</a></p>
   <p><a href="https://i.riken.jp/supercom/" target="_blank" rel="noopener noreferrer">HOKUSAI</a></p>
 </div>
-
-### 動的構造生物学
-
-<div class="is-indent">
-  <p><a href="dsb/">動的構造生物学リンク集</a></p>
-</div>
