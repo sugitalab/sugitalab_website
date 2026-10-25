@@ -23,22 +23,6 @@ sectionPagesMenu = 'main'
 # archive = 'archives'
 
 [module]
-  [[module.mounts]]
-    source = 'content'
-    target = 'content'
-
-  [[module.mounts]]
-    source = 'static'
-    target = 'static'
-    files = ['!projects/bie', '!projects/bie/**']
-
-  [[module.mounts]]
-    source = 'layouts'
-    target = 'layouts'
-
-  [[module.mounts]]
-    source = 'assets'
-    target = 'assets'
 
 [languages]
   [languages.ja]
