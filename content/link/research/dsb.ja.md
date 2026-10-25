@@ -1,7 +1,7 @@
 ---
 title: '動的構造生物学リンク集'
 date: 2025-10-06T16:29:11+09:00
-draft: false
+draft: true
 description: ''
 keywords: []
 ---
